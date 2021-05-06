@@ -1,0 +1,48 @@
+True negatives
+11 *o cachorro está perseguido o gato 0 54
+12 *o cachorro tem perseguindo o gato 0 54
+14 *o cachorro tem estado perseguido o gato 0 65
+21 *o cachorro perguntou se o gato lata 0 53
+25 *o cachorro ladrou-se 0 13
+31 *eles queixaram 0 8
+32 *eu queixei 0 8
+35 *os cachorros ladrou 0 20
+36 *o cachorro ladraram 0 18
+True positives
+1 o cachorro latiu 1 23
+2 o cachorro perseguiu o gato 1 55
+4 tabaco chegou 1 17
+5 o tabaco chegou 1 23
+7 o cachorro tem perseguido o gato 1 145
+8 o cachorro tem latido 1 65
+9 o cachorro está perseguindo o gato 1 145
+10 o cachorro está latindo 1 65
+15 o cachorro vai latir 1 65
+16 o cachorro quer que o gato lata 1 89
+18 o cachorro acredita que o gato late 1 89
+19 o cachorro acredita que o gato lata 1 89
+20 o cachorro perguntou se o gato late 1 93
+23 o cachorro perguntou-se se o gato latiu 6 122
+24 o cachorro ladrou 1 27
+26 o cachorro declarou que o gato late 6 122
+28 o cachorro queixou-se 1 27
+29 eu queixei-me 1 19
+30 eles queixaram-se 1 19
+33 os cachorros ladraram 1 29
+34 os gatos queixaram-se 1 29
+37 será que o cachorro latiu 1 38
+38 que cachorro latiu 1 29
+40 quais cachorros ladraram 1 27
+41 o cachorro perseguiu que gato 1 60
+42 que gato o cachorro perseguiu 1 45
+False positives
+17 *o cachorro quer que o gato late 1 89
+27 *o cachorro afirmou que o gato lata 6 122
+False negatives
+3 chegou tabaco 0 12
+6 chegou o tabaco 0 16
+13 o cachorro tem estado perseguindo o gato 0 113
+22 o cachorro se perguntou se o gato latiu 0 82
+39 qual cachorro latiu 0 15
+43 o cachorro perseguiu qual gato 0 32
+44 qual gato o cachorro perseguiu 0 32
