@@ -1,0 +1,47 @@
+
+The testsuite matrix-br-eng.txt is based on the (European) Portuguese
+version of the MRS Test Suite:
+
+http://moin.delph-in.net/wiki/MatrixMrsTestSuitePt
+
+These Portuguese sentences are translations of the English MRS Test Suite:
+
+http://moin.delph-in.net/wiki/MatrixMrsTestSuiteEn
+
+Our testsuite targets Brazilian Portuguese. In comparison to the
+original European Portuguese MRS Test Suite, we have three types of
+situation:
+
+1) The Brazilian Portuguese (BP) translation is the same as the
+   European Portuguese (EP):
+
+11 cases
+
+: Choveu.
+: It rained.
+
+
+2) BP has additional translations. In this case, the first translation
+   is the EP one:
+
+31
+
+: A janela abriu-se. A janela se abriu. A janela abriu.
+: The window opened.
+
+3) EP and BP use different constructions. In this case, the
+   translation is prefixed with BR:
+
+351
+
+: BR O cachorro está latindo.
+: The dog is barking.
+
+
+It should be noted that our testsuite was designed to test the HPSG
+grammar of Portuguese. Therefore, different possible translations were
+provided. It can be the case that some of these additional
+translations are also licensed in EP. If you have suggestions about
+the translations, please contact @leoalenc or open an issue of this
+repository, the latter option being preferred.
+ 
