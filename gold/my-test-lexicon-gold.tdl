@@ -1,0 +1,388 @@
+comum := uniform-adj-lex &
+		    [ STEM < "comum" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_comum_a_rel" ].
+
+exemplar := uniform-adj-lex &
+		    [ STEM < "exemplar" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_exemplar_a_rel" ].
+
+feliz := uniform-adj-lex &
+		    [ STEM < "feliz" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+feroz := uniform-adj-lex &
+		    [ STEM < "feroz" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
+
+fiel := uniform-adj-lex &
+		    [ STEM < "fiel" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
+
+inteligente := uniform-adj-lex &
+		    [ STEM < "inteligente" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
+
+persa := uniform-adj-lex &
+		    [ STEM < "persa" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_persa_a_rel" ].
+
+triste := uniform-adj-lex &
+		    [ STEM < "triste" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
+
+simples := infl-form-adj-lex &
+		    [ STEM < "simples" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
+anão := non-uniform-adj-lex &
+		    [ STEM < "anão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_anão_a_rel" ].
+
+beirão := non-uniform-adj-lex &
+		    [ STEM < "beirão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_beirão_a_rel" ].
+
+cão := non-uniform-adj-lex &
+		    [ STEM < "cão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+catalão := non-uniform-adj-lex &
+		    [ STEM < "catalão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_catalão_a_rel" ].
+
+judeu := non-uniform-adj-lex &
+		    [ STEM < "judeu" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_judeu_a_rel" ].
+
+amarelo := non-uniform-adj-lex &
+		    [ STEM < "amarelo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+cru := non-uniform-adj-lex &
+		    [ STEM < "cru" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cru_a_rel" ].
+
+encantador := non-uniform-adj-lex &
+		    [ STEM < "encantador" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_encantador_a_rel" ].
+
+europeu := non-uniform-adj-lex &
+		    [ STEM < "europeu" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_europeu_a_rel" ].
+
+francês := non-uniform-adj-lex &
+		    [ STEM < "francês" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_francês_a_rel" ].
+
+hebreu := non-uniform-adj-lex &
+		    [ STEM < "hebreu" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_hebreu_a_rel" ].
+
+ilhéu := non-uniform-adj-lex &
+		    [ STEM < "ilhéu" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_ilhéu_a_rel" ].
+
+inglês := non-uniform-adj-lex &
+		    [ STEM < "inglês" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_inglês_a_rel" ].
+
+nu := non-uniform-adj-lex &
+		    [ STEM < "nu" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
+
+pequeno := non-uniform-adj-lex &
+		    [ STEM < "pequeno" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
+
+trabalhador_1 := non-uniform-adj-lex &
+		    [ STEM < "trabalhador" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_trabalhador_a_rel" ].
+
+vermelho := non-uniform-adj-lex &
+		    [ STEM < "vermelho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+amarelinho := non-unif-dim-adj-lex &
+		    [ STEM < "amarelinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+amarelito := non-unif-dim-adj-lex &
+		    [ STEM < "amarelito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+amarelozinho := non-unif-dim-adj-lex &
+		    [ STEM < "amarelozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+anãozinho := non-unif-dim-adj-lex &
+		    [ STEM < "anãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_anão_a_rel" ].
+
+beirãozinho := non-unif-dim-adj-lex &
+		    [ STEM < "beirãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_beirão_a_rel" ].
+
+canhol := non-unif-dim-adj-lex &
+		    [ STEM < "canhol" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+canicalho := non-unif-dim-adj-lex &
+		    [ STEM < "canicalho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+canicho := non-unif-dim-adj-lex &
+		    [ STEM < "canicho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+canito := non-unif-dim-adj-lex &
+		    [ STEM < "canito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+cãozinho := non-unif-dim-adj-lex &
+		    [ STEM < "cãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+cãozito := non-unif-dim-adj-lex &
+		    [ STEM < "cãozito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+catalãozinho := non-unif-dim-adj-lex &
+		    [ STEM < "catalãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_catalão_a_rel" ].
+
+comunzinho := non-unif-dim-adj-lex &
+		    [ STEM < "comunzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_comum_a_rel" ].
+
+cruzinho := non-unif-dim-adj-lex &
+		    [ STEM < "cruzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cru_a_rel" ].
+
+encantadorzinho := non-unif-dim-adj-lex &
+		    [ STEM < "encantadorzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_encantador_a_rel" ].
+
+europeuzinho := non-unif-dim-adj-lex &
+		    [ STEM < "europeuzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_europeu_a_rel" ].
+
+exemplarzinho := non-unif-dim-adj-lex &
+		    [ STEM < "exemplarzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_exemplar_a_rel" ].
+
+felizinho := masc-dim-adj-lex &
+		    [ STEM < "felizinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+ferozinho := masc-dim-adj-lex &
+		    [ STEM < "ferozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
+
+fielzinho := masc-dim-adj-lex &
+		    [ STEM < "fielzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
+
+felizinha := fem-dim-adj-lex &
+		    [ STEM < "felizinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+ferozinha := fem-dim-adj-lex &
+		    [ STEM < "ferozinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
+
+fielzinha := fem-dim-adj-lex &
+		    [ STEM < "fielzinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
+
+francesinho := non-unif-dim-adj-lex &
+		    [ STEM < "francesinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_francês_a_rel" ].
+
+hebreuzinho := non-unif-dim-adj-lex &
+		    [ STEM < "hebreuzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_hebreu_a_rel" ].
+
+ilheuzinho := non-unif-dim-adj-lex &
+		    [ STEM < "ilheuzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_ilhéu_a_rel" ].
+
+inglesinho := non-unif-dim-adj-lex &
+		    [ STEM < "inglesinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_inglês_a_rel" ].
+
+inteligentezinho := non-unif-dim-adj-lex &
+		    [ STEM < "inteligentezinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
+
+inteligentinho := non-unif-dim-adj-lex &
+		    [ STEM < "inteligentinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
+
+judeuzinho := non-unif-dim-adj-lex &
+		    [ STEM < "judeuzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_judeu_a_rel" ].
+
+nuinho := non-unif-dim-adj-lex &
+		    [ STEM < "nuinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
+
+nuito := non-unif-dim-adj-lex &
+		    [ STEM < "nuito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
+
+nuzinho := non-unif-dim-adj-lex &
+		    [ STEM < "nuzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
+
+nuzito := non-unif-dim-adj-lex &
+		    [ STEM < "nuzito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
+
+pequeninho := non-unif-dim-adj-lex &
+		    [ STEM < "pequeninho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
+
+pequenito := non-unif-dim-adj-lex &
+		    [ STEM < "pequenito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
+
+pequenozinho := non-unif-dim-adj-lex &
+		    [ STEM < "pequenozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
+
+persazinho := non-unif-dim-adj-lex &
+		    [ STEM < "persazinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_persa_a_rel" ].
+
+persinha := unif-dim-adj-lex &
+		    [ STEM < "persinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_persa_a_rel" ].
+
+simplesinho := non-unif-dim-adj-lex &
+		    [ STEM < "simplesinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
+trabalhadorzinho := non-unif-dim-adj-lex &
+		    [ STEM < "trabalhadorzinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_trabalhador_a_rel" ].
+
+trabalhadorzito := non-unif-dim-adj-lex &
+		    [ STEM < "trabalhadorzito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_trabalhador_a_rel" ].
+
+tristezinho := non-unif-dim-adj-lex &
+		    [ STEM < "tristezinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
+
+tristinho := non-unif-dim-adj-lex &
+		    [ STEM < "tristinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
+
+tristito := non-unif-dim-adj-lex &
+		    [ STEM < "tristito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
+
+vermelhinho := non-unif-dim-adj-lex &
+		    [ STEM < "vermelhinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+vermelhito := non-unif-dim-adj-lex &
+		    [ STEM < "vermelhito" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+vermelhozinho := non-unif-dim-adj-lex &
+		    [ STEM < "vermelhozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+amarelíssimo := abs-adj-lex &
+		    [ STEM < "amarelíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+comuníssimo := abs-adj-lex &
+		    [ STEM < "comuníssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_comum_a_rel" ].
+
+felicíssimo := abs-adj-lex &
+		    [ STEM < "felicíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+ferocíssimo := abs-adj-lex &
+		    [ STEM < "ferocíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
+
+fidelíssimo := abs-adj-lex &
+		    [ STEM < "fidelíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
+
+inteligentíssimo := abs-adj-lex &
+		    [ STEM < "inteligentíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
+
+pequeníssimo := abs-adj-lex &
+		    [ STEM < "pequeníssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
+
+simplérrimo := abs-adj-lex &
+		    [ STEM < "simplérrimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
+simplicíssimo := abs-adj-lex &
+		    [ STEM < "simplicíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
+simplíssimo := abs-adj-lex &
+		    [ STEM < "simplíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
+tristíssimo := abs-adj-lex &
+		    [ STEM < "tristíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
+
+vermelhíssimo := abs-adj-lex &
+		    [ STEM < "vermelhíssimo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+amarelão := aug-adj-lex &
+		    [ STEM < "amarelão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+canaz := aug-adj-lex &
+		    [ STEM < "canaz" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+canzarrão := aug-adj-lex &
+		    [ STEM < "canzarrão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+felizão := aug-adj-lex &
+		    [ STEM < "felizão" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+vermelhaço := aug-adj-lex &
+		    [ STEM < "vermelhaço" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+amarelãozinho := dim-aug-adj-lex &
+		    [ STEM < "amarelãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+canazinho := dim-aug-adj-lex &
+		    [ STEM < "canazinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+canzarrãozinho := dim-aug-adj-lex &
+		    [ STEM < "canzarrãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
+
+felizãozinho := dim-aug-adj-lex &
+		    [ STEM < "felizãozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+vermelhacinho := dim-aug-adj-lex &
+		    [ STEM < "vermelhacinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+vermelhaçozinho := dim-aug-adj-lex &
+		    [ STEM < "vermelhaçozinho" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
