@@ -38,7 +38,7 @@
 38 as lagartinhas beiroas são tristitas 11 156
 39 as lagartinhas comunzinhas são amarelõezinhos 5 130
 40 as lagartinhas exemplares são amarelonas 11 159
-41 as lagartinhas ferozinhas são felizonas 11 156
+41 as lagartinhas ferozinhas são felizonas 0 60
 42 as lagartinhas ilhoas são amarelonas 11 156
 43 as lagartinhas nuas são amarelonazinhas 11 156
 44 as lagartinhas nuazinhas são amarelonazinhas 11 156
@@ -168,7 +168,7 @@
 168 os gatos europeus são felizões 11 160
 169 os gatos ferozes são felizões 11 159
 170 os gatos ferozezinhos são felizões 11 156
-171 os gatos ferozinhos são felizões 11 160
+171 os gatos ferozinhos são felizões 0 61
 172 os gatos ilhéus são felizões 11 160
 173 os gatos ilhéus são fiéis 11 160
 174 os gatos persas são amarelõezinhos 11 157
@@ -187,6 +187,6 @@
 187 será que o cliente adora o cachorro 1 83
 188 tabaco chegou 1 17
 
-;;; Total CPU time: 1811 msecs
-;;; Mean edges: 87.46
-;;; Mean parses: 4.44
+;;; Total CPU time: 2021 msecs
+;;; Mean edges: 86.43
+;;; Mean parses: 4.32

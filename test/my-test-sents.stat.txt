@@ -70,7 +70,6 @@ True positives
 38 as lagartinhas beiroas são tristitas 11 156
 39 as lagartinhas comunzinhas são amarelõezinhos 5 130
 40 as lagartinhas exemplares são amarelonas 11 159
-41 as lagartinhas ferozinhas são felizonas 11 156
 42 as lagartinhas ilhoas são amarelonas 11 156
 43 as lagartinhas nuas são amarelonazinhas 11 156
 44 as lagartinhas nuazinhas são amarelonazinhas 11 156
@@ -158,7 +157,6 @@ True positives
 168 os gatos europeus são felizões 11 160
 169 os gatos ferozes são felizões 11 159
 170 os gatos ferozezinhos são felizões 11 156
-171 os gatos ferozinhos são felizões 11 160
 172 os gatos ilhéus são felizões 11 160
 173 os gatos ilhéus são fiéis 11 160
 174 os gatos persas são amarelõezinhos 11 157
@@ -184,9 +182,11 @@ False positives
 140 *os cachorros admirarem o gato 1 65
 149 *os cachorros ladrarem 1 33
 False negatives
+41 as lagartinhas ferozinhas são felizonas 0 60
 60 chegou o tabaco 0 16
 61 chegou tabaco 0 12
 108 o cachorro se perguntou se o gato latiu 0 84
 110 o cachorro tem estado perseguindo o gato 0 115
 119 o gato lamenta os cachorros ladrarem 0 56
 120 o gato lamenta os cachorros terem ladrado 0 53
+171 os gatos ferozinhos são felizões 0 61

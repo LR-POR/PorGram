@@ -20,7 +20,7 @@
 ;;;
 ;;; Optionally, load a set of irregular morphological patterns
 ;;;
-(load-irregular-spellings (lkb-pathname (parent-directory) "my-irregs-corr.tab"))
+(load-irregular-spellings (lkb-pathname (parent-directory) "my-irregs.tab"))
 
 ;;;
 ;;; Now the core grammar, which will typically be spread out
@@ -52,7 +52,7 @@
 ;;; (some grammars with larger lexica organize them into multiple files).
 ;;;
 
-(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "my-base-lexicon.tdl") (lkb-pathname (parent-directory) "test-lexicon.tdl")  ))
+(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "my-base-lexicon.tdl") (lkb-pathname (parent-directory) "my-test-lexicon.tdl")  ))
 
 
 ;;; For grammars with small lexicons, no need to use a cache file:

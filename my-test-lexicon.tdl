@@ -30,6 +30,10 @@ triste := uniform-adj-lex &
 		    [ STEM < "triste" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
 
+simples := infl-form-adj-lex &
+		    [ STEM < "simples" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
 anão := non-uniform-adj-lex &
 		    [ STEM < "anão" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_anão_a_rel" ].

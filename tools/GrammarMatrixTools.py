@@ -13,115 +13,6 @@ from SimplifyEntries import extract_entries,build_entry_dict_list,build_lemma_di
 "pairs from fem-suff rule in my-irules.tdl"
 MAPPING={'éu': 'oa', 'eu': 'eia', 'ão': 'ona', 'ês': 'esa', 'or': 'ora', '[rn]u': '[rn]ua', '[^ã]o': '[^ã]a'}
 
-def extract_lines(infile):
-    with open(infile) as f:
-        return [line.strip() for line in f.readlines()]
-
-
-def extract_words(lines):
-    """Extract (orth,pos) pairs from grammar choices file specified with the Grammar Matrix questionnaire.
-    """
-    words=[]
-    for line in lines:
-        if "orth" in line and not "lri" in line and not "sentence" in line:
-            word=line.split("=")[1]
-            cat=re.split(r"\d+",line)[0]
-            words.append((word,cat))
-    return words
-
-def build_sections_dict(lines):
-    """Build dictionary str -> list, where str is the name of a section and list contains the lines of the section.
-    """
-    sections={}
-    for line in lines:
-        if re.match(r"section=",line):
-            name=line.split("=")[1]
-            sections[name]=[]
-        else:
-            if line.strip() != "":
-                sections[name].append(line)
-    return sections
-
-def build_sents_dict(sents):
-    """Build dictionary str -> list, where str is a sentence identifier and list contains the values for
-    the orth attribute and the star attribute of the sentence (if there is one) in form of tuples (attribute, value).
-    """
-    dic={}
-    for sent in sents:
-        num,att,val=re.split(r"_|=",sent)
-        if dic.get(num):
-            dic[num].append((att,val))
-        else:
-            dic[num]=[(att,val)]
-    return dic
-
-def extract_ungrammatical_sents(dic):
-	ungram=[]
-	for sent in dic.keys():
-		val=dic.get(sent)
-		if len(val) == 2:
-			ungram.append(val[0][1])
-	return ungram
-
-def extract_grammatical_sents(dic):
-	gram=[]
-	for sent in dic.keys():
-		val=dic.get(sent)
-		if len(val) == 1:
-			gram.append(val[0][1])
-	return gram
-
-def freq_dist(sents):
-    """Create frequency distribution of the words in a test file."""
-	freqs={}
-	for sent in sents:
-		words=re.split(r"\s+",sent)
-		for word in words:
-			if freqs.get(word):
-				freqs[word]+=1
-			else:
-				freqs[word]=1
-	return freqs
-
-
-def build_irules_dict(infile):
-    """Transform irules.tdl file in a dictionary."""
-	lines=extract_lines(infile)
-	rules={}
-	i=0
-	c=len(lines)
-	while(i<c):
-		if ":=" in lines[i]:
-			name=lines[i].split(":=")[0].strip()
-			rules[name]=[lines[i+1],lines[i+2]]
-		i+=1
-	return rules
-
-def compare_rules(irules1,irules2):
-    """Compare rule definitions in two different irules.tdl files.
-    This is is useful to keep track of changes made manually and with the Grammar Matrix."""
-	rules1=set(build_irules_dict(irules1).keys())
-	rules2=set(build_irules_dict(irules2).keys())
-	r1_diff_r2=rules1.difference(rules2)
-	r2_diff_r1=rules2.difference(rules1)
-	if r1_diff_r2:
-		print("not found in",irules2,r1_diff_r2)
-	elif r2_diff_r1:
-		print("not found in",irules1,r2_diff_r1)
-	else:
-		print("files have the same inflectional rule types")
-		
-def print_freq(freqs):
-	keys=list(freqs.keys())
-	keys.sort()
-	for key in keys:
-		print(key,freqs[key])
-
-
-def pprint(words):
-    words.sort()
-    for word in words:
-        print(word[0],word[1])
 
 def morphobr(infile="/home/leonel/MorphoBr/adjectives/new-adjectives.dict"):
     """Create dictionary (lemma,pos) -> list with (form,feats), where feats is the list of features of form."""
@@ -139,7 +30,8 @@ def get(suff,mapping):
 def is_regular(lemma,feminine, mapping=MAPPING):
     """Check whether a form of a lemma is regular according to the given mapping of suffixal changes,
     e.g. 'francesa' and 'trabalhadora' are regular feminine forms of 'francês' and 'trabalhador',
-    whereas 'trabalhadeira' is a irregular feminine form of latter lemma."""
+    whereas 'trabalhadeira' is a irregular feminine form of latter lemma.
+    TODO: include regular and irregular diminutives"""
     suff1=lemma[-2:]
     suff2=get(suff1,mapping)
     if suff2 and re.match(f'.*{suff2}$',feminine):
@@ -281,15 +173,19 @@ def print_irreg_form(form,lemma,affix):
     print(f"{form} {affix} {lemma}")
     
 def print_plural_irregs(entries):
-    affix="A-PL-SUFFIX"
-    for lemma in entries.keys():
-        for form in entries[lemma]:
-            print_irreg_form(form,lemma,affix)
+	for lemma in entries.keys():
+		for form in entries[lemma]:
+			if form.endswith("inhas"):
+				print_irreg_form(form[:-1],lemma,"FEM-SUFFIX")
+			else:
+				print_irreg_form(form,lemma,"A-PL-SUFFIX")
+		
 		
 def classify_adjs(lemma_dict):
     """Classify adjectives into the types defined in the grammar in the lexicon tdl files.
     Adjective forms are also classified into regular and irregular forms according to whether
     they follow gender and number inflectional rules."""
+    infl=[]
     unif=[]
     non_reg=[]
     reg=[]
@@ -304,11 +200,15 @@ def classify_adjs(lemma_dict):
         plurals[lemma]={'reg':[],'irreg':[]}
         i=0
         fems=[]
-        for form, feats in lemma_dict[lemma,pos]: # TODO: include 'simples'
+        for form, feats in lemma_dict[lemma,pos]:
             if feats == ['SG']:
                 ident=format_lemma(i,lemma)
                 i+=1
                 unif.append(ident)
+            elif feats == []:
+                ident=format_lemma(i,lemma)
+                i+=1
+                infl.append(ident)
             elif feats == ['SUPER','M','SG']:
                 superl.append((lemma,form))
             elif feats == ['DIM','M','SG']:
@@ -332,6 +232,7 @@ def classify_adjs(lemma_dict):
                 i+=1
                 non_reg.append((ident,fem))
     dic["unif"]=unif
+    dic["infl"]=infl
     dic["non_reg"]=non_reg
     dic["reg"]=reg
     dic["dim"]=dim
@@ -349,6 +250,7 @@ def print_tdl_entry(ident,form,lemma,a_type):
 
 def print_tdl(dic,fem_forms,plurals):
     a_types={'unif': 'uniform',
+		'infl': 'infl-form',
              'reg': 'non-uniform',
              'non_reg': 'non-uniform',
              'dim': 'dim',
@@ -359,7 +261,7 @@ def print_tdl(dic,fem_forms,plurals):
     for k in dic.keys():
         entry=[]
         for e in dic[k]:
-            if k == "unif":
+            if k == "unif" or k == "infl":
                 lemma=e.split("_")[0]
                 ident=e
                 a_type=a_types[k]

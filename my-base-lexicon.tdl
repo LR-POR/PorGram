@@ -100,10 +100,13 @@ lagartonazinha := dim-aug-fem-noun-lex &
 
 ;;; Adjectives
 
-simples := infl-form-adj-lex &
-  [ STEM < "simples" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+;;simples := infl-form-adj-lex &
+;;  [ STEM < "simples" >,
+;;    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
 
+criativo := non-uniform-adj-lex &
+		    [ STEM < "criativo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_criativo_a_rel" ].
 
 ;;; Verbs
 
