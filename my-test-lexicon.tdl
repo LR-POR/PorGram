@@ -102,183 +102,195 @@ vermelho := non-uniform-adj-lex &
 		    [ STEM < "vermelho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
 
-amarelinho := dim-adj-lex &
+amarelinho := non-unif-dim-adj-lex &
 		    [ STEM < "amarelinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
 
-amarelito := dim-adj-lex &
+amarelito := non-unif-dim-adj-lex &
 		    [ STEM < "amarelito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
 
-amarelozinho := dim-adj-lex &
+amarelozinho := non-unif-dim-adj-lex &
 		    [ STEM < "amarelozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
 
-anãozinho := dim-adj-lex &
+anãozinho := non-unif-dim-adj-lex &
 		    [ STEM < "anãozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_anão_a_rel" ].
 
-beirãozinho := dim-adj-lex &
+beirãozinho := non-unif-dim-adj-lex &
 		    [ STEM < "beirãozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_beirão_a_rel" ].
 
-canhol := dim-adj-lex &
+canhol := non-unif-dim-adj-lex &
 		    [ STEM < "canhol" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
 
-canicalho := dim-adj-lex &
+canicalho := non-unif-dim-adj-lex &
 		    [ STEM < "canicalho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
 
-canicho := dim-adj-lex &
+canicho := non-unif-dim-adj-lex &
 		    [ STEM < "canicho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
 
-canito := dim-adj-lex &
+canito := non-unif-dim-adj-lex &
 		    [ STEM < "canito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
 
-cãozinho := dim-adj-lex &
+cãozinho := non-unif-dim-adj-lex &
 		    [ STEM < "cãozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
 
-cãozito := dim-adj-lex &
+cãozito := non-unif-dim-adj-lex &
 		    [ STEM < "cãozito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cão_a_rel" ].
 
-catalãozinho := dim-adj-lex &
+catalãozinho := non-unif-dim-adj-lex &
 		    [ STEM < "catalãozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_catalão_a_rel" ].
 
-comunzinho := dim-adj-lex &
+comunzinho := non-unif-dim-adj-lex &
 		    [ STEM < "comunzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_comum_a_rel" ].
 
-cruzinho := dim-adj-lex &
+cruzinho := non-unif-dim-adj-lex &
 		    [ STEM < "cruzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_cru_a_rel" ].
 
-encantadorzinho := dim-adj-lex &
+encantadorzinho := non-unif-dim-adj-lex &
 		    [ STEM < "encantadorzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_encantador_a_rel" ].
 
-europeuzinho := dim-adj-lex &
+europeuzinho := non-unif-dim-adj-lex &
 		    [ STEM < "europeuzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_europeu_a_rel" ].
 
-exemplarzinho := dim-adj-lex &
+exemplarzinho := non-unif-dim-adj-lex &
 		    [ STEM < "exemplarzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_exemplar_a_rel" ].
 
-felizinho := dim-adj-lex &
+felizinho := masc-dim-adj-lex &
 		    [ STEM < "felizinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
 
-ferozinho := dim-adj-lex &
+ferozinho := masc-dim-adj-lex &
 		    [ STEM < "ferozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
 
-fielzinho := dim-adj-lex &
+fielzinho := masc-dim-adj-lex &
 		    [ STEM < "fielzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
 
-francesinho := dim-adj-lex &
+felizinha := fem-dim-adj-lex &
+		    [ STEM < "felizinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+ferozinha := fem-dim-adj-lex &
+		    [ STEM < "ferozinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
+
+fielzinha := fem-dim-adj-lex &
+		    [ STEM < "fielzinha" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
+
+francesinho := non-unif-dim-adj-lex &
 		    [ STEM < "francesinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_francês_a_rel" ].
 
-hebreuzinho := dim-adj-lex &
+hebreuzinho := non-unif-dim-adj-lex &
 		    [ STEM < "hebreuzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_hebreu_a_rel" ].
 
-ilheuzinho := dim-adj-lex &
+ilheuzinho := non-unif-dim-adj-lex &
 		    [ STEM < "ilheuzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_ilhéu_a_rel" ].
 
-inglesinho := dim-adj-lex &
+inglesinho := non-unif-dim-adj-lex &
 		    [ STEM < "inglesinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_inglês_a_rel" ].
 
-inteligentezinho := dim-adj-lex &
+inteligentezinho := non-unif-dim-adj-lex &
 		    [ STEM < "inteligentezinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
 
-inteligentinho := dim-adj-lex &
+inteligentinho := non-unif-dim-adj-lex &
 		    [ STEM < "inteligentinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
 
-judeuzinho := dim-adj-lex &
+judeuzinho := non-unif-dim-adj-lex &
 		    [ STEM < "judeuzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_judeu_a_rel" ].
 
-nuinho := dim-adj-lex &
+nuinho := non-unif-dim-adj-lex &
 		    [ STEM < "nuinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
 
-nuito := dim-adj-lex &
+nuito := non-unif-dim-adj-lex &
 		    [ STEM < "nuito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
 
-nuzinho := dim-adj-lex &
+nuzinho := non-unif-dim-adj-lex &
 		    [ STEM < "nuzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
 
-nuzito := dim-adj-lex &
+nuzito := non-unif-dim-adj-lex &
 		    [ STEM < "nuzito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
 
-pequeninho := dim-adj-lex &
+pequeninho := non-unif-dim-adj-lex &
 		    [ STEM < "pequeninho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
 
-pequenito := dim-adj-lex &
+pequenito := non-unif-dim-adj-lex &
 		    [ STEM < "pequenito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
 
-pequenozinho := dim-adj-lex &
+pequenozinho := non-unif-dim-adj-lex &
 		    [ STEM < "pequenozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
 
-persazinho := dim-adj-lex &
+persazinho := non-unif-dim-adj-lex &
 		    [ STEM < "persazinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_persa_a_rel" ].
 
-persinha := dim-adj-lex &
+persinha := unif-dim-adj-lex &
 		    [ STEM < "persinha" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_persa_a_rel" ].
 
-simplesinho := dim-adj-lex &
+simplesinho := non-unif-dim-adj-lex &
 		    [ STEM < "simplesinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
 
-trabalhadorzinho := dim-adj-lex &
+trabalhadorzinho := non-unif-dim-adj-lex &
 		    [ STEM < "trabalhadorzinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_trabalhador_a_rel" ].
 
-trabalhadorzito := dim-adj-lex &
+trabalhadorzito := non-unif-dim-adj-lex &
 		    [ STEM < "trabalhadorzito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_trabalhador_a_rel" ].
 
-tristezinho := dim-adj-lex &
+tristezinho := non-unif-dim-adj-lex &
 		    [ STEM < "tristezinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
 
-tristinho := dim-adj-lex &
+tristinho := non-unif-dim-adj-lex &
 		    [ STEM < "tristinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
 
-tristito := dim-adj-lex &
+tristito := non-unif-dim-adj-lex &
 		    [ STEM < "tristito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
 
-vermelhinho := dim-adj-lex &
+vermelhinho := non-unif-dim-adj-lex &
 		    [ STEM < "vermelhinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
 
-vermelhito := dim-adj-lex &
+vermelhito := non-unif-dim-adj-lex &
 		    [ STEM < "vermelhito" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
 
-vermelhozinho := dim-adj-lex &
+vermelhozinho := non-unif-dim-adj-lex &
 		    [ STEM < "vermelhozinho" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
 

@@ -3,19 +3,25 @@
 
 %(letter-set (!v aeiuáéóãõôê))
 %(letter-set (!s sx))
+%(letter-set (!c nrz))
+%(letter-set (!r nr))
+%(letter-set (!o oa))
 %(letter-set (!a abcdefghijklmnopqrstuvwxyzçáéóõôê))
 
 
+;; Does this rule generate "hífens"? If it doesn't, this form should be included in the my-irregs.tab file,
+;; if it is considered correct (it seems to be spurious, correct form is "hifens"), cf. issue #98 of MorphoBr
 n-pl-suffix :=
-%suffix (!s !s) (!ao !aos) (!v !vs) (ão ões) (r res) (z zes) (n nes) (al ais) (ol óis) (el éis) (il is) (ês eses) (m ns) (ás ases) (ês eses) (és eses) (ís ises) (ós oses)
+%suffix (!s !s) (!ao !aos) (!v !vs) (ão ões) (!c !ces) (al ais) (ol óis) (el éis) (il is) (ês eses) (m ns) (ás ases) (ês eses) (és eses) (ís ises) (ós oses)
 n-pl-lex-rule.
 
+;;; Modify this rule according to the one above and vice-versa. It seems that they must be identical.
 a-pl-suffix :=
-%suffix (!s !s) (!ao !aos) (!v !vs) (ão ões) (r res) (z zes) (n nes) (al ais) (ol óis) (el éis) (il is) (ês eses) (m ns) (ás ases) (ês eses) (és eses) (ís íses) (ós oses)
+%suffix (!s !s) (!ao !aos) (!v !vs) (ão ões) (r res) (z zes) (n nes) (al ais) (ol óis) (el éis) (il is) (ês eses) (m ns) (ás ases) (ês eses) (és eses) (ís íses) (ós oses) (rzinh!o rezinh!os) (ãozinho õezinhos) (ãozito õezitos) 
 a-pl-lex-rule.
 
 fem-suffix :=
-%suffix (r ra) (!ao !aa) (eu eia) (ão ona) (ês esa) (éu oa) (cru crua) (nu nua)
+%suffix (r ra) (!ao !aa) (eu eia) (ão ona) (ês esa) (éu oa) (!ru !rua)
 fem-lex-rule.
 
 perf-ind-1sg-suffix :=
