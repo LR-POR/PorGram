@@ -1,0 +1,44 @@
+acuar := reg-trans-verb-lex &
+  [ STEM < "acuar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acuar_v_rel" ].
+
+atacar := reg-trans-verb-lex &
+  [ STEM < "atacar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_atacar_v_rel" ].
+
+atingir := reg-trans-verb-lex &
+  [ STEM < "atingir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_atingir_v_rel" ].
+
+caçar := reg-trans-verb-lex &
+  [ STEM < "caçar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_caçar_v_rel" ].
+
+erguer := reg-trans-verb-lex &
+  [ STEM < "erguer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_erguer_v_rel" ].
+
+extinguir := reg-trans-verb-lex &
+  [ STEM < "extinguir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_extinguir_v_rel" ].
+
+imitar := reg-trans-verb-lex &
+  [ STEM < "imitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_imitar_v_rel" ].
+
+perseguir := reg-trans-verb-lex &
+  [ STEM < "perseguir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_perseguir_v_rel" ].
+
+puir := reg-trans-verb-lex &
+  [ STEM < "puir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_puir_v_rel" ].
+
+socorrer := reg-trans-verb-lex &
+  [ STEM < "socorrer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_socorrer_v_rel" ].
+
+tanger := reg-trans-verb-lex &
+  [ STEM < "tanger" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tanger_v_rel" ].
+

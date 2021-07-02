@@ -1,12 +1,33 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 ;;; Inflecting Lexical Rule Instances
 
+;;; all vowels except o
 %(letter-set (!v aeiuáéóãõôê))
+
 %(letter-set (!s sx))
 %(letter-set (!c nrz))
 %(letter-set (!r nr))
 %(letter-set (!o oa))
+%(letter-set (!e aei))
+%(letter-set (!i ei))
+
+;;; all letters except c, g, ç and u
+%(letter-set (!g abdefhijklmnopqrstvwxyzáéóõãôê))
+
+;;; all letters except c, g and ç
+%(letter-set (!y abdefhijklmnopqrstuvwxyzáéóõãôê))
+
+;;; all letters except g
+%(letter-set (!p abcdefhijklmnopqrstuvwxyzçáéóãõôê))
+
+;;; all letters except ã
 %(letter-set (!a abcdefghijklmnopqrstuvwxyzçáéóõôê))
+
+;;; all letters except c, e, g, ç
+%(letter-set (!x abdfhijklmnopqrstvwxyzáéóõãôê))
+
+;;; all letters except e
+%(letter-set (!z abcdfghijklmnopqrstuvwxyzçáéóõãôê))
 
 
 ;; Does this rule generate "hífens"? If it doesn't, this form should be included in the my-irregs.tab file,
@@ -25,58 +46,251 @@ fem-suffix :=
 fem-lex-rule.
 
 perf-ind-1sg-suffix :=
-%suffix (ir i) (er i) (ar ei)
+%suffix (ir i) (er i) (!yar !yei) (car quei) (çar cei) (gar guei)
 perf-ind-1sg-lex-rule.
 
+perf-ind-1pl-suffix :=
+%suffix (!er !emos) (ar ámos)
+perf-ind-1pl-lex-rule.
+
+perf-ind-2sg-suffix :=
+%suffix (!er !este)
+perf-ind-2sg-lex-rule.
+
+perf-ind-2pl-suffix :=
+%suffix (!er !estes)
+perf-ind-2pl-lex-rule.
+
 perf-ind-3sg-suffix :=
-%suffix (ir iu) (er eu) (ar ou)
+%suffix (!ir !iu) (ar ou)
 perf-ind-3sg-lex-rule.
 
 perf-ind-3pl-suffix :=
-%suffix (ir iram) (er eram) (ar aram)
+%suffix (!er !eram)
 perf-ind-3pl-lex-rule.
 
-infl-inf-3pl-suffix :=
-%suffix (ir irem) (er erem) (ar arem)
-infl-inf-3pl-lex-rule.
+pres-ind-1sg-suffix :=
+%suffix (gir jo) (cir ço) (!gir !go) (!puir !puo) (!zguir !zgo) (seguir sigo) (ger jo) (!ger !go) (guer go) (cer ço) (!zar !zo) (ear eio)
+pres-ind-1sg-lex-rule.
 
-pres-ind-3pl-suffix :=
-%suffix (ir em) (er em) (ar am)
-pres-ind-3pl-lex-rule.
+pres-ind-2sg-suffix :=
+%suffix (ir es) (er es) (!zar !zas) (ear eias)
+pres-ind-2sg-lex-rule.
 
 pres-ind-3sg-suffix :=
-%suffix (ir e)  (er e) (ar a)
+%suffix (ir e)  (er e) (!zar !za) (ear eia)
 pres-ind-3sg-lex-rule.
-
-pres-part-suffix :=
-%suffix (ir indo) (er endo) (ar ando)
-pres-part-lex-rule.
-
-pres-ind-1sg-suffix :=
-%suffix (ir o) (er o) (ar o)
-pres-ind-1sg-lex-rule.
 
 pres-ind-1pl-suffix :=
 %suffix (ir imos) (er emos) (ar amos)
 pres-ind-1pl-lex-rule.
 
-pres-ind-2sg-suffix :=
-%suffix (ir es) (er es) (ar as)
-pres-ind-2sg-lex-rule.
-
 pres-ind-2pl-suffix :=
 %suffix (ir is) (er eis) (ar ais)
 pres-ind-2pl-lex-rule.
 
-refl-1s-suffix :=
-%suffix (* -me)
-refl-1s-lex-rule.
+pres-ind-3pl-suffix :=
+%suffix (ir em) (er em) (!zar !zam) (ear eiam)
+pres-ind-3pl-lex-rule.
 
-refl-3-suffix :=
+pres-subj-1sg-suffix :=
+%suffix (!gir !ga) (!puir !pua) (!zguir !zga) (seguir siga) (gir ja) (!ger !ga) (ger ja) (guer ga) (cer ça) (!xar !xe) (car que) (çar ce) (gar gue) (ear eie)
+pres-subj-1sg-lex-rule.
+
+pres-subj-3sg-suffix :=
+%suffix (!gir !ga) (!puir !pua) (!zguir !zga) (seguir siga) (gir ja) (!ger !ga) (ger ja) (guer ga) (cer ça) (!xar !xe) (car que) (çar ce) (gar gue) (ear eie)
+pres-subj-3sg-lex-rule.
+
+pres-subj-2sg-suffix :=
+%suffix (!gir !gas) (!puir !puas) (!zguir !zgas) (seguir sigas) (gir jas) (!ger !gas) (ger jas) (guer gas) (cer ças) (!xar !xes) (car ques) (çar ces) (gar gues) (ear eies)
+pres-subj-2sg-lex-rule.
+
+pres-subj-1pl-suffix :=
+%suffix (!gir !gamos) (!puir !puamos) (!zguir !zgamos) (seguir sigamos) (gir jamos) (ger jamos) (!ger !gamos) (guer gamos) (cer çamos) (!yar !yemos) (çar cemos) (car quemos) (gar guemos)
+pres-subj-1pl-lex-rule.
+
+pres-subj-2pl-suffix :=
+%suffix (!gir !gais) (!puir !puais) (!zguir !zgais) (seguir sigais) (gir jais) (ger jais) (!ger !gais) (guer gais) (cer çais) (!yar !yeis) (çar ceis) (car queis) (gar gueis)
+pres-subj-2pl-lex-rule.
+
+pres-subj-3pl-suffix :=
+%suffix (!gir !gam) (!puir !puam) (!zguir !zgam) (seguir sigam) (gir jam) (ger jam) (!ger !gam) (guer gam) (cer çam) (!xar !xem) (çar cem) (car quem) (gar guem) (ear eiem) 
+pres-subj-3pl-lex-rule.
+
+fut-ind-1sg-suffix :=
+%suffix (r rei)
+fut-ind-1sg-lex-rule.
+
+fut-ind-1pl-suffix :=
+%suffix (r remos)
+fut-ind-1pl-lex-rule.
+
+fut-ind-2sg-suffix :=
+%suffix (r rás)
+fut-ind-2sg-lex-rule.
+
+fut-ind-3sg-suffix :=
+%suffix (r rá)
+fut-ind-3sg-lex-rule.
+
+fut-ind-3pl-suffix :=
+%suffix (r rão)
+fut-ind-3pl-lex-rule.
+
+fut-ind-2pl-suffix :=
+%suffix (r reis)
+fut-ind-2pl-lex-rule.
+
+impf-ind-1sg-suffix :=
+%suffix (ir ia) (er ia) (ar ava)
+impf-ind-1sg-lex-rule.
+
+impf-ind-1pl-suffix :=
+%suffix (ir íamos) (er íamos) (ar ávamos)
+impf-ind-1pl-lex-rule.
+
+impf-ind-3sg-suffix :=
+%suffix (ir ia) (er ia) (ar ava)
+impf-ind-3sg-lex-rule.
+
+impf-ind-2sg-suffix :=
+%suffix (ir ias) (er ias) (ar avas)
+impf-ind-2sg-lex-rule.
+
+impf-ind-2pl-suffix :=
+%suffix (ir íeis) (er íeis) (ar áveis)
+impf-ind-2pl-lex-rule.
+
+impf-ind-3pl-suffix :=
+%suffix (ir iam) (er iam) (ar avam)
+impf-ind-3pl-lex-rule.
+
+fut-pret-1sg-suffix :=
+%suffix (* ia)
+fut-pret-1sg-lex-rule.
+
+fut-pret-1pl-suffix :=
+%suffix (* íamos)
+fut-pret-1pl-lex-rule.
+
+fut-pret-2sg-suffix :=
+%suffix (* ias)
+fut-pret-2sg-lex-rule.
+
+fut-pret-2pl-suffix :=
+%suffix (* íeis)
+fut-pret-2pl-lex-rule.
+
+fut-pret-3sg-suffix :=
+%suffix (* ia)
+fut-pret-3sg-lex-rule.
+
+fut-pret-3pl-suffix :=
+%suffix (* iam)
+fut-pret-3pl-lex-rule.
+
+pluperf-1sg-suffix :=
+%suffix (* a)
+pluperf-1sg-lex-rule.
+
+pluperf-1pl-suffix :=
+%suffix (ir íramos) (er êramos) (ar áramos)
+pluperf-1pl-lex-rule.
+
+pluperf-2sg-suffix :=
+%suffix (* as)
+pluperf-2sg-lex-rule.
+
+pluperf-3sg-suffix :=
+%suffix (* a)
+pluperf-3sg-lex-rule.
+
+pluperf-3pl-suffix :=
+%suffix (* am)
+pluperf-3pl-lex-rule.
+
+pluperf-2pl-suffix :=
+%suffix (ir íreis) (er êreis) (ar áreis)
+pluperf-2pl-lex-rule.
+
+impf-subj-1sg-suffix :=
+%suffix (!er !esse)
+impf-subj-1sg-lex-rule.
+
+impf-subj-1pl-suffix :=
+%suffix (ir íssemos) (er êssemos) (ar ássemos)
+impf-subj-1pl-lex-rule.
+
+impf-subj-3sg-suffix :=
+%suffix  (!er !esse)
+impf-subj-3sg-lex-rule.
+
+impf-subj-3pl-suffix :=
+%suffix (!er !essem)
+impf-subj-3pl-lex-rule.
+
+impf-subj-2sg-suffix :=
+%suffix (!er !esses)
+impf-subj-2sg-lex-rule.
+
+impf-subj-2pl-suffix :=
+%suffix (ir ísseis) (er êsseis) (ar ásseis)
+impf-subj-2pl-lex-rule.
+
+fut-subj-1sg-suffix :=
+%suffix (!er !er)
+fut-subj-1sg-lex-rule.
+
+fut-subj-1pl-suffix :=
+%suffix (* mos)
+fut-subj-1pl-lex-rule.
+
+fut-subj-3sg-suffix :=
+%suffix (!er !er)
+fut-subj-3sg-lex-rule.
+
+fut-subj-3pl-suffix :=
+%suffix (* em)
+fut-subj-3pl-lex-rule.
+
+fut-subj-2sg-suffix :=
+%suffix (* es)
+fut-subj-2sg-lex-rule.
+
+fut-subj-2pl-suffix :=
+%suffix (* des)
+fut-subj-2pl-lex-rule.
+
+refl-mark-1s-suffix :=
+%suffix (* -me)
+refl-mark-1s-lex-rule.
+
+refl-mark-1p-suffix :=
+%suffix (os o-nos)
+refl-mark-1p-lex-rule.
+
+refl-mark-3-suffix :=
 %suffix (* -se)
-refl-3-lex-rule.
+refl-mark-3-lex-rule.
+
+refl-mark-2s-suffix :=
+%suffix (* -te)
+refl-mark-2s-lex-rule.
+
+refl-mark-2p-suffix :=
+%suffix (* -vos)
+refl-mark-2p-lex-rule.
+
+pres-part-suffix :=
+%suffix (ir indo) (er endo) (ar ando)
+pres-part-lex-rule.
 
 past-part-suffix :=
 %suffix (ir ido) (er ido) (ar ado)
 past-part-lex-rule.
+
+infl-inf-3pl-suffix :=
+%suffix (ir irem) (er erem) (ar arem)
+infl-inf-3pl-lex-rule.
+
 

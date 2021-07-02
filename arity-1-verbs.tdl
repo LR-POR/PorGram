@@ -1,0 +1,32 @@
+adoecer := reg-intrans-verb-lex &
+  [ STEM < "adoecer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_adoecer_v_rel" ].
+
+chegar := reg-intrans-verb-lex &
+  [ STEM < "chegar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chegar_v_rel" ].
+
+correr := reg-intrans-verb-lex &
+  [ STEM < "correr" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_correr_v_rel" ].
+
+gemer := reg-intrans-verb-lex &
+  [ STEM < "gemer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gemer_v_rel" ].
+
+ladrar := reg-intrans-verb-lex &
+  [ STEM < "ladrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ladrar_v_rel" ].
+
+latir := reg-intrans-verb-lex &
+  [ STEM < "latir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_latir_v_rel" ].
+
+passear := reg-intrans-verb-lex &
+  [ STEM < "passear" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_passear_v_rel" ].
+
+sorrir := reg-intrans-verb-lex &
+  [ STEM < "sorrir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sorrir_v_rel" ].
+
