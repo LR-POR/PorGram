@@ -52,7 +52,8 @@
 ;;; (some grammars with larger lexica organize them into multiple files).
 ;;;
 
-(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "my-base-lexicon.tdl") (lkb-pathname (parent-directory) "my-test-lexicon.tdl")  ))
+(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") (lkb-pathname (parent-directory) "arity-1-verbs.tdl") (lkb-pathname (parent-directory) "arity-2-verbs.tdl") ))
+;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
 
 
 ;;; For grammars with small lexicons, no need to use a cache file:
