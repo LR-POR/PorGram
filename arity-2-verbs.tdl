@@ -1,44 +1,72 @@
-acuar := reg-trans-verb-lex &
+acuar := trans-verb-lex &
   [ STEM < "acuar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acuar_v_rel" ].
 
-atacar := reg-trans-verb-lex &
+atacar := trans-verb-lex &
   [ STEM < "atacar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_atacar_v_rel" ].
 
-atingir := reg-trans-verb-lex &
+atingir := trans-verb-lex &
   [ STEM < "atingir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_atingir_v_rel" ].
 
-caçar := reg-trans-verb-lex &
+caçar := trans-verb-lex &
   [ STEM < "caçar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_caçar_v_rel" ].
 
-erguer := reg-trans-verb-lex &
+erguer := trans-verb-lex &
   [ STEM < "erguer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_erguer_v_rel" ].
 
-extinguir := reg-trans-verb-lex &
+extinguir := trans-verb-lex &
   [ STEM < "extinguir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_extinguir_v_rel" ].
 
-imitar := reg-trans-verb-lex &
+imitar := trans-verb-lex &
   [ STEM < "imitar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_imitar_v_rel" ].
 
-perseguir := reg-trans-verb-lex &
+perseguir := trans-verb-lex &
   [ STEM < "perseguir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_perseguir_v_rel" ].
 
-puir := reg-trans-verb-lex &
+puir := trans-verb-lex &
   [ STEM < "puir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_puir_v_rel" ].
 
-socorrer := reg-trans-verb-lex &
+socorrer := trans-verb-lex &
   [ STEM < "socorrer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_socorrer_v_rel" ].
 
-tanger := reg-trans-verb-lex &
+tanger := trans-verb-lex &
   [ STEM < "tanger" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tanger_v_rel" ].
+
+advertir := trans-verb-lex &
+  [ STEM < "advertir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_advertir_v_rel" ].
+
+ferir := trans-verb-lex &
+  [ STEM < "ferir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ferir_v_rel" ].
+
+repelir := trans-verb-lex &
+  [ STEM < "repelir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_repelir_v_rel" ].
+
+agredir := trans-verb-lex &
+  [ STEM < "agredir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_agredir_v_rel" ].
+
+desmentir := trans-verb-lex &
+  [ STEM < "desmentir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desmentir_v_rel" ].
+
+despir := trans-verb-lex &
+  [ STEM < "despir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_despir_v_rel" ].
+
+vestir := trans-verb-lex &
+  [ STEM < "vestir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vestir_v_rel" ].
 
