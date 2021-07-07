@@ -30,3 +30,11 @@ sorrir := non-refl-intrans-verb-lex &
   [ STEM < "sorrir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sorrir_v_rel" ].
 
+dormir := non-refl-intrans-verb-lex &
+  [ STEM < "dormir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dormir_v_rel" ].
+
+tossir := non-refl-intrans-verb-lex &
+  [ STEM < "tossir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tossir_v_rel" ].
+
