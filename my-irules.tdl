@@ -21,6 +21,9 @@
 ;;; g and q (e.g. "seguir" and "extorquir")
 %(letter-set (!q gq))
 
+;;; n, r and s (e.g. "mentir", "advertir" and "vestir", which undergo vowel alternation)
+%(letter-set (!n nrs))
+
 ;;; all letters except c, g, ç and u
 %(letter-set (!g abdefhijklmnopqrstvwxyzáéóõãôê))
 
@@ -86,9 +89,9 @@ perf-ind-3pl-suffix :=
 perf-ind-3pl-lex-rule.
 
 pres-ind-1sg-suffix :=
-; (agir ajo) (ressarcir ressarço) (partir parto) (puir puo) (distinguir distingo) (perseguir persigo)
+; (advertir advirto) (ferir firo) (agir ajo) (ressarcir ressarço) (partir parto) (puir puo) (distinguir distingo) (perseguir persigo)
 ; (proteger protejo) (vender vendo) (erguer ergo) (vencer venço) (atacar ataco) (passear passeio) 
-%suffix (gir jo) (cir ço) (!gir !go) (!puir !puo) (!zguir !zgo) (seguir sigo) (ger jo) (!ger !go) (guer go) (cer ço) (!zar !zo) (ear eio)
+%suffix (e!n!lir i!n!lo) (e!lir i!lo) (gir jo) (cir ço) (!gir !go) (!puir !puo) (!zguir !zgo) (seguir sigo) (ger jo) (!ger !go) (guer go) (cer ço) (!zar !zo) (ear eio)
 pres-ind-1sg-lex-rule.
 
 pres-ind-2sg-suffix :=
@@ -117,39 +120,39 @@ pres-ind-3pl-suffix :=
 pres-ind-3pl-lex-rule.
 
 pres-subj-1sg-suffix :=
-; (agir aja) (ressarcir ressarça) (partir parta) (puir pua) (distinguir distinga) (perseguir persiga) (proteger proteja)
+; (advertir advirta) (ferir fira) (agir aja) (ressarcir ressarça) (partir parta) (puir pua) (distinguir distinga) (perseguir persiga) (proteger proteja)
 ; (vender venda) (erguer erga) (vencer vença) (acuar acue) (atacar ataque) (caçar cace) (chegar chegue) (passear passeie) 
-%suffix (gir ja) (cir ça) (!gir !ga) (!puir !pua) (!zguir !zga) (seguir siga) (ger ja) (!ger !ga) (guer ga) (cer ça) (!xar !xe) (car que) (çar ce) (gar gue) (ear eie)
+%suffix (e!n!lir i!n!la) (e!lir i!la) (gir ja) (cir ça) (!gir !ga) (!puir !pua) (!zguir !zga) (seguir siga) (ger ja) (!ger !ga) (guer ga) (cer ça) (!xar !xe) (car que) (çar ce) (gar gue) (ear eie)
 pres-subj-1sg-lex-rule.
 
 pres-subj-3sg-suffix :=
-; (agir aja) (ressarcir ressarça) (partir parta) (puir pua) (distinguir distinga) (perseguir persiga) (proteger proteja)
+;  (advertir advirta) (ferir fira) (agir aja) (ressarcir ressarça) (partir parta) (puir pua) (distinguir distinga) (perseguir persiga) (proteger proteja)
 ; (vender venda) (erguer erga) (vencer vença) (acuar acue) (atacar ataque) (caçar cace) (chegar chegue) (passear passeie) 
-%suffix (gir ja) (cir ça) (!gir !ga) (!puir !pua) (!zguir !zga) (seguir siga) (ger ja) (!ger !ga) (guer ga) (cer ça) (!xar !xe) (car que) (çar ce) (gar gue) (ear eie)
+%suffix (e!n!lir i!n!la) (e!lir i!la) (gir ja) (cir ça) (!gir !ga) (!puir !pua) (!zguir !zga) (seguir siga) (ger ja) (!ger !ga) (guer ga) (cer ça) (!xar !xe) (car que) (çar ce) (gar gue) (ear eie)
 pres-subj-3sg-lex-rule.
 
 pres-subj-2sg-suffix :=
-; (agir ajas) (ressarcir ressarças) (partir partas) (puir puas) (distinguir distingas) (perseguir persigas) (proteger protejas)
+;  (advertir advirtas) (ferir firas) (agir ajas) (ressarcir ressarças) (partir partas) (puir puas) (distinguir distingas) (perseguir persigas) (proteger protejas)
 ; (vender vendas) (erguer ergas) (vencer venças) (acuar acues) (atacar ataques) (caçar caces) (chegar chegues) (passear passeies) 
-%suffix  (gir jas) (cir ças) (!gir !gas) (!puir !puas) (!zguir !zgas) (seguir sigas) (ger jas) (!ger !gas)  (guer gas) (cer ças) (!xar !xes) (car ques) (çar ces) (gar gues) (ear eies)
+%suffix  (e!n!lir i!n!las) (e!lir i!las) (gir jas) (cir ças) (!gir !gas) (!puir !puas) (!zguir !zgas) (seguir sigas) (ger jas) (!ger !gas)  (guer gas) (cer ças) (!xar !xes) (car ques) (çar ces) (gar gues) (ear eies)
 pres-subj-2sg-lex-rule.
 
 pres-subj-1pl-suffix :=
-; (agir ajamos) (ressarcir ressarçamos) (partir partamos) (puir puamos) (distinguir distingamos) (perseguir persigamos) (proteger protejamos)
+; (advertir advirtamos) (ferir firamos) (agir ajamos) (ressarcir ressarçamos) (partir partamos) (puir puamos) (distinguir distingamos) (perseguir persigamos) (proteger protejamos)
 ; (vender vendamos) (erguer ergamos) (vencer vençamos) (acuar acuemos) (caçar cacemos) (atacar ataquemos) (chegar cheguemos)
-%suffix (gir jamos) (cir çamos) (!gir !gamos) (!puir !puamos) (!zguir !zgamos) (seguir sigamos) (ger jamos) (!ger !gamos) (guer gamos) (cer çamos) (!yar !yemos) (çar cemos) (car quemos) (gar guemos)
+%suffix  (e!n!lir i!n!lamos) (e!lir i!lamos) (gir jamos) (cir çamos) (!gir !gamos) (!puir !puamos) (!zguir !zgamos) (seguir sigamos) (ger jamos) (!ger !gamos) (guer gamos) (cer çamos) (!yar !yemos) (çar cemos) (car quemos) (gar guemos)
 pres-subj-1pl-lex-rule.
 
 pres-subj-2pl-suffix :=
-; (agir ajais) (ressarcir ressarçais) (partir partais) (puir puais) (distinguir distingais) (perseguir persigais) (proteger protejais)
+; (advertir advirtais) (ferir firais) (agir ajais) (ressarcir ressarçais) (partir partais) (puir puais) (distinguir distingais) (perseguir persigais) (proteger protejais)
 ; (vender vendais) (erguer ergais) (vencer vençais) (acuar acueis) (caçar caceis) (atacar ataqueis) (chegar chegueis)
-%suffix (gir jais) (cir çais) (!gir !gais) (!puir !puais) (!zguir !zgais) (seguir sigais) (ger jais) (!ger !gais) (guer gais) (cer çais) (!yar !yeis) (çar ceis) (car queis) (gar gueis)
+%suffix (e!n!lir i!n!lais) (e!lir i!lais) (gir jais) (cir çais) (!gir !gais) (!puir !puais) (!zguir !zgais) (seguir sigais) (ger jais) (!ger !gais) (guer gais) (cer çais) (!yar !yeis) (çar ceis) (car queis) (gar gueis)
 pres-subj-2pl-lex-rule.
 
 pres-subj-3pl-suffix :=
-; (agir ajam) (ressarcir ressarçam) (partir partam) (puir puam) (distinguir distingam) (perseguir persigam) (proteger protejam)
+; (advertir advirtam) (ferir firam) (agir ajam) (ressarcir ressarçam) (partir partam) (puir puam) (distinguir distingam) (perseguir persigam) (proteger protejam)
 ; (vender vendam) (erguer ergam) (vencer vençam) (acuar acuem) (caçar cacem) (atacar ataquem) (chegar cheguem) (passear passeiem)
-%suffix (gir jam) (cir çam) (!gir !gam) (!puir !puam) (!zguir !zgam) (seguir sigam) (ger jam) (!ger !gam) (guer gam) (cer çam) (!xar !xem) (çar cem) (car quem) (gar guem) (ear eiem) 
+%suffix  (e!n!lir i!n!lam) (e!lir i!lam) (gir jam) (cir çam) (!gir !gam) (!puir !puam) (!zguir !zgam) (seguir sigam) (ger jam) (!ger !gam) (guer gam) (cer çam) (!xar !xem) (çar cem) (car quem) (gar guem) (ear eiem) 
 pres-subj-3pl-lex-rule.
 
 fut-ind-1sg-suffix :=
