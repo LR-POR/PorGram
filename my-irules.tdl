@@ -336,7 +336,8 @@ refl-mark-2p-suffix :=
 refl-mark-2p-lex-rule.
 
 pres-part-suffix :=
-%suffix (ir indo) (er endo) (ar ando)
+; (partir partindo) (vender vendendo) (doar doando)
+%suffix (!er !endo)
 pres-part-lex-rule.
 
 past-part-suffix :=
@@ -348,5 +349,31 @@ infl-inf-3pl-suffix :=
 ; (partir partirem) (puir puírem) (seguir seguirem) (vender venderem) (doar doarem)
 %suffix (!lir !lirem) (!kuir !kuírem) (!quir !quirem) (!ur !urem)
 infl-inf-3pl-lex-rule.
+
+infl-inf-2sg-suffix :=
+; (partir partires) (puir puíres) (seguir seguires) (vender venderes) (doar doares)
+%suffix  (!lir !lires) (!kuir !kuíres) (!quir !quires) (!ur !ures)
+infl-inf-2sg-lex-rule.
+
+infl-inf-2pl-suffix :=
+; (partir partirdes) (vender venderdes) (doar doardes)
+%suffix (!er !erdes)
+infl-inf-2pl-lex-rule.
+
+infl-inf-1pl-suffix :=
+; (partir partirmos) (vender vendermos) (doar doarmos)
+%suffix (!er !ermos)
+infl-inf-1pl-lex-rule.
+
+infl-inf-1sg-suffix :=
+; (partir partir) (vender vender) (doar doar)
+%suffix (!er !er)
+infl-inf-1sg-lex-rule.
+
+infl-inf-3sg-suffix :=
+; (partir partir) (vender vender) (doar doar)
+%suffix  (!er !er)
+infl-inf-3sg-lex-rule.
+
 
 
