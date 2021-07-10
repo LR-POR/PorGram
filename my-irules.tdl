@@ -256,6 +256,7 @@ pluperf-3pl-suffix :=
 pluperf-3pl-lex-rule.
 
 pluperf-2pl-suffix :=
+; (partir partíreis) (vender vendêreis) (comprar compráreis)
 %suffix (ir íreis) (er êreis) (ar áreis)
 pluperf-2pl-lex-rule.
 
