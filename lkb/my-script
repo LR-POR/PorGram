@@ -43,7 +43,8 @@
 (list
 (lkb-pathname (parent-directory) "matrix.tdl")
 (lkb-pathname (parent-directory) "head-types.tdl")
-   (lkb-pathname (parent-directory) "portuguese.tdl")
+(lkb-pathname (parent-directory) "portuguese.tdl")
+ (lkb-pathname (parent-directory) "my-portuguese.tdl")
 (lkb-pathname (parent-directory) "mtr.tdl")
 ))
 
