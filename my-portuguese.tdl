@@ -1,0 +1,13 @@
+
+
+subj-cl-comp-verb-lex := que-cl-comp-verb-lex &  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM finite ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK [INDEX.SF prop, CLAUSE-KEY.E.MOOD subjunctive ] ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+ind-cl-comp-verb-lex := que-cl-comp-verb-lex & [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM finite ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK [INDEX.SF prop, CLAUSE-KEY.E.MOOD indicative ] ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
