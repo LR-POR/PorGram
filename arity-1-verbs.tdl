@@ -1,40 +1,40 @@
-adoecer := non-refl-int-verb-lex &
+adoecer := nonrefl-int-verb-lex &
   [ STEM < "adoecer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_adoecer_v_rel" ].
 
-chegar := non-refl-int-verb-lex &
+chegar := nonrefl-int-verb-lex &
   [ STEM < "chegar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_chegar_v_rel" ].
 
-correr := non-refl-int-verb-lex &
+correr := nonrefl-int-verb-lex &
   [ STEM < "correr" >,
     SYNSEM.LKEYS.KEYREL.PRED "_correr_v_rel" ].
 
-gemer := non-refl-int-verb-lex &
+gemer := nonrefl-int-verb-lex &
   [ STEM < "gemer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gemer_v_rel" ].
 
-ladrar := non-refl-int-verb-lex &
+ladrar := nonrefl-int-verb-lex &
   [ STEM < "ladrar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ladrar_v_rel" ].
 
-latir := non-refl-int-verb-lex &
+latir := nonrefl-int-verb-lex &
   [ STEM < "latir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_latir_v_rel" ].
 
-passear := non-refl-int-verb-lex &
+passear := nonrefl-int-verb-lex &
   [ STEM < "passear" >,
     SYNSEM.LKEYS.KEYREL.PRED "_passear_v_rel" ].
 
-sorrir := non-refl-int-verb-lex &
+sorrir := nonrefl-int-verb-lex &
   [ STEM < "sorrir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sorrir_v_rel" ].
 
-dormir := non-refl-int-verb-lex &
+dormir := nonrefl-int-verb-lex &
   [ STEM < "dormir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dormir_v_rel" ].
 
-tossir := non-refl-int-verb-lex &
+tossir := nonrefl-int-verb-lex &
   [ STEM < "tossir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tossir_v_rel" ].
 
