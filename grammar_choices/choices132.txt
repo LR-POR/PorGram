@@ -1703,6 +1703,12 @@ section=test-sentences
   sentence277_orth=cada gato latiu
   sentence278_orth=todos os gatos perseguiram algum cão
   sentence279_orth=todos gatos perseguiram algum cão
+  sentence280_orth=todos gatos perseguiram alguns cães
+ sentence281_orth=todos gatos perseguiram alguma ratazana
+ sentence282_orth=todos gatos perseguiram algumas ratazanas
+ sentence283_orth=alguns gatos perseguiram a ratazana
+ sentence284_orth=algum gato perseguiu a ratazana
+ sentence285_orth=alguma ratazana perseguiu o gato
 
 section=gen-options
 

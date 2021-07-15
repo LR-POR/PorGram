@@ -42,6 +42,9 @@
 ;;; all letters except e
 %(letter-set (!z abcdfghijklmnopqrstuvwxyzçáéóõãôê))
 
+;;; all letters except m
+%(letter-set (!m abcdefghijklnopqrstuvwxyzçáéóõãôê))
+
 
 ;; Does this rule generate "hífens"? If it doesn't, this form should be included in the my-irregs.tab file,
 ;; if it is considered correct (it seems to be spurious, correct form is "hifens"), cf. issue #98 of MorphoBr
@@ -375,6 +378,15 @@ infl-inf-3sg-suffix :=
 ; (partir partir) (vender vender) (doar doar)
 %suffix  (!er !er)
 infl-inf-3sg-lex-rule.
+
+det-fem-suffix :=
+; (algum alguma) (este esta)
+%suffix (!z !za) (e a)
+det-fem-lex-rule.
+
+det-pl-suffix :=
+%suffix (m ns) (!m !ms)
+det-pl-lex-rule.
 
 
 
