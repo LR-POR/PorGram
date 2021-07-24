@@ -241,7 +241,7 @@ o gato continua latindo
 o gato detesta latir
 o gato ousou latir
 o gato deseja latir
-o cachorro começou a latir.
+o cachorro começou a latir
 o cachorro parou de latir
 o artista insistiu em perseguir o cachorro
 o cliente insistiu em que os artistas vendessem o cachorro
@@ -283,3 +283,11 @@ todos gatos perseguiram algumas ratazanas
 alguns gatos perseguiram a ratazana
 algum gato perseguiu a ratazana
 alguma ratazana perseguiu o gato
+o gato percebeu que o cachorro dormia
+o gato queria que o cachorro dormisse
+*o gato queria que o cachorro dormia
+*o gato percebeu que o cachorro dormisse
+eu percebi que os gatos dormiam
+eu quero que os gatos durmam
+*eu percebi que os gatos dormissem
+*eu quero que os gatos dormem
