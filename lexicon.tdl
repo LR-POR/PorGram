@@ -1,0 +1,595 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+eu := pers-pron-1s-noun-lex &
+  [ STEM < "eu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
+
+eles := pers-pron-3pm-noun-lex &
+  [ STEM < "eles" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ele_n_1_rel" ].
+
+artista := common-noun-lex &
+  [ STEM < "artista" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_artista_n_rel" ].
+
+dentista := common-noun-lex &
+  [ STEM < "dentista" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dentista_n_rel" ].
+
+estudante := common-noun-lex &
+  [ STEM < "estudante" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_estudante_n_rel" ].
+
+cliente := common-noun-lex &
+  [ STEM < "cliente" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cliente_n_rel" ].
+
+ratazana := fem-noun-lex &
+  [ STEM < "ratazana" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ratazana_n_rel" ].
+
+porta := fem-noun-lex &
+  [ STEM < "porta" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_porta_n_rel" ].
+
+bicicleta := fem-noun-lex &
+  [ STEM < "bicicleta" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bicicleta_n_rel" ].
+
+cidade := fem-noun-lex &
+  [ STEM < "cidade" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cidade_n_rel" ].
+
+gato := masc-noun-lex &
+  [ STEM < "gato" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gato_n_rel" ].
+
+cachorro := masc-noun-lex &
+  [ STEM < "cachorro" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cachorro_n_rel" ].
+
+tabaco := masc-noun-lex &
+  [ STEM < "tabaco" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tabaco_n_rel" ].
+
+jardim := masc-noun-lex &
+  [ STEM < "jardim" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_jardim_n_rel" ].
+
+dia := masc-noun-lex &
+  [ STEM < "dia" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dia_n_rel" ].
+
+minuto := masc-noun-lex &
+  [ STEM < "minuto" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_minuto_n_rel" ].
+
+junho := masc-noun-lex &
+  [ STEM < "junho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_junho_n_rel" ].
+
+cão := masc-noun-lex &
+  [ STEM < "cão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cão_n_rel" ].
+
+cachorrinho := dim-masc-noun-lex &
+  [ STEM < "cachorrinho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cachorro_n_rel" ].
+
+lagartinha := dim-fem-noun-lex &
+  [ STEM < "lagartinha" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lagarta_n_rel" ].
+
+lagartona := aug-fem-noun-lex &
+  [ STEM < "lagartona" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lagarta_n_rel" ].
+
+lagartão := aug-masc-noun-lex &
+  [ STEM < "lagartão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lagarto_n_rel" ].
+
+quem := inter-pron-hum-noun-lex &
+  [ STEM < "quem" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quem_n_rel" ].
+
+o_20que := inter-pron-non-hum-noun-lex &
+  [ STEM < "o",
+           "que" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_o que_n_rel" ].
+
+que_1 := inter-pron-non-hum-noun-lex &
+  [ STEM < "que" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_que_n_rel" ].
+
+tu := pers-pron-2s-noun-lex &
+  [ STEM < "tu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].
+
+nós := pers-pron-1p-noun-lex &
+  [ STEM < "nós" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nós_n_rel" ].
+
+elas := pers-pron-3pf-noun-lex &
+  [ STEM < "elas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ele_n_2_rel" ].
+
+ele := pers-pron-3sm-noun-lex &
+  [ STEM < "ele" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ele_rel" ].
+
+ela := pers-pron-3sf-noun-lex &
+  [ STEM < "ela" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ele_n_rel" ].
+
+lagartãozinho := dim-aug-masc-noun-lex &
+  [ STEM < "lagartãozinho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lagarto_n_rel" ].
+
+lagartonazinha := dim-aug-fem-noun-lex &
+  [ STEM < "lagartonazinha" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lagarto_n_rel" ].
+
+vós := pers-pron-2pl-noun-lex &
+  [ STEM < "vós" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vós_n_rel" ].
+
+;;; Adjectives
+
+simples := infl-form-adj-lex &
+  [ STEM < "simples" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_simples_a_rel" ].
+
+amarelinho := non-unif-dim-adj-lex &
+  [ STEM < "amarelinho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_2_rel" ].
+
+amarelão := aug-adj-lex &
+  [ STEM < "amarelão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_3_rel" ].
+
+amarelíssimo := abs-adj-lex &
+  [ STEM < "amarelíssimo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_4_rel" ].
+
+inteligente := uniform-adj-lex &
+  [ STEM < "inteligente" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_inteligente_a_rel" ].
+
+persa := uniform-adj-lex &
+  [ STEM < "persa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_persa_a_rel" ].
+
+fiel := uniform-adj-lex &
+  [ STEM < "fiel" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fiel_a_rel" ].
+
+exemplar := uniform-adj-lex &
+  [ STEM < "exemplar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_exemplar_a_rel" ].
+
+feroz := uniform-adj-lex &
+  [ STEM < "feroz" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_feroz_a_rel" ].
+
+comum := uniform-adj-lex &
+  [ STEM < "comum" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_comum_a_rel" ].
+
+feliz := uniform-adj-lex &
+  [ STEM < "feliz" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+triste := uniform-adj-lex &
+  [ STEM < "triste" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_triste_a_rel" ].
+
+vermelho := non-uniform-adj-lex &
+  [ STEM < "vermelho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vermelho_a_rel" ].
+
+amarelo := non-uniform-adj-lex &
+  [ STEM < "amarelo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_rel" ].
+
+pequeno := non-uniform-adj-lex &
+  [ STEM < "pequeno" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pequeno_a_rel" ].
+
+cru := non-uniform-adj-lex &
+  [ STEM < "cru" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cru_a_rel" ].
+
+inglês := non-uniform-adj-lex &
+  [ STEM < "inglês" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_inglês_a_rel" ].
+
+encantador := non-uniform-adj-lex &
+  [ STEM < "encantador" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_encantador_a_rel" ].
+
+hebreu := non-uniform-adj-lex &
+  [ STEM < "hebreu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hebreu_a_rel" ].
+
+beirão := non-uniform-adj-lex &
+  [ STEM < "beirão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_beirão_a_rel" ].
+
+judeu := non-uniform-adj-lex &
+  [ STEM < "judeu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_judeu_a_rel" ].
+
+ilhéu := non-uniform-adj-lex &
+  [ STEM < "ilhéu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ilhéu_a_rel" ].
+
+nu := non-uniform-adj-lex &
+  [ STEM < "nu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nu_a_rel" ].
+
+europeu := non-uniform-adj-lex &
+  [ STEM < "europeu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_europeu_a_rel" ].
+
+francês := non-uniform-adj-lex &
+  [ STEM < "francês" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_francês_a_rel" ].
+
+amarelãozinho := dim-aug-adj-lex &
+  [ STEM < "amarelãozinho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_6_rel" ].
+
+;;; Case-marking adpositions
+
+dat-marker_a := case-marking-adp-lex &
+  [ STEM < "a" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD.CASE dat ] ].
+
+para := normadp1-norm-adposition-lex &
+  [ STEM < "para" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_para_p_rel" ].
+
+em := normadp2-norm-adposition-lex &
+  [ STEM < "em" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_em_p_rel" ].
+
+;;; Verbs
+
+querer_1 := vol-verb-lex &
+  [ STEM < "querer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_querer_v_1_rel" ].
+
+perguntar_1 := quest-verb-lex &
+  [ STEM < "perguntar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_perguntar_v_rel" ].
+
+perguntar_2 := refl-quest-verb-lex &
+  [ STEM < "perguntar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "se_perguntar_v_rel" ].
+
+matar := trans-verb-lex &
+  [ STEM < "matar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_matar_v_rel" ].
+
+amar := trans-verb-lex &
+  [ STEM < "amar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amar_v_rel" ].
+
+admirar := trans-verb-lex &
+  [ STEM < "admirar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_admirar_v_rel" ].
+
+imitar := trans-verb-lex &
+  [ STEM < "imitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_imitar_v_rel" ].
+
+adorar := trans-verb-lex &
+  [ STEM < "adorar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_adorar_v_rel" ].
+
+vender := trans-verb-lex &
+  [ STEM < "vender" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vender_v_rel" ].
+
+perseguir := trans-verb-lex &
+  [ STEM < "perseguir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_perseguir_v_2_rel" ].
+
+temer := trans-verb-lex &
+  [ STEM < "temer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_temer_v_rel" ].
+
+socorrer := trans-verb-lex &
+  [ STEM < "socorrer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_socorrer_v_rel" ].
+
+doar := trans-verb-lex &
+  [ STEM < "doar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_doar_v_rel" ].
+
+acreditar := mental-act-verb-lex &
+  [ STEM < "acreditar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_rel" ].
+
+declarar := declar-verb-lex &
+  [ STEM < "declarar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_declarar_v_rel" ].
+
+afirmar := declar-verb-lex &
+  [ STEM < "afirmar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_afirmar_v_rel" ].
+
+queixar := refl-int-verb-lex &
+  [ STEM < "queixar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_queixar-se_v_rel" ].
+
+lamentar_1 := inf-eval-verb-lex &
+  [ STEM < "lamentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_1_rel" ].
+
+detestar_1 := inf-eval-verb-lex &
+  [ STEM < "detestar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_1_rel" ].
+
+ladrar := nonrefl-int-verb-lex &
+  [ STEM < "ladrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ladrar_v_2_rel" ].
+
+sorrir := nonrefl-int-verb-lex &
+  [ STEM < "sorrir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sorrir_v_rel" ].
+
+latir := nonrefl-int-verb-lex &
+  [ STEM < "latir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_latir_v_rel" ].
+
+chegar := nonrefl-int-verb-lex &
+  [ STEM < "chegar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chegar_v_rel" ].
+
+correr := nonrefl-int-verb-lex &
+  [ STEM < "correr" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_correr_v_rel" ].
+
+gemer := nonrefl-int-verb-lex &
+  [ STEM < "gemer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gemer_v_rel" ].
+
+adoecer := nonrefl-int-verb-lex &
+  [ STEM < "adoecer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_adoecer_v_rel" ].
+
+caminhar := nonrefl-int-verb-lex &
+  [ STEM < "caminhar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_caminhar_v_rel" ].
+
+abrir := fac-refl-int-verb-lex &
+  [ STEM < "abrir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_abrir_v_rel" ].
+
+detestar_2 := que-eval-verb-lex &
+  [ STEM < "detestar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_2_rel" ].
+
+lamentar_2 := que-eval-verb-lex &
+  [ STEM < "lamentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_2_rel" ].
+
+insistir_1 := que-subj-cl-verb-lex &
+  [ STEM < "insistir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_1_rel" ].
+
+fazer_1 := com-que-caus-verb-lex &
+  [ STEM < "fazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_1_rel" ].
+
+fazer_2 := que-caus-verb-lex &
+  [ STEM < "fazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_2_rel" ].
+
+mandar_1 := que-caus-verb-lex &
+  [ STEM < "mandar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_1_rel" ].
+
+ouvir_1 := que-percep-verb-lex &
+  [ STEM < "ouvir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ouvir_v_1_rel" ].
+
+sentir_1 := que-percep-verb-lex &
+  [ STEM < "sentir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sentir_v_1_rel" ].
+
+ver_1 := que-percep-verb-lex &
+  [ STEM < "ver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ver_v_1_rel" ].
+
+perceber := que-percep-verb-lex &
+  [ STEM < "perceber" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_perceber_v_rel" ].
+
+saber_1 := fact-mental-act-verb-lex &
+  [ STEM < "saber" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_saber_v_1_rel" ].
+
+fazer_3 := inf-caus-verb-lex &
+  [ STEM < "fazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_3_rel" ].
+
+mandar_2 := inf-caus-verb-lex &
+  [ STEM < "mandar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_2_rel" ].
+
+deixar := inf-caus-verb-lex &
+  [ STEM < "deixar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_rel" ].
+
+ouvir_2 := inf-percep-verb-lex &
+  [ STEM < "ouvir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ouvir_v_2_rel" ].
+
+ver_2 := inf-percep-verb-lex &
+  [ STEM < "ver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ver_v_2_rel" ].
+
+sentir_2 := inf-percep-verb-lex &
+  [ STEM < "sentir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sentir_v_2_rel" ].
+
+pedir := para-que-cl-verb-lex &
+  [ STEM < "pedir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pedir_v_rel" ].
+
+insistir_2 := em-que-cl-verb-lex &
+  [ STEM < "insistir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_2_rel" ].
+
+obedecer := dat-obj-verb-lex &
+  [ STEM < "obedecer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_obedecer_v_rel" ].
+
+;;; Auxiliaries
+
+ter := ter-aux-lex &
+  [ STEM < "ter" > ].
+
+estar := estar-aux-lex &
+  [ STEM < "estar" > ].
+
+ir := ir-aux-lex &
+  [ STEM < "ir" > ].
+
+poder := bare-inf-aux-lex &
+  [ STEM < "poder" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_poder_v_rel" ].
+
+dever := bare-inf-aux-lex &
+  [ STEM < "dever" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dever_v_rel" ].
+
+ousar := bare-inf-aux-lex &
+  [ STEM < "ousar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_rel" ].
+
+parecer := bare-inf-aux-lex &
+  [ STEM < "parecer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_parecer_v_rel" ].
+
+desejar := bare-inf-aux-lex &
+  [ STEM < "desejar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_rel" ].
+
+querer_2 := bare-inf-aux-lex &
+  [ STEM < "querer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_querer_v_2_rel" ].
+
+saber_2 := bare-inf-aux-lex &
+  [ STEM < "saber" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_saber_v_2_rel" ].
+
+detestar_3 := bare-inf-aux-lex &
+  [ STEM < "detestar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_3_rel" ].
+
+lamentar_3 := bare-inf-aux-lex &
+  [ STEM < "lamentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_3_rel" ].
+
+conseguir := bare-inf-aux-lex &
+  [ STEM < "conseguir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_conseguir_v_rel" ].
+
+tentar := bare-inf-aux-lex &
+  [ STEM < "tentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_rel" ].
+
+;;; Copulas
+
+é := ser-3sg-cop-lex &
+  [ STEM < "é" > ].
+
+são := ser-3pl-cop-lex &
+  [ STEM < "são" > ].
+
+;;; Determiners
+
+o := def-art-msg-determiner-lex &
+  [ STEM < "o" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_o_q_rel" ].
+
+os := def-art-mpl-determiner-lex &
+  [ STEM < "os" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_os_q_1_rel" ].
+
+qual := qual-sg-determiner-lex &
+  [ STEM < "qual" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
+
+quais := qual-pl-determiner-lex &
+  [ STEM < "quais" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
+
+que_2 := que-determiner-lex &
+  [ STEM < "que" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_que_q_rel" ].
+
+a := def-art-fsg-determiner-lex &
+  [ STEM < "a" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_a_q_rel" ].
+
+as := def-art-fpl-determiner-lex &
+  [ STEM < "as" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_as_q_rel" ].
+
+cada := cada-determiner-lex &
+  [ STEM < "cada" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cada_q_rel" ].
+
+todos := todo-mpl-determiner-lex &
+  [ STEM < "todos" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_1_rel" ].
+
+todas := todo-fpl-determiner-lex &
+  [ STEM < "todas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_2_rel" ].
+
+todo := todo-msg-determiner-lex &
+  [ STEM < "todo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_rel" ].
+
+toda := todo-fsg-determiner-lex &
+  [ STEM < "toda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_rel" ].
+
+algum := algum-determiner-lex &
+  [ STEM < "algum" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_algum_q_rel" ].
+
+;;; Adverbs
+
+será_20que := q-particle1-lex &
+  [ STEM < "será",
+           "que" > ].
+
+;;; Complementizers
+
+que_3 := comps1-complementizer-lex-item &
+  [ STEM < "que" > ].
+
+se := comps3-complementizer-lex-item &
+  [ STEM < "se" > ].
+
+com_20que := comps5-complementizer-lex-item &
+  [ STEM < "com",
+           "que" > ].
+
+para_20que := comps6-complementizer-lex-item &
+  [ STEM < "para",
+           "que" > ].
+
+em_20que := comps7-complementizer-lex-item &
+  [ STEM < "em",
+           "que" > ].

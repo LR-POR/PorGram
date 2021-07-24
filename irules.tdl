@@ -1,0 +1,290 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Inflecting Lexical Rule Instances
+
+n-pl-suffix :=
+%suffix (* s)
+n-pl-lex-rule.
+
+perf-ind-1sg-suffix :=
+%suffix (* ei)
+perf-ind-1sg-lex-rule.
+
+perf-ind-3sg-suffix :=
+%suffix (* ou)
+perf-ind-3sg-lex-rule.
+
+perf-ind-3pl-suffix :=
+%suffix (* aram)
+perf-ind-3pl-lex-rule.
+
+infl-inf-3pl-suffix :=
+%suffix (* arem)
+infl-inf-3pl-lex-rule.
+
+infl-inf-3sg-suffix :=
+%suffix (* ar)
+infl-inf-3sg-lex-rule.
+
+pres-ind-3sg-suffix :=
+%suffix (* a)
+pres-ind-3sg-lex-rule.
+
+pres-ind-3pl-suffix :=
+%suffix (* am)
+pres-ind-3pl-lex-rule.
+
+past-part-suffix :=
+%suffix (* ado)
+past-part-lex-rule.
+
+pres-part-suffix :=
+%suffix (* ando)
+pres-part-lex-rule.
+
+pres-ind-1sg-suffix :=
+%suffix (* o)
+pres-ind-1sg-lex-rule.
+
+pres-ind-1pl-suffix :=
+%suffix (* amos)
+pres-ind-1pl-lex-rule.
+
+pres-ind-2sg-suffix :=
+%suffix (* as)
+pres-ind-2sg-lex-rule.
+
+pres-ind-2pl-suffix :=
+%suffix (* ais)
+pres-ind-2pl-lex-rule.
+
+pres-subj-1sg-suffix :=
+%suffix (* e)
+pres-subj-1sg-lex-rule.
+
+pres-subj-1pl-suffix :=
+%suffix (* emos)
+pres-subj-1pl-lex-rule.
+
+pres-subj-3sg-suffix :=
+%suffix (* e)
+pres-subj-3sg-lex-rule.
+
+pres-subj-3pl-suffix :=
+%suffix (* em)
+pres-subj-3pl-lex-rule.
+
+pres-subj-2sg-suffix :=
+%suffix (* es)
+pres-subj-2sg-lex-rule.
+
+pres-subj-2pl-suffix :=
+%suffix (* eis)
+pres-subj-2pl-lex-rule.
+
+fut-ind-1sg-suffix :=
+%suffix (* ei)
+fut-ind-1sg-lex-rule.
+
+fut-ind-1pl-suffix :=
+%suffix (* emos)
+fut-ind-1pl-lex-rule.
+
+fut-ind-2sg-suffix :=
+%suffix (* ás)
+fut-ind-2sg-lex-rule.
+
+fut-ind-3sg-suffix :=
+%suffix (* á)
+fut-ind-3sg-lex-rule.
+
+fut-ind-3pl-suffix :=
+%suffix (* ão)
+fut-ind-3pl-lex-rule.
+
+fut-ind-2pl-suffix :=
+%suffix (* eis)
+fut-ind-2pl-lex-rule.
+
+impf-ind-1sg-suffix :=
+%suffix (* ava)
+impf-ind-1sg-lex-rule.
+
+impf-ind-1pl-suffix :=
+%suffix (* ávamos)
+impf-ind-1pl-lex-rule.
+
+impf-ind-3sg-suffix :=
+%suffix (* ava)
+impf-ind-3sg-lex-rule.
+
+impf-ind-2sg-suffix :=
+%suffix (* avas)
+impf-ind-2sg-lex-rule.
+
+impf-ind-2pl-suffix :=
+%suffix (* áveis)
+impf-ind-2pl-lex-rule.
+
+impf-ind-3pl-suffix :=
+%suffix (* avam)
+impf-ind-3pl-lex-rule.
+
+fut-pret-1sg-suffix :=
+%suffix (* ia)
+fut-pret-1sg-lex-rule.
+
+fut-pret-1pl-suffix :=
+%suffix (* íamos)
+fut-pret-1pl-lex-rule.
+
+fut-pret-2sg-suffix :=
+%suffix (* ias)
+fut-pret-2sg-lex-rule.
+
+fut-pret-2pl-suffix :=
+%suffix (* íeis)
+fut-pret-2pl-lex-rule.
+
+fut-pret-3sg-suffix :=
+%suffix (* ia)
+fut-pret-3sg-lex-rule.
+
+fut-pret-3pl-suffix :=
+%suffix (* iam)
+fut-pret-3pl-lex-rule.
+
+pluperf-1sg-suffix :=
+%suffix (* a)
+pluperf-1sg-lex-rule.
+
+pluperf-1pl-suffix :=
+%suffix (* áramos)
+pluperf-1pl-lex-rule.
+
+pluperf-2sg-suffix :=
+%suffix (* as)
+pluperf-2sg-lex-rule.
+
+pluperf-3sg-suffix :=
+%suffix (* a)
+pluperf-3sg-lex-rule.
+
+pluperf-3pl-suffix :=
+%suffix (* am)
+pluperf-3pl-lex-rule.
+
+pluperf-2pl-suffix :=
+%suffix (* áreis)
+pluperf-2pl-lex-rule.
+
+impf-subj-1sg-suffix :=
+%suffix (* asse)
+impf-subj-1sg-lex-rule.
+
+impf-subj-1pl-suffix :=
+%suffix (* ássemos)
+impf-subj-1pl-lex-rule.
+
+impf-subj-3sg-suffix :=
+%suffix (* asse)
+impf-subj-3sg-lex-rule.
+
+impf-subj-3pl-suffix :=
+%suffix (* assem)
+impf-subj-3pl-lex-rule.
+
+impf-subj-2sg-suffix :=
+%suffix (* asses)
+impf-subj-2sg-lex-rule.
+
+impf-subj-2pl-suffix :=
+%suffix (* ásseis)
+impf-subj-2pl-lex-rule.
+
+fut-subj-1sg-suffix :=
+%suffix (* ar)
+fut-subj-1sg-lex-rule.
+
+fut-subj-1pl-suffix :=
+%suffix (* armos)
+fut-subj-1pl-lex-rule.
+
+fut-subj-3sg-suffix :=
+%suffix (* ar)
+fut-subj-3sg-lex-rule.
+
+fut-subj-3pl-suffix :=
+%suffix (* arem)
+fut-subj-3pl-lex-rule.
+
+fut-subj-2sg-suffix :=
+%suffix (* ares)
+fut-subj-2sg-lex-rule.
+
+fut-subj-2pl-suffix :=
+%suffix (* ardes)
+fut-subj-2pl-lex-rule.
+
+perf-ind-2sg-suffix :=
+%suffix (* aste)
+perf-ind-2sg-lex-rule.
+
+perf-ind-2pl-suffix :=
+%suffix (* astes)
+perf-ind-2pl-lex-rule.
+
+perf-ind-1pl-suffix :=
+%suffix (* amos)
+perf-ind-1pl-lex-rule.
+
+infl-inf-2sg-suffix :=
+%suffix (* ares)
+infl-inf-2sg-lex-rule.
+
+infl-inf-2pl-suffix :=
+%suffix (* ardes)
+infl-inf-2pl-lex-rule.
+
+infl-inf-1pl-suffix :=
+%suffix (* armos)
+infl-inf-1pl-lex-rule.
+
+infl-inf-1sg-suffix :=
+%suffix (* ar)
+infl-inf-1sg-lex-rule.
+
+refl-mark-1s-suffix :=
+%suffix (* -me)
+refl-mark-1s-lex-rule.
+
+refl-mark-3-suffix :=
+%suffix (* -se)
+refl-mark-3-lex-rule.
+
+refl-mark-2s-suffix :=
+%suffix (* -te)
+refl-mark-2s-lex-rule.
+
+refl-mark-2p-suffix :=
+%suffix (* -vos)
+refl-mark-2p-lex-rule.
+
+refl-mark-1p-suffix :=
+%suffix (* -nos)
+refl-mark-1p-lex-rule.
+
+det-fem-suffix :=
+%suffix (* a)
+det-fem-lex-rule.
+
+det-pl-suffix :=
+%suffix (* s)
+det-pl-lex-rule.
+
+fem-suffix :=
+%suffix (* a)
+fem-lex-rule.
+
+a-pl-suffix :=
+%suffix (* s)
+a-pl-lex-rule.

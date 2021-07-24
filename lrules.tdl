@@ -1,0 +1,16 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+n-sg-lex := n-sg-lex-rule.
+
+inf-lex := inf-lex-rule.
+
+zero-refl-mark-lex := zero-refl-mark-lex-rule.
+
+det-masc-lex := det-masc-lex-rule.
+
+det-sg-lex := det-sg-lex-rule.
+
+masc-lex := masc-lex-rule.
+
+unmarked-gender-lex := unmarked-gender-lex-rule.
+
+a-sg-lex := a-sg-lex-rule.

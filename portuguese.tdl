@@ -1,0 +1,1368 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Grammar of Portuguese
+;;; created at:
+;;;     Sat Jul 24 21:00:23 UTC 2021
+;;; based on Matrix customization system version of:
+;;;     Tue Jun 29 19:50:47 UTC 2021
+;;;
+;;; simple transitive and intransitive sentences
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Type assigning empty mod list. Added to basic types for nouns, verbs and determiners.
+
+non-mod-lex-item := lex-item &
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Matrix Type Addenda
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+png :+ [ DIM bool,
+    AUG bool,
+    ABS bool,
+    HUM bool,
+    PER person,
+    NUM number,
+    GEND gender ].
+
+basic-head-comp-phrase :+ [ SYNSEM [ LIGHT #light,
+             LOCAL.CAT [ HC-LIGHT #light,
+                         MC #mc ] ],
+    HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+head :+ [ PRON bool,
+    INIT bool,
+    AUX bool,
+    PRD bool,
+    NMZ bool,
+    FORM form ].
+
++np :+ [ CASE case ].
+
+inflected :+ [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG luk,
+    DET-NUM-FLAG luk,
+    UNIFORM-ADJ-FLAG luk,
+    REFL-FLAG luk,
+    INH-REFL-VERB-FLAG luk,
+    A-NUM-FLAG luk,
+    A-GEND-FLAG luk,
+    N-NUM-FLAG luk,
+    DET-GEND-FLAG luk,
+    NON-UNIFORM-ADJ-FLAG luk,
+    TMP-FLAG luk ].
+
+infl-satisfied :+ [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG na-or-+,
+    DET-NUM-FLAG na-or-+,
+    UNIFORM-ADJ-FLAG na-or-+,
+    REFL-FLAG na-or-+,
+    INH-REFL-VERB-FLAG na-or-+,
+    A-NUM-FLAG na-or-+,
+    A-GEND-FLAG na-or-+,
+    N-NUM-FLAG na-or-+,
+    DET-GEND-FLAG na-or-+,
+    NON-UNIFORM-ADJ-FLAG na-or-+,
+    TMP-FLAG na-or-+ ].
+
+basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+adj-head-int-phrase :+ [ HEAD-DTR.SYNSEM.NON-LOCAL.SLASH.LIST < > ].
+
+;;;;;;;;;;;;;;
+;;; Features
+;;;;;;;;;;;;;;
+
+;;; Case
+
+case := *top*.
+nom := case.  ; nom
+acc := case.  ; acc
+dat := case.  ; dat
+loc := case.  ; loc
+dir := case.  ; dir
+gen := case.  ; gen
+
+;;; Person
+
+person := *top*.
+1st := person.
+2nd := person.
+3rd := person.
+
+;;; Number
+
+number := *top*.
+singular := number.
+plural := number.
+
+;;; Gender
+
+gender := *top*.
+masculine := gender.
+feminine := gender.
+
+;;; Form
+
+form := *top*.
+nonfinite := form.
+finite := form.
+present_participle := nonfinite.
+past_participle := nonfinite.
+infinitive := nonfinite.
+infl_infinitive := nonfinite.
+
+;;; Tense
+
+past := tense.
+perfect := past.
+imperfect := past.
+pluperfect := past.
+present := tense.
+future := tense.
+present-future := future.
+preterite-future := future.
+
+;;; Aspect
+
+perfective := aspect.
+imperfective := aspect.
+progressive := imperfective.
+
+;;; Mood
+
+subjunctive := mood.
+indicative := mood.
+
+;;;;;;;;;;;;;;;;;;;
+;;; Lexical Types
+;;;;;;;;;;;;;;;;;;;
+
+;;; Nouns
+
+wh-pronoun-noun-lex := basic-wh-word-lex & norm-hook-lex-item & basic-icons-lex-item & non-mod-lex-item & zero-arg-que &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD noun,
+                           VAL [ SPR < >,
+                                 SUBJ < >,
+                                 COMPS < >,
+                                 SPEC < > ] ],
+                     CONT [ RELS.LIST < [ LBL #larg,
+                                          ARG0 ref-ind & #arg0 ],
+                                        quant-relation &
+                                        [ PRED "which_q_rel",
+                                          ARG0 #arg0,
+                                          RSTR #harg ] >,
+                            HCONS.LIST < [ HARG #harg,
+                                           LARG #larg ] > ] ],
+             NON-LOCAL.QUE.LIST < #arg0 > ] ].
+
+noun-lex := basic-noun-lex & basic-non-wh-word-lex & non-local-none-lex-item & no-hcons-lex-item & non-mod-lex-item &
+  [ ARG-ST < #spr >,
+    SYNSEM.LOCAL.CAT [ VAL [ SPR < #spr &
+                                   [ LOCAL.CAT.HEAD det ] >,
+                             COMPS < >,
+                             SUBJ < >,
+                             SPEC < > ],
+                       HEAD.NMZ - ] ].
+
+no-spr-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SPR < [ OPT + ] > ].
+
+; Nouns which cannot take specifiers mark their SPR requirement
+; as OPT +.  Making the non-head daughter OPT - in this rule
+; keeps such nouns out.
+; 
+; Rules for building NPs.  Note that the Matrix uses SPR for
+; the specifier of nouns and SUBJ for the subject (specifier) of verbs.
+
+head-spec-phrase := basic-head-spec-phrase & head-final &
+  [ NON-HEAD-DTR.SYNSEM.OPT - ].
+
+pers-pron-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.PRON + ].
+
+pers-pron-1s-noun-lex := pers-pron-1-noun-lex & pers-pron-sg-noun-lex.
+
+pers-pron-3pm-noun-lex := pers-pron-3-noun-lex & pers-pron-pl-noun-lex & pers-pron-masc-noun-lex.
+
+common-noun-lex := noun-lex &
+  [ INFLECTED.N-NUM-FLAG - ].
+
+fem-noun-lex := common-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine ].
+
+masc-noun-lex := common-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine ].
+
+dim-noun-lex := common-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.DIM + ].
+
+dim-masc-noun-lex := dim-noun-lex.
+
+dim-fem-noun-lex := fem-noun-lex & dim-noun-lex.
+
+aug-noun-lex := common-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.AUG + ].
+
+aug-fem-noun-lex := fem-noun-lex & aug-noun-lex.
+
+aug-masc-noun-lex := masc-noun-lex & aug-noun-lex.
+
+inter-pron-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                       PER 3rd ] ].
+
+inter-pron-hum-noun-lex := inter-pron-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.HUM + ].
+
+inter-pron-non-hum-noun-lex := inter-pron-noun-lex.
+
+pers-pron-3-noun-lex := pers-pron-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+pers-pron-1-noun-lex := pers-pron-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+pers-pron-2-noun-lex := pers-pron-noun-lex.
+
+pers-pron-sg-noun-lex := pers-pron-noun-lex.
+
+pers-pron-pl-noun-lex := pers-pron-noun-lex.
+
+pers-pron-2s-noun-lex := pers-pron-2-noun-lex & pers-pron-sg-noun-lex.
+
+pers-pron-1p-noun-lex := pers-pron-1-noun-lex & pers-pron-pl-noun-lex.
+
+pers-pron-masc-noun-lex := pers-pron-noun-lex.
+
+pers-pron-fem-noun-lex := noun-lex.
+
+pers-pron-3pf-noun-lex := pers-pron-3-noun-lex & pers-pron-pl-noun-lex & pers-pron-fem-noun-lex.
+
+pers-pron-3sm-noun-lex := pers-pron-3-noun-lex & pers-pron-sg-noun-lex & pers-pron-masc-noun-lex.
+
+pers-pron-3sf-noun-lex := pers-pron-3-noun-lex & pers-pron-sg-noun-lex & pers-pron-masc-noun-lex.
+
+dim-aug-noun-lex := dim-noun-lex & aug-noun-lex.
+
+dim-aug-masc-noun-lex := masc-noun-lex & dim-aug-noun-lex.
+
+dim-aug-fem-noun-lex := fem-noun-lex & dim-aug-noun-lex.
+
+pers-pron-2pl-noun-lex := pers-pron-2-noun-lex & pers-pron-pl-noun-lex.
+
+;;; Verbs
+
+verb-lex := non-mod-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.HEAD verb &
+                            [ NMZ - ] ] ].
+
+main-verb-lex := verb-lex & basic-verb-lex & basic-non-wh-word-lex &
+  [ SYNSEM [ L-QUE -,
+             LOCAL [ CAT [ HEAD.AUX -,
+                           VAL [ SPEC < >,
+                                 SUBJ < #subj > ] ],
+                     CONT.HOOK.XARG #xarg ] ],
+    ARG-ST.FIRST #subj &
+                 [ LOCAL [ CAT cat-sat &
+                               [ VAL [ SPR < >,
+                                       COMPS < > ] ],
+                           CONT.HOOK.INDEX #xarg ] ] ].
+
+aux-lex := verb-lex & basic-icons-lex-item & refl-rule-dtr & tmp-rule-dtr &
+  [ SYNSEM [ LOCAL.CAT.HEAD.AUX +,
+             L-QUE - ],
+    INFLECTED [ TMP-FLAG -,
+                REFL-FLAG -,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG + ] ].
+
+intransitive-verb-lex := main-verb-lex & intransitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    ARG-ST.FIRST.LOCAL.CAT.HEAD +np ].
+
+transitive-verb-lex := main-verb-lex & transitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD +np ],
+             #comps &
+             [ LOCAL.CAT cat-sat &
+                         [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD +np ] ] > ].
+
+clausal-verb-lex := main-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD +np ],
+             #comps &
+             [ LOCAL.CAT [ MC na-or--,
+                           VAL [ SPR < >,
+                                 COMPS < >,
+                                 SUBJ < > ] ] ] > ].
+
+nom-intransitive-verb-lex := intransitive-verb-lex &
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &
+                                [ CASE nom ] ].
+
+nom-acc-transitive-verb-lex := transitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD noun &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD noun &
+                              [ CASE acc ] ] > ].
+
+clausal-nom-verb-lex := clausal-verb-lex &
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &
+                                [ CASE nom ] ].
+
+intrans-verb-lex := regular-verb-lex & nom-intransitive-verb-lex.
+
+vol-verb-lex := que-subj-cl-verb-lex.
+
+quest-verb-lex := noninh-refl-verb-lex & quest-cl-verb-lex.
+
+refl-quest-verb-lex := inh-refl-verb-lex & quest-cl-verb-lex.
+
+inh-refl-verb-lex := regular-verb-lex &
+  [ INFLECTED.INH-REFL-VERB-FLAG + ].
+
+regular-verb-lex := verb-lex & refl-rule-dtr & tmp-rule-dtr &
+  [ INFLECTED [ TMP-FLAG -,
+                REFL-FLAG - ] ].
+
+trans-verb-lex := noninh-refl-verb-lex & nom-acc-transitive-verb-lex.
+
+mental-act-verb-lex := que-cl-verb-lex.
+
+noninh-refl-verb-lex := regular-verb-lex &
+  [ INFLECTED.AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG + ].
+
+declar-verb-lex := ind-cl-verb-lex.
+
+refl-int-verb-lex := intrans-verb-lex & inh-refl-verb-lex.
+
+inf-eval-verb-lex := inf-cl-verb-lex.
+
+nonrefl-int-verb-lex := intrans-verb-lex & noninh-refl-verb-lex.
+
+fac-refl-int-verb-lex := intrans-verb-lex.
+
+que-eval-verb-lex := que-subj-cl-verb-lex.
+
+que-cl-verb-lex := fin-cl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM finite ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX.SF prop ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+que-subj-cl-verb-lex := que-cl-verb-lex & subj-cl-verb-lex.
+
+ind-cl-verb-lex := que-cl-verb-lex.
+
+quest-cl-verb-lex := regular-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL [ CONT.HOOK.INDEX.SF ques,
+                                           CAT [ HEAD +vc &
+                                                      [ FORM finite ],
+                                                 WH.BOOL + ] ] ] > ].
+
+fin-cl-verb-lex := noninh-refl-verb-lex.
+
+com-que-caus-verb-lex := subj-cl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM finite ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX.SF prop ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+que-caus-verb-lex := que-subj-cl-verb-lex.
+
+que-percep-verb-lex := ind-cl-verb-lex.
+
+fact-mental-act-verb-lex := ind-cl-verb-lex.
+
+inf-cl-verb-lex := noninh-refl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD verb &
+                                                        [ FORM infl_infinitive ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX.SF prop ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+inf-caus-verb-lex := inf-cl-verb-lex.
+
+inf-percep-verb-lex := inf-cl-verb-lex.
+
+subj-cl-verb-lex := fin-cl-verb-lex.
+
+para-que-cl-verb-lex := subj-cl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM finite ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX.SF prop ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+em-que-cl-verb-lex := subj-cl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM finite ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX.SF prop ] ] >,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+dat-obj-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE dat ].
+
+;;; Auxiliaries
+
+subj-raise-aux := aux-lex & trans-first-arg-raising-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
+                             COMPS < #comps >,
+                             SUBJ < #subj > ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST < #subj &
+             [ LOCAL [ CAT [ HEAD noun &
+                                  [ CASE nom ],
+                             VAL [ SUBJ < >,
+                                   SPR < >,
+                                   SPEC < >,
+                                   COMPS < > ] ],
+                       CONT.HOOK.INDEX #xarg ] ],
+             #comps &
+             [ LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
+                                 COMPS < >,
+                                 SPR < >,
+                                 SPEC < > ],
+                           HEAD verb ] ] > ].
+
+; To keep the semantically empty ones from spinning on
+; generation, require complement to be [AUX -].  The
+; FORM feature might be enough in the starter grammars,
+; but I don't want to rely on this.  Then again, [ AUX - ]
+; might not be true.
+
+subj-raise-aux-no-pred := subj-raise-aux & raise-sem-lex-item &
+  [ ARG-ST < [ ],
+             [ LOCAL.CAT.HEAD.AUX - ] > ].
+
+ter-aux-lex := subj-raise-aux-no-pred &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM past_participle,
+    INFLECTED.AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG + ].
+
+; To keep the semantically empty ones from spinning on
+; generation, require complement to be [AUX -].  The
+; FORM feature might be enough in the starter grammars,
+; but I don't want to rely on this.  Then again, [ AUX - ]
+; might not be true.
+
+estar-aux-lex := subj-raise-aux-no-pred &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM present_participle,
+    INFLECTED.AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG + ].
+
+; To keep the semantically empty ones from spinning on
+; generation, require complement to be [AUX -].  The
+; FORM feature might be enough in the starter grammars,
+; but I don't want to rely on this.  Then again, [ AUX - ]
+; might not be true.
+
+ir-aux-lex := subj-raise-aux-no-pred &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive,
+    INFLECTED.AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG + ].
+
+subj-raise-aux-with-pred := subj-raise-aux & norm-sem-lex-item & trans-first-arg-raising-lex-item-1.
+
+bare-inf-aux-lex := subj-raise-aux-with-pred &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive ].
+
+;;; Copulas
+
+cop-lex := basic-verb-lex-super & trans-first-arg-raising-lex-item-2 & non-mod-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ < [ LOCAL [ CONT.HOOK.INDEX #xarg,
+                                              CAT cat-sat &
+                                                  [ VAL [ SPR < >,
+                                                          COMPS < > ],
+                                                    HEAD noun ] ] ] >,
+                             COMPS < [ LOCAL.CAT cat-sat &
+                                                 [ HEAD.PRD +,
+                                                   VAL [ SUBJ < >,
+                                                         COMPS < > ] ] ] >,
+                             SPEC < > ],
+                   CONT.HOOK.XARG #xarg ] ].
+
+; Copula type taking adjectival complements.
+; Need to define more for additional complement types.
+
+adj-comp-copula-verb-lex := cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adj ].
+
+ser-cop-lex := adj-comp-copula-verb-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E [ TENSE present,
+                                       MOOD indicative ],
+                   CAT.HEAD.FORM finite ] ].
+
+ser-sg-cop-lex := ser-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ].
+
+ser-pl-cop-lex := ser-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural ].
+
+ser-3-cop-lex := ser-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+ser-3sg-cop-lex := ser-sg-cop-lex & ser-3-cop-lex.
+
+ser-3pl-cop-lex := ser-pl-cop-lex & ser-3-cop-lex.
+
+;;; Adjectives
+
+adj-lex := basic-intersective-adjective-lex.
+
+infl-form-adj-lex := attr-adj-lex &
+  [ SYNSEM.LOCAL.CAT [ VAL.SUBJ < >,
+                       HEAD.PRD + ] ].
+
+non-infl-form-adj-lex := attr-adj-lex & a-num-rule-dtr &
+  [ SYNSEM.LOCAL.CAT [ VAL.SUBJ < >,
+                       HEAD.PRD + ],
+    INFLECTED [ A-GEND-FLAG -,
+                A-NUM-FLAG - ] ].
+
+non-unif-dim-adj-lex := non-uniform-adj-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.DIM + ].
+
+aug-adj-lex := non-uniform-adj-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.AUG + ].
+
+abs-adj-lex := non-uniform-adj-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.ABS + ].
+
+uniform-adj-lex := non-infl-form-adj-lex &
+  [ INFLECTED.UNIFORM-ADJ-FLAG + ].
+
+non-uniform-adj-lex := non-infl-form-adj-lex &
+  [ INFLECTED.NON-UNIFORM-ADJ-FLAG + ].
+
+dim-aug-adj-lex := non-unif-dim-adj-lex & aug-adj-lex.
+
+unif-dim-adj-lex := uniform-adj-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.DIM + ].
+
+fem-dim-adj-lex := uniform-adj-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG [ GEND feminine,
+                                      DIM + ] ].
+
+masc-dim-adj-lex := uniform-adj-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG [ GEND masculine,
+                                      DIM + ] ].
+
+; Basic attributive adjective definition
+
+attr-adj-lex := adj-lex & intersective-mod-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT [ HEAD noun,
+                                              VAL.SPR cons ] ] > ].
+
+;;; Complementizers
+
+; We treat question particles as complementizers.
+; Here is the lexical type for complementizers.
+
+complementizer-lex-item := raise-sem-lex-item & non-local-none-lex-item & basic-icons-lex-item &
+  [ SYNSEM.LOCAL.CAT [ HEAD comp &
+                            [ MOD < > ],
+                       VAL [ SPR < >,
+                             SPEC < >,
+                             SUBJ < >,
+                             COMPS < #comp > ] ],
+    ARG-ST < #comp &
+             [ LOCAL.CAT [ HEAD verb,
+                           VAL [ SUBJ < >,
+                                 COMPS < > ] ] ] > ].
+
+; Subtype for question particles. Constrains SF to ques.
+
+qpart-lex-item := complementizer-lex-item &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.SF ques,
+                   CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM finite ] ].
+
+q-particle1-lex := qpart-lex-item &
+  [ SYNSEM.LOCAL.CAT [ MC #mc,
+                       VAL.COMPS.FIRST.LOCAL.CAT [ MC #mc & +,
+                                                   WH.BOOL - ] ] ].
+
+comps1-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
+  [ SYNSEM.LOCAL [ CAT [ MC na-or--,
+                         VAL.COMPS.FIRST.LOCAL.CAT [ MC -,
+                                                     HEAD.FORM finite ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.SF prop ] ].
+
+comps3-complementizer-lex-item := complementizer-lex-item & basic-wh-word-lex &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.SF ques,
+                   CAT [ MC na-or--,
+                         HEAD.FORM finite,
+                         VAL.COMPS.FIRST [ LOCAL [ CONT.HOOK.INDEX.E.MOOD indicative,
+                                                   CAT [ MC -,
+                                                         HEAD.FORM finite ] ],
+                                           NON-LOCAL.QUE.LIST < > ] ] ] ].
+
+comps5-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
+  [ SYNSEM.LOCAL [ CAT [ MC na-or--,
+                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC -,
+                                                       HEAD.FORM finite ],
+                                                 CONT.HOOK.INDEX.E.MOOD subjunctive ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.SF prop ] ].
+
+comps6-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
+  [ SYNSEM.LOCAL [ CAT [ MC na-or--,
+                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC -,
+                                                       HEAD.FORM finite ],
+                                                 CONT.HOOK.INDEX.E.MOOD subjunctive ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.SF prop ] ].
+
+comps7-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
+  [ SYNSEM.LOCAL [ CAT [ MC na-or--,
+                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC -,
+                                                       HEAD.FORM finite ],
+                                                 CONT.HOOK.INDEX.E.MOOD subjunctive ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.SF prop ] ].
+
+; Do not allow extracting "And Kim"
+
+basic-head-filler-phrase :+ [ ARGS < [ SYNSEM.LOCAL.COORD - ],
+           [ SYNSEM.LOCAL.COORD - ] > ].
+
+extracted-comp-phrase := basic-extracted-comp-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ cons ].
+
+extracted-subj-phrase := basic-extracted-subj-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    SYNSEM.LOCAL.CAT.HEAD verb ].
+
+; Subject extraction
+
+phrase-or-lexrule :+ [ SYNSEM.L-QUE #lque,
+    ARGS.FIRST.SYNSEM.L-QUE #lque ].
+
+insitu-int-cl := interrogative-clause & head-only &
+  [ C-CONT [ RELS.LIST < >,
+             HCONS.LIST < > ],
+    SYNSEM [ MODIFIED hasmod,
+             NON-LOCAL [ SLASH.LIST < >,
+                         QUE.LIST < >,
+                         REL.LIST < > ],
+             LOCAL.CAT [ VAL #val,
+                         MC bool,
+                         WH.BOOL - ] ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT [ HEAD verb,
+                                  VAL #val &
+                                      [ SUBJ < >,
+                                        COMPS < > ] ],
+                      NON-LOCAL [ SLASH.LIST < >,
+                                  REL.LIST < >,
+                                  QUE.LIST.FIRST ref-ind ],
+                      L-QUE - ] ].
+
+;;; Others
+
+;;; Case-marking adpositions
+;;; Case marking adpositions are constrained not to
+;;; be modifiers.
+
+case-marking-adp-lex := non-local-none-lex-item & raise-sem-lex-item &
+  [ SYNSEM.LOCAL.CAT [ HEAD adp &
+                            [ CASE #case,
+                              MOD < > ],
+                       VAL [ SPR < >,
+                             SUBJ < >,
+                             COMPS < #comps >,
+                             SPEC < > ] ],
+    ARG-ST < #comps &
+             [ LOCAL.CAT [ HEAD noun &
+                                [ CASE #case ],
+                           VAL.SPR < > ] ] > ].
+
+norm-adposition-lex := norm-sem-lex-item & no-hcons-lex-item & basic-intersective-mod-lex & non-local-none-lex-item &
+  [ ARG-ST < #comp >,
+    SYNSEM [ LKEYS.KEYREL arg12-ev-relation &
+                          [ PRED #pred,
+                            ARG2 #ind ],
+             L-QUE #lque,
+             LOCAL [ CONT.RELS.LIST < [ PRED #pred,
+                                        ARG0 event,
+                                        ARG1 event-or-ref-index ] >,
+                     CAT [ WH.BOOL -,
+                           VAL [ SPR < >,
+                                 SPEC < >,
+                                 SUBJ < >,
+                                 COMPS < #comp &
+                                         [ L-QUE #lque,
+                                           LOCAL [ CAT [ HEAD noun,
+                                                         VAL.SPR < > ],
+                                                   CONT.HOOK.INDEX #ind ] ] > ],
+                           HEAD adp &
+                                [ MOD < [ LOCAL.CAT [ VAL.SPR cons,
+                                                      WH.BOOL -,
+                                                      HEAD.AUX - ] ] > ] ] ] ] ].
+
+normadp1-norm-adposition-lex := norm-adposition-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.INIT + ].
+
+normadp2-norm-adposition-lex := norm-adposition-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.INIT + ].
+
+;;; Determiners
+;;; SPEC is non-empty, and already specified by basic-determiner-lex.
+
+determiner-lex := basic-determiner-lex & basic-non-wh-word-lex & norm-zero-arg & non-mod-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL [ SPR < >,
+                           COMPS < >,
+                           SUBJ < > ] ].
+
+def-art-msg-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  PER 3rd,
+                                                                  GEND masculine ] ] ].
+
+def-art-mpl-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 3rd,
+                                                                  GEND masculine ] ] ].
+
+wh-determiner-lex := basic-wh-word-lex & basic-determiner-lex & non-mod-lex-item & zero-arg-nonslash &
+  [ SYNSEM [ LOCAL.CAT.VAL [ SPR < >,
+                             SPEC.FIRST.LOCAL.CONT.HOOK.INDEX #arg0,
+                             COMPS < >,
+                             SUBJ < > ],
+             NON-LOCAL.QUE.LIST < #arg0 > ] ].
+
+qual-sg-determiner-lex := wh-determiner-lex & one-icons-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                PER 3rd ] ].
+
+qual-pl-determiner-lex := wh-determiner-lex & one-icons-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                PER 3rd ] ].
+
+que-determiner-lex := wh-determiner-lex & one-icons-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+def-art-fsg-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  GEND feminine ] ] ].
+
+def-art-fpl-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  GEND feminine ] ] ].
+
+cada-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM.L-QUE - ].
+
+todo-mpl-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  GEND masculine,
+                                                                  PER 3rd ] ] ].
+
+todo-fpl-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                  PER 3rd,
+                                                                  GEND feminine ] ] ].
+
+todo-msg-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  PER 3rd,
+                                                                  GEND masculine ] ] ].
+
+todo-fsg-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                  PER 3rd,
+                                                                  GEND feminine ] ] ].
+
+det-sg-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ] ].
+
+det-pl-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural ] ].
+
+det-masc-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine ] ].
+
+det-fem-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine ] ].
+
+det-3-determiner-lex := determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+algum-determiner-lex := determiner-lex & no-icons-lex-item & det-num-rule-dtr &
+  [ SYNSEM.L-QUE -,
+    INFLECTED [ DET-GEND-FLAG -,
+                DET-NUM-FLAG - ] ].
+
+;;; Adverbs
+
+;;;;;;;;;;;;;;;;;;;
+;;; Lexical Rules
+;;;;;;;;;;;;;;;;;;;
+
+high-or-mid-nominalization-lex-rule := cat-change-with-ccont-lex-rule & same-cont-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX event,
+                   CAT [ HEAD verb &
+                              [ NMZ +,
+                                MOD #mod ],
+                         VAL [ SUBJ #subj,
+                               COMPS #comps,
+                               SPR #spr,
+                               SPEC #spec ],
+                         MC #mc,
+                         MKG #mkg,
+                         HC-LIGHT #hc-light,
+                         POSTHEAD #posthead ] ],
+    DTR.SYNSEM.LOCAL.CAT [ HEAD.MOD #mod,
+                           VAL [ SUBJ #subj,
+                                 COMPS #comps,
+                                 SPR #spr,
+                                 SPEC #spec ],
+                           MC #mc,
+                           MKG #mkg,
+                           HC-LIGHT #hc-light,
+                           POSTHEAD #posthead ],
+    C-CONT [ RELS.LIST < >,
+             HCONS.LIST < > ] ].
+
+;;; Intermediate rule types
+
+refl-rule-dtr := word-or-lexrule.
+a-num-rule-dtr := word-or-lexrule.
+tmp-rule-dtr := word-or-lexrule.
+det-num-rule-dtr := word-or-lexrule.
+
+;;; Lexical rule types
+
+n-num-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ N-NUM-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                DET-NUM-FLAG #det-num,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                REFL-FLAG #refl,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-NUM-FLAG #a-num,
+                A-GEND-FLAG #a-gend,
+                DET-GEND-FLAG #det-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp ],
+    DTR common-noun-lex &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      DET-NUM-FLAG #det-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      REFL-FLAG #refl,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-NUM-FLAG #a-num,
+                      A-GEND-FLAG #a-gend,
+                      DET-GEND-FLAG #det-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp ] ] ].
+
+n-sg-lex-rule := const-lex-rule & n-num-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ].
+
+n-pl-lex-rule := infl-lex-rule & n-num-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural ].
+
+tmp-lex-rule-super := add-only-no-ccont-rule & refl-rule-dtr &
+  [ INFLECTED [ TMP-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                DET-NUM-FLAG #det-num,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                REFL-FLAG #refl,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-NUM-FLAG #a-num,
+                A-GEND-FLAG #a-gend,
+                N-NUM-FLAG #n-num,
+                DET-GEND-FLAG #det-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj ],
+    DTR tmp-rule-dtr &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      DET-NUM-FLAG #det-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      REFL-FLAG #refl,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-NUM-FLAG #a-num,
+                      A-GEND-FLAG #a-gend,
+                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj ] ] ].
+
+perf-ind-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E [ TENSE past,
+                                       MOOD indicative ],
+                   CAT.HEAD.FORM finite ] ].
+
+perf-ind-1sg-lex-rule := 1sg-lex-rule & perf-ind-lex-rule.
+
+perf-ind-3sg-lex-rule := 3sg-lex-rule & perf-ind-lex-rule.
+
+perf-ind-3pl-lex-rule := 3pl-lex-rule & perf-ind-lex-rule.
+
+infl-inf-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM infl_infinitive,
+                   CONT.HOOK.INDEX.E.TENSE present ] ].
+
+infl-inf-3pl-lex-rule := 3pl-lex-rule & infl-inf-lex-rule.
+
+pres-ind-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E [ TENSE present,
+                                       MOOD indicative ],
+                   CAT.HEAD.FORM finite ] ].
+
+infl-inf-3sg-lex-rule := 3sg-lex-rule & infl-inf-lex-rule.
+
+3sg-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 3rd,
+                                                                NUM singular ] ].
+
+pres-ind-3sg-lex-rule := 3sg-lex-rule & pres-ind-lex-rule.
+
+3pl-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                PER 3rd ] ].
+
+pres-ind-3pl-lex-rule := 3pl-lex-rule & pres-ind-lex-rule.
+
+inf-lex-rule := const-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM infinitive ].
+
+past-part-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM past_participle ].
+
+pres-part-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM present_participle ].
+
+1sg-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
+                                                                NUM singular ] ].
+
+1pl-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM plural,
+                                                                PER 1st ] ].
+
+2sg-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
+                                                                PER 2nd ] ].
+
+2pl-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
+                                                                NUM plural ] ].
+
+pres-ind-1sg-lex-rule := 1sg-lex-rule & pres-ind-lex-rule.
+
+pres-ind-1pl-lex-rule := 1pl-lex-rule & pres-ind-lex-rule.
+
+pres-ind-2sg-lex-rule := 2sg-lex-rule & pres-ind-lex-rule.
+
+pres-ind-2pl-lex-rule := 2pl-lex-rule & pres-ind-lex-rule.
+
+ind-mood-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.HEAD.FORM finite,
+                   CONT.HOOK.INDEX.E.MOOD indicative ] ].
+
+subj-mood-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD subjunctive,
+                   CAT.HEAD.FORM finite ] ].
+
+pres-subj-lex-rule := subj-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ].
+
+impf-subj-lex-rule := subj-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE imperfect ].
+
+fut-subj-lex-rule := subj-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE future ].
+
+impf-ind-lex-rule := ind-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE imperfect ].
+
+fut-ind-lex-rule := ind-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present-future ].
+
+fut-pret-lex-rule := ind-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE preterite-future ].
+
+pluperf-lex-rule := ind-mood-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pluperfect ].
+
+pres-subj-1sg-lex-rule := 1sg-lex-rule & pres-subj-lex-rule.
+
+pres-subj-1pl-lex-rule := 1pl-lex-rule & pres-subj-lex-rule.
+
+pres-subj-3sg-lex-rule := 3sg-lex-rule & pres-subj-lex-rule.
+
+pres-subj-3pl-lex-rule := 3pl-lex-rule & pres-subj-lex-rule.
+
+pres-subj-2sg-lex-rule := 2sg-lex-rule & pres-subj-lex-rule.
+
+pres-subj-2pl-lex-rule := 2pl-lex-rule & pres-subj-lex-rule.
+
+fut-ind-1sg-lex-rule := 1sg-lex-rule & fut-ind-lex-rule.
+
+fut-ind-1pl-lex-rule := 1pl-lex-rule & fut-ind-lex-rule.
+
+fut-ind-2sg-lex-rule := 2sg-lex-rule & fut-ind-lex-rule.
+
+fut-ind-3sg-lex-rule := 3sg-lex-rule & fut-ind-lex-rule.
+
+fut-ind-3pl-lex-rule := 3pl-lex-rule & fut-ind-lex-rule.
+
+fut-ind-2pl-lex-rule := 2pl-lex-rule & fut-ind-lex-rule.
+
+impf-ind-1sg-lex-rule := 1sg-lex-rule & impf-ind-lex-rule.
+
+impf-ind-1pl-lex-rule := 1pl-lex-rule & impf-ind-lex-rule.
+
+impf-ind-3sg-lex-rule := 3sg-lex-rule & impf-ind-lex-rule.
+
+impf-ind-2sg-lex-rule := 2sg-lex-rule & impf-ind-lex-rule.
+
+impf-ind-2pl-lex-rule := 2pl-lex-rule & impf-ind-lex-rule.
+
+impf-ind-3pl-lex-rule := 3pl-lex-rule & impf-ind-lex-rule.
+
+fut-pret-1sg-lex-rule := 1sg-lex-rule & fut-pret-lex-rule.
+
+fut-pret-1pl-lex-rule := 1pl-lex-rule & fut-pret-lex-rule.
+
+fut-pret-2sg-lex-rule := 2sg-lex-rule & fut-pret-lex-rule.
+
+fut-pret-2pl-lex-rule := 2pl-lex-rule & fut-pret-lex-rule.
+
+fut-pret-3sg-lex-rule := 3sg-lex-rule & fut-pret-lex-rule.
+
+fut-pret-3pl-lex-rule := 3pl-lex-rule & fut-pret-lex-rule.
+
+pluperf-1sg-lex-rule := 1sg-lex-rule & pluperf-lex-rule.
+
+pluperf-1pl-lex-rule := 1pl-lex-rule & pluperf-lex-rule.
+
+pluperf-2sg-lex-rule := 2sg-lex-rule & fut-pret-lex-rule.
+
+pluperf-3sg-lex-rule := 3sg-lex-rule & fut-pret-lex-rule.
+
+pluperf-3pl-lex-rule := 3pl-lex-rule & fut-pret-lex-rule.
+
+pluperf-2pl-lex-rule := 2pl-lex-rule & pluperf-lex-rule.
+
+impf-subj-1sg-lex-rule := 1sg-lex-rule & impf-subj-lex-rule.
+
+impf-subj-1pl-lex-rule := 1pl-lex-rule & impf-subj-lex-rule.
+
+impf-subj-3sg-lex-rule := 3sg-lex-rule & impf-subj-lex-rule.
+
+impf-subj-3pl-lex-rule := 3pl-lex-rule & impf-subj-lex-rule.
+
+impf-subj-2sg-lex-rule := 2sg-lex-rule & impf-subj-lex-rule.
+
+impf-subj-2pl-lex-rule := 2pl-lex-rule & impf-subj-lex-rule.
+
+fut-subj-1sg-lex-rule := 1sg-lex-rule & fut-subj-lex-rule.
+
+fut-subj-1pl-lex-rule := 1pl-lex-rule & fut-subj-lex-rule.
+
+fut-subj-3sg-lex-rule := 3sg-lex-rule & fut-subj-lex-rule.
+
+fut-subj-3pl-lex-rule := 3pl-lex-rule & fut-subj-lex-rule.
+
+fut-subj-2sg-lex-rule := 2sg-lex-rule & fut-subj-lex-rule.
+
+fut-subj-2pl-lex-rule := 2pl-lex-rule & fut-subj-lex-rule.
+
+perf-ind-2sg-lex-rule := 2sg-lex-rule & perf-ind-lex-rule.
+
+perf-ind-2pl-lex-rule := 2pl-lex-rule & perf-ind-lex-rule.
+
+perf-ind-1pl-lex-rule := 1pl-lex-rule & perf-ind-lex-rule.
+
+infl-inf-2sg-lex-rule := 2sg-lex-rule & infl-inf-lex-rule.
+
+infl-inf-2pl-lex-rule := 2pl-lex-rule & infl-inf-lex-rule.
+
+infl-inf-1pl-lex-rule := 1pl-lex-rule & infl-inf-lex-rule.
+
+infl-inf-1sg-lex-rule := 1sg-lex-rule & infl-inf-lex-rule.
+
+refl-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ REFL-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                DET-NUM-FLAG #det-num,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-NUM-FLAG #a-num,
+                A-GEND-FLAG #a-gend,
+                N-NUM-FLAG #n-num,
+                DET-GEND-FLAG #det-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp ],
+    DTR refl-rule-dtr &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      DET-NUM-FLAG #det-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-NUM-FLAG #a-num,
+                      A-GEND-FLAG #a-gend,
+                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp ] ] ].
+
+zero-refl-mark-lex-rule := const-lex-rule & refl-lex-rule-super &
+  [ DTR.INFLECTED.INH-REFL-VERB-FLAG na ].
+
+refl-mark-lex-rule := infl-lex-rule & refl-lex-rule-super &
+  [ DTR.INFLECTED.AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG na ].
+
+refl-mark-1s-lex-rule := refl-mark-1st-lex-rule & refl-mark-sg-lex-rule.
+
+refl-mark-3-lex-rule := refl-mark-3rd-lex-rule.
+
+refl-mark-sg-lex-rule := refl-mark-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ].
+
+refl-mark-pl-lex-rule := refl-mark-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural ].
+
+refl-mark-1st-lex-rule := refl-mark-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+refl-mark-2nd-lex-rule := refl-mark-lex-rule.
+
+refl-mark-3rd-lex-rule := refl-mark-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+refl-mark-2s-lex-rule := refl-mark-2nd-lex-rule & refl-mark-sg-lex-rule.
+
+refl-mark-2p-lex-rule := refl-mark-2nd-lex-rule & refl-mark-pl-lex-rule.
+
+refl-mark-1p-lex-rule := refl-mark-1st-lex-rule & refl-mark-pl-lex-rule.
+
+det-gend-lex-rule-super := add-only-no-ccont-rule & det-num-rule-dtr &
+  [ INFLECTED [ DET-GEND-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                DET-NUM-FLAG #det-num,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                REFL-FLAG #refl,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-NUM-FLAG #a-num,
+                A-GEND-FLAG #a-gend,
+                N-NUM-FLAG #n-num,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp ],
+    DTR algum-determiner-lex &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      DET-NUM-FLAG #det-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      REFL-FLAG #refl,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-NUM-FLAG #a-num,
+                      A-GEND-FLAG #a-gend,
+                      N-NUM-FLAG #n-num,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp ] ] ].
+
+det-fem-lex-rule := det-gend-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine ].
+
+det-masc-lex-rule := const-lex-rule & det-gend-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine ].
+
+det-num-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ DET-NUM-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                REFL-FLAG #refl,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-NUM-FLAG #a-num,
+                A-GEND-FLAG #a-gend,
+                N-NUM-FLAG #n-num,
+                DET-GEND-FLAG #det-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp ],
+    DTR det-num-rule-dtr &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      REFL-FLAG #refl,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-NUM-FLAG #a-num,
+                      A-GEND-FLAG #a-gend,
+                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp ] ] ].
+
+det-pl-lex-rule := det-num-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural ].
+
+det-sg-lex-rule := const-lex-rule & det-num-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ].
+
+a-gend-lex-rule-super := a-num-rule-dtr & add-only-no-ccont-rule &
+  [ INFLECTED [ A-GEND-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                DET-NUM-FLAG #det-num,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                REFL-FLAG #refl,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-NUM-FLAG #a-num,
+                N-NUM-FLAG #n-num,
+                DET-GEND-FLAG #det-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp ],
+    DTR non-infl-form-adj-lex &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      DET-NUM-FLAG #det-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      REFL-FLAG #refl,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-NUM-FLAG #a-num,
+                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp ] ] ].
+
+unmarked-gender-lex-rule := a-gend-lex-rule-super & const-lex-rule &
+  [ DTR.INFLECTED.NON-UNIFORM-ADJ-FLAG na ].
+
+marked-gender-lex-rule := a-gend-lex-rule-super &
+  [ DTR.INFLECTED.UNIFORM-ADJ-FLAG na ].
+
+masc-lex-rule := const-lex-rule & marked-gender-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.GEND masculine ].
+
+fem-lex-rule := infl-lex-rule & marked-gender-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.GEND feminine ].
+
+a-num-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ A-NUM-FLAG +,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                DET-NUM-FLAG #det-num,
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                REFL-FLAG #refl,
+                INH-REFL-VERB-FLAG #inh-refl-verb,
+                A-GEND-FLAG #a-gend,
+                N-NUM-FLAG #n-num,
+                DET-GEND-FLAG #det-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp ],
+    DTR a-num-rule-dtr &
+        [ INFLECTED [ AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      DET-NUM-FLAG #det-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      REFL-FLAG #refl,
+                      INH-REFL-VERB-FLAG #inh-refl-verb,
+                      A-GEND-FLAG #a-gend,
+                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp ] ] ].
+
+a-pl-lex-rule := a-num-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NUM plural ].
+
+a-sg-lex-rule := a-num-lex-rule-super & const-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NUM singular ].
+
+;;;;;;;;;;;;;;;;;;;
+;;; Phrasal Types
+;;;;;;;;;;;;;;;;;;;
+
+my-head-adj-phrase := head-adj-int-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT [ HEAD +nvr,
+                                VAL [ SUBJ clist,
+                                      COMPS clist ] ],
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT [ HEAD +jrp,
+                                    VAL.COMPS < > ] ].
+
+my-adj-head-phrase := adj-head-int-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD +nvr,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT [ HEAD +jrp,
+                                    VAL.COMPS < > ] ].
+
+high-no-rel-nominalized-clause-phrase := unary-phrase &
+  [ SYNSEM [ NON-LOCAL #nl,
+             LOCAL [ CAT [ HEAD noun &
+                                [ NMZ +,
+                                  MOD < > ],
+                           VAL [ COMPS < >,
+                                 SUBJ < >,
+                                 SPR < >,
+                                 SPEC < > ] ],
+                     COORD - ] ],
+    C-CONT [ RELS.LIST < >,
+             HCONS.LIST < >,
+             HOOK [ XARG #xarg,
+                    LTOP #ltop ] ],
+    ARGS < [ SYNSEM [ NON-LOCAL #nl,
+                      LOCAL [ CAT [ HEAD verb &
+                                         [ NMZ + ],
+                                    VAL [ COMPS < >,
+                                          SUBJ < >,
+                                          SPR < >,
+                                          SPEC < > ] ],
+                              CONT.HOOK [ XARG #xarg,
+                                          LTOP #ltop ],
+                              COORD - ] ] ] > ].
+
+;Constraint on MC used to be part of matrix.tdl
+;;it applies to all wo implementations, except for v2
+
+head-comp-phrase := basic-head-1st-comp-phrase & head-initial.
+
+subj-head-phrase := decl-head-subj-phrase & head-final &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    NON-HEAD-DTR.SYNSEM.NON-LOCAL.QUE.LIST < > ].
+
+; Bare NP phrase.  Consider modifying the PRED value of the quantifier relation
+; introduced to match the semantic effect of bare NPs in your language.
+
+bare-np-phrase := basic-bare-np-phrase &
+  [ C-CONT.RELS.LIST < [ PRED "exist_q_rel" ] >,
+    SYNSEM.LIGHT - ].
+
+;;; Head Adjunct rules
+
+; For intersective adjuncts with underspecified attachment locations:
+
+;;; Wh-question-related phrasal types
+
+wh-ques-phrase := basic-head-filler-phrase & interrogative-clause & head-final &
+  [ SYNSEM [ LOCAL.CAT [ WH.BOOL +,
+                         MC bool,
+                         VAL #val,
+                         HEAD verb ],
+             NON-LOCAL.QUE.LIST < > ],
+    NON-HEAD-DTR.SYNSEM [ NON-LOCAL [ QUE.LIST < ref-ind >,
+                                      SLASH.LIST < >,
+                                      REL.LIST < > ],
+                          LOCAL.CONT.HOOK.ICONS-KEY focus ],
+    HEAD-DTR.SYNSEM.LOCAL.CAT [ VAL #val &
+                                    [ SUBJ < >,
+                                      COMPS < > ],
+                                MC na-or-+ ] ].
+
+; Complement extraction
+
+; Adjunct extraction
+
+basic-filler-phrase :+ [ SYNSEM.NON-LOCAL.SLASH.LIST < >,
+    ARGS < [ SYNSEM [ LOCAL #slash,
+                      NON-LOCAL.SLASH.LIST < > ] ],
+           [ SYNSEM.NON-LOCAL.SLASH.LIST < #slash > ] > ].
+
+; In-situ interrogative clause.
