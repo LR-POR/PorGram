@@ -385,8 +385,262 @@ det-fem-suffix :=
 det-fem-lex-rule.
 
 det-pl-suffix :=
+; (algum alguns) (alguma algumas)
 %suffix (m ns) (!m !ms)
 det-pl-lex-rule.
+
+cop-inf-suffix :=
+%suffix (!ur !ur)
+cop-inf-lex-rule.
+
+cop-past-part-suffix :=
+%suffix (ar ado) (er ido)
+cop-past-part-lex-rule.
+
+cop-pres-part-suffix :=
+%suffix (!ur !undo)
+cop-pres-part-lex-rule.
+
+cop-pres-ind-1sg-suffix :=
+%suffix (ar ou) (er ou)
+cop-pres-ind-1sg-lex-rule.
+
+cop-pres-ind-2sg-suffix :=
+%suffix (ar ás) (ser és)
+cop-pres-ind-2sg-lex-rule.
+
+cop-pres-ind-3sg-suffix :=
+%suffix (ar á) (ser é)
+cop-pres-ind-3sg-lex-rule.
+
+cop-pres-ind-1pl-suffix :=
+%suffix (ar amos) (er omos)
+cop-pres-ind-1pl-lex-rule.
+
+cop-pres-ind-2pl-suffix :=
+%suffix (ar ais) (er ois)
+cop-pres-ind-2pl-lex-rule.
+
+cop-pres-ind-3pl-suffix :=
+%suffix (ar ão) (er ão)
+cop-pres-ind-3pl-lex-rule.
+
+cop-pres-subj-1sg-suffix :=
+%suffix (ar eja) (er eja)
+cop-pres-subj-1sg-lex-rule.
+
+cop-pres-subj-2sg-suffix :=
+%suffix (ar ejas) (er ejas)
+cop-pres-subj-2sg-lex-rule.
+
+cop-pres-subj-3sg-suffix :=
+%suffix (ar eja) (er eja)
+cop-pres-subj-3sg-lex-rule.
+
+cop-pres-subj-1pl-suffix :=
+%suffix (ar ejamos) (er ejamos)
+cop-pres-subj-1pl-lex-rule.
+
+cop-pres-subj-2pl-suffix :=
+%suffix (ar ejais) (er ejais)
+cop-pres-subj-2pl-lex-rule.
+
+cop-pres-subj-3pl-suffix :=
+%suffix (ar ejam) (er ejam)
+cop-pres-subj-3pl-lex-rule.
+
+cop-imperf-ind-1sg-suffix :=
+%suffix (ar ava) (ser era)
+cop-imperf-ind-1sg-lex-rule.
+
+cop-imperf-ind-2sg-suffix :=
+%suffix (ar avas) (ser eras)
+cop-imperf-ind-2sg-lex-rule.
+
+cop-imperf-ind-3sg-suffix :=
+%suffix (ar ava) (ser era)
+cop-imperf-ind-3sg-lex-rule.
+
+cop-imperf-ind-1pl-suffix :=
+%suffix (ar ávamos) (ser éramos)
+cop-imperf-ind-1pl-lex-rule.
+
+cop-imperf-ind-2pl-suffix :=
+%suffix (ar aveis) (ser éreis)
+cop-imperf-ind-2pl-lex-rule.
+
+cop-imperf-ind-3pl-suffix :=
+%suffix (ar avam) (ser eram)
+cop-imperf-ind-3pl-lex-rule.
+
+cop-perf-1sg-suffix :=
+%suffix (ar ive) (ser fui)
+cop-perf-1sg-lex-rule.
+
+cop-perf-2sg-suffix :=
+%suffix (ar iveste) (ser foste)
+cop-perf-2sg-lex-rule.
+
+cop-perf-3sg-suffix :=
+%suffix (ar eve) (ser foi)
+cop-perf-3sg-lex-rule.
+
+cop-perf-1pl-suffix :=
+%suffix (ar ivemos) (ser fomos)
+cop-perf-1pl-lex-rule.
+
+cop-perf-2pl-suffix :=
+%suffix (ar ivestes) (ser fostes)
+cop-perf-2pl-lex-rule.
+
+cop-perf-3pl-suffix :=
+%suffix (ar iveram) (ser foram)
+cop-perf-3pl-lex-rule.
+
+cop-fut-ind-1sg-suffix :=
+%suffix (!ur !urei)
+cop-fut-ind-1sg-lex-rule.
+
+cop-fut-ind-2sg-suffix :=
+%suffix  (!ur !urás)
+cop-fut-ind-2sg-lex-rule.
+
+cop-fut-ind-3sg-suffix :=
+%suffix  (!ur !urá)
+cop-fut-ind-3sg-lex-rule.
+
+cop-fut-ind-1pl-suffix :=
+%suffix (!ur !uremos)
+cop-fut-ind-1pl-lex-rule.
+
+cop-fut-ind-2pl-suffix :=
+%suffix  (!ur !ureis)
+cop-fut-ind-2pl-lex-rule.
+
+cop-fut-ind-3pl-suffix :=
+%suffix  (!ur !urão)
+cop-fut-ind-3pl-lex-rule.
+
+cop-fut-subj-1sg-suffix :=
+%suffix (ar iver) (ser for)
+cop-fut-subj-1sg-lex-rule.
+
+cop-fut-subj-2sg-suffix :=
+%suffix (ar iveres) (ser fores)
+cop-fut-subj-2sg-lex-rule.
+
+cop-fut-subj-3sg-suffix :=
+%suffix (ar iver) (ser for)
+cop-fut-subj-3sg-lex-rule.
+
+cop-fut-subj-1pl-suffix :=
+%suffix (ar ivermos) (ser formos)
+cop-fut-subj-1pl-lex-rule.
+
+cop-fut-subj-2pl-suffix :=
+%suffix (ar iverdes) (ser fordes)
+cop-fut-subj-2pl-lex-rule.
+
+cop-fut-subj-3pl-suffix :=
+%suffix (ar iverem) (ser forem)
+cop-fut-subj-3pl-lex-rule.
+
+cop-fut-pret-1sg-suffix :=
+%suffix (!ur !uria)
+cop-fut-pret-1sg-lex-rule.
+
+cop-fut-pret-2sg-suffix :=
+%suffix (!ur !urias)
+cop-fut-pret-2sg-lex-rule.
+
+cop-fut-pret-3sg-suffix :=
+%suffix (!ur !uria)
+cop-fut-pret-3sg-lex-rule.
+
+cop-fut-pret-1pl-suffix :=
+%suffix (!ur !uríamos)
+cop-fut-pret-1pl-lex-rule.
+
+cop-fut-pret-2pl-suffix :=
+%suffix (!ur !uríeis)
+cop-fut-pret-2pl-lex-rule.
+
+cop-fut-pret-3pl-suffix :=
+%suffix (!ur !uriam)
+cop-fut-pret-3pl-lex-rule.
+
+cop-imperf-subj-1sg-suffix :=
+%suffix (ar ivesse) (ser fosse)
+cop-imperf-subj-1sg-lex-rule.
+
+cop-imperf-subj-2sg-suffix :=
+%suffix (ar ivesses) (ser fosses)
+cop-imperf-subj-2sg-lex-rule.
+
+cop-imperf-subj-3sg-suffix :=
+%suffix (ar ivesse) (ser fosse)
+cop-imperf-subj-3sg-lex-rule.
+
+cop-imperf-subj-1pl-suffix :=
+%suffix (ar ivéssemos) (ser fôssemos)
+cop-imperf-subj-1pl-lex-rule.
+
+cop-imperf-subj-2pl-suffix :=
+%suffix (ar ivésseis) (ser fôsseis)
+cop-imperf-subj-2pl-lex-rule.
+
+cop-imperf-subj-3pl-suffix :=
+%suffix (ar ivessem) (ser fossem)
+cop-imperf-subj-3pl-lex-rule.
+
+cop-pqp-1sg-suffix :=
+%suffix (ar ivera) (ser fora)
+cop-pqp-1sg-lex-rule.
+
+cop-pqp-2sg-suffix :=
+%suffix (ar iveras) (ser foras)
+cop-pqp-2sg-lex-rule.
+
+cop-pqp-3sg-suffix :=
+%suffix (ar ivera) (ser fora)
+cop-pqp-3sg-lex-rule.
+
+cop-pqp-1pl-suffix :=
+%suffix (ar ivéramos) (ser fôramos)
+cop-pqp-1pl-lex-rule.
+
+cop-pqp-2pl-suffix :=
+%suffix (ar ivéreis) (ser fôreis)
+cop-pqp-2pl-lex-rule.
+
+cop-pqp-3pl-suffix :=
+%suffix (ar iveram) (ser foram)
+cop-pqp-3pl-lex-rule.
+
+cop-infl-inf-1sg-suffix :=
+%suffix (!ur !ur)
+cop-infl-inf-1sg-lex-rule.
+
+cop-infl-inf-2sg-suffix :=
+%suffix (!ur !ures)
+cop-infl-inf-2sg-lex-rule.
+
+cop-infl-inf-3sg-suffix :=
+%suffix (!ur !ur)
+cop-infl-inf-3sg-lex-rule.
+
+cop-infl-inf-1pl-suffix :=
+%suffix (!ur !urmos)
+cop-infl-inf-1pl-lex-rule.
+
+cop-infl-inf-2pl-suffix :=
+%suffix (!ur !urdes)
+cop-infl-inf-2pl-lex-rule.
+
+cop-infl-inf-3pl-suffix :=
+%suffix (!ur !urem)
+cop-infl-inf-3pl-lex-rule.
+
 
 
 

@@ -1,4 +1,99 @@
+; These types were manually created, they are not encoded in the choices file.
 
+cop-pres-subj-2sg-lex-rule := cop-2sg-lex-rule & cop-pres-subj-lex-rule.
+
+cop-pres-subj-3sg-lex-rule := cop-3sg-lex-rule & cop-pres-subj-lex-rule.
+
+cop-pres-subj-1pl-lex-rule := cop-1pl-lex-rule & cop-pres-subj-lex-rule.
+
+cop-pres-subj-3pl-lex-rule := cop-3pl-lex-rule & cop-pres-subj-lex-rule.
+
+cop-pres-subj-2pl-lex-rule := cop-2pl-lex-rule & cop-pres-subj-lex-rule.
+
+cop-pres-subj-3pl-lex-rule := cop-3pl-lex-rule & cop-pres-subj-lex-rule.
+
+cop-imperf-ind-2sg-lex-rule := cop-2sg-lex-rule & cop-imperf-lex-rule.
+
+cop-imperf-ind-3sg-lex-rule := cop-3sg-lex-rule & cop-imperf-lex-rule.
+
+cop-imperf-ind-1pl-lex-rule := cop-1pl-lex-rule & cop-imperf-lex-rule.
+
+cop-imperf-ind-2pl-lex-rule := cop-2pl-lex-rule & cop-imperf-lex-rule.
+
+cop-imperf-ind-3pl-lex-rule := cop-3pl-lex-rule & cop-imperf-lex-rule.
+
+cop-imperf-subj-2sg-lex-rule := cop-2sg-lex-rule & cop-imperf-subj-lex-rule.
+
+cop-imperf-subj-3sg-lex-rule := cop-3sg-lex-rule & cop-imperf-subj-lex-rule.
+
+cop-imperf-subj-1pl-lex-rule := cop-1pl-lex-rule & cop-imperf-subj-lex-rule.
+
+cop-imperf-subj-2pl-lex-rule := cop-2pl-lex-rule & cop-imperf-subj-lex-rule.
+
+cop-imperf-subj-3pl-lex-rule := cop-3pl-lex-rule & cop-imperf-subj-lex-rule.
+
+cop-perf-2sg-lex-rule := cop-2sg-lex-rule & cop-perf-lex-rule.
+
+cop-perf-3sg-lex-rule := cop-3sg-lex-rule & cop-perf-lex-rule.
+
+cop-perf-1pl-lex-rule := cop-1pl-lex-rule & cop-perf-lex-rule.
+
+cop-perf-2pl-lex-rule := cop-2pl-lex-rule & cop-perf-lex-rule.
+
+cop-perf-3pl-lex-rule := cop-3pl-lex-rule & cop-perf-lex-rule.
+
+cop-fut-ind-2sg-lex-rule := cop-2sg-lex-rule & cop-fut-ind-lex-rule.
+
+cop-fut-ind-3sg-lex-rule := cop-3sg-lex-rule & cop-fut-ind-lex-rule.
+
+cop-fut-ind-1pl-lex-rule := cop-1pl-lex-rule & cop-fut-ind-lex-rule.
+
+cop-fut-ind-2pl-lex-rule := cop-2pl-lex-rule & cop-fut-ind-lex-rule.
+
+cop-fut-ind-3pl-lex-rule := cop-3pl-lex-rule & cop-fut-ind-lex-rule.
+
+cop-fut-subj-2sg-lex-rule := cop-2sg-lex-rule & cop-fut-subj-lex-rule.
+
+cop-fut-subj-3sg-lex-rule := cop-3sg-lex-rule & cop-fut-subj-lex-rule.
+
+cop-fut-subj-1pl-lex-rule := cop-1pl-lex-rule & cop-fut-subj-lex-rule.
+
+cop-fut-subj-2pl-lex-rule := cop-2pl-lex-rule & cop-fut-subj-lex-rule.
+
+cop-fut-subj-3pl-lex-rule := cop-3pl-lex-rule & cop-fut-subj-lex-rule.
+
+cop-pqp-2sg-lex-rule := cop-2sg-lex-rule & cop-pqp-lex-rule.
+
+cop-pqp-3sg-lex-rule := cop-3sg-lex-rule & cop-pqp-lex-rule.
+
+cop-pqp-1pl-lex-rule := cop-1pl-lex-rule & cop-pqp-lex-rule.
+
+cop-pqp-2pl-lex-rule := cop-2pl-lex-rule & cop-pqp-lex-rule.
+
+cop-pqp-3pl-lex-rule := cop-3pl-lex-rule & cop-pqp-lex-rule.
+
+cop-fut-pret-2sg-lex-rule := cop-2sg-lex-rule & cop-fut-pret-lex-rule.
+
+cop-fut-pret-3sg-lex-rule := cop-3sg-lex-rule & cop-fut-pret-lex-rule.
+
+cop-fut-pret-1pl-lex-rule := cop-1pl-lex-rule & cop-fut-pret-lex-rule.
+
+cop-fut-pret-2pl-lex-rule := cop-2pl-lex-rule & cop-fut-pret-lex-rule.
+
+cop-fut-pret-3pl-lex-rule := cop-3pl-lex-rule & cop-fut-pret-lex-rule.
+
+cop-infl-inf-1sg-lex-rule := cop-1sg-lex-rule & cop-infl-inf-lex-rule.
+
+cop-infl-inf-3sg-lex-rule := cop-3sg-lex-rule & cop-infl-inf-lex-rule.
+
+cop-infl-inf-1pl-lex-rule := cop-1pl-lex-rule & cop-infl-inf-lex-rule.
+
+cop-infl-inf-2pl-lex-rule := cop-2pl-lex-rule & cop-infl-inf-lex-rule.
+
+cop-infl-inf-3pl-lex-rule := cop-3pl-lex-rule & cop-infl-inf-lex-rule.
+
+
+; These types definitions overwrite the definitions in the choices file.
 
 subj-cl-verb-lex := fin-cl-verb-lex &  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive  ] >].
 

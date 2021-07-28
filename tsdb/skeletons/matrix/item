@@ -1,289 +1,299 @@
-1@unknown@unknown@none@1@S@o cachorro latiu@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-2@unknown@unknown@none@1@S@o cachorro perseguiu o gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-3@unknown@unknown@none@1@S@chegou tabaco@@@@1@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-4@unknown@unknown@none@1@S@tabaco chegou@@@@1@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-5@unknown@unknown@none@1@S@o tabaco chegou@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-6@unknown@unknown@none@1@S@chegou o tabaco@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-7@unknown@unknown@none@1@S@o cachorro tem perseguido o gato@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-8@unknown@unknown@none@1@S@o cachorro tem latido@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-9@unknown@unknown@none@1@S@o cachorro está perseguindo o gato@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-10@unknown@unknown@none@1@S@o cachorro está latindo@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-11@unknown@unknown@none@1@@o cachorro está perseguido o gato@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-12@unknown@unknown@none@1@@o cachorro tem perseguindo o gato@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-13@unknown@unknown@none@1@S@o cachorro tem estado perseguindo o gato@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-14@unknown@unknown@none@1@@o cachorro tem estado perseguido o gato@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-15@unknown@unknown@none@1@S@o cachorro vai latir@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-16@unknown@unknown@none@1@S@o cachorro quer que o gato lata@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-17@unknown@unknown@none@1@@o cachorro quer que o gato late@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-18@unknown@unknown@none@1@S@o cachorro acredita que o gato late@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-19@unknown@unknown@none@1@S@o cachorro acredita que o gato lata@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-20@unknown@unknown@none@1@S@o cachorro perguntou se o gato late@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-21@unknown@unknown@none@1@@o cachorro perguntou se o gato lata@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-22@unknown@unknown@none@1@S@o cachorro se perguntou se o gato latiu@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-23@unknown@unknown@none@1@S@o cachorro perguntou-se se o gato latiu@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-24@unknown@unknown@none@1@S@o cachorro ladrou@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-25@unknown@unknown@none@1@@o cachorro ladrou-se@@@@0@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-26@unknown@unknown@none@1@S@o cachorro declarou que o gato late@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-27@unknown@unknown@none@1@@o cachorro afirmou que o gato lata@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-28@unknown@unknown@none@1@S@o cachorro queixou-se@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-29@unknown@unknown@none@1@S@eu queixei-me@@@@1@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-30@unknown@unknown@none@1@S@eles queixaram-se@@@@1@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-31@unknown@unknown@none@1@@eles queixaram@@@@0@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-32@unknown@unknown@none@1@@eu queixei@@@@0@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-33@unknown@unknown@none@1@S@os cachorros ladraram@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-34@unknown@unknown@none@1@S@os gatos queixaram-se@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-35@unknown@unknown@none@1@@os cachorros ladrou@@@@0@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-36@unknown@unknown@none@1@@o cachorro ladraram@@@@0@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-37@unknown@unknown@none@1@S@será que o cachorro latiu@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-38@unknown@unknown@none@1@S@que cachorro latiu@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-39@unknown@unknown@none@1@S@qual cachorro latiu@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-40@unknown@unknown@none@1@S@quais cachorros ladraram@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-41@unknown@unknown@none@1@S@o cachorro perseguiu que gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-42@unknown@unknown@none@1@S@que gato o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-43@unknown@unknown@none@1@S@o cachorro perseguiu qual gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-44@unknown@unknown@none@1@S@qual gato o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-45@unknown@unknown@none@1@S@o cachorro feliz ladrou@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-46@unknown@unknown@none@1@S@o cachorro triste ladrou@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-47@unknown@unknown@none@1@S@o cachorro amarelo ladrou@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-48@unknown@unknown@none@1@S@a ratazana amarela ladrou@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-49@unknown@unknown@none@1@S@a ratazana feliz ladrou@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-50@unknown@unknown@none@1@S@a ratazana triste ladrou@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-51@unknown@unknown@none@1@S@as ratazanas amarelas ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-52@unknown@unknown@none@1@S@as ratazanas tristes ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-53@unknown@unknown@none@1@S@as ratazanas felizes ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-54@unknown@unknown@none@1@S@os cachorros felizes ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-55@unknown@unknown@none@1@S@os cachorros tristes ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-56@unknown@unknown@none@1@S@os cachorros amarelos ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-57@unknown@unknown@none@1@S@os cachorros são felizes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-58@unknown@unknown@none@1@S@os cachorros são amarelos@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-59@unknown@unknown@none@1@S@os cachorros são tristes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-60@unknown@unknown@none@1@S@as ratazanas são felizes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-61@unknown@unknown@none@1@S@as ratazanas são tristes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-62@unknown@unknown@none@1@S@as ratazanas são amarelas@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-63@unknown@unknown@none@1@S@a ratazana é amarela@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-64@unknown@unknown@none@1@S@a ratazana é feliz@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-65@unknown@unknown@none@1@@a ratazana é amarelo@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-66@unknown@unknown@none@1@@o cachorro é amarela@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-67@unknown@unknown@none@1@@os cachorros amarelas ladraram@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-68@unknown@unknown@none@1@@os feliz cachorros ladraram@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-69@unknown@unknown@none@1@S@os felizes cachorros ladraram@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-70@unknown@unknown@none@1@@os cachorros amarelo ladraram@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-71@unknown@unknown@none@1@S@o cachorro é feliz@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-72@unknown@unknown@none@1@@os cachorros é feliz@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-73@unknown@unknown@none@1@@os cachorros são feliz@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-74@unknown@unknown@none@1@@os cachorros é felizes@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-75@unknown@unknown@none@1@@o cachorro é felizes@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-76@unknown@unknown@none@1@@o cachorro são felizes@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-77@unknown@unknown@none@1@S@o gato é simples@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-78@unknown@unknown@none@1@S@os gatos são simples@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-79@unknown@unknown@none@1@S@a ratazana é simples@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-80@unknown@unknown@none@1@S@as ratazanas são simples@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-81@unknown@unknown@none@1@@os gatos é simples@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-82@unknown@unknown@none@1@S@a ratazana simples é feliz@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-83@unknown@unknown@none@1@S@o artista é feliz@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-84@unknown@unknown@none@1@S@a artista é feliz@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-85@unknown@unknown@none@1@S@os artistas são felizes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-86@unknown@unknown@none@1@S@os artistas amarelos são felizes@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-87@unknown@unknown@none@1@@os artistas amarelas são felizes@@@@0@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-88@unknown@unknown@none@1@S@as artistas amarelas são felizes@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-89@unknown@unknown@none@1@@as artistas amarelos são felizes@@@@0@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-90@unknown@unknown@none@1@S@artistas simples são felizes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-91@unknown@unknown@none@1@S@artistas amarelos são felizes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-92@unknown@unknown@none@1@S@artistas amarelas são felizes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-93@unknown@unknown@none@1@S@artistas simples são amarelos@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-94@unknown@unknown@none@1@S@artistas simples são amarelas@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-95@unknown@unknown@none@1@S@o gato lamenta os cachorros terem ladrado@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-96@unknown@unknown@none@1@@o gato lamenta os cachorros ter ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-97@unknown@unknown@none@1@S@o gato lamenta os cachorros ladrarem@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-98@unknown@unknown@none@1@@o gato lamenta os cachorros ladrar@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-99@unknown@unknown@none@1@@os cachorros ladrarem@@@@0@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-100@unknown@unknown@none@1@@o cachorro ladrar@@@@0@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-101@unknown@unknown@none@1@S@o cachorro late@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-102@unknown@unknown@none@1@@o cachorro lata@@@@0@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-103@unknown@unknown@none@1@S@o cachorro ladra@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-104@unknown@unknown@none@1@S@os cachorros ladram@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-105@unknown@unknown@none@1@S@o cachorro admira o gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-106@unknown@unknown@none@1@@o cachorro admirar o gato@@@@0@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-107@unknown@unknown@none@1@@os cachorros admirarem o gato@@@@0@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-108@unknown@unknown@none@1@S@os cachorros admiraram o gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-109@unknown@unknown@none@1@S@o cachorro vai ladrar@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-110@unknown@unknown@none@1@S@os cachorros vão ladrar@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-111@unknown@unknown@none@1@@os cachorros vai ladrar@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-112@unknown@unknown@none@1@@os cachorros vai ladrarem@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-113@unknown@unknown@none@1@@os cachorros vão ladrarem@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-114@unknown@unknown@none@1@S@será que a estudante adora o cachorro@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-115@unknown@unknown@none@1@S@será que o cliente adora o cachorro@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-116@unknown@unknown@none@1@S@os cachorrinhos vão ladrar@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-117@unknown@unknown@none@1@S@o cachorrinho vai ladrar@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-118@unknown@unknown@none@1@S@o lagartão admira o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-119@unknown@unknown@none@1@S@a lagartinha admira o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-120@unknown@unknown@none@1@S@a lagartona admira o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-121@unknown@unknown@none@1@@os lagartãos admiram o cachorro@@@@0@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-122@unknown@unknown@none@1@S@os lagartões admiram o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-123@unknown@unknown@none@1@S@as lagartinhas admiram o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-124@unknown@unknown@none@1@S@as lagartonas admiram o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-125@unknown@unknown@none@1@S@o cachorro é feroz@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-126@unknown@unknown@none@1@S@o cachorro é inteligente@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-127@unknown@unknown@none@1@S@as lagartinhas são inteligentes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-128@unknown@unknown@none@1@S@a lagartinha é inteligente@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-129@unknown@unknown@none@1@@a lagartinha é inteligentea@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-130@unknown@unknown@none@1@@a lagartinha é inteligenta@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-131@unknown@unknown@none@1@S@a lagartinha é feroz@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-132@unknown@unknown@none@1@@a lagartinha é feroza@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-133@unknown@unknown@none@1@S@as lagartinhas são ferozes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-134@unknown@unknown@none@1@@as lagartinhas são ferozas@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-135@unknown@unknown@none@1@@as lagartinhas são ferozeas@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-136@unknown@unknown@none@1@S@os artistas beirões admiram as artistas beiroas@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-137@unknown@unknown@none@1@S@os artistas ingleses admiram as artistas judias@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-138@unknown@unknown@none@1@S@os artistas ingleses admiram as artistas hebreias@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-139@unknown@unknown@none@1@S@os artistas ilhéus admiram as artistas ilhoas@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-140@unknown@unknown@none@1@S@o artista ilhéu admira a artista ilhoa@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-141@unknown@unknown@none@1@S@os cachorrinhos amarelõezinhos são ferozes@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-142@unknown@unknown@none@1@S@os cachorrinhos amarelões são ferozes@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-143@unknown@unknown@none@1@S@a artista nua é francesa@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-144@unknown@unknown@none@1@S@o artista nu é francês@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-145@unknown@unknown@none@1@S@o artista vendeu o lagartão@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-146@unknown@unknown@none@1@S@o artista sorriu@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-147@unknown@unknown@none@1@S@os artistas sorriram@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-148@unknown@unknown@none@1@S@os artistas venderam o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-149@unknown@unknown@none@1@S@a porta abriu@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-150@unknown@unknown@none@1@S@a porta abriu-se@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-151@unknown@unknown@none@1@S@o gato detesta que os cachorros latam@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-152@unknown@unknown@none@1@@o gato detesta que os cachorros latem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-153@unknown@unknown@none@1@S@o gato detesta que os cachorros ladrem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-154@unknown@unknown@none@1@@o gato detesta que os cachorros ladram@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-155@unknown@unknown@none@1@S@o gato detesta que os cachorros tenham latido@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-156@unknown@unknown@none@1@S@o gato detesta que os cachorros tenham ladrado@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-157@unknown@unknown@none@1@S@o gato detesta que os cachorros estejam latindo@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-158@unknown@unknown@none@1@S@o gato detesta que o cachorro tenha latido@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-159@unknown@unknown@none@1@S@o gato detesta que o cachorro esteja latindo@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-160@unknown@unknown@none@1@@o gato detesta que o cachorro está latindo@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-161@unknown@unknown@none@1@@o gato detesta que o cachorro tem latido@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-162@unknown@unknown@none@1@S@o gato detestou que o cachorro tenha latido@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-163@unknown@unknown@none@1@@o gato detestou que o cachorro tem latido@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-164@unknown@unknown@none@1@S@o gato detestava que o cachorro estivesse latindo@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-165@unknown@unknown@none@1@S@o gato detestou que o cachorro tivesse latido@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-166@unknown@unknown@none@1@S@o gato detestou que o cachorro latisse@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-167@unknown@unknown@none@1@S@o gato lamenta o cachorro ladrar@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-168@unknown@unknown@none@1@S@lamento ladrares@@@@1@2@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-169@unknown@unknown@none@1@S@eu lamento ladrares@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-170@unknown@unknown@none@1@S@eu lamento tu ladrares@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-171@unknown@unknown@none@1@S@ele lamenta ladrarmos@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-172@unknown@unknown@none@1@S@ele lamenta nós ladrarmos@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-173@unknown@unknown@none@1@S@ele lamenta ladrar@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-174@unknown@unknown@none@1@S@os cachorros estão tristes@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-175@unknown@unknown@none@1@S@o cachorro está triste@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-176@unknown@unknown@none@1@@o cachorro está-se triste@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-177@unknown@unknown@none@1@@o cachorro é-se triste@@@@0@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-178@unknown@unknown@none@1@@o gato detestou que o cachorro tivesse-se latido@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-179@unknown@unknown@none@1@@o gato detestou que o cachorro tivesse latido-se@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-180@unknown@unknown@none@1@S@o gato detestou que o cachorro tivesse queixado-se@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-181@unknown@unknown@none@1@@o gato lamenta os cachorros têm ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-182@unknown@unknown@none@1@@o gato lamenta os cachorros tenham ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-183@unknown@unknown@none@1@@o gato quer os cachorros tenham ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-184@unknown@unknown@none@1@@o gato quer os cachorros terem ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-185@unknown@unknown@none@1@@o gato quer que os cachorros terem ladrado@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-186@unknown@unknown@none@1@@o gato quer que os cachorros têm ladrado@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-187@unknown@unknown@none@1@S@o gato quer que os cachorros tenham ladrado@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-188@unknown@unknown@none@1@@o gato quer os cachorros ter ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-189@unknown@unknown@none@1@@o gato quer o cachorro terem ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-190@unknown@unknown@none@1@@o gato quer o cachorro ladrado@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-191@unknown@unknown@none@1@@o gato quer o cachorro ladrar@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-192@unknown@unknown@none@1@@o gato quer os cachorros ladrarem@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-193@unknown@unknown@none@1@@o gato quer que o cachorro ladrar@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-194@unknown@unknown@none@1@@o gato quer que os cachorros ladrarem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-195@unknown@unknown@none@1@@o gato quer os cachorros ladrem@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-196@unknown@unknown@none@1@S@o gato quer que os cachorros ladrem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-197@unknown@unknown@none@1@@o gato perguntou se o cachorro ladrado@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-198@unknown@unknown@none@1@@o gato perguntou se o cachorro ladre@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-199@unknown@unknown@none@1@@o gato perguntou se o cachorro ladrar@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-200@unknown@unknown@none@1@@o gato perguntou se o cachorro tiver ladrado@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-201@unknown@unknown@none@1@@o gato perguntou se o cachorro ter ladrado@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-202@unknown@unknown@none@1@@o gato perguntou se os cachorros terem ladrado@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-203@unknown@unknown@none@1@@o gato perguntou se os cachorros tiverem ladrado@@@@0@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-204@unknown@unknown@none@1@@o gato perguntou se os cachorros ladrando@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-205@unknown@unknown@none@1@@o gato perguntou se os cachorros ladrarem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-206@unknown@unknown@none@1@S@o gato ouviu os cachorros ladrarem@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-207@unknown@unknown@none@1@S@o gato ouviu os cachorros latirem@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-208@unknown@unknown@none@1@S@o gato ouviu os cachorros latindo@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-209@unknown@unknown@none@1@@o gato ouviu os cachorros latido@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-210@unknown@unknown@none@1@@o gato ouviu os cachorros ladrar@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-211@unknown@unknown@none@1@@o gato ouviu os cachorros latir@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-212@unknown@unknown@none@1@S@o gato ouviu que os cachorros ladravam@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-213@unknown@unknown@none@1@S@o gato ouviu que os cachorros latiam@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-214@unknown@unknown@none@1@@o gato ouviu que os cachorros ladrassem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-215@unknown@unknown@none@1@@o gato ouviu que os cachorros latissem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-216@unknown@unknown@none@1@S@o gato mandou os cachorros ladrarem@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-217@unknown@unknown@none@1@S@o gato mandou os cachorros latirem@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-218@unknown@unknown@none@1@@o gato mandou os cachorros ladrar@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-219@unknown@unknown@none@1@@o gato mandou os cachorros latir@@@@0@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-220@unknown@unknown@none@1@S@o gato mandou que os cachorros ladrassem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-221@unknown@unknown@none@1@S@o gato mandou que os cachorros latissem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-222@unknown@unknown@none@1@@o gato mandou que os cachorros ladram@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-223@unknown@unknown@none@1@@o gato mandou que os cachorros latem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-224@unknown@unknown@none@1@S@o gato fez que os cachorros ladrassem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-225@unknown@unknown@none@1@S@o gato fez que os cachorros latissem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-226@unknown@unknown@none@1@S@o gato fez com que os cachorros ladrassem@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-227@unknown@unknown@none@1@S@o gato fez com que os cachorros latissem@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-228@unknown@unknown@none@1@@o gato fez que os cachorros ladram@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-229@unknown@unknown@none@1@@o gato fez que os cachorros latem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-230@unknown@unknown@none@1@S@o gato sabe que os cachorros ladram@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-231@unknown@unknown@none@1@S@o gato sabe que os cachorros latem@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-232@unknown@unknown@none@1@S@o gato sabia que os cachorros ladravam@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-233@unknown@unknown@none@1@S@o gato sabia que os cachorros latiam@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-234@unknown@unknown@none@1@@o gato sabia que os cachorros ladrassem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-235@unknown@unknown@none@1@@o gato sabia que os cachorros latissem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-236@unknown@unknown@none@1@@o gato sabe que os cachorros ladrem@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-237@unknown@unknown@none@1@@o gato sabe que os cachorros latam@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-238@unknown@unknown@none@1@S@o gato pode latir@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-239@unknown@unknown@none@1@S@o gato parece latir@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-240@unknown@unknown@none@1@S@o gato continua latindo@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-241@unknown@unknown@none@1@S@o gato detesta latir@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-242@unknown@unknown@none@1@S@o gato ousou latir@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-243@unknown@unknown@none@1@S@o gato deseja latir@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-244@unknown@unknown@none@1@S@o cachorro começou a latir.@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-245@unknown@unknown@none@1@S@o cachorro parou de latir@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-246@unknown@unknown@none@1@S@o artista insistiu em perseguir o cachorro@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-247@unknown@unknown@none@1@S@o cliente insistiu em que os artistas vendessem o cachorro@@@@1@10@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-248@unknown@unknown@none@1@S@o artista insistiu que os artistas vendessem o cachorro@@@@1@9@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-249@unknown@unknown@none@1@S@o artista perguntou quem perseguiu o gato@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-250@unknown@unknown@none@1@S@o artista perguntou quem o cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-251@unknown@unknown@none@1@S@o artista perguntou que cachorro perseguiu o gato@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-252@unknown@unknown@none@1@S@o artista perguntou qual cachorro perseguiu o gato@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-253@unknown@unknown@none@1@S@o artista perguntou quais cachorros perseguiram o gato@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-254@unknown@unknown@none@1@S@o artista perguntou quais gatos o cachorro perseguiu@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-255@unknown@unknown@none@1@S@quais gatos o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-256@unknown@unknown@none@1@S@o artista perguntou-se que cachorro perseguiu o gato@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-257@unknown@unknown@none@1@S@o cachorro perseguiu quais gatos@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-258@unknown@unknown@none@1@S@o cachorro perseguiu quem@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-259@unknown@unknown@none@1@S@quem o cachorro perseguiu@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-260@unknown@unknown@none@1@S@que o cachorro perseguiu@@@@1@4@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-261@unknown@unknown@none@1@S@o artista perguntou que o cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-262@unknown@unknown@none@1@S@o artista perguntou o que cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-263@unknown@unknown@none@1@S@o artista perguntou-se que o cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-264@unknown@unknown@none@1@S@o artista perguntou-se o que o cachorro perseguiu@@@@1@8@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-265@unknown@unknown@none@1@S@o gato obedeceu a o cachorro@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-266@unknown@unknown@none@1@S@o gato obedeceu o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-267@unknown@unknown@none@1@S@o artista caminhou para a cidade@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-268@unknown@unknown@none@1@S@ele doou a bicicleta a o artista@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-269@unknown@unknown@none@1@S@ele doou a bicicleta para o artista@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-270@unknown@unknown@none@1@S@o que o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-271@unknown@unknown@none@1@S@todos os gatos temem o cachorro@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-272@unknown@unknown@none@1@S@todos gatos temem o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-273@unknown@unknown@none@1@S@todas as ratazanas temem o gato@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-274@unknown@unknown@none@1@S@toda ratazana teme o gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-275@unknown@unknown@none@1@S@todas ratazanas temem o gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-276@unknown@unknown@none@1@S@todo gato teme o cachorro@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-277@unknown@unknown@none@1@S@cada gato latiu@@@@1@3@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-278@unknown@unknown@none@1@S@todos os gatos perseguiram algum cão@@@@1@6@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-279@unknown@unknown@none@1@S@todos gatos perseguiram algum cão@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-280@unknown@unknown@none@1@S@todos gatos perseguiram alguns cães@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-281@unknown@unknown@none@1@S@todos gatos perseguiram alguma ratazana@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-282@unknown@unknown@none@1@S@todos gatos perseguiram algumas ratazanas@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-283@unknown@unknown@none@1@S@alguns gatos perseguiram a ratazana@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-284@unknown@unknown@none@1@S@algum gato perseguiu a ratazana@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-285@unknown@unknown@none@1@S@alguma ratazana perseguiu o gato@@@@1@5@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-286@unknown@unknown@none@1@S@o gato percebeu que o cachorro dormia@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-287@unknown@unknown@none@1@S@o gato queria que o cachorro dormisse@@@@1@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-288@unknown@unknown@none@1@@o gato queria que o cachorro dormia@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
-289@unknown@unknown@none@1@@o gato percebeu que o cachorro dormisse@@@@0@7@@Grammar Matrix Customization System@24-jul-2021 14:00:24
+1@unknown@unknown@none@1@S@o cachorro latiu@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+2@unknown@unknown@none@1@S@o cachorro perseguiu o gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+3@unknown@unknown@none@1@S@chegou tabaco@@@@1@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+4@unknown@unknown@none@1@S@tabaco chegou@@@@1@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+5@unknown@unknown@none@1@S@o tabaco chegou@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+6@unknown@unknown@none@1@S@chegou o tabaco@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+7@unknown@unknown@none@1@S@o cachorro tem perseguido o gato@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+8@unknown@unknown@none@1@S@o cachorro tem latido@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+9@unknown@unknown@none@1@S@o cachorro está perseguindo o gato@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+10@unknown@unknown@none@1@S@o cachorro está latindo@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+11@unknown@unknown@none@1@@o cachorro está perseguido o gato@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+12@unknown@unknown@none@1@@o cachorro tem perseguindo o gato@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+13@unknown@unknown@none@1@S@o cachorro tem estado perseguindo o gato@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+14@unknown@unknown@none@1@@o cachorro tem estado perseguido o gato@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+15@unknown@unknown@none@1@S@o cachorro vai latir@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+16@unknown@unknown@none@1@S@o cachorro quer que o gato lata@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+17@unknown@unknown@none@1@@o cachorro quer que o gato late@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+18@unknown@unknown@none@1@S@o cachorro acredita que o gato late@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+19@unknown@unknown@none@1@S@o cachorro acredita que o gato lata@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+20@unknown@unknown@none@1@S@o cachorro perguntou se o gato late@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+21@unknown@unknown@none@1@@o cachorro perguntou se o gato lata@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+22@unknown@unknown@none@1@S@o cachorro se perguntou se o gato latiu@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+23@unknown@unknown@none@1@S@o cachorro perguntou-se se o gato latiu@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+24@unknown@unknown@none@1@S@o cachorro ladrou@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+25@unknown@unknown@none@1@@o cachorro ladrou-se@@@@0@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+26@unknown@unknown@none@1@S@o cachorro declarou que o gato late@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+27@unknown@unknown@none@1@@o cachorro afirmou que o gato lata@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+28@unknown@unknown@none@1@S@o cachorro queixou-se@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+29@unknown@unknown@none@1@S@eu queixei-me@@@@1@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+30@unknown@unknown@none@1@S@eles queixaram-se@@@@1@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+31@unknown@unknown@none@1@@eles queixaram@@@@0@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+32@unknown@unknown@none@1@@eu queixei@@@@0@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+33@unknown@unknown@none@1@S@os cachorros ladraram@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+34@unknown@unknown@none@1@S@os gatos queixaram-se@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+35@unknown@unknown@none@1@@os cachorros ladrou@@@@0@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+36@unknown@unknown@none@1@@o cachorro ladraram@@@@0@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+37@unknown@unknown@none@1@S@será que o cachorro latiu@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+38@unknown@unknown@none@1@S@que cachorro latiu@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+39@unknown@unknown@none@1@S@qual cachorro latiu@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+40@unknown@unknown@none@1@S@quais cachorros ladraram@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+41@unknown@unknown@none@1@S@o cachorro perseguiu que gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+42@unknown@unknown@none@1@S@que gato o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+43@unknown@unknown@none@1@S@o cachorro perseguiu qual gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+44@unknown@unknown@none@1@S@qual gato o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+45@unknown@unknown@none@1@S@o cachorro feliz ladrou@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+46@unknown@unknown@none@1@S@o cachorro triste ladrou@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+47@unknown@unknown@none@1@S@o cachorro amarelo ladrou@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+48@unknown@unknown@none@1@S@a ratazana amarela ladrou@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+49@unknown@unknown@none@1@S@a ratazana feliz ladrou@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+50@unknown@unknown@none@1@S@a ratazana triste ladrou@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+51@unknown@unknown@none@1@S@as ratazanas amarelas ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+52@unknown@unknown@none@1@S@as ratazanas tristes ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+53@unknown@unknown@none@1@S@as ratazanas felizes ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+54@unknown@unknown@none@1@S@os cachorros felizes ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+55@unknown@unknown@none@1@S@os cachorros tristes ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+56@unknown@unknown@none@1@S@os cachorros amarelos ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+57@unknown@unknown@none@1@S@os cachorros são felizes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+58@unknown@unknown@none@1@S@os cachorros são amarelos@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+59@unknown@unknown@none@1@S@os cachorros são tristes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+60@unknown@unknown@none@1@S@as ratazanas são felizes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+61@unknown@unknown@none@1@S@as ratazanas são tristes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+62@unknown@unknown@none@1@S@as ratazanas são amarelas@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+63@unknown@unknown@none@1@S@a ratazana é amarela@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+64@unknown@unknown@none@1@S@a ratazana é feliz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+65@unknown@unknown@none@1@@a ratazana é amarelo@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+66@unknown@unknown@none@1@@o cachorro é amarela@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+67@unknown@unknown@none@1@@os cachorros amarelas ladraram@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+68@unknown@unknown@none@1@@os feliz cachorros ladraram@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+69@unknown@unknown@none@1@S@os felizes cachorros ladraram@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+70@unknown@unknown@none@1@@os cachorros amarelo ladraram@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+71@unknown@unknown@none@1@S@o cachorro é feliz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+72@unknown@unknown@none@1@@os cachorros é feliz@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+73@unknown@unknown@none@1@@os cachorros são feliz@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+74@unknown@unknown@none@1@@os cachorros é felizes@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+75@unknown@unknown@none@1@@o cachorro é felizes@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+76@unknown@unknown@none@1@@o cachorro são felizes@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+77@unknown@unknown@none@1@S@o gato é simples@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+78@unknown@unknown@none@1@S@os gatos são simples@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+79@unknown@unknown@none@1@S@a ratazana é simples@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+80@unknown@unknown@none@1@S@as ratazanas são simples@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+81@unknown@unknown@none@1@@os gatos é simples@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+82@unknown@unknown@none@1@S@a ratazana simples é feliz@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+83@unknown@unknown@none@1@S@o artista é feliz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+84@unknown@unknown@none@1@S@a artista é feliz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+85@unknown@unknown@none@1@S@os artistas são felizes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+86@unknown@unknown@none@1@S@os artistas amarelos são felizes@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+87@unknown@unknown@none@1@@os artistas amarelas são felizes@@@@0@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+88@unknown@unknown@none@1@S@as artistas amarelas são felizes@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+89@unknown@unknown@none@1@@as artistas amarelos são felizes@@@@0@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+90@unknown@unknown@none@1@S@artistas simples são felizes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+91@unknown@unknown@none@1@S@artistas amarelos são felizes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+92@unknown@unknown@none@1@S@artistas amarelas são felizes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+93@unknown@unknown@none@1@S@artistas simples são amarelos@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+94@unknown@unknown@none@1@S@artistas simples são amarelas@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+95@unknown@unknown@none@1@S@o gato lamenta os cachorros terem ladrado@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+96@unknown@unknown@none@1@@o gato lamenta os cachorros ter ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+97@unknown@unknown@none@1@S@o gato lamenta os cachorros ladrarem@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+98@unknown@unknown@none@1@@o gato lamenta os cachorros ladrar@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+99@unknown@unknown@none@1@@os cachorros ladrarem@@@@0@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+100@unknown@unknown@none@1@@o cachorro ladrar@@@@0@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+101@unknown@unknown@none@1@S@o cachorro late@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+102@unknown@unknown@none@1@@o cachorro lata@@@@0@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+103@unknown@unknown@none@1@S@o cachorro ladra@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+104@unknown@unknown@none@1@S@os cachorros ladram@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+105@unknown@unknown@none@1@S@o cachorro admira o gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+106@unknown@unknown@none@1@@o cachorro admirar o gato@@@@0@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+107@unknown@unknown@none@1@@os cachorros admirarem o gato@@@@0@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+108@unknown@unknown@none@1@S@os cachorros admiraram o gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+109@unknown@unknown@none@1@S@o cachorro vai ladrar@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+110@unknown@unknown@none@1@S@os cachorros vão ladrar@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+111@unknown@unknown@none@1@@os cachorros vai ladrar@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+112@unknown@unknown@none@1@@os cachorros vai ladrarem@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+113@unknown@unknown@none@1@@os cachorros vão ladrarem@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+114@unknown@unknown@none@1@S@será que a estudante adora o cachorro@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+115@unknown@unknown@none@1@S@será que o cliente adora o cachorro@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+116@unknown@unknown@none@1@S@os cachorrinhos vão ladrar@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+117@unknown@unknown@none@1@S@o cachorrinho vai ladrar@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+118@unknown@unknown@none@1@S@o lagartão admira o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+119@unknown@unknown@none@1@S@a lagartinha admira o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+120@unknown@unknown@none@1@S@a lagartona admira o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+121@unknown@unknown@none@1@@os lagartãos admiram o cachorro@@@@0@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+122@unknown@unknown@none@1@S@os lagartões admiram o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+123@unknown@unknown@none@1@S@as lagartinhas admiram o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+124@unknown@unknown@none@1@S@as lagartonas admiram o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+125@unknown@unknown@none@1@S@o cachorro é feroz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+126@unknown@unknown@none@1@S@o cachorro é inteligente@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+127@unknown@unknown@none@1@S@as lagartinhas são inteligentes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+128@unknown@unknown@none@1@S@a lagartinha é inteligente@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+129@unknown@unknown@none@1@@a lagartinha é inteligentea@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+130@unknown@unknown@none@1@@a lagartinha é inteligenta@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+131@unknown@unknown@none@1@S@a lagartinha é feroz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+132@unknown@unknown@none@1@@a lagartinha é feroza@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+133@unknown@unknown@none@1@S@as lagartinhas são ferozes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+134@unknown@unknown@none@1@@as lagartinhas são ferozas@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+135@unknown@unknown@none@1@@as lagartinhas são ferozeas@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+136@unknown@unknown@none@1@S@os artistas beirões admiram as artistas beiroas@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+137@unknown@unknown@none@1@S@os artistas ingleses admiram as artistas judias@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+138@unknown@unknown@none@1@S@os artistas ingleses admiram as artistas hebreias@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+139@unknown@unknown@none@1@S@os artistas ilhéus admiram as artistas ilhoas@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+140@unknown@unknown@none@1@S@o artista ilhéu admira a artista ilhoa@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+141@unknown@unknown@none@1@S@os cachorrinhos amarelõezinhos são ferozes@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+142@unknown@unknown@none@1@S@os cachorrinhos amarelões são ferozes@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+143@unknown@unknown@none@1@S@a artista nua é francesa@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+144@unknown@unknown@none@1@S@o artista nu é francês@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+145@unknown@unknown@none@1@S@o artista vendeu o lagartão@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+146@unknown@unknown@none@1@S@o artista sorriu@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+147@unknown@unknown@none@1@S@os artistas sorriram@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+148@unknown@unknown@none@1@S@os artistas venderam o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+149@unknown@unknown@none@1@S@a porta abriu@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+150@unknown@unknown@none@1@S@a porta abriu-se@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+151@unknown@unknown@none@1@S@o gato detesta que os cachorros latam@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+152@unknown@unknown@none@1@@o gato detesta que os cachorros latem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+153@unknown@unknown@none@1@S@o gato detesta que os cachorros ladrem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+154@unknown@unknown@none@1@@o gato detesta que os cachorros ladram@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+155@unknown@unknown@none@1@S@o gato detesta que os cachorros tenham latido@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+156@unknown@unknown@none@1@S@o gato detesta que os cachorros tenham ladrado@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+157@unknown@unknown@none@1@S@o gato detesta que os cachorros estejam latindo@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+158@unknown@unknown@none@1@S@o gato detesta que o cachorro tenha latido@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+159@unknown@unknown@none@1@S@o gato detesta que o cachorro esteja latindo@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+160@unknown@unknown@none@1@@o gato detesta que o cachorro está latindo@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+161@unknown@unknown@none@1@@o gato detesta que o cachorro tem latido@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+162@unknown@unknown@none@1@S@o gato detestou que o cachorro tenha latido@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+163@unknown@unknown@none@1@@o gato detestou que o cachorro tem latido@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+164@unknown@unknown@none@1@S@o gato detestava que o cachorro estivesse latindo@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+165@unknown@unknown@none@1@S@o gato detestou que o cachorro tivesse latido@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+166@unknown@unknown@none@1@S@o gato detestou que o cachorro latisse@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+167@unknown@unknown@none@1@S@o gato lamenta o cachorro ladrar@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+168@unknown@unknown@none@1@S@lamento ladrares@@@@1@2@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+169@unknown@unknown@none@1@S@eu lamento ladrares@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+170@unknown@unknown@none@1@S@eu lamento tu ladrares@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+171@unknown@unknown@none@1@S@ele lamenta ladrarmos@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+172@unknown@unknown@none@1@S@ele lamenta nós ladrarmos@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+173@unknown@unknown@none@1@S@ele lamenta ladrar@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+174@unknown@unknown@none@1@S@os cachorros estão tristes@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+175@unknown@unknown@none@1@S@o cachorro está triste@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+176@unknown@unknown@none@1@@o cachorro está-se triste@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+177@unknown@unknown@none@1@@o cachorro é-se triste@@@@0@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+178@unknown@unknown@none@1@@o gato detestou que o cachorro tivesse-se latido@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+179@unknown@unknown@none@1@@o gato detestou que o cachorro tivesse latido-se@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+180@unknown@unknown@none@1@S@o gato detestou que o cachorro tivesse queixado-se@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+181@unknown@unknown@none@1@@o gato lamenta os cachorros têm ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+182@unknown@unknown@none@1@@o gato lamenta os cachorros tenham ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+183@unknown@unknown@none@1@@o gato quer os cachorros tenham ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+184@unknown@unknown@none@1@@o gato quer os cachorros terem ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+185@unknown@unknown@none@1@@o gato quer que os cachorros terem ladrado@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+186@unknown@unknown@none@1@@o gato quer que os cachorros têm ladrado@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+187@unknown@unknown@none@1@S@o gato quer que os cachorros tenham ladrado@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+188@unknown@unknown@none@1@@o gato quer os cachorros ter ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+189@unknown@unknown@none@1@@o gato quer o cachorro terem ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+190@unknown@unknown@none@1@@o gato quer o cachorro ladrado@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+191@unknown@unknown@none@1@@o gato quer o cachorro ladrar@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+192@unknown@unknown@none@1@@o gato quer os cachorros ladrarem@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+193@unknown@unknown@none@1@@o gato quer que o cachorro ladrar@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+194@unknown@unknown@none@1@@o gato quer que os cachorros ladrarem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+195@unknown@unknown@none@1@@o gato quer os cachorros ladrem@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+196@unknown@unknown@none@1@S@o gato quer que os cachorros ladrem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+197@unknown@unknown@none@1@@o gato perguntou se o cachorro ladrado@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+198@unknown@unknown@none@1@@o gato perguntou se o cachorro ladre@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+199@unknown@unknown@none@1@@o gato perguntou se o cachorro ladrar@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+200@unknown@unknown@none@1@@o gato perguntou se o cachorro tiver ladrado@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+201@unknown@unknown@none@1@@o gato perguntou se o cachorro ter ladrado@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+202@unknown@unknown@none@1@@o gato perguntou se os cachorros terem ladrado@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+203@unknown@unknown@none@1@@o gato perguntou se os cachorros tiverem ladrado@@@@0@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+204@unknown@unknown@none@1@@o gato perguntou se os cachorros ladrando@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+205@unknown@unknown@none@1@@o gato perguntou se os cachorros ladrarem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+206@unknown@unknown@none@1@S@o gato ouviu os cachorros ladrarem@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+207@unknown@unknown@none@1@S@o gato ouviu os cachorros latirem@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+208@unknown@unknown@none@1@S@o gato ouviu os cachorros latindo@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+209@unknown@unknown@none@1@@o gato ouviu os cachorros latido@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+210@unknown@unknown@none@1@@o gato ouviu os cachorros ladrar@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+211@unknown@unknown@none@1@@o gato ouviu os cachorros latir@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+212@unknown@unknown@none@1@S@o gato ouviu que os cachorros ladravam@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+213@unknown@unknown@none@1@S@o gato ouviu que os cachorros latiam@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+214@unknown@unknown@none@1@@o gato ouviu que os cachorros ladrassem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+215@unknown@unknown@none@1@@o gato ouviu que os cachorros latissem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+216@unknown@unknown@none@1@S@o gato mandou os cachorros ladrarem@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+217@unknown@unknown@none@1@S@o gato mandou os cachorros latirem@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+218@unknown@unknown@none@1@@o gato mandou os cachorros ladrar@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+219@unknown@unknown@none@1@@o gato mandou os cachorros latir@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+220@unknown@unknown@none@1@S@o gato mandou que os cachorros ladrassem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+221@unknown@unknown@none@1@S@o gato mandou que os cachorros latissem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+222@unknown@unknown@none@1@@o gato mandou que os cachorros ladram@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+223@unknown@unknown@none@1@@o gato mandou que os cachorros latem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+224@unknown@unknown@none@1@S@o gato fez que os cachorros ladrassem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+225@unknown@unknown@none@1@S@o gato fez que os cachorros latissem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+226@unknown@unknown@none@1@S@o gato fez com que os cachorros ladrassem@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+227@unknown@unknown@none@1@S@o gato fez com que os cachorros latissem@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+228@unknown@unknown@none@1@@o gato fez que os cachorros ladram@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+229@unknown@unknown@none@1@@o gato fez que os cachorros latem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+230@unknown@unknown@none@1@S@o gato sabe que os cachorros ladram@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+231@unknown@unknown@none@1@S@o gato sabe que os cachorros latem@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+232@unknown@unknown@none@1@S@o gato sabia que os cachorros ladravam@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+233@unknown@unknown@none@1@S@o gato sabia que os cachorros latiam@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+234@unknown@unknown@none@1@@o gato sabia que os cachorros ladrassem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+235@unknown@unknown@none@1@@o gato sabia que os cachorros latissem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+236@unknown@unknown@none@1@@o gato sabe que os cachorros ladrem@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+237@unknown@unknown@none@1@@o gato sabe que os cachorros latam@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+238@unknown@unknown@none@1@S@o gato pode latir@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+239@unknown@unknown@none@1@S@o gato parece latir@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+240@unknown@unknown@none@1@S@o gato continua latindo@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+241@unknown@unknown@none@1@S@o gato detesta latir@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+242@unknown@unknown@none@1@S@o gato ousou latir@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+243@unknown@unknown@none@1@S@o gato deseja latir@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+244@unknown@unknown@none@1@S@o cachorro começou a latir@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+245@unknown@unknown@none@1@S@o cachorro parou de latir@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+246@unknown@unknown@none@1@S@o artista insistiu em perseguir o cachorro@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+247@unknown@unknown@none@1@S@o cliente insistiu em que os artistas vendessem o cachorro@@@@1@10@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+248@unknown@unknown@none@1@S@o artista insistiu que os artistas vendessem o cachorro@@@@1@9@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+249@unknown@unknown@none@1@S@o artista perguntou quem perseguiu o gato@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+250@unknown@unknown@none@1@S@o artista perguntou quem o cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+251@unknown@unknown@none@1@S@o artista perguntou que cachorro perseguiu o gato@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+252@unknown@unknown@none@1@S@o artista perguntou qual cachorro perseguiu o gato@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+253@unknown@unknown@none@1@S@o artista perguntou quais cachorros perseguiram o gato@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+254@unknown@unknown@none@1@S@o artista perguntou quais gatos o cachorro perseguiu@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+255@unknown@unknown@none@1@S@quais gatos o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+256@unknown@unknown@none@1@S@o artista perguntou-se que cachorro perseguiu o gato@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+257@unknown@unknown@none@1@S@o cachorro perseguiu quais gatos@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+258@unknown@unknown@none@1@S@o cachorro perseguiu quem@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+259@unknown@unknown@none@1@S@quem o cachorro perseguiu@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+260@unknown@unknown@none@1@S@que o cachorro perseguiu@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+261@unknown@unknown@none@1@S@o artista perguntou que o cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+262@unknown@unknown@none@1@S@o artista perguntou o que cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+263@unknown@unknown@none@1@S@o artista perguntou-se que o cachorro perseguiu@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+264@unknown@unknown@none@1@S@o artista perguntou-se o que o cachorro perseguiu@@@@1@8@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+265@unknown@unknown@none@1@S@o gato obedeceu a o cachorro@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+266@unknown@unknown@none@1@S@o gato obedeceu o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+267@unknown@unknown@none@1@S@o artista caminhou para a cidade@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+268@unknown@unknown@none@1@S@ele doou a bicicleta a o artista@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+269@unknown@unknown@none@1@S@ele doou a bicicleta para o artista@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+270@unknown@unknown@none@1@S@o que o cachorro perseguiu@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+271@unknown@unknown@none@1@S@todos os gatos temem o cachorro@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+272@unknown@unknown@none@1@S@todos gatos temem o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+273@unknown@unknown@none@1@S@todas as ratazanas temem o gato@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+274@unknown@unknown@none@1@S@toda ratazana teme o gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+275@unknown@unknown@none@1@S@todas ratazanas temem o gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+276@unknown@unknown@none@1@S@todo gato teme o cachorro@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+277@unknown@unknown@none@1@S@cada gato latiu@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+278@unknown@unknown@none@1@S@todos os gatos perseguiram algum cão@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+279@unknown@unknown@none@1@S@todos gatos perseguiram algum cão@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+280@unknown@unknown@none@1@S@todos gatos perseguiram alguns cães@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+281@unknown@unknown@none@1@S@todos gatos perseguiram alguma ratazana@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+282@unknown@unknown@none@1@S@todos gatos perseguiram algumas ratazanas@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+283@unknown@unknown@none@1@S@alguns gatos perseguiram a ratazana@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+284@unknown@unknown@none@1@S@algum gato perseguiu a ratazana@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+285@unknown@unknown@none@1@S@alguma ratazana perseguiu o gato@@@@1@5@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+286@unknown@unknown@none@1@S@o gato percebeu que o cachorro dormia@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+287@unknown@unknown@none@1@S@o gato queria que o cachorro dormisse@@@@1@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+288@unknown@unknown@none@1@@o gato queria que o cachorro dormia@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+289@unknown@unknown@none@1@@o gato percebeu que o cachorro dormisse@@@@0@7@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+290@unknown@unknown@none@1@S@eu percebi que os gatos dormiam@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+291@unknown@unknown@none@1@S@eu quero que os gatos durmam@@@@1@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+292@unknown@unknown@none@1@@eu percebi que os gatos dormissem@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+293@unknown@unknown@none@1@@eu quero que os gatos dormem@@@@0@6@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+294@unknown@unknown@none@1@S@eu estou feliz@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+295@unknown@unknown@none@1@S@tu estás feliz@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+296@unknown@unknown@none@1@S@o gato está feliz@@@@1@4@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+297@unknown@unknown@none@1@S@nós estamos felizes@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+298@unknown@unknown@none@1@S@vós estais felizes@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17
+299@unknown@unknown@none@1@S@eles estão felizes@@@@1@3@@Grammar Matrix Customization System@27-jul-2021 19:25:17

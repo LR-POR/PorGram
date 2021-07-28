@@ -1,0 +1,108 @@
+1 o cachorro tem estado feliz 18 240
+2 vós estais felizes 6 101
+3 nós estamos felizes 6 117
+4 o cachorro está estando feliz 18 462
+5 o cachorro vai estar feliz 18 368
+6 eu estarei feliz 6 97
+7 vós estareis felizes 6 101
+8 nós estaremos felizes 6 101
+9 eu estaria feliz 6 144
+10 o cachorro estaria feliz 6 191
+11 os cachorros estariam felizes 6 132
+12 tu estarias feliz 6 97
+13 o cachorro estará feliz 6 120
+14 tu estarás feliz 6 97
+15 os cachorros estarão felizes 6 132
+16 nós estaríamos felizes 6 101
+17 vós estaríeis felizes 6 101
+18 eu esteja feliz 6 145
+19 o cachorro esteja feliz 6 191
+20 vós estejais felizes 6 101
+21 os cachorros estejam felizes 6 132
+22 nós estejamos felizes 6 101
+23 tu estejas feliz 6 97
+24 o cachorro esteve feliz 6 102
+25 eu estive feliz 6 80
+26 nós estivemos felizes 6 86
+27 eu estiver feliz 6 115
+28 o cachorro estiver feliz 6 158
+29 eu estivera feliz 6 115
+30 tu estivera feliz 12 144
+31 o cachorro estivera feliz 6 158
+32 os cachorros estiveram felizes 12 195
+33 os cachorros estiveram felizes 12 195
+34 tu estiveras feliz 6 80
+35 vós estiverdes felizes 6 86
+36 os cachorros estiverem felizes 6 113
+37 tu estiveres feliz 6 80
+38 nós estivermos felizes 6 86
+39 eu estivesse feliz 6 145
+40 o cachorro estivesse feliz 6 191
+41 os cachorros estivessem felizes 6 132
+42 tu estivesses feliz 6 97
+43 tu estiveste feliz 6 80
+44 vós estivestes felizes 6 86
+45 nós estivéramos felizes 6 86
+46 vós estivéreis felizes 6 86
+47 vós estivésseis felizes 6 101
+48 nós estivéssemos felizes 6 101
+49 eu estou feliz 6 109
+50 o cachorro está feliz 6 120
+51 tu estás feliz 6 97
+52 os cachorros estão felizes 6 132
+53 o cachorro foi feliz 6 101
+54 nós fomos felizes 6 85
+55 eu for feliz 6 112
+56 o cachorro for feliz 6 156
+57 eu fora feliz 6 112
+58 tu fora feliz 12 140
+59 o cachorro fora feliz 6 156
+60 os cachorros foram felizes 12 194
+61 os cachorros foram felizes 12 194
+62 tu foras feliz 6 78
+63 vós fordes felizes 6 85
+64 os cachorros forem felizes 6 112
+65 tu fores feliz 6 78
+66 nós formos felizes 6 85
+67 eu fosse feliz 6 112
+68 o cachorro fosse feliz 6 156
+69 os cachorros fossem felizes 6 112
+70 tu fosses feliz 6 78
+71 tu foste feliz 6 78
+72 vós fostes felizes 6 85
+73 eu fui feliz 6 78
+74 nós fôramos felizes 6 85
+75 vós fôreis felizes 6 85
+76 vós fôsseis felizes 6 85
+77 nós fôssemos felizes 6 85
+78 eu seja feliz 6 112
+79 o cachorro seja feliz 6 156
+80 vós sejais felizes 6 85
+81 os cachorros sejam felizes 6 112
+82 nós sejamos felizes 6 85
+83 tu sejas feliz 6 78
+84 o cachorro está sendo feliz 18 415
+85 o cachorro vai ser feliz 18 312
+86 eu serei feliz 6 81
+87 vós sereis felizes 6 87
+88 nós seremos felizes 6 87
+89 eu seria feliz 6 116
+90 o cachorro seria feliz 6 157
+91 os cachorros seriam felizes 6 114
+92 tu serias feliz 6 81
+93 o cachorro será feliz 6 104
+94 tu serás feliz 6 84
+95 os cachorros serão felizes 6 114
+96 nós seríamos felizes 6 87
+97 vós seríeis felizes 6 87
+98 o cachorro tem sido feliz 18 230
+99 vós sois felizes 6 87
+100 nós somos felizes 6 87
+101 eu sou feliz 6 81
+102 os cachorros são felizes 6 114
+103 o cachorro é feliz 6 103
+104 tu és feliz 6 81
+
+;;; Total CPU time: 1597 msecs
+;;; Mean edges: 123.93
+;;; Mean parses: 7.04

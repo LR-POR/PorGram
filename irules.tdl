@@ -288,3 +288,75 @@ fem-lex-rule.
 a-pl-suffix :=
 %suffix (* s)
 a-pl-lex-rule.
+
+cop-past-part-suffix :=
+%suffix (* ado)
+cop-past-part-lex-rule.
+
+cop-pres-part-suffix :=
+%suffix (* ando)
+cop-pres-part-lex-rule.
+
+cop-inf-suffix :=
+%suffix (* ar)
+cop-inf-lex-rule.
+
+cop-pres-ind-1sg-suffix :=
+%suffix (* ou)
+cop-pres-ind-1sg-lex-rule.
+
+cop-pres-ind-2sg-suffix :=
+%suffix (* ás)
+cop-pres-ind-2sg-lex-rule.
+
+cop-pres-ind-3sg-suffix :=
+%suffix (* á)
+cop-pres-ind-3sg-lex-rule.
+
+cop-pres-ind-1pl-suffix :=
+%suffix (* amos)
+cop-pres-ind-1pl-lex-rule.
+
+cop-pres-ind-2pl-suffix :=
+%suffix (* ais)
+cop-pres-ind-2pl-lex-rule.
+
+cop-pres-ind-3pl-suffix :=
+%suffix (* ão)
+cop-pres-ind-3pl-lex-rule.
+
+cop-pres-subj-1sg-suffix :=
+%suffix (* eja)
+cop-pres-subj-1sg-lex-rule.
+
+cop-imperf-ind-1sg-suffix :=
+%suffix (* ava)
+cop-imperf-ind-1sg-lex-rule.
+
+cop-imperf-subj-1sg-suffix :=
+%suffix (* ivesse)
+cop-imperf-subj-1sg-lex-rule.
+
+cop-perf-1sg-suffix :=
+%suffix (* ive)
+cop-perf-1sg-lex-rule.
+
+cop-fut-ind-1sg-suffix :=
+%suffix (* arei)
+cop-fut-ind-1sg-lex-rule.
+
+cop-fut-subj-1sg-suffix :=
+%suffix (* iver)
+cop-fut-subj-1sg-lex-rule.
+
+cop-pqp-1sg-suffix :=
+%suffix (* ivera)
+cop-pqp-1sg-lex-rule.
+
+cop-fut-pret-1sg-suffix :=
+%suffix (* aria)
+cop-fut-pret-1sg-lex-rule.
+
+cop-infl-inf-2sg-suffix :=
+%suffix (* ares)
+cop-infl-inf-2sg-lex-rule.

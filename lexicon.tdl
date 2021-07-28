@@ -456,7 +456,7 @@ obedecer := dat-obj-verb-lex &
 ter := ter-aux-lex &
   [ STEM < "ter" > ].
 
-estar := estar-aux-lex &
+estar_1 := estar-aux-lex &
   [ STEM < "estar" > ].
 
 ir := ir-aux-lex &
@@ -508,11 +508,11 @@ tentar := bare-inf-aux-lex &
 
 ;;; Copulas
 
-é := ser-3sg-cop-lex &
-  [ STEM < "é" > ].
+ser := ser-cop-lex &
+  [ STEM < "ser" > ].
 
-são := ser-3pl-cop-lex &
-  [ STEM < "são" > ].
+estar_2 := estar-cop-lex &
+  [ STEM < "estar" > ].
 
 ;;; Determiners
 

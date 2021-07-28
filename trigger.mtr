@@ -20,9 +20,9 @@ ter_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "ter" ].
 
-estar_gr := arg0e_gtr &
+estar_1_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "estar" ].
+    FLAGS.TRIGGER "estar_1" ].
 
 ir_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
