@@ -95,6 +95,6 @@ cop-infl-inf-3pl-lex-rule := cop-3pl-lex-rule & cop-infl-inf-lex-rule.
 
 ; These types definitions overwrite the definitions in the choices file.
 
-subj-cl-verb-lex := fin-cl-verb-lex &  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive  ] >].
+; subj-cl-verb-lex := fin-cl-verb-lex &  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive  ] >].
 
-ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD indicative  ] >].
+; ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD indicative  ] >].

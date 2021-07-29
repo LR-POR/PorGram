@@ -593,3 +593,9 @@ para_20que := comps6-complementizer-lex-item &
 em_20que := comps7-complementizer-lex-item &
   [ STEM < "em",
            "que" > ].
+
+que_4 := comps8-complementizer-lex-item &
+  [ STEM < "que" > ].
+
+que_5 := comps9-complementizer-lex-item &
+  [ STEM < "que" > ].
