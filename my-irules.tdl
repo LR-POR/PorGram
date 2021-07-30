@@ -42,8 +42,8 @@
 ;;; all letters except e
 %(letter-set (!z abcdfghijklmnopqrstuvwxyzçáéóõãôê))
 
-;;; all letters except m
-%(letter-set (!m abcdefghijklnopqrstuvwxyzçáéóõãôê))
+;;; all letters except l and m
+%(letter-set (!m abcdefghijknopqrstuvwxyzçáéóõãôê))
 
 
 ;; Does this rule generate "hífens"? If it doesn't, this form should be included in the my-irregs.tab file,
@@ -380,13 +380,13 @@ infl-inf-3sg-suffix :=
 infl-inf-3sg-lex-rule.
 
 det-fem-suffix :=
-; (algum alguma) (este esta)
-%suffix (!z !za) (e a)
+; (algum alguma) (este esta) (o a) (tal tal)
+%suffix (um uma) (e a) (o a) (l l)
 det-fem-lex-rule.
 
 det-pl-suffix :=
-; (algum alguns) (alguma algumas)
-%suffix (m ns) (!m !ms)
+; (algum alguns) (alguma algumas) (tal tais)
+%suffix (m ns) (!m !ms) (l is)
 det-pl-lex-rule.
 
 cop-inf-suffix :=
@@ -640,7 +640,3 @@ cop-infl-inf-2pl-lex-rule.
 cop-infl-inf-3pl-suffix :=
 %suffix (!ur !urem)
 cop-infl-inf-3pl-lex-rule.
-
-
-
-

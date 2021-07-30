@@ -1,0 +1,63 @@
+qual := qu-sg-det-lex &
+  [ STEM < "qual" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
+
+quais := qu-pl-det-lex &
+  [ STEM < "quais" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
+
+quanto := qu-msg-det-lex &
+  [ STEM < "quanto" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quanto_q_rel" ].
+
+quantos := qu-mpl-det-lex &
+  [ STEM < "quantos" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quanto_q_rel" ].
+
+quanta := qu-fsg-det-lex &
+  [ STEM < "quanta" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quanto_q_rel" ].
+
+quantas := qu-fpl-det-lex &
+  [ STEM < "quantas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quanto_q_rel" ].
+
+quais := qu-pl-det-lex &
+  [ STEM < "qual" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
+
+dois := 3mpl-det-lex &
+  [ STEM < "dois" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dois_q_rel" ].
+
+duas := 3fpl-det-lex &
+  [ STEM < "duas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dois_q_rel" ].
+
+três := 3pl-det-lex &
+  [ STEM < "três" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_três_q_rel" ].
+
+ambos := 3mpl-det-lex &
+  [ STEM < "ambos" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ambos_q_rel" ].
+
+ambas := 3fpl-det-lex &
+  [ STEM < "ambas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ambos_q_rel" ].
+
+vários := 3mpl-det-lex &
+  [ STEM < "vários" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vários_q_rel" ].
+
+várias := 3fpl-det-lex &
+  [ STEM < "várias" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vários_q_rel" ].
+
+diversos := 3mpl-det-lex &
+  [ STEM < "diversos" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_diversos_q_rel" ].
+
+diversas :=3fpl-det-lex &
+  [ STEM < "diversas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_diversos_q_rel" ].

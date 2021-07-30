@@ -1,297 +1,397 @@
 True negatives
-11 *o cachorro está perseguido o gato 0 58
-12 *o cachorro tem perseguindo o gato 0 58
-14 *o cachorro tem estado perseguido o gato 0 71
-17 *o cachorro quer que o gato late 0 74
-21 *o cachorro perguntou se o gato lata 0 65
-25 *o cachorro ladrou-se 0 13
-27 *o cachorro afirmou que o gato lata 0 67
+11 *o cachorro está perseguido o gato 0 153
+12 *o cachorro tem perseguindo o gato 0 64
+14 *o cachorro tem estado perseguido o gato 0 160
+17 *o cachorro quer que o gato late 0 102
+21 *o cachorro perguntou se o gato lata 0 74
+25 *o cachorro ladrou-se 0 16
+27 *o cachorro afirmou que o gato lata 0 97
 31 *eles queixaram 0 21
 32 *eu queixei 0 8
-35 *os cachorros ladrou 0 28
-36 *o cachorro ladraram 0 26
-65 *a ratazana é amarelo 0 68
-66 *o cachorro é amarela 0 63
-67 *os cachorros amarelas ladraram 0 41
-68 *os feliz cachorros ladraram 0 45
-70 *os cachorros amarelo ladraram 0 42
-72 *os cachorros é feliz 0 62
+35 *os cachorros ladrou 0 27
+36 *o cachorro ladraram 0 29
+65 *a ratazana é amarelo 0 75
+66 *o cachorro é amarela 0 70
+67 *os cachorros amarelas ladraram 0 40
+68 *os feliz cachorros ladraram 0 42
+70 *os cachorros amarelo ladraram 0 39
+72 *os cachorros é feliz 0 60
 73 *os cachorros são feliz 0 52
 74 *os cachorros é felizes 0 42
-75 *o cachorro é felizes 0 44
-76 *o cachorro são felizes 0 54
-81 *os gatos é simples 0 61
-87 *os artistas amarelas são felizes 0 108
-89 *as artistas amarelos são felizes 0 119
-96 *o gato lamenta os cachorros ter ladrado 0 194
-98 *o gato lamenta os cachorros ladrar 0 127
-111 *os cachorros vai ladrar 0 90
-112 *os cachorros vai ladrarem 0 49
-113 *os cachorros vão ladrarem 0 55
+75 *o cachorro é felizes 0 50
+76 *o cachorro são felizes 0 58
+81 *os gatos é simples 0 62
+87 *os artistas amarelas são felizes 0 111
+89 *as artistas amarelos são felizes 0 118
+96 *o gato lamenta os cachorros ter ladrado 0 202
+98 *o gato lamenta os cachorros ladrar 0 133
+111 *os cachorros vai ladrar 0 93
+112 *os cachorros vai ladrarem 0 48
+113 *os cachorros vão ladrarem 0 57
 121 *os lagartãos admiram o cachorro 0 42
-129 *a lagartinha é inteligentea 0 42
-130 *a lagartinha é inteligenta 0 44
-132 *a lagartinha é feroza 0 44
-134 *as lagartinhas são ferozas 0 56
-135 *as lagartinhas são ferozeas 0 54
-152 *o gato detesta que os cachorros latem 0 101
-154 *o gato detesta que os cachorros ladram 0 101
-160 *o gato detesta que o cachorro está latindo 0 141
-161 *o gato detesta que o cachorro tem latido 0 141
-163 *o gato detestou que o cachorro tem latido 0 141
-176 *o cachorro está-se triste 0 19
-177 *o cachorro é-se triste 0 18
-178 *o gato detestou que o cachorro tivesse-se latido 0 89
-179 *o gato detestou que o cachorro tivesse latido-se 0 159
-181 *o gato lamenta os cachorros têm ladrado 0 137
-182 *o gato lamenta os cachorros tenham ladrado 0 137
-183 *o gato quer os cachorros tenham ladrado 0 120
-184 *o gato quer os cachorros terem ladrado 0 120
-185 *o gato quer que os cachorros terem ladrado 0 125
-186 *o gato quer que os cachorros têm ladrado 0 134
-188 *o gato quer os cachorros ter ladrado 0 177
-189 *o gato quer o cachorro terem ladrado 0 92
-190 *o gato quer o cachorro ladrado 0 67
-191 *o gato quer o cachorro ladrar 0 112
-192 *o gato quer os cachorros ladrarem 0 89
+129 *a lagartinha é inteligentea 0 48
+130 *a lagartinha é inteligenta 0 50
+132 *a lagartinha é feroza 0 48
+134 *as lagartinhas são ferozas 0 52
+135 *as lagartinhas são ferozeas 0 52
+152 *o gato detesta que os cachorros latem 0 123
+154 *o gato detesta que os cachorros ladram 0 123
+160 *o gato detesta que o cachorro está latindo 0 231
+161 *o gato detesta que o cachorro tem latido 0 176
+163 *o gato detestou que o cachorro tem latido 0 180
+176 *o cachorro está-se triste 0 23
+177 *o cachorro é-se triste 0 21
+178 *o gato detestou que o cachorro tivesse-se latido 0 119
+179 *o gato detestou que o cachorro tivesse latido-se 0 192
+181 *o gato lamenta os cachorros têm ladrado 0 139
+182 *o gato lamenta os cachorros tenham ladrado 0 139
+183 *o gato quer os cachorros tenham ladrado 0 122
+184 *o gato quer os cachorros terem ladrado 0 124
+185 *o gato quer que os cachorros terem ladrado 0 149
+186 *o gato quer que os cachorros têm ladrado 0 165
+188 *o gato quer os cachorros ter ladrado 0 185
+189 *o gato quer o cachorro terem ladrado 0 102
+190 *o gato quer o cachorro ladrado 0 75
+191 *o gato quer o cachorro ladrar 0 124
+192 *o gato quer os cachorros ladrarem 0 91
 195 *o gato quer os cachorros ladrem 0 77
-197 *o gato perguntou se o cachorro ladrado 0 55
-198 *o gato perguntou se o cachorro ladre 0 65
-199 *o gato perguntou se o cachorro ladrar 0 100
-200 *o gato perguntou se o cachorro tiver ladrado 0 135
-201 *o gato perguntou se o cachorro ter ladrado 0 182
-202 *o gato perguntou se os cachorros terem ladrado 0 108
-203 *o gato perguntou se os cachorros tiverem ladrado 0 108
-204 *o gato perguntou se os cachorros ladrando 0 65
-205 *o gato perguntou se os cachorros ladrarem 0 77
+197 *o gato perguntou se o cachorro ladrado 0 66
+198 *o gato perguntou se o cachorro ladre 0 74
+199 *o gato perguntou se o cachorro ladrar 0 115
+200 *o gato perguntou se o cachorro tiver ladrado 0 146
+201 *o gato perguntou se o cachorro ter ladrado 0 199
+202 *o gato perguntou se os cachorros terem ladrado 0 115
+203 *o gato perguntou se os cachorros tiverem ladrado 0 113
+204 *o gato perguntou se os cachorros ladrando 0 70
+205 *o gato perguntou se os cachorros ladrarem 0 82
 209 *o gato ouviu os cachorros latido 0 77
-210 *o gato ouviu os cachorros ladrar 0 110
+210 *o gato ouviu os cachorros ladrar 0 116
 211 *o gato ouviu os cachorros latir 0 110
-214 *o gato ouviu que os cachorros ladrassem 0 84
-215 *o gato ouviu que os cachorros latissem 0 84
-218 *o gato mandou os cachorros ladrar 0 110
-219 *o gato mandou os cachorros latir 0 110
-222 *o gato mandou que os cachorros ladram 0 84
-223 *o gato mandou que os cachorros latem 0 84
-228 *o gato fez que os cachorros ladram 0 86
-229 *o gato fez que os cachorros latem 0 86
-234 *o gato sabia que os cachorros ladrassem 0 113
-235 *o gato sabia que os cachorros latissem 0 113
-236 *o gato sabe que os cachorros ladrem 0 84
-237 *o gato sabe que os cachorros latam 0 84
-288 *o gato queria que o cachorro dormia 0 113
-289 *o gato percebeu que o cachorro dormisse 0 67
-292 *eu percebi que os gatos dormissem 0 59
-293 *eu quero que os gatos dormem 0 73
+214 *o gato ouviu que os cachorros ladrassem 0 106
+215 *o gato ouviu que os cachorros latissem 0 106
+218 *o gato mandou os cachorros ladrar 0 119
+219 *o gato mandou os cachorros latir 0 113
+222 *o gato mandou que os cachorros ladram 0 109
+223 *o gato mandou que os cachorros latem 0 109
+228 *o gato fez que os cachorros ladram 0 108
+229 *o gato fez que os cachorros latem 0 108
+234 *o gato sabia que os cachorros ladrassem 0 135
+235 *o gato sabia que os cachorros latissem 0 135
+236 *o gato sabe que os cachorros ladrem 0 106
+237 *o gato sabe que os cachorros latam 0 106
+317 *o gato queria que o cachorro dormia 0 141
+318 *o gato percebeu que o cachorro dormisse 0 95
+321 *eu percebi que os gatos dormissem 0 78
+322 *eu quero que os gatos dormem 0 92
 True positives
-1 o cachorro latiu 1 27
-2 o cachorro perseguiu o gato 1 59
-4 tabaco chegou 1 21
-5 o tabaco chegou 1 27
-7 o cachorro tem perseguido o gato 1 153
-8 o cachorro tem latido 1 73
-9 o cachorro está perseguindo o gato 1 153
-10 o cachorro está latindo 1 73
-15 o cachorro vai latir 1 106
-16 o cachorro quer que o gato lata 1 124
-18 o cachorro acredita que o gato late 1 97
-19 o cachorro acredita que o gato lata 1 107
-20 o cachorro perguntou se o gato late 1 97
-23 o cachorro perguntou-se se o gato latiu 1 97
-24 o cachorro ladrou 1 27
-26 o cachorro declarou que o gato late 1 97
-28 o cachorro queixou-se 1 27
+1 o cachorro latiu 1 32
+2 o cachorro perseguiu o gato 1 69
+4 tabaco chegou 1 23
+5 o tabaco chegou 1 34
+7 o cachorro tem perseguido o gato 1 163
+8 o cachorro tem latido 1 78
+9 o cachorro está perseguindo o gato 1 252
+10 o cachorro está latindo 1 127
+15 o cachorro vai latir 1 111
+16 o cachorro quer que o gato lata 2 159
+18 o cachorro acredita que o gato late 2 132
+19 o cachorro acredita que o gato lata 2 142
+20 o cachorro perguntou se o gato late 1 110
+23 o cachorro perguntou-se se o gato latiu 1 107
+24 o cachorro ladrou 1 34
+26 o cachorro declarou que o gato late 2 134
+28 o cachorro queixou-se 1 32
 29 eu queixei-me 1 19
 30 eles queixaram-se 2 42
-33 os cachorros ladraram 2 52
-34 os gatos queixaram-se 2 52
-37 será que o cachorro latiu 1 40
-38 que cachorro latiu 1 31
-39 qual cachorro latiu 1 27
-40 quais cachorros ladraram 2 54
-41 o cachorro perseguiu que gato 1 80
-42 que gato o cachorro perseguiu 1 49
-43 o cachorro perseguiu qual gato 1 62
-44 qual gato o cachorro perseguiu 1 47
-45 o cachorro feliz ladrou 2 43
-46 o cachorro triste ladrou 2 43
-47 o cachorro amarelo ladrou 2 43
-48 a ratazana amarela ladrou 2 45
-49 a ratazana feliz ladrou 2 46
-50 a ratazana triste ladrou 2 46
-51 as ratazanas amarelas ladraram 4 78
-52 as ratazanas tristes ladraram 4 83
-53 as ratazanas felizes ladraram 4 81
-54 os cachorros felizes ladraram 4 74
-55 os cachorros tristes ladraram 4 76
-56 os cachorros amarelos ladraram 4 76
-57 os cachorros são felizes 6 111
-58 os cachorros são amarelos 6 113
-59 os cachorros são tristes 6 113
-60 as ratazanas são felizes 6 120
-61 as ratazanas são tristes 6 122
-62 as ratazanas são amarelas 6 117
-63 a ratazana é amarela 6 108
-64 a ratazana é feliz 6 109
-69 os felizes cachorros ladraram 4 77
-71 o cachorro é feliz 6 100
-77 o gato é simples 6 99
-78 os gatos são simples 6 108
-79 a ratazana é simples 6 108
-80 as ratazanas são simples 6 117
-82 a ratazana simples é feliz 16 179
-83 o artista é feliz 6 100
-84 a artista é feliz 6 109
-85 os artistas são felizes 6 111
-86 os artistas amarelos são felizes 11 165
-88 as artistas amarelas são felizes 11 169
-90 artistas simples são felizes 16 129
-91 artistas amarelos são felizes 16 134
-92 artistas amarelas são felizes 16 130
-93 artistas simples são amarelos 16 131
-94 artistas simples são amarelas 16 126
-95 o gato lamenta os cachorros terem ladrado 1 277
-97 o gato lamenta os cachorros ladrarem 1 145
-101 o cachorro late 1 27
-103 o cachorro ladra 1 27
-104 os cachorros ladram 1 37
-105 o cachorro admira o gato 1 59
-108 os cachorros admiraram o gato 2 105
-109 o cachorro vai ladrar 1 106
-110 os cachorros vão ladrar 1 116
-114 será que a estudante adora o cachorro 1 83
-115 será que o cliente adora o cachorro 1 81
-116 os cachorrinhos vão ladrar 1 116
-117 o cachorrinho vai ladrar 1 106
-118 o lagartão admira o cachorro 1 59
-119 a lagartinha admira o cachorro 1 61
-120 a lagartona admira o cachorro 1 63
-122 os lagartões admiram o cachorro 1 67
-123 as lagartinhas admiram o cachorro 1 76
-124 as lagartonas admiram o cachorro 1 78
-125 o cachorro é feroz 6 100
-126 o cachorro é inteligente 6 100
-127 as lagartinhas são inteligentes 6 122
-128 a lagartinha é inteligente 6 109
-131 a lagartinha é feroz 6 109
-133 as lagartinhas são ferozes 6 120
-136 os artistas beirões admiram as artistas beiroas 11 176
-137 os artistas ingleses admiram as artistas judias 11 176
-138 os artistas ingleses admiram as artistas hebreias 11 176
-139 os artistas ilhéus admiram as artistas ilhoas 11 178
-140 o artista ilhéu admira a artista ilhoa 11 150
-141 os cachorrinhos amarelõezinhos são ferozes 11 161
-142 os cachorrinhos amarelões são ferozes 11 165
-143 a artista nua é francesa 16 178
-144 o artista nu é francês 11 157
-145 o artista vendeu o lagartão 1 59
-146 o artista sorriu 1 27
-147 os artistas sorriram 2 52
-148 os artistas venderam o cachorro 2 105
-149 a porta abriu 1 29
-150 a porta abriu-se 1 29
-151 o gato detesta que os cachorros latam 1 141
-153 o gato detesta que os cachorros ladrem 1 141
-155 o gato detesta que os cachorros tenham latido 1 292
-156 o gato detesta que os cachorros tenham ladrado 1 292
-157 o gato detesta que os cachorros estejam latindo 1 292
-158 o gato detesta que o cachorro tenha latido 1 282
-159 o gato detesta que o cachorro esteja latindo 1 319
-162 o gato detestou que o cachorro tenha latido 1 282
-164 o gato detestava que o cachorro estivesse latindo 1 461
-165 o gato detestou que o cachorro tivesse latido 1 319
-166 o gato detestou que o cachorro latisse 1 141
-167 o gato lamenta o cachorro ladrar 1 168
-170 eu lamento tu ladrares 1 108
-172 ele lamenta nós ladrarmos 1 108
-173 ele lamenta ladrar 1 185
-180 o gato detestou que o cachorro tivesse queixado-se 1 297
-187 o gato quer que os cachorros tenham ladrado 1 275
-196 o gato quer que os cachorros ladrem 1 124
-206 o gato ouviu os cachorros ladrarem 1 128
-207 o gato ouviu os cachorros latirem 1 128
-212 o gato ouviu que os cachorros ladravam 1 124
-213 o gato ouviu que os cachorros latiam 1 124
-216 o gato mandou os cachorros ladrarem 1 128
-217 o gato mandou os cachorros latirem 1 128
-220 o gato mandou que os cachorros ladrassem 1 124
-221 o gato mandou que os cachorros latissem 1 124
-224 o gato fez que os cachorros ladrassem 2 130
-225 o gato fez que os cachorros latissem 2 130
-226 o gato fez com que os cachorros ladrassem 2 135
-227 o gato fez com que os cachorros latissem 2 135
-230 o gato sabe que os cachorros ladram 1 124
-231 o gato sabe que os cachorros latem 1 124
-232 o gato sabia que os cachorros ladravam 1 175
-233 o gato sabia que os cachorros latiam 1 175
-238 o gato pode latir 1 106
-239 o gato parece latir 1 106
-241 o gato detesta latir 1 224
-242 o gato ousou latir 1 106
-243 o gato deseja latir 1 106
-247 o cliente insistiu em que os artistas vendessem o cachorro 2 241
-248 o artista insistiu que os artistas vendessem o cachorro 2 206
-249 o artista perguntou quem perseguiu o gato 1 91
-250 o artista perguntou quem o cachorro perseguiu 1 89
-251 o artista perguntou que cachorro perseguiu o gato 1 128
-252 o artista perguntou qual cachorro perseguiu o gato 1 105
-253 o artista perguntou quais cachorros perseguiram o gato 2 153
-254 o artista perguntou quais gatos o cachorro perseguiu 1 109
-255 quais gatos o cachorro perseguiu 1 59
-256 o artista perguntou-se que cachorro perseguiu o gato 1 128
-257 o cachorro perseguiu quais gatos 1 74
-258 o cachorro perseguiu quem 1 54
-259 quem o cachorro perseguiu 1 39
-260 que o cachorro perseguiu 1 44
-261 o artista perguntou que o cachorro perseguiu 1 94
-262 o artista perguntou o que cachorro perseguiu 1 93
-263 o artista perguntou-se que o cachorro perseguiu 1 94
-264 o artista perguntou-se o que o cachorro perseguiu 1 99
-267 o artista caminhou para a cidade 2 61
-269 ele doou a bicicleta para o artista 3 101
-270 o que o cachorro perseguiu 1 49
-272 todos gatos temem o cachorro 1 73
-274 toda ratazana teme o gato 1 61
-275 todas ratazanas temem o gato 1 75
-276 todo gato teme o cachorro 1 59
-277 cada gato latiu 1 27
-279 todos gatos perseguiram algum cão 2 114
-280 todos gatos perseguiram alguns cães 2 120
-281 todos gatos perseguiram alguma ratazana 2 113
-282 todos gatos perseguiram algumas ratazanas 2 117
-283 alguns gatos perseguiram a ratazana 2 110
-284 algum gato perseguiu a ratazana 1 66
-285 alguma ratazana perseguiu o gato 1 63
-286 o gato percebeu que o cachorro dormia 1 107
-287 o gato queria que o cachorro dormisse 1 175
-290 eu percebi que os gatos dormiam 1 92
-291 eu quero que os gatos durmam 1 106
+33 os cachorros ladraram 2 51
+34 os gatos queixaram-se 2 51
+37 será que o cachorro latiu 1 87
+38 que cachorro latiu 1 53
+39 qual cachorro latiu 1 31
+40 quais cachorros ladraram 2 62
+41 o cachorro perseguiu que gato 1 105
+42 que gato o cachorro perseguiu 1 74
+43 o cachorro perseguiu qual gato 1 71
+44 qual gato o cachorro perseguiu 1 56
+45 o cachorro feliz ladrou 2 50
+46 o cachorro triste ladrou 2 50
+47 o cachorro amarelo ladrou 2 50
+48 a ratazana amarela ladrou 2 54
+49 a ratazana feliz ladrou 2 53
+50 a ratazana triste ladrou 2 53
+51 as ratazanas amarelas ladraram 4 77
+52 as ratazanas tristes ladraram 4 80
+53 as ratazanas felizes ladraram 4 78
+54 os cachorros felizes ladraram 4 73
+55 os cachorros tristes ladraram 4 75
+56 os cachorros amarelos ladraram 4 75
+57 os cachorros são felizes 6 114
+58 os cachorros são amarelos 6 117
+59 os cachorros são tristes 6 116
+60 as ratazanas são felizes 6 119
+61 as ratazanas são tristes 6 121
+62 as ratazanas são amarelas 6 119
+63 a ratazana é amarela 6 118
+64 a ratazana é feliz 6 119
+69 os felizes cachorros ladraram 4 76
+71 o cachorro é feliz 6 108
+77 o gato é simples 6 107
+78 os gatos são simples 6 112
+79 a ratazana é simples 6 116
+80 as ratazanas são simples 6 116
+82 a ratazana simples é feliz 16 188
+83 o artista é feliz 6 108
+84 a artista é feliz 6 119
+85 os artistas são felizes 6 114
+86 os artistas amarelos são felizes 11 167
+88 as artistas amarelas são felizes 11 170
+90 artistas simples são felizes 16 134
+91 artistas amarelos são felizes 16 140
+92 artistas amarelas são felizes 16 137
+93 artistas simples são amarelos 16 136
+94 artistas simples são amarelas 16 133
+95 o gato lamenta os cachorros terem ladrado 1 285
+97 o gato lamenta os cachorros ladrarem 1 151
+101 o cachorro late 1 32
+103 o cachorro ladra 1 32
+104 os cachorros ladram 1 36
+105 o cachorro admira o gato 1 69
+108 os cachorros admiraram o gato 2 109
+109 o cachorro vai ladrar 1 117
+110 os cachorros vão ladrar 1 124
+114 será que a estudante adora o cachorro 1 139
+115 será que o cliente adora o cachorro 1 137
+116 os cachorrinhos vão ladrar 1 124
+117 o cachorrinho vai ladrar 1 117
+118 o lagartão admira o cachorro 1 69
+119 a lagartinha admira o cachorro 1 71
+120 a lagartona admira o cachorro 1 73
+122 os lagartões admiram o cachorro 1 71
+123 as lagartinhas admiram o cachorro 1 78
+124 as lagartonas admiram o cachorro 1 80
+125 o cachorro é feroz 6 108
+126 o cachorro é inteligente 6 108
+127 as lagartinhas são inteligentes 6 121
+128 a lagartinha é inteligente 6 119
+131 a lagartinha é feroz 6 119
+133 as lagartinhas são ferozes 6 119
+136 os artistas beirões admiram as artistas beiroas 11 172
+137 os artistas ingleses admiram as artistas judias 11 172
+138 os artistas ingleses admiram as artistas hebreias 11 172
+139 os artistas ilhéus admiram as artistas ilhoas 11 174
+140 o artista ilhéu admira a artista ilhoa 11 160
+141 os cachorrinhos amarelõezinhos são ferozes 11 166
+142 os cachorrinhos amarelões são ferozes 11 169
+143 a artista nua é francesa 16 185
+144 o artista nu é francês 11 165
+145 o artista vendeu o lagartão 1 69
+146 o artista sorriu 1 32
+147 os artistas sorriram 2 51
+148 os artistas venderam o cachorro 2 109
+149 a porta abriu 1 34
+150 a porta abriu-se 1 34
+151 o gato detesta que os cachorros latam 2 170
+153 o gato detesta que os cachorros ladrem 2 170
+155 o gato detesta que os cachorros tenham latido 2 328
+156 o gato detesta que os cachorros tenham ladrado 2 330
+157 o gato detesta que os cachorros estejam latindo 2 425
+158 o gato detesta que o cachorro tenha latido 2 324
+159 o gato detesta que o cachorro esteja latindo 2 495
+162 o gato detestou que o cachorro tenha latido 2 328
+164 o gato detestava que o cachorro estivesse latindo 2 678
+165 o gato detestou que o cachorro tivesse latido 2 365
+166 o gato detestou que o cachorro latisse 2 180
+167 o gato lamenta o cachorro ladrar 1 184
+170 eu lamento tu ladrares 1 110
+172 ele lamenta nós ladrarmos 1 110
+173 ele lamenta ladrar 1 191
+174 os cachorros estão tristes 6 135
+175 o cachorro está triste 6 126
+180 o gato detestou que o cachorro tivesse queixado-se 2 343
+187 o gato quer que os cachorros tenham ladrado 2 313
+196 o gato quer que os cachorros ladrem 2 153
+206 o gato ouviu os cachorros ladrarem 1 134
+207 o gato ouviu os cachorros latirem 1 132
+212 o gato ouviu que os cachorros ladravam 2 155
+213 o gato ouviu que os cachorros latiam 2 153
+216 o gato mandou os cachorros ladrarem 1 137
+217 o gato mandou os cachorros latirem 1 135
+220 o gato mandou que os cachorros ladrassem 2 156
+221 o gato mandou que os cachorros latissem 2 156
+224 o gato fez que os cachorros ladrassem 4 161
+225 o gato fez que os cachorros latissem 4 161
+226 o gato fez com que os cachorros ladrassem 2 164
+227 o gato fez com que os cachorros latissem 2 164
+230 o gato sabe que os cachorros ladram 2 153
+231 o gato sabe que os cachorros latem 2 153
+232 o gato sabia que os cachorros ladravam 2 206
+233 o gato sabia que os cachorros latiam 2 204
+238 o gato pode latir 1 111
+239 o gato parece latir 1 111
+241 o gato detesta latir 1 229
+242 o gato ousou latir 1 113
+243 o gato deseja latir 1 111
+247 o cliente insistiu em que os artistas vendessem o cachorro 2 279
+248 o artista insistiu que os artistas vendessem o cachorro 4 246
+249 o artista perguntou quem perseguiu o gato 1 104
+250 o artista perguntou quem o cachorro perseguiu 1 102
+251 o artista perguntou que cachorro perseguiu o gato 1 167
+252 o artista perguntou que gato o cachorro perseguiu 1 132
+253 o artista perguntou que cachorros perseguiram o gato 2 222
+254 o artista perguntou que gatos o cachorro perseguiu 1 136
+255 o artista perguntou que gatos os cachorros perseguiram 2 168
+256 o artista perguntou que ratazana o cachorro perseguiu 1 132
+257 o artista perguntou que ratazanas perseguiram o gato 2 222
+258 o artista perguntou que ratazanas o cachorro perseguiu 1 136
+259 o artista perguntou que ratazanas os cachorros perseguiram 2 168
+260 o artista perguntou qual cachorro perseguiu o gato 1 122
+261 o artista perguntou quais cachorros perseguiram o gato 2 174
+262 o artista perguntou quais gatos o cachorro perseguiu 1 130
+263 o artista perguntou qual ratazana perseguiu o gato 1 122
+264 o artista perguntou qual ratazana o gato perseguiu 1 114
+265 o artista perguntou quais ratazanas perseguiram o gato 2 174
+266 o artista perguntou quais ratazanas o cachorro perseguiu 1 130
+267 o artista perguntou quais ratazanas os cachorros perseguiram 2 162
+268 quais gatos o cachorro perseguiu 1 72
+269 quais ratazanas o cachorro perseguiu 1 72
+270 qual gato o cachorro perseguiu 1 56
+271 qual ratazana o cachorro perseguiu 1 56
+272 qual gato perseguiu o cachorro 1 64
+273 qual ratazana perseguiu o cachorro 1 64
+274 quais gatos perseguiram o cachorro 2 112
+275 quais ratazanas perseguiram o cachorro 2 112
+276 que gatos o cachorro perseguiu 1 78
+277 que ratazanas o cachorro perseguiu 1 78
+278 que gato o cachorro perseguiu 1 74
+279 que ratazana o cachorro perseguiu 1 74
+280 que gato perseguiu o cachorro 1 95
+281 que ratazana perseguiu o cachorro 1 95
+282 que gatos perseguiram o cachorro 2 144
+283 que ratazanas perseguiram o cachorro 2 144
+284 o artista perguntou-se que cachorro perseguiu o gato 1 164
+285 o cachorro perseguiu quais gatos 1 87
+286 o cachorro perseguiu quem 1 59
+287 quem o cachorro perseguiu 1 44
+288 que o cachorro perseguiu 1 72
+289 o artista perguntou que o cachorro perseguiu 1 130
+290 o artista perguntou o que cachorro perseguiu 1 130
+291 o artista perguntou-se que o cachorro perseguiu 1 127
+292 o artista perguntou-se o que o cachorro perseguiu 1 138
+295 o artista caminhou para a cidade 2 73
+297 ele doou a bicicleta para o artista 3 113
+298 o que o cachorro perseguiu 1 83
+300 todos gatos temem o cachorro 1 77
+302 toda ratazana teme o gato 1 70
+303 todas ratazanas temem o gato 1 74
+304 todo gato teme o cachorro 1 69
+305 cada gato latiu 1 27
+306 cada ratazana teme algum gato 1 64
+308 todos gatos perseguiram algum cão 2 113
+309 todos gatos perseguiram alguns cães 2 119
+310 todos gatos perseguiram alguma ratazana 2 112
+311 todos gatos perseguiram algumas ratazanas 2 116
+312 alguns gatos perseguiram a ratazana 2 115
+313 algum gato perseguiu a ratazana 1 71
+314 alguma ratazana perseguiu o gato 1 68
+315 o gato percebeu que o cachorro dormia 2 142
+316 o gato queria que o cachorro dormisse 2 210
+319 eu percebi que os gatos dormiam 2 116
+320 eu quero que os gatos durmam 2 130
+323 eu estou feliz 6 109
+324 tu estás feliz 6 97
+325 o gato está feliz 6 126
+326 nós estamos felizes 6 117
+327 vós estais felizes 6 101
+328 eles estão felizes 6 106
+329 ambos gatos dormem 1 35
+330 ambas artistas dormem 1 35
+333 uma artista imitou aquele gato 1 70
+334 essa artista imitou este gato 1 70
+335 aquela artista imitou um gato 1 70
+336 o gato perseguiu aquelas ratazanas 1 72
+337 outro gato perseguiu umas ratazanas 1 72
+338 o gato imita aqueles cachorros 1 77
+339 estas ratazanas caçaram aqueles cachorros 2 116
+340 essas ratazanas caçaram aquele cachorro 2 108
+341 duas ratazanas caçaram aquele cachorro 2 108
+342 três ratazanas caçaram aquele cachorro 2 108
+343 muitos gatos caçaram três ratazanas 2 116
+344 poucos gatos caçaram três ratazanas 2 116
+345 muitos gatos dormem 1 40
+346 poucos gatos dormem 1 40
+347 a artista imita qualquer gato 1 89
+348 a artista imita quaisquer gatos 1 79
+349 esse gato persegue qualquer ratazana 1 87
+350 esses gatos perseguem quaisquer ratazanas 1 85
+351 certo gato dorme 1 32
+352 certo gato matou duas ratazanas 1 74
+353 certos gatos mataram certas ratazanas 2 118
+354 estes gatos mataram esta ratazana 2 112
+355 quantos gatos a ratazana caçou 1 70
+356 quantas ratazanas o gato caçou 1 72
+357 quantas ratazanas caçaram o gato 2 110
+358 quantos gatos caçaram a ratazana 2 108
+359 quanto tabaco a artista vendeu 1 54
+360 quanta ratazana o gato caçou 1 58
+361 quanta ratazana dorme 1 31
+362 quantos gatos dormem 1 41
+363 quantas ratazanas dormem 1 45
+364 o gato dorme 1 32
+365 os gatos dormem 1 36
+366 o gato matou a ratazana 1 73
+367 o gato matou as ratazanas 1 80
+368 os gatos mataram a ratazana 2 111
+369 nenhum gato conseguiu caçar uma ratazana 1 249
+370 nenhum artista dormiu 1 32
+371 nenhuma artista dormiu 1 31
+372 nenhuns artistas dormiram 2 55
+373 nenhumas artistas dormiram 2 50
+374 quanto gato a artista vendeu 1 54
+375 quanta ratazana a artista vendeu 1 58
+376 quantos gatos a artista vendeu 1 68
+377 quantas ratazanas a artista vendeu 1 72
+378 quanto gato as artistas venderam 2 85
+379 quanta ratazana as artistas venderam 2 89
+380 quantos gatos as artistas venderam 2 99
+381 quantas ratazanas as artistas venderam 2 103
+382 as artistas venderam muitos gatos 2 122
+383 as artistas venderam vários gatos 2 123
+384 as artistas venderam muitas ratazanas 2 119
+385 as artistas venderam várias ratazanas 2 121
+386 a artista vendeu muitos gatos 1 79
+387 a artista vendeu vários gatos 1 80
+388 a artista vendeu o gato 1 71
+389 a artista vendeu a ratazana 1 73
+390 o cachorro adora tais gatos 1 81
+391 o gato adora tais ratazanas 1 81
+392 o cachorro adora tal gato 1 73
+393 o gato adora tal ratazana 1 73
 False positives
-99 *os cachorros ladrarem 1 49
-100 *o cachorro ladrar 1 72
-102 *o cachorro lata 1 37
-106 *o cachorro admirar o gato 1 176
-107 *os cachorros admirarem o gato 1 101
-193 *o gato quer que o cachorro ladrar 1 159
-194 *o gato quer que os cachorros ladrarem 1 136
+99 *os cachorros ladrarem 1 50
+100 *o cachorro ladrar 1 83
+102 *o cachorro lata 1 42
+106 *o cachorro admirar o gato 1 192
+107 *os cachorros admirarem o gato 1 107
+193 *o gato quer que o cachorro ladrar 2 200
+194 *o gato quer que os cachorros ladrarem 2 167
 False negatives
-3 chegou tabaco 0 14
-6 chegou o tabaco 0 18
-13 o cachorro tem estado perseguindo o gato 0 119
-22 o cachorro se perguntou se o gato latiu 0 84
-168 lamento ladrares 0 80
-169 eu lamento ladrares 0 102
-171 ele lamenta ladrarmos 0 98
-174 os cachorros estão tristes 0 48
-175 o cachorro está triste 0 34
+3 chegou tabaco 0 16
+6 chegou o tabaco 0 23
+13 o cachorro tem estado perseguindo o gato 0 208
+22 o cachorro se perguntou se o gato latiu 0 93
+168 lamento ladrares 0 82
+169 eu lamento ladrares 0 104
+171 ele lamenta ladrarmos 0 100
 208 o gato ouviu os cachorros latindo 0 77
-240 o gato continua latindo 0 19
-244 o cachorro começou a latir 0 56
-245 o cachorro parou de latir 0 53
-246 o artista insistiu em perseguir o cachorro 0 144
-265 o gato obedeceu a o cachorro 0 26
-266 o gato obedeceu o cachorro 0 21
-268 ele doou a bicicleta a o artista 0 56
-271 todos os gatos temem o cachorro 0 74
-273 todas as ratazanas temem o gato 0 83
-278 todos os gatos perseguiram algum cão 0 109
+240 o gato continua latindo 0 22
+244 o cachorro começou a latir 0 62
+245 o cachorro parou de latir 0 56
+246 o artista insistiu em perseguir o cachorro 0 150
+293 o gato obedeceu a o cachorro 0 35
+294 o gato obedeceu o cachorro 0 27
+296 ele doou a bicicleta a o artista 0 67
+299 todos os gatos temem o cachorro 0 71
+301 todas as ratazanas temem o gato 0 73
+307 todos os gatos perseguiram algum cão 0 103
+331 ambos os gatos dormem 0 36
+332 ambas as artistas dormem 0 41

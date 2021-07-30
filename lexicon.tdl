@@ -516,57 +516,97 @@ estar_2 := estar-cop-lex &
 
 ;;; Determiners
 
-o := def-art-msg-determiner-lex &
+o := def-art-determiner-lex &
   [ STEM < "o" >,
     SYNSEM.LKEYS.KEYREL.PRED "_o_q_rel" ].
 
-os := def-art-mpl-determiner-lex &
-  [ STEM < "os" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_os_q_1_rel" ].
-
-qual := qual-sg-determiner-lex &
+qual := qual-determiner-lex &
   [ STEM < "qual" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
-
-quais := qual-pl-determiner-lex &
-  [ STEM < "quais" >,
     SYNSEM.LKEYS.KEYREL.PRED "_qual_q_rel" ].
 
 que_2 := que-determiner-lex &
   [ STEM < "que" >,
     SYNSEM.LKEYS.KEYREL.PRED "_que_q_rel" ].
 
-a := def-art-fsg-determiner-lex &
-  [ STEM < "a" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_a_q_rel" ].
-
-as := def-art-fpl-determiner-lex &
-  [ STEM < "as" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_as_q_rel" ].
-
 cada := cada-determiner-lex &
   [ STEM < "cada" >,
     SYNSEM.LKEYS.KEYREL.PRED "_cada_q_rel" ].
 
-todos := todo-mpl-determiner-lex &
-  [ STEM < "todos" >,
+todo := todo-determiner-lex &
+  [ STEM < "todo" >,
     SYNSEM.LKEYS.KEYREL.PRED "_todo_q_1_rel" ].
 
-todas := todo-fpl-determiner-lex &
-  [ STEM < "todas" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_2_rel" ].
-
-todo := todo-msg-determiner-lex &
-  [ STEM < "todo" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_rel" ].
-
-toda := todo-fsg-determiner-lex &
-  [ STEM < "toda" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_todo_q_rel" ].
+um := indef-art-determiner-lex &
+  [ STEM < "um" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_um_q_rel" ].
 
 algum := algum-determiner-lex &
   [ STEM < "algum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_algum_q_rel" ].
+
+este := det-prox-determiner-lex &
+  [ STEM < "este" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_este_q_rel" ].
+
+esse := det-med-determiner-lex &
+  [ STEM < "esse" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_esse_q_rel" ].
+
+aquele := det-dist-determiner-lex &
+  [ STEM < "aquele" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aquele_q_rel" ].
+
+outro := outro-determiner-lex &
+  [ STEM < "outro" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_outro_q_rel" ].
+
+pouco := pouco-determiner-lex &
+  [ STEM < "pouco" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pouco_q_rel" ].
+
+dois := card-2-determiner-lex &
+  [ STEM < "dois" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dois_q_rel" ].
+
+três := card-3-determiner-lex &
+  [ STEM < "três" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_três_q_rel" ].
+
+quanto := quanto-determiner-lex &
+  [ STEM < "quanto" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quanto_q_rel" ].
+
+qualquer := qualquer-determiner-lex &
+  [ STEM < "qualquer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_qualquer_q_rel" ].
+
+certo := certo-determiner-lex &
+  [ STEM < "certo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_certo_q_rel" ].
+
+muito := muito-determiner-lex &
+  [ STEM < "muito" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_muito_q_rel" ].
+
+ambos := ambos-determiner-lex &
+  [ STEM < "ambos" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ambos_q_rel" ].
+
+tal := tal-determiner-lex &
+  [ STEM < "tal" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tal_q_rel" ].
+
+vário := vário-determiner-lex &
+  [ STEM < "vário" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vário_q_rel" ].
+
+nenhum := nenhum-determiner-lex &
+  [ STEM < "nenhum" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nenhum_q_rel" ].
+
+diverso := diverso-determiner-lex &
+  [ STEM < "diverso" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_diverso_q_rel" ].
 
 ;;; Adverbs
 

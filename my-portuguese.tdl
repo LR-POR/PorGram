@@ -98,3 +98,95 @@ cop-infl-inf-3pl-lex-rule := cop-3pl-lex-rule & cop-infl-inf-lex-rule.
 ; subj-cl-verb-lex := fin-cl-verb-lex &  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive  ] >].
 
 ; ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD indicative  ] >].
+
+non-infl-form-determiner-lex :=  det-num-rule-dtr &
+  [ SYNSEM.L-QUE -,
+    INFLECTED [ DET-GEND-FLAG -,
+                DET-NUM-FLAG - ] ].
+
+def-art-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+todo-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+indef-art-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+algum-determiner-lex :=  non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM.L-QUE - ].
+
+det-prox-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+det-med-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+det-dist-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+outro-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+pouco-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+qualquer-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM.L-QUE - ].
+
+certo-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM.L-QUE - ].
+
+muito-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM.L-QUE - ].
+
+tal-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM.L-QUE - ].
+
+nenhum-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+  [ SYNSEM [ L-QUE -,
+             LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
+
+; pl-det-lex := [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural].
+; sg-det-lex := [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular].
+; pers3-det-lex := [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd].
+; masc-det-lex := [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine].
+; fem-det-lex := [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine].
+
+det-lex := determiner-lex & no-icons-lex-item & [ SYNSEM [ L-QUE -] ].
+
+3pl-det-lex := det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [PER 3rd, NUM plural]].
+
+qu-det-lex := wh-determiner-lex & one-icons-lex-item & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd].
+
+qu-sg-det-lex := qu-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular].
+
+qu-pl-det-lex := qu-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural].
+
+qu-msg-det-lex := qu-sg-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine].
+
+qu-fsg-det-lex := qu-sg-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine].
+
+qu-mpl-det-lex := qu-pl-det-lex &  [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine].
+
+qu-fpl-det-lex := qu-pl-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine].
+
+3mpl-det-lex := 3pl-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND masculine].
+
+3fpl-det-lex := 3pl-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine].
+
+; card-det-lex := 3pl-det-lex.
+
+; ambos-det-lex :=  3pl-det-lex.
+
+; varios-det-lex :=  3pl-det-lex.
+
+; diversos-det-lex :=  3pl-det-lex.

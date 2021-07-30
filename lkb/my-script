@@ -44,7 +44,7 @@
 (lkb-pathname (parent-directory) "matrix.tdl")
 (lkb-pathname (parent-directory) "head-types.tdl")
 (lkb-pathname (parent-directory) "portuguese.tdl")
- (lkb-pathname (parent-directory) "my-portuguese.tdl")
+(lkb-pathname (parent-directory) "my-portuguese.tdl")
 (lkb-pathname (parent-directory) "mtr.tdl")
 ))
 
@@ -53,7 +53,7 @@
 ;;; (some grammars with larger lexica organize them into multiple files).
 ;;;
 
-(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") (lkb-pathname (parent-directory) "arity-1-verbs.tdl") (lkb-pathname (parent-directory) "arity-2-verbs.tdl") ))
+(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") (lkb-pathname (parent-directory) "arity-1-verbs.tdl") (lkb-pathname (parent-directory) "arity-2-verbs.tdl") (lkb-pathname (parent-directory) "my-determiners.tdl")    ))
 ;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
 
 
