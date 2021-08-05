@@ -391,3 +391,38 @@ o cachorro adora tais gatos
 o gato adora tais ratazanas
 o cachorro adora tal gato
 o gato adora tal ratazana
+o cachorro ousou latir
+o cachorro desejou latir
+o cachorro ousou desejar latir
+o cachorro disse que o gato latisse
+os cachorros disseram que o gato latisse
+os cachorros estavam dizendo que o gato latisse
+os cachorros tinham dito que o gato latisse
+o cachorro admitiu que o gato latisse
+o cachorro consentiu que o gato latisse
+o cachorro exigiu que o gato latisse
+o cachorro ordenou que o gato latisse
+o cachorro permitiu que o gato latisse
+o cachorro continua latindo
+o cachorro continua querendo perseguir o gato
+o cachorro continua desejando perseguir o gato
+o cachorro anda desejando perseguir o gato
+o cachorro vive desejando perseguir o gato
+o cachorro vem desejando perseguir o gato
+o cachorro vinha desejando perseguir o gato
+o cachorro anda perseguindo o gato
+o cachorro vem perseguindo o gato
+o cachorro vinha perseguindo o gato
+o cachorro vive perseguindo o gato
+os cachorros estão chegando
+os cachorros foram chegando
+os cachorros iam chegando
+os cachorros vão chegando
+nós fomos chegando
+eu fui chegando
+eu ia chegando
+os cachorros haviam chegado
+o cachorro havia chegado
+o cachorro impediu que o gato perseguisse a ratazana
+o cachorro evitou que o gato perseguisse a ratazana
+

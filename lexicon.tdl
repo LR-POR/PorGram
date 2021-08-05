@@ -263,6 +263,34 @@ querer_1 := vol-verb-lex &
   [ STEM < "querer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_querer_v_1_rel" ].
 
+desejar_1 := vol-verb-lex &
+  [ STEM < "desejar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_1_rel" ].
+
+esperar := vol-verb-lex &
+  [ STEM < "esperar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_esperar_v_rel" ].
+
+preferir := vol-verb-lex &
+  [ STEM < "preferir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_preferir_v_rel" ].
+
+pretender := vol-verb-lex &
+  [ STEM < "pretender" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pretender_v_rel" ].
+
+recear := vol-verb-lex &
+  [ STEM < "recear" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_recear_v_rel" ].
+
+recusar := vol-verb-lex &
+  [ STEM < "recusar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_recusar_v_rel" ].
+
+temer_1 := vol-verb-lex &
+  [ STEM < "temer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_temer_v_1_rel" ].
+
 perguntar_1 := quest-verb-lex &
   [ STEM < "perguntar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_perguntar_v_rel" ].
@@ -299,9 +327,9 @@ perseguir := trans-verb-lex &
   [ STEM < "perseguir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_perseguir_v_2_rel" ].
 
-temer := trans-verb-lex &
+temer_2 := trans-verb-lex &
   [ STEM < "temer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_temer_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_temer_v_2_rel" ].
 
 socorrer := trans-verb-lex &
   [ STEM < "socorrer" >,
@@ -311,9 +339,81 @@ doar := trans-verb-lex &
   [ STEM < "doar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_doar_v_rel" ].
 
-acreditar := mental-act-verb-lex &
+acreditar_1 := mental-act-verb-lex &
   [ STEM < "acreditar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_1_rel" ].
+
+aceitar := mental-act-verb-lex &
+  [ STEM < "aceitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aceitar_v_rel" ].
+
+achar := mental-act-verb-lex &
+  [ STEM < "achar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_achar_v_rel" ].
+
+admitir_1 := mental-act-verb-lex &
+  [ STEM < "admitir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_admitir_v_1_rel" ].
+
+calcular := mental-act-verb-lex &
+  [ STEM < "calcular" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_calcular_v_rel" ].
+
+compreender := mental-act-verb-lex &
+  [ STEM < "compreender" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_compreender_v_rel" ].
+
+considerar := mental-act-verb-lex &
+  [ STEM < "considerar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_considerar_v_rel" ].
+
+certificar := mental-act-verb-lex &
+  [ STEM < "certificar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_certificar_v_rel" ].
+
+crer := mental-act-verb-lex &
+  [ STEM < "crer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_crer_v_rel" ].
+
+descobrir := mental-act-verb-lex &
+  [ STEM < "descobrir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_descobrir_v_rel" ].
+
+duvidar := mental-act-verb-lex &
+  [ STEM < "duvidar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_duvidar_v_rel" ].
+
+entender := mental-act-verb-lex &
+  [ STEM < "entender" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_entender_v_rel" ].
+
+fingir := mental-act-verb-lex &
+  [ STEM < "fingir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fingir_v_rel" ].
+
+ignorar := mental-act-verb-lex &
+  [ STEM < "ignorar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ignorar_v_rel" ].
+
+imaginar := mental-act-verb-lex &
+  [ STEM < "imaginar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_imaginar_v_rel" ].
+
+pensar := mental-act-verb-lex &
+  [ STEM < "pensar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pensar_v_rel" ].
+
+prever := mental-act-verb-lex &
+  [ STEM < "prever" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_prever_v_rel" ].
+
+reconhecer := mental-act-verb-lex &
+  [ STEM < "reconhecer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_reconhecer_v_rel" ].
+
+supor := mental-act-verb-lex &
+  [ STEM < "supor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_supor_v_rel" ].
 
 declarar := declar-verb-lex &
   [ STEM < "declarar" >,
@@ -322,6 +422,78 @@ declarar := declar-verb-lex &
 afirmar := declar-verb-lex &
   [ STEM < "afirmar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_afirmar_v_rel" ].
+
+acrescentar := declar-verb-lex &
+  [ STEM < "acrescentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acrescentar_v_rel" ].
+
+alegar := declar-verb-lex &
+  [ STEM < "alegar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_alegar_v_rel" ].
+
+assegurar := declar-verb-lex &
+  [ STEM < "assegurar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_assegurar_v_rel" ].
+
+observar := declar-verb-lex &
+  [ STEM < "observar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_observar_v_rel" ].
+
+concluir := declar-verb-lex &
+  [ STEM < "concluir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_concluir_v_rel" ].
+
+concordar := declar-verb-lex &
+  [ STEM < "concordar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_concordar_v_rel" ].
+
+confessar := declar-verb-lex &
+  [ STEM < "confessar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_confessar_v_rel" ].
+
+criticar_1 := declar-verb-lex &
+  [ STEM < "criticar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_criticar_v_1_rel" ].
+
+decidir := declar-verb-lex &
+  [ STEM < "decidir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_decidir_v_rel" ].
+
+desculpar_1 := declar-verb-lex &
+  [ STEM < "desculpar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desculpar_v_1_rel" ].
+
+dizer_1 := declar-verb-lex &
+  [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_1_rel" ].
+
+insinuar := declar-verb-lex &
+  [ STEM < "insinuar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_insinuar_v_rel" ].
+
+insistir_1 := declar-verb-lex &
+  [ STEM < "insistir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_1_rel" ].
+
+jurar := declar-verb-lex &
+  [ STEM < "jurar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_jurar_v_rel" ].
+
+pregar := declar-verb-lex &
+  [ STEM < "pregar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pregar_v_rel" ].
+
+proclamar := declar-verb-lex &
+  [ STEM < "proclamar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_proclamar_v_rel" ].
+
+prometer := declar-verb-lex &
+  [ STEM < "prometer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_prometer_v_rel" ].
+
+sugerir := declar-verb-lex &
+  [ STEM < "sugerir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sugerir_v_rel" ].
 
 queixar := refl-int-verb-lex &
   [ STEM < "queixar" >,
@@ -379,9 +551,57 @@ lamentar_2 := que-eval-verb-lex &
   [ STEM < "lamentar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_2_rel" ].
 
-insistir_1 := que-subj-cl-verb-lex &
+criticar_2 := que-eval-verb-lex &
+  [ STEM < "criticar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_criticar_v_2_rel" ].
+
+deplorar := que-eval-verb-lex &
+  [ STEM < "deplorar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_deplorar_v_rel" ].
+
+desculpar_2 := que-eval-verb-lex &
+  [ STEM < "desculpar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desculpar_v_2_rel" ].
+
+detestar_3 := que-eval-verb-lex &
+  [ STEM < "detestar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_3_rel" ].
+
+gostar := que-eval-verb-lex &
+  [ STEM < "gostar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gostar_v_rel" ].
+
+reprovar := que-eval-verb-lex &
+  [ STEM < "reprovar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_reprovar_v_2_rel" ].
+
+suportar := que-eval-verb-lex &
+  [ STEM < "suportar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_suportar_v_rel" ].
+
+tolerar := que-eval-verb-lex &
+  [ STEM < "tolerar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tolerar_v_rel" ].
+
+odiar := que-eval-verb-lex &
+  [ STEM < "odiar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_odiar_v_rel" ].
+
+aprovar := que-eval-verb-lex &
+  [ STEM < "aprovar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aprovar_v_2_rel" ].
+
+desaprovar := que-eval-verb-lex &
+  [ STEM < "desaprovar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desaprovar_v_2_rel" ].
+
+insistir_2 := que-subj-cl-verb-lex &
   [ STEM < "insistir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_1_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_2_rel" ].
+
+evitar := que-subj-cl-verb-lex &
+  [ STEM < "evitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_evitar_v_rel" ].
 
 fazer_1 := com-que-caus-verb-lex &
   [ STEM < "fazer" >,
@@ -394,6 +614,10 @@ fazer_2 := que-caus-verb-lex &
 mandar_1 := que-caus-verb-lex &
   [ STEM < "mandar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_1_rel" ].
+
+deixar_1 := que-caus-verb-lex &
+  [ STEM < "deixar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_1_rel" ].
 
 ouvir_1 := que-percep-verb-lex &
   [ STEM < "ouvir" >,
@@ -423,9 +647,9 @@ mandar_2 := inf-caus-verb-lex &
   [ STEM < "mandar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_2_rel" ].
 
-deixar := inf-caus-verb-lex &
+deixar_2 := inf-caus-verb-lex &
   [ STEM < "deixar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_2_rel" ].
 
 ouvir_2 := inf-percep-verb-lex &
   [ STEM < "ouvir" >,
@@ -443,23 +667,74 @@ pedir := para-que-cl-verb-lex &
   [ STEM < "pedir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pedir_v_rel" ].
 
-insistir_2 := em-que-cl-verb-lex &
+insistir_3 := em-que-cl-verb-lex &
   [ STEM < "insistir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_2_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_3_rel" ].
 
 obedecer := dat-obj-verb-lex &
   [ STEM < "obedecer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_obedecer_v_rel" ].
+
+dizer_2 := dir-verb-lex &
+  [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_2_rel" ].
+
+admitir_2 := dir-verb-lex &
+  [ STEM < "admitir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_admitir_v_2_rel" ].
+
+consentir := dir-verb-lex &
+  [ STEM < "consentir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_consentir_v_rel" ].
+
+exigir := dir-verb-lex &
+  [ STEM < "exigir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_exigir_v_rel" ].
+
+ordenar := dir-verb-lex &
+  [ STEM < "ordenar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ordenar_v_rel" ].
+
+permitir := dir-verb-lex &
+  [ STEM < "permitir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_permitir_v_rel" ].
+
+autorizar := dir-verb-lex &
+  [ STEM < "autorizar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_autorizar_v_rel" ].
+
+aconselhar := dir-verb-lex &
+  [ STEM < "aconselhar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aconselhar_v_rel" ].
+
+obrigar := dir-verb-lex &
+  [ STEM < "obrigar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_obrigar_v_rel" ].
+
+determinar := dir-verb-lex &
+  [ STEM < "determinar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_determinar_v_rel" ].
+
+proibir := dir-verb-lex &
+  [ STEM < "proibir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_proibir_v_rel" ].
+
+impedir := dir-verb-lex &
+  [ STEM < "impedir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_rel" ].
 
 ;;; Auxiliaries
 
 ter := ter-aux-lex &
   [ STEM < "ter" > ].
 
+haver := ter-aux-lex &
+  [ STEM < "haver" > ].
+
 estar_1 := estar-aux-lex &
   [ STEM < "estar" > ].
 
-ir := ir-aux-lex &
+ir_1 := ir-aux-lex &
   [ STEM < "ir" > ].
 
 poder := bare-inf-aux-lex &
@@ -472,15 +747,15 @@ dever := bare-inf-aux-lex &
 
 ousar := bare-inf-aux-lex &
   [ STEM < "ousar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_2_rel" ].
 
 parecer := bare-inf-aux-lex &
   [ STEM < "parecer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_parecer_v_rel" ].
 
-desejar := bare-inf-aux-lex &
+desejar_2 := bare-inf-aux-lex &
   [ STEM < "desejar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_2_rel" ].
 
 querer_2 := bare-inf-aux-lex &
   [ STEM < "querer" >,
@@ -490,9 +765,9 @@ saber_2 := bare-inf-aux-lex &
   [ STEM < "saber" >,
     SYNSEM.LKEYS.KEYREL.PRED "_saber_v_2_rel" ].
 
-detestar_3 := bare-inf-aux-lex &
+detestar_4 := bare-inf-aux-lex &
   [ STEM < "detestar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_3_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_4_rel" ].
 
 lamentar_3 := bare-inf-aux-lex &
   [ STEM < "lamentar" >,
@@ -502,9 +777,45 @@ conseguir := bare-inf-aux-lex &
   [ STEM < "conseguir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_conseguir_v_rel" ].
 
-tentar := bare-inf-aux-lex &
+tentar_1 := bare-inf-aux-lex &
   [ STEM < "tentar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_1_rel" ].
+
+dizer_3 := bare-inf-aux-lex &
+  [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_3_rel" ].
+
+acreditar_2 := bare-inf-aux-lex &
+  [ STEM < "acreditar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_2_rel" ].
+
+tentar_2 := bare-inf-aux-lex &
+  [ STEM < "tentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_2_rel" ].
+
+tencionar := bare-inf-aux-lex &
+  [ STEM < "tencionar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_rel" ].
+
+continuar := ger-aux-lex &
+  [ STEM < "continuar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_continuar_v_rel" ].
+
+andar := ger-aux-lex &
+  [ STEM < "andar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_andar_v_rel" ].
+
+ir_2 := ger-aux-lex &
+  [ STEM < "ir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ir_v_rel" ].
+
+vir := ger-aux-lex &
+  [ STEM < "vir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vir_v_rel" ].
+
+viver := ger-aux-lex &
+  [ STEM < "viver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_viver_v_rel" ].
 
 ;;; Copulas
 
@@ -544,15 +855,15 @@ algum := algum-determiner-lex &
   [ STEM < "algum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_algum_q_rel" ].
 
-este := det-prox-determiner-lex &
+este := dem-prox-determiner-lex &
   [ STEM < "este" >,
     SYNSEM.LKEYS.KEYREL.PRED "_este_q_rel" ].
 
-esse := det-med-determiner-lex &
+esse := dem-med-determiner-lex &
   [ STEM < "esse" >,
     SYNSEM.LKEYS.KEYREL.PRED "_esse_q_rel" ].
 
-aquele := det-dist-determiner-lex &
+aquele := dem-dist-determiner-lex &
   [ STEM < "aquele" >,
     SYNSEM.LKEYS.KEYREL.PRED "_aquele_q_rel" ].
 
@@ -596,17 +907,17 @@ tal := tal-determiner-lex &
   [ STEM < "tal" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tal_q_rel" ].
 
-vário := vário-determiner-lex &
-  [ STEM < "vário" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_vário_q_rel" ].
+vários := vários-determiner-lex &
+  [ STEM < "vários" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vários_q_rel" ].
 
 nenhum := nenhum-determiner-lex &
   [ STEM < "nenhum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_nenhum_q_rel" ].
 
-diverso := diverso-determiner-lex &
-  [ STEM < "diverso" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_diverso_q_rel" ].
+diversos := diversos-determiner-lex &
+  [ STEM < "diversos" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_diversos_q_rel" ].
 
 ;;; Adverbs
 

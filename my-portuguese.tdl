@@ -119,15 +119,15 @@ indef-art-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-i
 algum-determiner-lex :=  non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
   [ SYNSEM.L-QUE - ].
 
-det-prox-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+dem-prox-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
   [ SYNSEM [ L-QUE -,
              LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
 
-det-med-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+dem-med-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
   [ SYNSEM [ L-QUE -,
              LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
 
-det-dist-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
+dem-dist-determiner-lex := non-infl-form-determiner-lex & determiner-lex & no-icons-lex-item &
   [ SYNSEM [ L-QUE -,
              LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ] ].
 

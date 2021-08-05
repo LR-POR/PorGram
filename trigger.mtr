@@ -20,13 +20,17 @@ ter_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "ter" ].
 
+haver_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "haver" ].
+
 estar_1_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "estar_1" ].
 
-ir_gr := arg0e_gtr &
+ir_1_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "ir" ].
+    FLAGS.TRIGGER "ir_1" ].
 
 será_20que_gr := generator_rule &
   [ CONTEXT.RELS.LIST < [ ARG0.SF ques ] >,
