@@ -415,6 +415,7 @@ o cachorro vem perseguindo o gato
 o cachorro vinha perseguindo o gato
 o cachorro vive perseguindo o gato
 os cachorros estão chegando
+estão chegando
 os cachorros foram chegando
 os cachorros iam chegando
 os cachorros vão chegando
@@ -422,7 +423,57 @@ nós fomos chegando
 eu fui chegando
 eu ia chegando
 os cachorros haviam chegado
+haviam chegado
 o cachorro havia chegado
 o cachorro impediu que o gato perseguisse a ratazana
 o cachorro evitou que o gato perseguisse a ratazana
+cheguei
+chegamos
+chegou
+não chegou
+anda perseguindo o gato
+andavam perseguindo o gato
+perseguimos o gato
+não perseguimos o gato
+o cachorro não impediu que o gato perseguisse a ratazana
+o gato sabe quais cachorros latem
+o artista ignora quais cachorros latem
+o artista ignora se os cachorros perseguem os gatos
+o artista ignora se os cachorros andam perseguindo os gatos
+o artista ignora se os cachorros querem perseguir os gatos
+o artista ignora quais gatos os cachorros querem perseguir
+o artista ignora quem tem perseguido os gatos
+o artista ignora quem está perseguindo os gatos
+o artista sabe quem está perseguindo os gatos
+quem está perseguindo os gatos
+o artista sabe quem quer perseguir os gatos
+o artista não sabe quem quer perseguir os gatos
+quem quer perseguir os gatos
+quem não quer perseguir os gatos
+o cachorro exigiu que o gato não latisse
+o artista exigiu que o cachorro não perseguisse o gato
+o gato não tem conseguido dormir
+o gato tem conseguido dormir
+o gato tem precisado dormir
+o gato está precisando dormir
+o gato está tentando dormir
+o gato está conseguindo dormir
+o gato não está precisando dormir
+o gato não está tentando dormir
+o gato não está conseguindo dormir
+o gato vai estar precisando dormir
+o gato vai tentar dormir
+o gato vai conseguir dormir
+o gato não vai estar precisando dormir
+o gato não vai tentar dormir
+o gato não vai conseguir dormir
+os cachorros não haviam chegado
+os cachorros não haviam tentado dormir
+não haviam chegado
+o cachorro está querendo perseguir o gato
+o cachorro está desejando perseguir o gato 
+o cachorro vai querer perseguir o gato
+o cachorro vai desejar perseguir o gato 
+o cachorro vai estar dormindo
+o cachorro está indo dormir
 

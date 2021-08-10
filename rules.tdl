@@ -3,7 +3,18 @@ head-adj := my-head-adj-phrase.
 
 adj-head := my-adj-head-phrase.
 
+decl-head-opt-subj := decl-head-opt-subj-phrase.
+
 high-no-rel-nominalized-clause := high-no-rel-nominalized-clause-phrase.
+
+adj-head-scop := adj-head-scop-phrase.
+
+; Rule instances for head-modifier structures. Corresponding types
+; are defined in matrix.tdl.  The matrix customization script did
+; not need to add any further constraints, so no corresponding types
+; appear in portuguese.tdl
+
+head-adj-scop := head-adj-scop-phrase.
 
 head-comp := head-comp-phrase.
 
