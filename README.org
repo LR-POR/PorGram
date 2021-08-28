@@ -20,7 +20,7 @@ Matrix (Bender, Flickinger and Oepen 2002; Bender et al. 2010):
 
 https://matrix.ling.washington.edu/index.html
 
-This system generates a HPSG grammar from specifications provided by
+This system generates an HPSG grammar from specifications provided by
 the user in a HTML questionnaire. This questionnaire covers a wide
 range of grammatical phenomena in a large variety of languages. It
 does not cover, however, the full range of syntactic and morphological
