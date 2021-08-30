@@ -291,7 +291,7 @@ o artista perguntou o que cachorro perseguiu
 o artista perguntou-se que o cachorro perseguiu
 o artista perguntou-se o que o cachorro perseguiu
 o gato obedeceu a o cachorro
-o gato obedeceu o cachorro
+*o gato obedeceu o cachorro
 o artista caminhou para a cidade
 ele doou a bicicleta a o artista
 ele doou a bicicleta para o artista
@@ -476,4 +476,26 @@ o cachorro vai querer perseguir o gato
 o cachorro vai desejar perseguir o gato 
 o cachorro vai estar dormindo
 o cachorro está indo dormir
+o artista doa uma bicicleta a o estudante
+o cachorro depende de o artista
+o cachorro gosta de o artista
+o cachorro obedece a o artista
+o artista queixou-se de o cachorro
+nós vamos entregar o cachorro a o artista
+será que eles irão entregar o cachorro a o artista
+não sei o que eles entregavam a o artista
+a quem o cachorro obedece
+de quem o cachorro gosta
+a quem eles irão entregar o cachorro
+o artista ignora a quem o cachorro obedece
+o artista perguntou a quem o cachorro estava obedecendo
+o artista perguntou quem estava obedecendo a quem
+o estudante perguntou quem estava obedecendo a o artista
+*o artista doa uma bicicleta o estudante
+*o cachorro depende o artista
+*o cachorro obedece o artista
+*o artista doa uma bicicleta de o estudante
+*o cachorro depende a o artista
+*o cachorro obedece de o artista
+
 

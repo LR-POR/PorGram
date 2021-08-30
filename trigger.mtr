@@ -16,6 +16,21 @@ dat-marker_a_gr_3 := arg0e_gtr &
     FLAGS [ SUBSUME < #i >,
             TRIGGER "dat-marker_a" ] ].
 
+gen-marker_de_gr_1 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "gen-marker_de" ] ].
+
+gen-marker_de_gr_2 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "gen-marker_de" ] ].
+
+gen-marker_de_gr_3 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "gen-marker_de" ] ].
+
 será_20que_gr := generator_rule &
   [ CONTEXT.RELS.LIST < [ ARG0.SF ques ] >,
     FLAGS.TRIGGER "será_20que" ].

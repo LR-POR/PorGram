@@ -1,0 +1,15 @@
+;;; Case-marking adpositions
+
+dat-marker_a := prep-case-marking-adp-lex &
+  [ STEM < "a" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE dat ] ] ].
+
+gen-marker_de := prep-case-marking-adp-lex &
+  [ STEM < "de" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE gen ] ] ].

@@ -1,0 +1,16 @@
+doar_1 := nom-acc-dat-ditransitive-verb-lex &
+  [ STEM < "doar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_doar_v_2_rel" ].
+
+entregar := nom-acc-dat-ditransitive-verb-lex &
+  [ STEM < "entregar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_entregar_v_rel" ].
+
+ajudar := dat-obj-verb-lex &
+  [ STEM < "ajudar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ajudar_v_rel" ].
+
+gostar_1 := nonrefl-gen-obj-verb-lex &
+  [ STEM < "gostar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gostar_v_1_rel" ].
+

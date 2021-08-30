@@ -1,7 +1,7 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 ;;; Nouns
 
-eu := pers-pron-1s-noun-lex &
+eu := nom-pers-pron-1s-noun-lex &
   [ STEM < "eu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
 
@@ -102,7 +102,7 @@ que_1 := inter-pron-non-hum-noun-lex &
   [ STEM < "que" >,
     SYNSEM.LKEYS.KEYREL.PRED "_que_n_rel" ].
 
-tu := pers-pron-2s-noun-lex &
+tu := nom-pers-pron-2s-noun-lex &
   [ STEM < "tu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].
 
@@ -165,6 +165,18 @@ Sandy := proper-noun-noun-lex &
 Sara := proper-noun-noun-lex &
   [ STEM < "Sara" >,
     SYNSEM.LKEYS.KEYREL.PRED "_Sara_n_rel" ].
+
+mim := prep-pers-pron-1s-noun-lex &
+  [ STEM < "mim" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
+
+ti := prep-pers-pron-2s-noun-lex &
+  [ STEM < "ti" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].
+
+me := acc-dat-pers-pron-1s-noun-lex &
+  [ STEM < "me" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
 
 ;;; Adjectives
 
@@ -279,7 +291,16 @@ dat-marker_a := case-marking-adp-lex &
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
                                  CLAUSE-KEY #clause ],
                           ICONS.LIST < > ],
-                   CAT.HEAD.CASE dat ] ].
+                   CAT.HEAD [ CASE dat,
+                              CASE-MARKED + ] ] ].
+
+gen-marker_de := case-marking-adp-lex &
+  [ STEM < "de" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE gen,
+                              CASE-MARKED + ] ] ].
 
 para := normadp1-norm-adposition-lex &
   [ STEM < "para" >,
@@ -417,7 +438,7 @@ convocar := trans-verb-lex &
 
 ter_1 := trans-verb-lex &
   [ STEM < "ter" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ter_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ter_v_1_rel" ].
 
 acreditar_1 := mental-act-verb-lex &
   [ STEM < "acreditar" >,
@@ -575,7 +596,7 @@ sugerir := declar-verb-lex &
   [ STEM < "sugerir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sugerir_v_rel" ].
 
-queixar := refl-int-verb-lex &
+queixar_1 := refl-int-verb-lex &
   [ STEM < "queixar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_queixar-se_v_rel" ].
 
@@ -815,23 +836,31 @@ impedir := dir-verb-lex &
   [ STEM < "impedir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_rel" ].
 
+queixar_2 := refl-gen-obj-verb-lex &
+  [ STEM < "queixar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_queixar_v_rel" ].
+
+depender := nonrefl-gen-obj-verb-lex &
+  [ STEM < "depender" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_depender_v_rel" ].
+
 ;;; Auxiliaries
 
 ter_2 := ter-aux-lex &
   [ STEM < "ter" >,
-    SYNSEM.LKEYS.KEYREL.PRED "ter" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ter_v_rel" ].
 
 haver := ter-aux-lex &
   [ STEM < "haver" >,
-    SYNSEM.LKEYS.KEYREL.PRED "haver" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_haver_v_rel" ].
 
 estar_1 := estar-aux-lex &
   [ STEM < "estar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "estar" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_estar_v_rel" ].
 
 ir_1 := ir-aux-lex &
   [ STEM < "ir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "ir" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ir_v_rel" ].
 
 poder := bare-inf-aux-lex &
   [ STEM < "poder" >,
@@ -911,7 +940,7 @@ andar := ger-aux-lex &
 
 ir_2 := ger-aux-lex &
   [ STEM < "ir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ir_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ir_v_2_rel" ].
 
 vir := ger-aux-lex &
   [ STEM < "vir" >,
@@ -1032,6 +1061,10 @@ será_20que := q-particle1-lex &
 não := neg-adv-lex &
   [ STEM < "não" >,
     SYNSEM.LKEYS.KEYREL.PRED "neg_rel" ].
+
+quando := finite-clause-init-s-attach-subord-lex-item &
+  [ STEM < "quando" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quando_subord_rel" ].
 
 ;;; Complementizers
 

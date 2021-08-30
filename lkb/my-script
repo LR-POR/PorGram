@@ -53,7 +53,15 @@
 ;;; (some grammars with larger lexica organize them into multiple files).
 ;;;
 
-(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") (lkb-pathname (parent-directory) "arity-1-verbs.tdl") (lkb-pathname (parent-directory) "arity-2-verbs.tdl") (lkb-pathname (parent-directory) "my-determiners.tdl")    ))
+(read-tdl-lex-file-aux (list
+			(lkb-pathname (parent-directory) "lexicon.tdl")
+			(lkb-pathname (parent-directory) "arity-1-verbs.tdl")
+			(lkb-pathname (parent-directory) "arity-2-verbs.tdl")
+			(lkb-pathname (parent-directory) "my-determiners.tdl")
+			(lkb-pathname (parent-directory) "conj123-2-verbs.tdl")
+			(lkb-pathname (parent-directory) "my-adpositions.tdl")
+			(lkb-pathname (parent-directory) "prep-obj-verbs.tdl")
+			))
 ;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
 
 
