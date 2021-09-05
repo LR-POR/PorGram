@@ -14,3 +14,8 @@ gostar_1 := nonrefl-gen-obj-verb-lex &
   [ STEM < "gostar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gostar_v_1_rel" ].
 
+contar := ind-cl-dat-verb-lex &
+   [ STEM < "contar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_contar_v_rel" ].
+
+

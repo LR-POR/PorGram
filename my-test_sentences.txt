@@ -497,5 +497,31 @@ o estudante perguntou quem estava obedecendo a o artista
 *o artista doa uma bicicleta de o estudante
 *o cachorro depende a o artista
 *o cachorro obedece de o artista
-
-
+*o cachorro começou de latir
+*o cachorro parou a latir
+*o artista insistiu a perseguir o cachorro
+*o artista insistiu de perseguir o cachorro
+*o cachorro começou a late
+*o cachorro parou de late
+*o cachorro começou que late
+*o cachorro parou que late
+*o cachorro começou de late
+*o cachorro parou a late
+*o artista insistiu em persegue o cachorro
+*os artistas insistiram em perseguirem o cachorro
+o cachorro vai começar a latir
+o cachorro vai querer começar a latir
+o cachorro tinha começado a latir
+o cachorro tem insistido em começar a latir
+o cachorro tinha parado de latir
+o cachorro tinha insistido em parar de latir
+o cachorro está parando de latir
+o cachorro vai parar de latir
+o cachorro está indo parar de latir
+o cachorro tem de obedecer a o artista
+o cachorro tem que obedecer a o artista
+*o cachorro tem de obedece a o artista
+*o cachorro tem que obedece a o artista
+*o cachorro tem a obedecer a o artista
+*o cachorro tem em obedecer a o artista
+o artista contou a o estudante que o gato tinha matado uma ratazana

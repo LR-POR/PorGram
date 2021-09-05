@@ -61,6 +61,8 @@
 			(lkb-pathname (parent-directory) "conj123-2-verbs.tdl")
 			(lkb-pathname (parent-directory) "my-adpositions.tdl")
 			(lkb-pathname (parent-directory) "prep-obj-verbs.tdl")
+			(lkb-pathname (parent-directory) "my-complementizers.tdl")
+			(lkb-pathname (parent-directory) "my-auxiliaries.tdl")
 			))
 ;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
 

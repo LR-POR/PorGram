@@ -1,0 +1,11 @@
+a_comp := a-inf-complementizer-lex-item &
+  [ STEM < "a" > ].
+
+de_comp := de-inf-complementizer-lex-item &
+  [ STEM < "de" > ].
+
+em_comp := em-inf-complementizer-lex-item &
+  [ STEM < "em" > ].
+
+que_comp := que-inf-complementizer-lex-item &
+  [ STEM < "que" > ].

@@ -1,0 +1,15 @@
+começar_2 := a-compl-subj-raise-aux-with-pred &
+  [ STEM < "começar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_começar_v_rel" ].
+
+parar := de-compl-subj-raise-aux-with-pred &
+  [ STEM < "parar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_parar_v_rel" ].
+
+insistir_4 := em-compl-subj-raise-aux-with-pred &
+  [ STEM < "insistir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_rel" ].
+
+ter_3 := que-de-compl-subj-raise-aux-with-pred &
+  [ STEM < "ter" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ter_v_3_rel" ].
