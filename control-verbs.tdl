@@ -1,0 +1,43 @@
+preferir_1 := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "preferir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_preferir_v_1_rel" ].
+
+prometer_2 := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "prometer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_prometer_v_2_rel" ].
+
+tencionar_1 := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "tencionar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_1_rel" ].
+
+planejar := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "planejar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_planejar_v_rel" ].
+
+prometer_1 := inf-ditrans-first-arg-control-verb-lex &
+  [ STEM < "prometer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_prometer_v_1_rel" ].
+
+impedir_1 := de-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "impedir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_rel" ].
+
+proibir_1 := de-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "proibir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_proibir_v_rel" ].
+
+obrigar_1 := a-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "obrigar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_obrigar_v_1_rel" ].
+
+persuadir := a-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "persuadir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_persuadir_v_rel" ].
+
+convencer := a-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "convencer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_rel" ].
+
+forçar := a-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "forçar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_forçar_v_rel" ].

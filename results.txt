@@ -433,7 +433,7 @@ True positives
 425 os cachorros haviam chegado 1 83
 426 haviam chegado 1 49
 427 o cachorro havia chegado 1 115
-428 o cachorro impediu que o gato perseguisse a ratazana 2 240
+428 o cachorro impediu que o gato perseguisse a ratazana 2 454
 429 o cachorro evitou que o gato perseguisse a ratazana 2 242
 430 cheguei 1 14
 431 chegamos 2 29
@@ -443,7 +443,7 @@ True positives
 435 andavam perseguindo o gato 1 99
 436 perseguimos o gato 2 69
 437 não perseguimos o gato 2 114
-438 o cachorro não impediu que o gato perseguisse a ratazana 2 297
+438 o cachorro não impediu que o gato perseguisse a ratazana 2 659
 439 o gato sabe quais cachorros latem 1 142
 440 o artista ignora quais cachorros latem 1 122
 441 o artista ignora se os cachorros perseguem os gatos 1 205
@@ -511,6 +511,17 @@ True positives
 521 o cachorro tem de obedecer a o artista 1 390
 522 o cachorro tem que obedecer a o artista 1 567
 527 o artista contou a o estudante que o gato tinha matado uma ratazana 2 656
+528 o gato prefere dormir 1 138
+529 a estudante impediu o artista de matar a ratazana 1 409
+530 a estudante obrigou o artista a matar a ratazana 1 416
+531 a estudante proibiu o artista de matar a ratazana 1 409
+532 a estudante forçou o artista a matar a ratazana 1 395
+533 a estudante persuadiu o artista a matar a ratazana 1 393
+534 a estudante convenceu o artista a matar a ratazana 1 393
+536 a artista prometeu a o estudante matar a ratazana 1 378
+537 a artista prometeu matar a ratazana 1 428
+538 a artista planeja matar a ratazana 1 240
+539 a artista tenciona matar a ratazana 1 240
 False positives
 99 *os cachorros ladrarem 1 54
 100 *o cachorro ladrar 1 93

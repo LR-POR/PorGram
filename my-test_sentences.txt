@@ -525,3 +525,18 @@ o cachorro tem que obedecer a o artista
 *o cachorro tem a obedecer a o artista
 *o cachorro tem em obedecer a o artista
 o artista contou a o estudante que o gato tinha matado uma ratazana
+o gato prefere dormir
+a estudante impediu o artista de matar a ratazana
+a estudante obrigou o artista a matar a ratazana
+a estudante proibiu o artista de matar a ratazana
+a estudante forçou o artista a matar a ratazana
+a estudante persuadiu o artista a matar a ratazana
+a estudante convenceu o artista a matar a ratazana
+a estudante convenceu o artista a impedir o estudante de matar a ratazana
+a artista prometeu a o estudante matar a ratazana
+a artista prometeu matar a ratazana
+a artista planeja matar a ratazana
+a artista tenciona matar a ratazana
+
+
+
