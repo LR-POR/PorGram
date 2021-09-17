@@ -356,9 +356,22 @@ comps8-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-le
                                                        HEAD.FORM finite ] ] ],
                    CONT.HOOK.INDEX.SF prop ] ].
 
-; complementizers heading an infinitival complement of a subject raising verb (auxiliary)
+; complementizers heading an infinitival complement of a subject raising verb (auxiliary) or an object control verb
 
-inf-complementizer-lex-item := complementizer-lex-item & [SYNSEM.LOCAL.CAT [ HEAD.FORM infinitive] & [VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive]].
+; TODO: include SPR < > in VAL of of complement? See subj-raise-aux type.
+complementizer-lex-item-1 := raise-sem-lex-item & non-local-none-lex-item & basic-icons-lex-item &
+  [ SYNSEM.LOCAL.CAT [ HEAD comp &
+                            [ MOD < > ],
+                       VAL [ SPR < >,
+                             SPEC < >,
+                             SUBJ < >,
+                             COMPS < #comp > ] ],
+    ARG-ST < #comp &
+             [ LOCAL.CAT [ HEAD verb,
+                           VAL [ SUBJ < unexpressed >,
+                                 COMPS < > ] ] ] > ].
+
+inf-complementizer-lex-item := complementizer-lex-item-1 & [SYNSEM.LOCAL.CAT [ HEAD.FORM infinitive] & [VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive]].
 
 a-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.CAT.HEAD comp & [COMP-FORM a_comp]].
 

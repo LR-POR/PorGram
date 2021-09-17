@@ -2,6 +2,14 @@ acuar := trans-verb-lex &
   [ STEM < "acuar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acuar_v_rel" ].
 
+atrair := trans-verb-lex &
+  [ STEM < "atrair" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_atrair_v_rel" ].
+
+trazer := trans-verb-lex &
+  [ STEM < "trazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_trazer_v_rel" ].
+
 atacar := trans-verb-lex &
   [ STEM < "atacar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_atacar_v_rel" ].
