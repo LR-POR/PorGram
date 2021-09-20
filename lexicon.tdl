@@ -312,11 +312,11 @@ em := normadp2-norm-adposition-lex &
 
 ;;; Verbs
 
-querer_1 := vol-verb-lex &
+querer := vol-verb-lex &
   [ STEM < "querer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_querer_v_1_rel" ].
 
-desejar_1 := vol-verb-lex &
+desejar := vol-verb-lex &
   [ STEM < "desejar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_1_rel" ].
 
@@ -440,7 +440,7 @@ ter_1 := trans-verb-lex &
   [ STEM < "ter" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ter_v_1_rel" ].
 
-acreditar_1 := mental-act-verb-lex &
+acreditar := mental-act-verb-lex &
   [ STEM < "acreditar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_1_rel" ].
 
@@ -870,57 +870,9 @@ dever := bare-inf-aux-lex &
   [ STEM < "dever" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dever_v_rel" ].
 
-ousar := bare-inf-aux-lex &
-  [ STEM < "ousar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_2_rel" ].
-
 parecer := bare-inf-aux-lex &
   [ STEM < "parecer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_parecer_v_rel" ].
-
-desejar_2 := bare-inf-aux-lex &
-  [ STEM < "desejar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_2_rel" ].
-
-querer_2 := bare-inf-aux-lex &
-  [ STEM < "querer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_querer_v_2_rel" ].
-
-saber_3 := bare-inf-aux-lex &
-  [ STEM < "saber" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_saber_v_3_rel" ].
-
-detestar_4 := bare-inf-aux-lex &
-  [ STEM < "detestar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_4_rel" ].
-
-lamentar_3 := bare-inf-aux-lex &
-  [ STEM < "lamentar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_3_rel" ].
-
-conseguir := bare-inf-aux-lex &
-  [ STEM < "conseguir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_conseguir_v_rel" ].
-
-tentar_1 := bare-inf-aux-lex &
-  [ STEM < "tentar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_1_rel" ].
-
-dizer_3 := bare-inf-aux-lex &
-  [ STEM < "dizer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_3_rel" ].
-
-acreditar_2 := bare-inf-aux-lex &
-  [ STEM < "acreditar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_2_rel" ].
-
-tentar_2 := bare-inf-aux-lex &
-  [ STEM < "tentar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_2_rel" ].
-
-tencionar := bare-inf-aux-lex &
-  [ STEM < "tencionar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_rel" ].
 
 precisar := bare-inf-aux-lex &
   [ STEM < "precisar" >,

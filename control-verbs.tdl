@@ -6,13 +6,58 @@ prometer_2 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "prometer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_prometer_v_2_rel" ].
 
-tencionar_1 := inf-trans-first-arg-control-verb-lex &
-  [ STEM < "tencionar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_1_rel" ].
-
 planejar := inf-trans-first-arg-control-verb-lex &
   [ STEM < "planejar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_planejar_v_rel" ].
+
+ousar :=  inf-trans-first-arg-control-verb-lex &
+  [ STEM < "ousar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_2_rel" ].
+
+desejar_2 :=inf-trans-first-arg-control-verb-lex &
+  [ STEM < "desejar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_2_rel" ].
+
+querer_2 :=inf-trans-first-arg-control-verb-lex &
+  [ STEM < "querer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_querer_v_2_rel" ].
+
+saber_3 :=inf-trans-first-arg-control-verb-lex &
+  [ STEM < "saber" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_saber_v_3_rel" ].
+
+detestar_4 :=inf-trans-first-arg-control-verb-lex &
+  [ STEM < "detestar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_4_rel" ].
+
+lamentar_3 :=inf-trans-first-arg-control-verb-lex &
+  [ STEM < "lamentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_3_rel" ].
+
+conseguir := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "conseguir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_conseguir_v_rel" ].
+
+tentar := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "tentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_1_rel" ].
+
+dizer_3 := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_3_rel" ].
+
+acreditar_2 := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "acreditar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_2_rel" ].
+
+tentar := inf-trans-first-arg-control-verb-lex &
+  [ STEM < "tentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_2_rel" ].
+
+tencionar := inf-trans-first-arg-control-verb-lex &
+[ STEM < "tencionar" >,
+ SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_rel" ].
+
 
 prometer_1 := inf-ditrans-first-arg-control-verb-lex &
   [ STEM < "prometer" >,

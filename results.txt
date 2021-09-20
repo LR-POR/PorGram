@@ -464,19 +464,19 @@ True positives
 456 o gato tem conseguido dormir 1 246
 457 o gato tem precisado dormir 1 248
 458 o gato está precisando dormir 1 334
-459 o gato está tentando dormir 2 342
+459 o gato está tentando dormir 1 334
 460 o gato está conseguindo dormir 1 332
 461 o gato não está precisando dormir 1 490
-462 o gato não está tentando dormir 2 499
+462 o gato não está tentando dormir 1 490
 463 o gato não está conseguindo dormir 1 488
 464 o gato vai estar precisando dormir 1 777
-465 o gato vai tentar dormir 2 368
+465 o gato vai tentar dormir 1 349
 466 o gato vai conseguir dormir 1 343
 467 o gato não vai estar precisando dormir 1 944
-468 o gato não vai tentar dormir 2 453
+468 o gato não vai tentar dormir 1 433
 469 o gato não vai conseguir dormir 1 427
 470 os cachorros não haviam chegado 1 115
-471 os cachorros não haviam tentado dormir 2 293
+471 os cachorros não haviam tentado dormir 1 284
 472 não haviam chegado 1 81
 473 o cachorro está querendo perseguir o gato 1 663
 474 o cachorro está desejando perseguir o gato 1 663
