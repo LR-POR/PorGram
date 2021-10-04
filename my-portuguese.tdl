@@ -9,6 +9,7 @@ de_comp := que+de_comp.
 que_comp := que+de_comp.
 que+de_comp := comp-form.
 em_comp := comp-form.
+para_comp := comp-form.
 
 ; Lexical rule types for handling the conjugation of copulative verbs:
 cop-pres-subj-2sg-lex-rule := cop-2sg-lex-rule & cop-pres-subj-lex-rule.
@@ -290,11 +291,14 @@ ind-cl-dat-verb-lex := fin-cl-verb-lex & clausal-nom-dat-verb-lex & clausal-thir
                                                                SF prop ] ] ] ,
              NON-LOCAL.QUE.LIST < > ] ].
 
+prep-obj-verb-lex := transitive-verb-lex &
+		    [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp ].
+
 dat-obj-verb-lex := noninh-refl-verb-lex & prep-obj-verb-lex &
-  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp & [ CASE dat ] ].
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE dat ].
 
 gen-obj-verb-lex := prep-obj-verb-lex &
-  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp & [ CASE gen] ].
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE gen ].
 
 case-marking-adp-lex := non-local-none-lex-item & raise-sem-lex-item &
   [ SYNSEM.LOCAL.CAT [ HEAD adp &
@@ -381,6 +385,8 @@ em-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.C
 
 que-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.CAT.HEAD comp & [COMP-FORM que_comp ]].
 
+para-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.CAT.HEAD comp & [COMP-FORM para_comp]].
+
 ; subject control verbs
 
 trans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & trans-first-arg-control-lex-item &
@@ -437,67 +443,10 @@ ditrans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & di
 
 inf-ditrans-first-arg-control-verb-lex := ditrans-first-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
-ditrans-second-arg-control-verb-lex-0 :=  main-verb-lex-2 & noninh-refl-verb-lex & ditrans-second-arg-control-lex-item &
-  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
-                             COMPS < #comp1, #comp2 >,
-                             SUBJ < #subj > ],
-                   CONT.HOOK.XARG #xarg ],
-    ARG-ST < #subj &
-             [ LOCAL.CAT [ HEAD noun &
-                                  [ CASE nom ],
-                             VAL [ SUBJ < >,
-                                   SPR < >,
-                                   SPEC < >,
-                                   COMPS < > ] ] ],
-	      #comp1 &
-	      [ LOCAL [ CAT [ VAL [ SPR < >,
-                                 COMPS < > ],
-                             HEAD noun & [ CASE acc ] ],
-                       CONT.HOOK.INDEX #xarg ] ],	   
-			  
-             #comp2 &
-             [ LOCAL.CAT.HEAD comp ] > ].
 
 
-ditrans-second-arg-control-verb-lex-1 :=  main-verb-lex & noninh-refl-verb-lex & ditrans-second-arg-control-lex-item &
-  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
-                             COMPS < #comp1, #comp2 >,
-                             SUBJ < #subj > ] ],
-    ARG-ST < #subj &
-             [ LOCAL.CAT [ HEAD noun &
-                                  [ CASE nom ],
-                             VAL [ SUBJ < >,
-                                   SPR < >,
-                                   SPEC < >,
-                                   COMPS < > ] ] ],
-	      #comp1 &
-	      [ LOCAL [ CAT [ VAL [ SPR < >,
-                                 COMPS < > ],
-                             HEAD noun & [ CASE acc ] ],
-                       CONT.HOOK.INDEX #xarg ] ],	   
-			  
-             #comp2 &
-             [ LOCAL [ CAT [HEAD comp], CONT.HOOK.XARG #xarg ] ] > ].
 
 
-ditrans-second-arg-control-verb-lex-4 :=  main-verb-lex & noninh-refl-verb-lex & ditrans-second-arg-control-lex-item &
-  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
-                             COMPS < #comp1, #comp2 >,
-                             SUBJ < #subj > ] ],
-    ARG-ST < #subj &
-             [ LOCAL.CAT [ HEAD noun &
-                                  [ CASE nom ],
-                             VAL [ SUBJ < >,
-                                   SPR < >,
-                                   SPEC < >,
-                                   COMPS < > ] ] ],
-	      #comp1 &
-	      [ LOCAL.CAT [ VAL [ SPR < >,
-                                 COMPS < > ],
-                             HEAD noun & [ CASE acc ] ] ],	   
-			  
-             #comp2 &
-             [ LOCAL.CAT.HEAD comp ] > ].
 
 ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
@@ -518,10 +467,18 @@ ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & c
              #comp2 &
              [ LOCAL.CAT.HEAD comp ] > ].
 	     
-ditrans-second-arg-control-verb-lex-3 :=  main-verb-lex & noninh-refl-verb-lex & ditrans-second-arg-control-lex-item &
+
+
+inf-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
+
+a-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM a_comp ].
+
+de-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
+
+ditrans-second-arg-dat-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
                              COMPS < #comp1, #comp2 >,
-                             SUBJ < #subj > ]],
+                             SUBJ < #subj > ] ],
     ARG-ST < #subj &
              [ LOCAL.CAT [ HEAD noun &
                                   [ CASE nom ],
@@ -532,18 +489,11 @@ ditrans-second-arg-control-verb-lex-3 :=  main-verb-lex & noninh-refl-verb-lex &
 	      #comp1 &
 	      [ LOCAL.CAT [ VAL [ SPR < >,
                                  COMPS < > ],
-                             HEAD noun & [ CASE acc ] ] ],	   
+                             HEAD adp & [ CASE dat ] ] ],	   
 			  
              #comp2 &
-             [ LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
-                                 COMPS < >,
-                                 SPR < >,
-                                 SPEC < > ],
-                           HEAD verb  & [ FORM infinitive ] ] ] > ].
+             [ LOCAL.CAT.HEAD comp ] > ].
 
+inf-ditrans-second-arg-dat-control-verb-lex := ditrans-second-arg-dat-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
-inf-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
-
-a-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM a_comp ].
-
-de-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
+para-inf-ditrans-second-arg-dat-control-verb-lex := inf-ditrans-second-arg-dat-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM para_comp ].

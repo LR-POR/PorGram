@@ -292,9 +292,9 @@
 292 o artista perguntou-se o que o cachorro perseguiu 1 145
 293 o gato obedeceu a o cachorro 1 79
 294 *o gato obedeceu o cachorro 0 46
-295 o artista caminhou para a cidade 2 93
+295 o artista caminhou para a cidade 2 94
 296 ele doou a bicicleta a o artista 1 157
-297 ele doou a bicicleta para o artista 3 278
+297 ele doou a bicicleta para o artista 3 279
 298 o que o cachorro perseguiu 1 90
 299 todos os gatos temem o cachorro 0 91
 300 todos gatos temem o cachorro 1 97
@@ -394,10 +394,10 @@
 394 o cachorro ousou latir 1 120
 395 o cachorro desejou latir 1 141
 396 o cachorro ousou desejar latir 1 438
-397 o cachorro disse que o gato latisse 2 257
-398 os cachorros disseram que o gato latisse 4 280
-399 os cachorros estavam dizendo que o gato latisse 2 542
-400 os cachorros tinham dito que o gato latisse 2 374
+397 o cachorro disse que o gato latisse 2 462
+398 os cachorros disseram que o gato latisse 4 504
+399 os cachorros estavam dizendo que o gato latisse 2 1073
+400 os cachorros tinham dito que o gato latisse 2 657
 401 o cachorro admitiu que o gato latisse 4 155
 402 o cachorro consentiu que o gato latisse 2 147
 403 o cachorro exigiu que o gato latisse 2 147
@@ -540,7 +540,16 @@
 540 o artista detesta que o cachorro atraia o gato 0 130
 541 o artista detesta que eles atraiam o gato 0 132
 542 o artista detesta que tu atraias o gato 0 122
+543 a estudante disse a o artista para trazer uma bola 1 536
+544 a estudante disse a os artistas para trazerem uma bola 0 336
+545 a estudante disse a os artistas para trazer uma bola 1 534
+546 *a estudante disse a o artista a trazer uma bola 0 377
+547 *a estudante disse a o artista de trazer uma bola 0 373
+548 *a estudante disse a o artista que trazer uma bola 1 738
+549 *a estudante disse a os artistas a trazerem uma bola 0 305
+550 *a estudante disse a os artistas de trazerem uma bola 0 301
+551 *a estudante disse a os artistas que trazerem uma bola 1 636
 
-;;; Total CPU time: 13301 msecs
-;;; Mean edges: 171.39
-;;; Mean parses: 1.85
+;;; Total CPU time: 13797 msecs
+;;; Mean edges: 178.36
+;;; Mean parses: 1.82

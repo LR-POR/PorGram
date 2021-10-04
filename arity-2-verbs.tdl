@@ -14,6 +14,10 @@ atacar := trans-verb-lex &
   [ STEM < "atacar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_atacar_v_rel" ].
 
+agarrar := trans-verb-lex &
+  [ STEM < "agarrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_agarrar_v_rel" ].
+
 atingir := trans-verb-lex &
   [ STEM < "atingir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_atingir_v_rel" ].

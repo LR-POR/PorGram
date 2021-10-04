@@ -46,6 +46,7 @@ dizer_3 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "dizer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_3_rel" ].
 
+
 acreditar_2 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "acreditar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_2_rel" ].
@@ -86,3 +87,7 @@ convencer := a-inf-ditrans-second-arg-control-verb-lex &
 forçar := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "forçar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_forçar_v_rel" ].
+
+dizer_5 := para-inf-ditrans-second-arg-dat-control-verb-lex &
+  [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_5_rel" ].

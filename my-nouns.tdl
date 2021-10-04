@@ -1,0 +1,3 @@
+bola := fem-noun-lex &
+  [ STEM < "bola" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bola_n_rel" ].
