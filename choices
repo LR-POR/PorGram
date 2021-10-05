@@ -9,8 +9,8 @@ punctuation-chars-list=-
 archive=yes
 email=leonel.de.alencar@ufc.br
 affiliation=Federal University of Ceará
-motivation=I hope using the system will reduce the effort of implementing a computational grammar for Brazilian Portuguese, since I still don't have much familiarty with the HPSG formalism and the LKB system.
-comment=simple transitive and intransitive sentences
+motivation=I hope using the system will reduce the effort of implementing a computational grammar for Brazilian Portuguese
+comment=see https://github.com/LR-POR/PorGram
 vcs=none
 
 section=word-order
