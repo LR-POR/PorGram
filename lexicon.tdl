@@ -672,9 +672,6 @@ desculpar_2 := que-eval-verb-lex &
   [ STEM < "desculpar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_desculpar_v_2_rel" ].
 
-detestar_3 := que-eval-verb-lex &
-  [ STEM < "detestar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_3_rel" ].
 
 gostar := que-eval-verb-lex &
   [ STEM < "gostar" >,
@@ -1037,9 +1034,3 @@ para_20que := comps6-complementizer-lex-item &
 em_20que := comps7-complementizer-lex-item &
   [ STEM < "em",
            "que" > ].
-
-que_4 := comps8-complementizer-lex-item &
-  [ STEM < "que" > ].
-
-que_5 := comps9-complementizer-lex-item &
-  [ STEM < "que" > ].
