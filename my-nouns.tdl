@@ -1,3 +1,11 @@
 bola := fem-noun-lex &
   [ STEM < "bola" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bola_n_rel" ].
+
+mim := prep-pers-pron-1s-noun-lex &
+  [ STEM < "mim" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
+
+ti := prep-pers-pron-2s-noun-lex &
+  [ STEM < "ti" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].

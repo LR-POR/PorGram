@@ -292,9 +292,9 @@
 292 o artista perguntou-se o que o cachorro perseguiu 1 134
 293 o gato obedeceu a o cachorro 1 79
 294 *o gato obedeceu o cachorro 0 46
-295 o artista caminhou para a cidade 2 94
+295 o artista caminhou para a cidade 2 96
 296 ele doou a bicicleta a o artista 1 157
-297 ele doou a bicicleta para o artista 3 279
+297 ele doou a bicicleta para o artista 4 296
 298 o que o cachorro perseguiu 1 79
 299 todos os gatos temem o cachorro 0 91
 300 todos gatos temem o cachorro 1 97
@@ -524,7 +524,7 @@
 524 *o cachorro tem que obedece a o artista 0 177
 525 *o cachorro tem a obedecer a o artista 0 226
 526 *o cachorro tem em obedecer a o artista 0 222
-527 o artista contou a o estudante que o gato tinha matado uma ratazana 0 387
+527 o artista contou a o estudante que o gato tinha matado uma ratazana 1 626
 528 o gato prefere dormir 1 138
 529 a estudante impediu o artista de matar a ratazana 1 324
 530 a estudante obrigou o artista a matar a ratazana 1 331
@@ -540,9 +540,9 @@
 540 o artista detesta que o cachorro atraia o gato 0 120
 541 o artista detesta que eles atraiam o gato 0 122
 542 o artista detesta que tu atraias o gato 0 112
-543 a estudante disse a o artista para trazer uma bola 1 536
-544 a estudante disse a os artistas para trazerem uma bola 0 336
-545 a estudante disse a os artistas para trazer uma bola 1 534
+543 a estudante disse a o artista para trazer uma bola 1 537
+544 a estudante disse a os artistas para trazerem uma bola 0 337
+545 a estudante disse a os artistas para trazer uma bola 1 535
 546 *a estudante disse a o artista a trazer uma bola 0 377
 547 *a estudante disse a o artista de trazer uma bola 0 373
 548 *a estudante disse a o artista que trazer uma bola 0 422
@@ -552,15 +552,25 @@
 552 *o cachorro declarou que o gato lata 0 98
 553 o cachorro afirmou que o gato late 1 124
 554 ele vai entregar a bola a o gato 1 518
-555 eu pedi para que ela entregasse a bola a o gato 1 477
+555 eu pedi para que ela entregasse a bola a o gato 1 480
 556 *eu pedi com que ela entregasse a bola a o gato 0 269
 557 *eu pedi em que ela entregasse a bola a o gato 0 315
 558 *ela fez em que o gato dormisse 0 188
-559 *ela fez para que o gato dormisse 0 203
+559 *ela fez para que o gato dormisse 0 205
 560 *ela insistiu com que o gato dormisse 0 146
-561 ela insistiu para que o gato dormisse 0 220
+561 ela insistiu para que o gato dormisse 0 222
 562 eles lamentam ladrar 3 252
+563 ele doou a bicicleta para o artista 4 296
+564 o artista doa uma bicicleta para o estudante 4 254
+565 nós vamos entregar o cachorro para o artista 4 1409
+566 será que eles irão entregar o cachorro para o artista 1 670
+567 não sei o que eles entregavam para o artista 1 290
+568 o artista contou para o estudante que o gato tinha matado uma ratazana 1 844
+569 a artista prometeu para o estudante matar a ratazana 1 555
+570 a estudante disse para o artista para trazer uma bola 1 877
+571 ele vai entregar a bola para o gato 1 913
+572 eu pedi para que ela entregasse a bola para o gato 1 1009
 
-;;; Total CPU time: 13800 msecs
-;;; Mean edges: 173.12
-;;; Mean parses: 1.64
+;;; Total CPU time: 15000 msecs
+;;; Mean edges: 183.01
+;;; Mean parses: 1.65

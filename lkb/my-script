@@ -120,7 +120,7 @@
 
 (mt:read-transfer-rules
 (list
-(lkb-pathname (parent-directory) "trigger.mtr"))
+(lkb-pathname (parent-directory) "my-trigger.mtr"))
 "Generation trigger rules"
 :filter nil :task :trigger :recurse nil :edges 200 :subsume nil)
 

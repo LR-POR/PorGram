@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Portuguese
 ;;; created at:
-;;;     Tue Oct 05 22:16:06 UTC 2021
+;;;     Thu Oct 07 19:37:45 UTC 2021
 ;;; based on Matrix customization system version of:
 ;;;     Mon Aug  2 23:22:15 UTC 2021
 ;;;
@@ -38,34 +38,33 @@ head :+ [ PRON bool,
     FORM form,
     INIT bool ].
 
-+np :+ [ CASE-MARKED bool,
-    CASE case ].
+noun :+ [ CASE case ].
 
-inflected :+ [ UNIFORM-ADJ-FLAG luk,
-    A-NUM-FLAG luk,
-    TMP-FLAG luk,
+inflected :+ [ N-NUM-FLAG luk,
     REFL-FLAG luk,
-    INH-REFL-VERB-FLAG luk,
-    N-NUM-FLAG luk,
+    DET-GEND-FLAG luk,
+    UNIFORM-ADJ-FLAG luk,
     A-GEND-FLAG luk,
-    COP-TMP-FLAG luk,
     DET-NUM-FLAG luk,
     NON-UNIFORM-ADJ-FLAG luk,
-    DET-GEND-FLAG luk,
-    AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG luk ].
+    TMP-FLAG luk,
+    AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG luk,
+    A-NUM-FLAG luk,
+    COP-TMP-FLAG luk,
+    INH-REFL-VERB-FLAG luk ].
 
-infl-satisfied :+ [ UNIFORM-ADJ-FLAG na-or-+,
-    A-NUM-FLAG na-or-+,
-    TMP-FLAG na-or-+,
+infl-satisfied :+ [ N-NUM-FLAG na-or-+,
     REFL-FLAG na-or-+,
-    INH-REFL-VERB-FLAG na-or-+,
-    N-NUM-FLAG na-or-+,
+    DET-GEND-FLAG na-or-+,
+    UNIFORM-ADJ-FLAG na-or-+,
     A-GEND-FLAG na-or-+,
-    COP-TMP-FLAG na-or-+,
     DET-NUM-FLAG na-or-+,
     NON-UNIFORM-ADJ-FLAG na-or-+,
-    DET-GEND-FLAG na-or-+,
-    AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG na-or-+ ].
+    TMP-FLAG na-or-+,
+    AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG na-or-+,
+    A-NUM-FLAG na-or-+,
+    COP-TMP-FLAG na-or-+,
+    INH-REFL-VERB-FLAG na-or-+ ].
 
 basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
 
@@ -82,12 +81,7 @@ adj-head-int-phrase :+ [ HEAD-DTR.SYNSEM.NON-LOCAL.SLASH.LIST < > ].
 
 case := *top*.
 nom := case.  ; nom
-pre := case.  ; prep
-dat+acc := case.
-dat := dat+acc & dat+gen.
-acc := dat+acc.
-dat+gen := case.
-gen := dat+gen.
+acc := case.  ; acc
 
 ;;; Person
 
@@ -266,23 +260,8 @@ proper-noun-noun-lex := noun-lex &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ NUM singular,
                                        PER 3rd ] ].
 
-prep-pers-pron-noun-lex := pers-pron-noun-lex &
-  [ SYNSEM.LOCAL.CAT.HEAD [ CASE pre,
-                            CASE-MARKED + ] ].
-
 nom-pers-pron-noun-lex := pers-pron-noun-lex &
-  [ SYNSEM.LOCAL.CAT.HEAD [ CASE nom,
-                            CASE-MARKED + ] ].
-
-prep-pers-pron-1s-noun-lex := pers-pron-1-noun-lex & pers-pron-sg-noun-lex & prep-pers-pron-noun-lex.
-
-prep-pers-pron-2s-noun-lex := pers-pron-2-noun-lex & pers-pron-sg-noun-lex & prep-pers-pron-noun-lex.
-
-acc-dat-pers-pron-noun-lex := pers-pron-noun-lex &
-  [ SYNSEM.LOCAL.CAT.HEAD [ CASE dat+acc,
-                            CASE-MARKED + ] ].
-
-acc-dat-pers-pron-1s-noun-lex := pers-pron-1-noun-lex & pers-pron-sg-noun-lex & acc-dat-pers-pron-noun-lex.
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE nom ].
 
 ;;; Verbs
 
@@ -317,20 +296,20 @@ aux-lex := verb-lex & basic-icons-lex-item & refl-rule-dtr & tmp-rule-dtr &
 
 intransitive-verb-lex := main-verb-lex & intransitive-lex-item &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
-    ARG-ST.FIRST.LOCAL.CAT.HEAD +np ].
+    ARG-ST.FIRST.LOCAL.CAT.HEAD noun ].
 
 transitive-verb-lex := main-verb-lex & transitive-lex-item &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
-    ARG-ST < [ LOCAL.CAT.HEAD +np ],
+    ARG-ST < [ LOCAL.CAT.HEAD noun ],
              #comps &
              [ LOCAL.CAT cat-sat &
                          [ VAL [ SPR < >,
                                  COMPS < > ],
-                           HEAD +np ] ] > ].
+                           HEAD noun ] ] > ].
 
 clausal-verb-lex := main-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
-    ARG-ST < [ LOCAL.CAT.HEAD +np ],
+    ARG-ST < [ LOCAL.CAT.HEAD noun ],
              #comps &
              [ LOCAL.CAT [ MC na-or--,
                            VAL [ SPR < >,
@@ -339,21 +318,17 @@ clausal-verb-lex := main-verb-lex &
 
 nom-intransitive-verb-lex := intransitive-verb-lex &
   [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &
-                                [ CASE nom ],
-    SYNSEM.LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.CASE-MARKED + ] > ].
+                                [ CASE nom ] ].
 
 nom-acc-transitive-verb-lex := transitive-verb-lex &
   [ ARG-ST < [ LOCAL.CAT.HEAD noun &
                               [ CASE nom ] ],
              [ LOCAL.CAT.HEAD noun &
-                              [ CASE acc ] ] >,
-    SYNSEM.LOCAL.CAT.VAL [ SUBJ < [ LOCAL.CAT.HEAD.CASE-MARKED + ] >,
-                           COMPS < [ LOCAL.CAT.HEAD.CASE-MARKED + ] > ] ].
+                              [ CASE acc ] ] > ].
 
 clausal-nom-verb-lex := clausal-verb-lex &
   [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &
-                                [ CASE nom ],
-    SYNSEM.LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.CASE-MARKED + ] > ].
+                                [ CASE nom ] ].
 
 intrans-verb-lex := regular-verb-lex & nom-intransitive-verb-lex.
 
@@ -449,17 +424,13 @@ em-que-cl-verb-lex := subj-cl-verb-lex & clausal-nom-verb-lex & clausal-second-a
                                              CONT.HOOK.INDEX.SF prop ] ] >,
              NON-LOCAL.QUE.LIST < > ] ].
 
-dat-obj-verb-lex := noninh-refl-verb-lex & prep-obj-verb-lex &
-  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD [ CASE dat,
-                                                      CASE-MARKED + ] ].
+dat-obj-verb-lex := noninh-refl-verb-lex & prep-obj-verb-lex.
 
 dir-verb-lex := que-subj-cl-verb-lex.
 
 prep-obj-verb-lex := transitive-verb-lex.
 
-gen-obj-verb-lex := prep-obj-verb-lex &
-  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD [ CASE gen,
-                                                      CASE-MARKED + ] ].
+gen-obj-verb-lex := prep-obj-verb-lex.
 
 refl-gen-obj-verb-lex := inh-refl-verb-lex & gen-obj-verb-lex.
 
@@ -726,24 +697,6 @@ insitu-int-cl := interrogative-clause & head-only &
 
 ;;; Others
 
-;;; Case-marking adpositions
-;;; Case marking adpositions are constrained not to
-;;; be modifiers.
-
-case-marking-adp-lex := non-local-none-lex-item & raise-sem-lex-item &
-  [ SYNSEM.LOCAL.CAT [ HEAD adp &
-                            [ CASE #case,
-                              MOD < > ],
-                       VAL [ SPR < >,
-                             SUBJ < >,
-                             COMPS < #comps >,
-                             SPEC < > ] ],
-    ARG-ST < #comps &
-             [ LOCAL.CAT [ VAL.SPR < >,
-                           HEAD noun &
-                                [ CASE #case,
-                                  CASE-MARKED - ] ] ] > ].
-
 norm-adposition-lex := norm-sem-lex-item & no-hcons-lex-item & basic-intersective-mod-lex & non-local-none-lex-item &
   [ ARG-ST < #comp >,
     SYNSEM [ LKEYS.KEYREL arg12-ev-relation &
@@ -939,38 +892,38 @@ high-or-mid-nominalization-lex-rule := cat-change-with-ccont-lex-rule & same-con
 
 ;;; Intermediate rule types
 
-refl-rule-dtr := word-or-lexrule.
-tmp-rule-dtr := word-or-lexrule.
 det-num-rule-dtr := word-or-lexrule.
 a-num-rule-dtr := word-or-lexrule.
+refl-rule-dtr := word-or-lexrule.
+tmp-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
 n-num-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ N-NUM-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                TMP-FLAG #tmp,
                 REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
+                DET-GEND-FLAG #det-gend,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 A-GEND-FLAG #a-gend,
-                COP-TMP-FLAG #cop-tmp,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR common-noun-lex &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
-                      TMP-FLAG #tmp,
-                      REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
+        [ INFLECTED [ REFL-FLAG #refl,
+                      DET-GEND-FLAG #det-gend,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       A-GEND-FLAG #a-gend,
-                      COP-TMP-FLAG #cop-tmp,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 n-sg-lex-rule := const-lex-rule & n-num-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM singular ].
@@ -980,29 +933,29 @@ n-pl-lex-rule := infl-lex-rule & n-num-lex-rule-super &
 
 tmp-lex-rule-super := add-only-no-ccont-rule & refl-rule-dtr &
   [ INFLECTED [ TMP-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
+                REFL-FLAG #refl,
+                DET-GEND-FLAG #det-gend,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 A-GEND-FLAG #a-gend,
-                COP-TMP-FLAG #cop-tmp,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR tmp-rule-dtr &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
                       REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       A-GEND-FLAG #a-gend,
-                      COP-TMP-FLAG #cop-tmp,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 perf-ind-lex-rule := infl-lex-rule & tmp-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E [ TENSE past,
@@ -1202,29 +1155,29 @@ infl-inf-1sg-lex-rule := 1sg-lex-rule & infl-inf-lex-rule.
 
 refl-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ REFL-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                TMP-FLAG #tmp,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
+                DET-GEND-FLAG #det-gend,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 A-GEND-FLAG #a-gend,
-                COP-TMP-FLAG #cop-tmp,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR refl-rule-dtr &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
-                      TMP-FLAG #tmp,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       A-GEND-FLAG #a-gend,
-                      COP-TMP-FLAG #cop-tmp,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 zero-refl-mark-lex-rule := const-lex-rule & refl-lex-rule-super &
   [ DTR.INFLECTED.INH-REFL-VERB-FLAG na ].
@@ -1258,29 +1211,29 @@ refl-mark-1p-lex-rule := refl-mark-1st-lex-rule & refl-mark-pl-lex-rule.
 
 det-gend-lex-rule-super := add-only-no-ccont-rule & det-num-rule-dtr &
   [ INFLECTED [ DET-GEND-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                TMP-FLAG #tmp,
-                REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
+                REFL-FLAG #refl,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 A-GEND-FLAG #a-gend,
-                COP-TMP-FLAG #cop-tmp,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR non-infl-form-determiner-lex &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
-                      TMP-FLAG #tmp,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
                       REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       A-GEND-FLAG #a-gend,
-                      COP-TMP-FLAG #cop-tmp,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 det-fem-lex-rule := det-gend-lex-rule-super & infl-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.GEND feminine ].
@@ -1290,29 +1243,29 @@ det-masc-lex-rule := const-lex-rule & det-gend-lex-rule-super &
 
 det-num-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ DET-NUM-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                TMP-FLAG #tmp,
-                REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
-                A-GEND-FLAG #a-gend,
-                COP-TMP-FLAG #cop-tmp,
-                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                REFL-FLAG #refl,
                 DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                UNIFORM-ADJ-FLAG #uniform-adj,
+                A-GEND-FLAG #a-gend,
+                NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR det-num-rule-dtr &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
-                      TMP-FLAG #tmp,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
                       REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
-                      A-GEND-FLAG #a-gend,
-                      COP-TMP-FLAG #cop-tmp,
-                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
                       DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      UNIFORM-ADJ-FLAG #uniform-adj,
+                      A-GEND-FLAG #a-gend,
+                      NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 det-pl-lex-rule := det-num-lex-rule-super & infl-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM plural ].
@@ -1322,29 +1275,29 @@ det-sg-lex-rule := const-lex-rule & det-num-lex-rule-super &
 
 a-gend-lex-rule-super := a-num-rule-dtr & add-only-no-ccont-rule &
   [ INFLECTED [ A-GEND-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                TMP-FLAG #tmp,
-                REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
-                COP-TMP-FLAG #cop-tmp,
+                REFL-FLAG #refl,
+                DET-GEND-FLAG #det-gend,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR non-infl-form-adj-lex &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
-                      TMP-FLAG #tmp,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
                       REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
-                      COP-TMP-FLAG #cop-tmp,
+                      DET-GEND-FLAG #det-gend,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 unmarked-gender-lex-rule := a-gend-lex-rule-super & const-lex-rule &
   [ DTR.INFLECTED.NON-UNIFORM-ADJ-FLAG na ].
@@ -1360,29 +1313,29 @@ fem-lex-rule := infl-lex-rule & marked-gender-lex-rule &
 
 a-num-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ A-NUM-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                TMP-FLAG #tmp,
-                REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
+                REFL-FLAG #refl,
+                DET-GEND-FLAG #det-gend,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 A-GEND-FLAG #a-gend,
-                COP-TMP-FLAG #cop-tmp,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                COP-TMP-FLAG #cop-tmp,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR a-num-rule-dtr &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      TMP-FLAG #tmp,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
                       REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       A-GEND-FLAG #a-gend,
-                      COP-TMP-FLAG #cop-tmp,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      COP-TMP-FLAG #cop-tmp,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 a-pl-lex-rule := a-num-lex-rule-super & infl-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NUM plural ].
@@ -1392,29 +1345,29 @@ a-sg-lex-rule := a-num-lex-rule-super & const-lex-rule &
 
 cop-tmp-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED [ COP-TMP-FLAG +,
-                UNIFORM-ADJ-FLAG #uniform-adj,
-                A-NUM-FLAG #a-num,
-                TMP-FLAG #tmp,
-                REFL-FLAG #refl,
-                INH-REFL-VERB-FLAG #inh-refl-verb,
                 N-NUM-FLAG #n-num,
+                REFL-FLAG #refl,
+                DET-GEND-FLAG #det-gend,
+                UNIFORM-ADJ-FLAG #uniform-adj,
                 A-GEND-FLAG #a-gend,
                 DET-NUM-FLAG #det-num,
                 NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                DET-GEND-FLAG #det-gend,
-                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ],
+                TMP-FLAG #tmp,
+                AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                A-NUM-FLAG #a-num,
+                INH-REFL-VERB-FLAG #inh-refl-verb ],
     DTR cop-lex &
-        [ INFLECTED [ UNIFORM-ADJ-FLAG #uniform-adj,
-                      A-NUM-FLAG #a-num,
-                      TMP-FLAG #tmp,
+        [ INFLECTED [ N-NUM-FLAG #n-num,
                       REFL-FLAG #refl,
-                      INH-REFL-VERB-FLAG #inh-refl-verb,
-                      N-NUM-FLAG #n-num,
+                      DET-GEND-FLAG #det-gend,
+                      UNIFORM-ADJ-FLAG #uniform-adj,
                       A-GEND-FLAG #a-gend,
                       DET-NUM-FLAG #det-num,
                       NON-UNIFORM-ADJ-FLAG #non-uniform-adj,
-                      DET-GEND-FLAG #det-gend,
-                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux ] ] ].
+                      TMP-FLAG #tmp,
+                      AUX-OR-ESTAR-AUX-OR-IR-AUX-OR-NONINH-REFL-VERB-OR-TER-AUX-FLAG #aux-or-estar-aux-or-ir-aux-or-noninh-refl-verb-or-ter-aux,
+                      A-NUM-FLAG #a-num,
+                      INH-REFL-VERB-FLAG #inh-refl-verb ] ] ].
 
 cop-ind-lex-rule := cop-tmp-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indicative,

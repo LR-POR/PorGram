@@ -166,18 +166,6 @@ Sara := proper-noun-noun-lex &
   [ STEM < "Sara" >,
     SYNSEM.LKEYS.KEYREL.PRED "_Sara_n_rel" ].
 
-mim := prep-pers-pron-1s-noun-lex &
-  [ STEM < "mim" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
-
-ti := prep-pers-pron-2s-noun-lex &
-  [ STEM < "ti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].
-
-me := acc-dat-pers-pron-1s-noun-lex &
-  [ STEM < "me" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].
-
 ;;; Adjectives
 
 simples := infl-form-adj-lex &
@@ -283,24 +271,6 @@ francês := non-uniform-adj-lex &
 amarelãozinho := dim-aug-adj-lex &
   [ STEM < "amarelãozinho" >,
     SYNSEM.LKEYS.KEYREL.PRED "_amarelo_a_6_rel" ].
-
-;;; Case-marking adpositions
-
-dat-marker_a := case-marking-adp-lex &
-  [ STEM < "a" >,
-    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
-                                 CLAUSE-KEY #clause ],
-                          ICONS.LIST < > ],
-                   CAT.HEAD [ CASE dat,
-                              CASE-MARKED + ] ] ].
-
-gen-marker_de := case-marking-adp-lex &
-  [ STEM < "de" >,
-    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
-                                 CLAUSE-KEY #clause ],
-                          ICONS.LIST < > ],
-                   CAT.HEAD [ CASE gen,
-                              CASE-MARKED + ] ] ].
 
 para := normadp1-norm-adposition-lex &
   [ STEM < "para" >,
@@ -671,7 +641,6 @@ deplorar := que-eval-verb-lex &
 desculpar_2 := que-eval-verb-lex &
   [ STEM < "desculpar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_desculpar_v_2_rel" ].
-
 
 gostar := que-eval-verb-lex &
   [ STEM < "gostar" >,

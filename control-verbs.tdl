@@ -88,6 +88,6 @@ forçar := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "forçar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_forçar_v_rel" ].
 
-dizer_5 := para-inf-ditrans-second-arg-dat-control-verb-lex &
+dizer_5 := para-inf-ditrans-second-arg-rec-control-verb-lex &
   [ STEM < "dizer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_5_rel" ].

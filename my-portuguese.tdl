@@ -1,5 +1,26 @@
+; additional cases
+
+rec := case. ; recipient
+dat := rec. ; dative
+goa := rec. ; goal
+gen := case. ; genitive
+obl := case. ; oblique
+
++np :+ [ CASE case ].
+
 ; The following types were manually created, they are not encoded in the choices file.
 
+
+; oblique (prepositional) forms of personal pronouns
+; o cachorro obedece a mim
+prep-pers-pron-noun-lex := pers-pron-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE obl].
+
+prep-pers-pron-1s-noun-lex := pers-pron-1-noun-lex & pers-pron-sg-noun-lex & prep-pers-pron-noun-lex.
+
+prep-pers-pron-2s-noun-lex := pers-pron-2-noun-lex & pers-pron-sg-noun-lex & prep-pers-pron-noun-lex.
+
+; TODO 06.10.21: replace COMP-FORM by FORM 
 ; Assigning COMP-FORM (complementizer form) to complementizers to handle complementizer selection by verbs subcategorizing for an infinitival complement:
 comp :+ [ 
     COMP-FORM comp-form ].
@@ -209,6 +230,7 @@ qu-fpl-det-lex := qu-pl-det-lex & [SYNSEM.LOCAL.CAT.VAL.SPEC.FIRST.LOCAL.CONT.HO
 ; Verb valency types:
 
 ; main verb type variant for object control verbs
+; TODO 07.10.21: not used anymore
 
 main-verb-lex-2 := verb-lex & basic-verb-lex & basic-non-wh-word-lex &
   [ SYNSEM [ L-QUE -,
@@ -221,6 +243,15 @@ main-verb-lex-2 := verb-lex & basic-verb-lex & basic-non-wh-word-lex &
                                [ VAL [ SPR < >,
                                        COMPS < > ] ],
                            CONT.HOOK.INDEX #xarg ] ] ].
+
+transitive-verb-lex := main-verb-lex & transitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD noun ],
+             #comps &
+             [ LOCAL.CAT cat-sat &
+                         [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD +np ] ] > ].
 
 ditransitive-verb-lex := main-verb-lex & noninh-refl-verb-lex & ditransitive-lex-item & 
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comp1, #comp2 >,
@@ -238,13 +269,14 @@ ditransitive-verb-lex := main-verb-lex & noninh-refl-verb-lex & ditransitive-lex
 			   > ].
 
 ; ele doou a bicicleta a o artista
-nom-acc-dat-ditransitive-verb-lex := ditransitive-verb-lex &
+; ele doou a bicicleta para o artista
+nom-acc-rec-ditransitive-verb-lex := ditransitive-verb-lex &
   [ ARG-ST < [ LOCAL.CAT.HEAD noun &
                               [ CASE nom ] ],
 	     [ LOCAL.CAT.HEAD noun &
                               [ CASE acc ] ],
              [ LOCAL.CAT.HEAD adp &
-                              [ CASE dat ] ] > ].
+                              [ CASE rec ] ] > ].
 
 cl-3rd-arg-ditrans-2nd-arg-control-lex-item := non-local-none-lex-item & one-icons-lex-item &
    [ ARG-ST < [ LOCAL [ CAT cat-sat,
@@ -279,13 +311,13 @@ clausal-ditrans-verb-lex := main-verb-lex &
                                  SUBJ < > ] ] ]  > ].
 
 
-clausal-nom-dat-verb-lex := clausal-ditrans-verb-lex &
+clausal-nom-rec-verb-lex := clausal-ditrans-verb-lex &
   [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun & [ CASE nom ],
-    SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp & [ CASE dat ] ].
+    SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp & [ CASE rec ] ].
 
-ind-cl-dat-verb-lex := fin-cl-verb-lex & clausal-nom-dat-verb-lex & clausal-third-arg-ditrans-lex-item  &
+ind-cl-rec-verb-lex := fin-cl-verb-lex & clausal-nom-rec-verb-lex & clausal-third-arg-ditrans-lex-item  &
   [ SYNSEM [ LOCAL.CAT.VAL.COMPS.REST.FIRST [ LOCAL [ CAT [ HEAD comp &
-                                                        [ FORM finite ],
+                                                        [ FORM que ],
                                                    WH.BOOL - ],
                                              CONT.HOOK.INDEX [ E.MOOD indicative,
                                                                SF prop ] ] ] ,
@@ -313,7 +345,7 @@ case-marking-adp-lex := non-local-none-lex-item & raise-sem-lex-item &
                            HEAD noun &
                                 [ CASE case ] ] ] > ].
 
-prep-case-marking-adp-lex := case-marking-adp-lex & [ ARG-ST.FIRST.LOCAL.CAT.HEAD.CASE pre ].
+prep-case-marking-adp-lex := case-marking-adp-lex & [ ARG-ST.FIRST.LOCAL.CAT.HEAD.CASE obl ].
 
 ; auxiliaries (subject raising verbs) subcategorizing for an infinitival complement headed by a complementizer
 
@@ -335,12 +367,19 @@ compl-subj-raise-aux := aux-lex & trans-first-arg-raising-lex-item &
 
 compl-subj-raise-aux-with-pred := compl-subj-raise-aux & norm-sem-lex-item & trans-first-arg-raising-lex-item-1 & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
+
+; o cachorro começou a latir
 a-compl-subj-raise-aux-with-pred := compl-subj-raise-aux-with-pred & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM a_comp ].
 
+; o cachorro parou de latir
 de-compl-subj-raise-aux-with-pred := compl-subj-raise-aux-with-pred & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
 
+; o cachorro tem que dormir
+; o cachorro tem de dormir
 que-de-compl-subj-raise-aux-with-pred := compl-subj-raise-aux-with-pred & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM que+de_comp ].
 
+; o artista insistiu em perseguir o cachorro
+; TODO 06.10.21 "insistir" 'insist' is a subject control verb 
 em-compl-subj-raise-aux-with-pred := compl-subj-raise-aux-with-pred & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM em_comp ].
 
 ; redefinition of types generated by the grammar matrix
@@ -476,7 +515,7 @@ a-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb
 
 de-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
 
-ditrans-second-arg-dat-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
+ditrans-second-arg-rec-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
                              COMPS < #comp1, #comp2 >,
                              SUBJ < #subj > ] ],
@@ -490,14 +529,14 @@ ditrans-second-arg-dat-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex
 	      #comp1 &
 	      [ LOCAL.CAT [ VAL [ SPR < >,
                                  COMPS < > ],
-                             HEAD adp & [ CASE dat ] ] ],	   
+                             HEAD adp & [ CASE rec ] ] ],	   
 			  
              #comp2 &
              [ LOCAL.CAT.HEAD comp ] > ].
 
-inf-ditrans-second-arg-dat-control-verb-lex := ditrans-second-arg-dat-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
+inf-ditrans-second-arg-rec-control-verb-lex := ditrans-second-arg-rec-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
-para-inf-ditrans-second-arg-dat-control-verb-lex := inf-ditrans-second-arg-dat-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM para_comp ].
+para-inf-ditrans-second-arg-rec-control-verb-lex := inf-ditrans-second-arg-rec-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM para_comp ].
 
 ;que-cl-verb-lex := fin-cl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
 ;  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT [ HEAD comp ,

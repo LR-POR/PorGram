@@ -7,6 +7,13 @@ dat-marker_a := prep-case-marking-adp-lex &
                           ICONS.LIST < > ],
                    CAT.HEAD [ CASE dat ] ] ].
 
+goal-marker_para := prep-case-marking-adp-lex &
+  [ STEM < "para" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE goa ] ] ].
+
 gen-marker_de := prep-case-marking-adp-lex &
   [ STEM < "de" >,
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,

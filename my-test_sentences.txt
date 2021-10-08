@@ -540,6 +540,39 @@ a artista tenciona matar a ratazana
 o artista detesta que o cachorro atraia o gato
 o artista detesta que eles atraiam o gato
 o artista detesta que tu atraias o gato
+a estudante disse a o artista para trazer uma bola
+a estudante disse a os artistas para trazerem uma bola
+a estudante disse a os artistas para trazer uma bola
+*a estudante disse a o artista a trazer uma bola
+*a estudante disse a o artista de trazer uma bola
+*a estudante disse a o artista que trazer uma bola
+*a estudante disse a os artistas a trazerem uma bola
+*a estudante disse a os artistas de trazerem uma bola
+*a estudante disse a os artistas que trazerem uma bola
+*o cachorro declarou que o gato lata
+o cachorro afirmou que o gato late
+ele vai entregar a bola a o gato
+eu pedi para que ela entregasse a bola a o gato
+*eu pedi com que ela entregasse a bola a o gato
+*eu pedi em que ela entregasse a bola a o gato
+*ela fez em que o gato dormisse
+*ela fez para que o gato dormisse
+*ela insistiu com que o gato dormisse
+ela insistiu para que o gato dormisse
+eles lamentam ladrar
+ele doou a bicicleta para o artista
+o artista doa uma bicicleta para o estudante
+nós vamos entregar o cachorro para o artista
+será que eles irão entregar o cachorro para o artista
+não sei o que eles entregavam para o artista
+o artista contou para o estudante que o gato tinha matado uma ratazana
+a artista prometeu para o estudante matar a ratazana
+a estudante disse para o artista para trazer uma bola
+ele vai entregar a bola para o gato
+eu pedi para que ela entregasse a bola para o gato
+
+
+
 
 
 
