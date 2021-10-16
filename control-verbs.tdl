@@ -12,7 +12,7 @@ planejar := inf-trans-first-arg-control-verb-lex &
 
 ousar :=  inf-trans-first-arg-control-verb-lex &
   [ STEM < "ousar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_2_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_rel" ].
 
 desejar_2 :=inf-trans-first-arg-control-verb-lex &
   [ STEM < "desejar" >,
@@ -40,25 +40,23 @@ conseguir := inf-trans-first-arg-control-verb-lex &
 
 tentar := inf-trans-first-arg-control-verb-lex &
   [ STEM < "tentar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_1_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_rel" ].
 
 dizer_3 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "dizer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_3_rel" ].
 
-
 acreditar_2 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "acreditar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_2_rel" ].
-
-tentar := inf-trans-first-arg-control-verb-lex &
-  [ STEM < "tentar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_2_rel" ].
 
 tencionar := inf-trans-first-arg-control-verb-lex &
 [ STEM < "tencionar" >,
  SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_rel" ].
 
+insistir_4 := em-inf-comp-trans-first-arg-control-verb-lex &
+  [ STEM < "insistir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_4_rel" ].
 
 prometer_1 := inf-ditrans-first-arg-control-verb-lex &
   [ STEM < "prometer" >,
@@ -66,11 +64,11 @@ prometer_1 := inf-ditrans-first-arg-control-verb-lex &
 
 impedir_1 := de-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "impedir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_1_rel" ].
 
 proibir_1 := de-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "proibir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_proibir_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_proibir_v_1_rel" ].
 
 obrigar_1 := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "obrigar" >,

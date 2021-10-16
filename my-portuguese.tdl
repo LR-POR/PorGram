@@ -1,3 +1,9 @@
+; allowing for verbs that are compatible with both the inflected and the non-inflected infinitive
+
+infl-or-not-infinitive := nonfinite.
+infinitive := infl-or-not-infinitive.
+infl_infinitive := infl-or-not-infinitive.
+
 ; additional cases
 
 rec := case. ; recipient
@@ -5,6 +11,8 @@ dat := rec. ; dative
 goa := rec. ; goal
 gen := case. ; genitive
 obl := case. ; oblique
+
+; disjunctive type for prepositions and nouns (Drellishak 2009)
 
 +np :+ [ CASE case ].
 
@@ -405,17 +413,19 @@ em-compl-subj-raise-aux-with-pred := compl-subj-raise-aux-with-pred & [ ARG-ST.R
 ; TODO: include SPR < > in VAL of of complement? See subj-raise-aux type.
 complementizer-lex-item-1 := raise-sem-lex-item & non-local-none-lex-item & basic-icons-lex-item &
   [ SYNSEM.LOCAL.CAT [ HEAD comp &
-                            [ MOD < > ],
+                            [ FORM #form, MOD < > ],
                        VAL [ SPR < >,
                              SPEC < >,
                              SUBJ < >,
                              COMPS < #comp > ] ],
     ARG-ST < #comp &
-             [ LOCAL.CAT [ HEAD verb,
+             [ LOCAL.CAT [ HEAD verb & [FORM #form],
                            VAL [ SUBJ < unexpressed >,
                                  COMPS < > ] ] ] > ].
 
-inf-complementizer-lex-item := complementizer-lex-item-1 & [SYNSEM.LOCAL.CAT [ HEAD.FORM infinitive] & [VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive]].
+; inf-complementizer-lex-item := complementizer-lex-item-1 & [SYNSEM.LOCAL.CAT [ HEAD.FORM infinitive] & [VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive]].
+
+inf-complementizer-lex-item := complementizer-lex-item-1 & [SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
 
 a-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.CAT.HEAD comp & [COMP-FORM a_comp]].
 
@@ -428,6 +438,8 @@ que-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.
 para-inf-complementizer-lex-item := inf-complementizer-lex-item &  [SYNSEM.LOCAL.CAT.HEAD comp & [COMP-FORM para_comp]].
 
 ; subject control verbs
+; o gato prefere dormir
+; o artista insistiu em perseguir o cachorro
 
 trans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & trans-first-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
@@ -448,9 +460,40 @@ trans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & tran
                                  SPR < >,
                                  SPEC < > ],
                            HEAD verb ] ] > ].
-              
+
+; subject control verb governing a bare infinitive
+; o gato prefere dormir
 
 inf-trans-first-arg-control-verb-lex := trans-first-arg-control-verb-lex & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
+
+; subject control verbs governing an infinitival CP headed by a prepositional complementizer
+; o artista insistiu em perseguir o cachorro
+; TODO 15.10.21: create a more general supertype for trans-first-arg-control-verb-lex and comp-trans-first-arg-control-verb-lex
+; with the common properties of both
+
+comp-trans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & trans-first-arg-control-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
+                             COMPS < #comp >,
+                             SUBJ < #subj > ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST < #subj &
+             [ LOCAL [ CAT [ HEAD noun &
+                                  [ CASE nom ],
+                             VAL [ SUBJ < >,
+                                   SPR < >,
+                                   SPEC < >,
+                                   COMPS < > ] ],
+                       CONT.HOOK.INDEX #xarg ] ],
+             #comp &
+             [ LOCAL.CAT.HEAD comp ] > ].
+
+
+inf-comp-trans-first-arg-control-verb-lex := comp-trans-first-arg-control-verb-lex & [ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
+
+; SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive
+em-inf-comp-trans-first-arg-control-verb-lex := inf-comp-trans-first-arg-control-verb-lex &
+[ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM em_comp].
+
 
 ; ditransitives with subject control
 ; a estudante prometeu a o artista matar a ratazana
@@ -484,10 +527,6 @@ ditrans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & di
 inf-ditrans-first-arg-control-verb-lex := ditrans-first-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
 
-
-
-
-
 ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
                              COMPS < #comp1, #comp2 >,
@@ -509,10 +548,12 @@ ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & c
 	     
 
 
-inf-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
+inf-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
 
+; a estudante obrigou o artista a matar a ratazana
 a-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM a_comp ].
 
+; a estudante impediu o artista de matar a ratazana
 de-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
 
 ditrans-second-arg-rec-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
@@ -534,8 +575,10 @@ ditrans-second-arg-rec-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex
              #comp2 &
              [ LOCAL.CAT.HEAD comp ] > ].
 
-inf-ditrans-second-arg-rec-control-verb-lex := ditrans-second-arg-rec-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
+; TODO 15.10.21: this specification seems redundant, because the COMP-FORM specification below seems to enforce verb form 
+inf-ditrans-second-arg-rec-control-verb-lex := ditrans-second-arg-rec-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
 
+; a estudante disse a o artista para trazer uma bola
 para-inf-ditrans-second-arg-rec-control-verb-lex := inf-ditrans-second-arg-rec-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM para_comp ].
 
 ;que-cl-verb-lex := fin-cl-verb-lex & clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
