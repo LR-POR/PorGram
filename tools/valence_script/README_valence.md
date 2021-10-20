@@ -16,7 +16,7 @@ val = joblib.load('valences_dict.joblib')
 Typing
 
 ```list(val.keys())[:5]
-\['\<VERB,expl\>', '\<nsubj,VERB,obj\>', '\<VERB,obj\>', '\<nsubj,expl,VERB\>', '\<expl,VERB\>'\]
+['<VERB,expl>', '<nsubj,VERB,obj>', '<VERB,obj>', '<nsubj,expl,VERB>', '<expl,VERB>']
 ```
 
 So, for instance, the key '<nsubj,VERB,obj>' means every VERB that has only nsubj and obj as sons and the order in the sentence is nsubj -- verb -- obj.
@@ -24,13 +24,13 @@ So, for instance, the key '<nsubj,VERB,obj>' means every VERB that has only nsub
 Typing
 
 ```
-val\['\<nsubj,VERB,obj\>'\]\[:20\]
+val['<nsubj,VERB,obj>'][:20]
 ```
 
 The output is
 
 ```
-\[situar, continuar, manter, esperar, deixar, ser, correr, querer, fugir, ir, encontrar, gastar, juntar, reivindicar, faltar, lembrar, considerar, especializar, dispor, encomendar\]
+[situar, continuar, manter, esperar, deixar, ser, correr, querer, fugir, ir, encontrar, gastar, juntar, reivindicar, faltar, lembrar, considerar, especializar, dispor, encomendar]
 ```
 
 So these are the first 20 verbs that appears in the corpus in the form nsubj -- verb -- obj
@@ -38,7 +38,7 @@ So these are the first 20 verbs that appears in the corpus in the form nsubj -- 
 Looking at the first verb, situar,
 
 ```
-val\['\<nsubj,VERB,obj\>'\]\[0\]
+val['<nsubj,VERB,obj>'][0]
 ```
 
 The output is
@@ -50,12 +50,12 @@ situar
 This is an object called Verb and it has one important attribute and one important method. The attribute is *valences*. It shows a list with every setting of relations it appears in the corpus
 
 ```
-val\['\<nsubj,VERB,obj\>'\]\[0\].valences
+val['<nsubj,VERB,obj>'][0].valences
 ```
 
 The output is
 
-```\[\<VERB,expl\>, \<nsubj,VERB,obj\>, \<VERB,obj\>, \<nsubj,expl,VERB\>, \<nsubj,expl,VERB\>, \<expl,VERB\>, \<nsubj,expl,VERB\>, \<expl,VERB\>, \<VERB,expl\>, \<nsubj,VERB,expl\>, \<VERB,expl\>, \<expl,VERB\>\]
+```[<VERB,expl>, <nsubj,VERB,obj>, <VERB,obj>, <nsubj,expl,VERB>, <nsubj,expl,VERB>, <expl,VERB>, <nsubj,expl,VERB>, <expl,VERB>, <VERB,expl>, <nsubj,VERB,expl>, <VERB,expl>, <expl,VERB>]
 ```
 
 The method is print. This shows every setting of this verb in the corpus
@@ -64,7 +64,7 @@ The method is print. This shows every setting of this verb in the corpus
 Typing
 
 ```
-print(val\['\<nsubj,VERB,obj\>'\]\[0\].print())
+print(val['<nsubj,VERB,obj>'][0].print())
 ```
 
 The output is
@@ -84,32 +84,32 @@ situar+VerbForm:Inf nsubj PRON+se+Acc+Fem+Sing+3+Prs
 You can also access a specific setting in the verb, returning to
 
 ```
-val\['\<nsubj,VERB,obj\>'\]\[0\].valences[1]
+val['<nsubj,VERB,obj>'][0].valences[1]
 ```
 
 The output is
 
 ```
-\<nsubj,VERB,obj\>
+<nsubj,VERB,obj>
 ```
 
 Which is another object. Its methods are the deprels shown in its printed form. So, in this case, we can access 
 
 ```
-val\['\<nsubj,VERB,obj\>'\]\[0\].valences\[1\].nsubj
+val['<nsubj,VERB,obj>'][0].valences[1].nsubj
 ```
 
 And the output is
 
 ```
-\{'PRON': \[que,nsubj,PRON\]\}
+{'PRON': [que,nsubj,PRON]}
 ```
 
 A dictionary with the every nsubj son of the verb. In this case we have only one. We can access this by accessing a regular dictionary. The visualization is very self contained though. The only usefull information not shown in the visualization is the marks and cases, sons of the PRON in this case (if exists). One can access by typing
 
 
 ```
-val\['\<nsubj,VERB,obj\>'\]\[0\].valences\[1\].nsubj\['PRON'\].relation
+val['<nsubj,VERB,obj>'][0].valences[1].nsubj['PRON'].relation
 ```
 
 In this case there are no sons of the PRON token with mark or case deprel.
@@ -117,13 +117,13 @@ In this case there are no sons of the PRON token with mark or case deprel.
 Returing to the valence object, 
 
 ```
-val\['<nsubj,VERB,obj>'\]\[0\].valences\[1\]
+val['<nsubj,VERB,obj>'][0].valences[1]
 ```
 
 One can access the sentence by typing
 
 ```
-val\['<nsubj,VERB,obj>'\]\[0\].valences\[1\].example
+val['<nsubj,VERB,obj>'][0].valences[1].example
 ```
 
 And the output is
