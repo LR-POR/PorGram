@@ -1,3 +1,35 @@
+acabar := trans-verb-lex &
+  [ STEM < "acabar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acabar_v_rel" ].
+
+fazer_4 := trans-verb-lex &
+  [ STEM < "fazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_4_rel" ].
+
+publicar := trans-verb-lex &
+  [ STEM < "publicar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_publicar_v_rel" ].
+
+aumentar_2 := trans-verb-lex &
+  [ STEM < "aumentar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aumentar_v_2_rel" ].
+
+criticar_3 := trans-verb-lex &
+  [ STEM < "criticar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_criticar_v_3_rel" ].
+
+resolver := trans-verb-lex &
+  [ STEM < "resolver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_resolver_v_rel" ].
+
+escrever := trans-verb-lex &
+  [ STEM < "escrever" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_escrever_v_rel" ].
+
+ganhar := trans-verb-lex &
+  [ STEM < "ganhar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ganhar_v_rel" ].
+
 acuar := trans-verb-lex &
   [ STEM < "acuar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acuar_v_rel" ].
@@ -34,21 +66,9 @@ extinguir := trans-verb-lex &
   [ STEM < "extinguir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_extinguir_v_rel" ].
 
-imitar := trans-verb-lex &
-  [ STEM < "imitar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_imitar_v_rel" ].
-
-perseguir := trans-verb-lex &
-  [ STEM < "perseguir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_perseguir_v_rel" ].
-
 puir := trans-verb-lex &
   [ STEM < "puir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_puir_v_rel" ].
-
-socorrer := trans-verb-lex &
-  [ STEM < "socorrer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_socorrer_v_rel" ].
 
 tanger := trans-verb-lex &
   [ STEM < "tanger" >,

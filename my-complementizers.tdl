@@ -12,3 +12,7 @@ para_comp := para-inf-complementizer-lex-item &
 
 que_comp := que-inf-complementizer-lex-item &
   [ STEM < "que" > ].
+
+a_20que := a-que-complementizer-lex-item &
+  [ STEM < "a",
+           "que" > ].

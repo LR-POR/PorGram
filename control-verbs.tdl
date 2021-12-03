@@ -1,3 +1,6 @@
+; TODO: 24.11.21 this file also contaisn raising verbs,
+; which should be placed in a file of their own
+
 preferir_1 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "preferir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_preferir_v_1_rel" ].
@@ -10,27 +13,27 @@ planejar := inf-trans-first-arg-control-verb-lex &
   [ STEM < "planejar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_planejar_v_rel" ].
 
-ousar :=  inf-trans-first-arg-control-verb-lex &
+ousar := inf-trans-first-arg-control-verb-lex &
   [ STEM < "ousar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ousar_v_rel" ].
 
-desejar_2 :=inf-trans-first-arg-control-verb-lex &
+desejar_2 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "desejar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_desejar_v_2_rel" ].
 
-querer_2 :=inf-trans-first-arg-control-verb-lex &
+querer_2 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "querer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_querer_v_2_rel" ].
 
-saber_3 :=inf-trans-first-arg-control-verb-lex &
+saber_3 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "saber" >,
     SYNSEM.LKEYS.KEYREL.PRED "_saber_v_3_rel" ].
 
-detestar_4 :=inf-trans-first-arg-control-verb-lex &
+detestar_3 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "detestar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_4_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_detestar_v_3_rel" ].
 
-lamentar_3 :=inf-trans-first-arg-control-verb-lex &
+lamentar_3 := inf-trans-first-arg-control-verb-lex &
   [ STEM < "lamentar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lamentar_v_3_rel" ].
 
@@ -42,17 +45,21 @@ tentar := inf-trans-first-arg-control-verb-lex &
   [ STEM < "tentar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_rel" ].
 
-dizer_3 := inf-trans-first-arg-control-verb-lex &
+dizer_3 := fac-infl-inf-trans-first-arg-control-verb-lex &
   [ STEM < "dizer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_3_rel" ].
 
-acreditar_2 := inf-trans-first-arg-control-verb-lex &
+acreditar_2 := fac-infl-inf-trans-first-arg-control-verb-lex &
   [ STEM < "acreditar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_2_rel" ].
 
 tencionar := inf-trans-first-arg-control-verb-lex &
 [ STEM < "tencionar" >,
  SYNSEM.LKEYS.KEYREL.PRED "_tencionar_v_rel" ].
+
+gostar_2 := de-inf-comp-trans-first-arg-control-verb-lex &
+  [ STEM < "gostar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gostar_v_2_rel" ].
 
 insistir_4 := em-inf-comp-trans-first-arg-control-verb-lex &
   [ STEM < "insistir" >,
@@ -61,6 +68,10 @@ insistir_4 := em-inf-comp-trans-first-arg-control-verb-lex &
 prometer_1 := inf-ditrans-first-arg-control-verb-lex &
   [ STEM < "prometer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_prometer_v_1_rel" ].
+
+convencer_1 := a-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "convencer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_1_rel" ].
 
 impedir_1 := de-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "impedir" >,
@@ -78,14 +89,55 @@ persuadir := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "persuadir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_persuadir_v_rel" ].
 
-convencer := a-inf-ditrans-second-arg-control-verb-lex &
-  [ STEM < "convencer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_rel" ].
-
 forçar := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "forçar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_forçar_v_rel" ].
 
-dizer_5 := para-inf-ditrans-second-arg-rec-control-verb-lex &
+dizer_4 := para-inf-ditrans-second-arg-rec-control-verb-lex &
   [ STEM < "dizer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_5_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_4_rel" ].
+
+convencer_2 := a-que-ditrans-second-arg-control-verb-lex &
+  [ STEM < "convencer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_2_rel" ].
+
+autorizar_1 := a-que-ditrans-second-arg-control-verb-lex &
+  [ STEM < "autorizar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_autorizar_v_1_rel" ].
+
+autorizar_2 := a-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "autorizar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_autorizar_v_2_rel" ].
+
+ouvir_2 := nonpast-nonfin-ditrans-second-arg-control-verb-lex &
+  [ STEM < "ouvir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ouvir_v_2_rel" ].
+
+ver_2 := nonpast-nonfin-ditrans-second-arg-control-verb-lex &
+  [ STEM < "ver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ver_v_2_rel" ].
+
+ver_3 := infl-inf-trans-first-arg-control-verb-lex &
+  [ STEM < "ver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ver_v_3_rel" ].
+
+fazer_3 := inf-ditrans-second-arg-raising-verb-lex &
+  [ STEM < "fazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_3_rel" ].
+
+deixar_2 := inf-ditrans-second-arg-raising-verb-lex  &
+  [ STEM < "deixar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_2_rel" ].
+
+; TODO 24.11.21 remove from lexicon.tdl file
+;deixar_2 := inf-caus-verb-lex &
+;  [ STEM < "deixar" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_2_rel" ].
+
+;mandar_2 := inf-caus-verb-lex &
+;  [ STEM < "mandar" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_2_rel" ].
+
+mandar_2 := bare-inf-ditrans-second-arg-control-verb-lex &
+  [ STEM < "mandar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_2_rel" ].

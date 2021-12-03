@@ -2,9 +2,13 @@ começar_2 := a-compl-subj-raise-aux-with-pred &
   [ STEM < "começar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_começar_v_rel" ].
 
-parar := de-compl-subj-raise-aux-with-pred &
+parar_1 := de-compl-subj-raise-aux-with-pred &
   [ STEM < "parar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_parar_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_parar_v_1_rel" ].
+
+haver_2 := de-compl-subj-raise-aux-with-pred &
+  [ STEM < "haver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_haver_v_2_rel" ].
 
 ter_3 := que-de-compl-subj-raise-aux-with-pred &
   [ STEM < "ter" >,

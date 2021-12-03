@@ -718,29 +718,29 @@ saber_2 := fact-mental-act-verb-lex &
   [ STEM < "saber" >,
     SYNSEM.LKEYS.KEYREL.PRED "_saber_v_2_rel" ].
 
-fazer_3 := inf-caus-verb-lex &
-  [ STEM < "fazer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_3_rel" ].
+;fazer_3 := inf-caus-verb-lex &
+;  [ STEM < "fazer" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_3_rel" ].
 
-mandar_2 := inf-caus-verb-lex &
-  [ STEM < "mandar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_2_rel" ].
+;mandar_2 := inf-caus-verb-lex &
+;  [ STEM < "mandar" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_2_rel" ].
 
-deixar_2 := inf-caus-verb-lex &
-  [ STEM < "deixar" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_2_rel" ].
+;deixar_2 := inf-caus-verb-lex &
+;  [ STEM < "deixar" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_deixar_v_2_rel" ].
 
-ouvir_2 := inf-percep-verb-lex &
-  [ STEM < "ouvir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ouvir_v_2_rel" ].
+;ouvir_2 := inf-percep-verb-lex &
+;  [ STEM < "ouvir" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_ouvir_v_2_rel" ].
 
-ver_2 := inf-percep-verb-lex &
-  [ STEM < "ver" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ver_v_2_rel" ].
+;ver_2 := inf-percep-verb-lex &
+;  [ STEM < "ver" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_ver_v_2_rel" ].
 
-sentir_2 := inf-percep-verb-lex &
-  [ STEM < "sentir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sentir_v_2_rel" ].
+;sentir_2 := inf-percep-verb-lex &
+;  [ STEM < "sentir" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_sentir_v_2_rel" ].
 
 pedir_2 := para-que-cl-verb-lex &
   [ STEM < "pedir" >,

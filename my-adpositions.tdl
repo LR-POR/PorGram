@@ -1,20 +1,20 @@
 ;;; Case-marking adpositions
 
-dat-marker_a := prep-case-marking-adp-lex &
+dat-marker_a := obl-case-marking-adp-lex &
   [ STEM < "a" >,
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
                                  CLAUSE-KEY #clause ],
                           ICONS.LIST < > ],
                    CAT.HEAD [ CASE dat ] ] ].
 
-goal-marker_para := prep-case-marking-adp-lex &
+goal-marker_para := obl-case-marking-adp-lex &
   [ STEM < "para" >,
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
                                  CLAUSE-KEY #clause ],
                           ICONS.LIST < > ],
                    CAT.HEAD [ CASE goa ] ] ].
 
-gen-marker_de := prep-case-marking-adp-lex &
+gen-marker_de := obl-case-marking-adp-lex &
   [ STEM < "de" >,
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
                                  CLAUSE-KEY #clause ],

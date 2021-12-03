@@ -1,8 +1,28 @@
-; allowing for verbs that are compatible with both the inflected and the non-inflected infinitive
+; TODO 01.11.21: present tense in infintive forms?
 
-infl-or-not-infinitive := nonfinite.
+;infl-inf-lex-rule := infl-lex-rule & tmp-lex-rule-super &
+;  [ SYNSEM.LOCAL [ CAT.HEAD.FORM infl_infinitive,
+;                   CONT.HOOK.INDEX.E.TENSE present ] ].
+
+
+; additional form features
+; allowing for verbs that are compatible with both the inflected and the non-inflected infinitive
+; as well as verbs governing any non-past non-finite form
+
+nonpast-nonfinite := nonfinite.
+infl-or-not-infinitive := nonpast-nonfinite.
+
 infinitive := infl-or-not-infinitive.
+; TODO 28.10.21: infl-infinitive or infl-inf
 infl_infinitive := infl-or-not-infinitive.
+;pres-part-or-infl-inf := nonfinite.
+;  TODO 28.10.21: pres-part
+present_participle := nonpast-nonfinite.
+
+; form features for manually encoded complementizers
+
+a_que := form.
+
 
 ; additional cases
 
@@ -135,10 +155,14 @@ cop-infl-inf-3pl-lex-rule := cop-3pl-lex-rule & cop-infl-inf-lex-rule.
 
 
 ; These types definitions overwrite the definitions in the choices file.
+; alternative notation
+;subj-cl-verb-lex := fin-cl-verb-lex &  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive  ] >].
 
-; subj-cl-verb-lex := fin-cl-verb-lex &  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive  ] >].
+;ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD indicative  ] >].
 
-; ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX.E.MOOD indicative  ] >].
+ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.E.MOOD indicative].
+
+subj-cl-verb-lex := fin-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive].
 
 
 ; Types for encoding the full forms of determiners not handled in the morphology:  
@@ -286,6 +310,11 @@ nom-acc-rec-ditransitive-verb-lex := ditransitive-verb-lex &
              [ LOCAL.CAT.HEAD adp &
                               [ CASE rec ] ] > ].
 
+; a estudante forçou o artista a matar a ratazana
+; embedded verb is a CP complement
+; TODO: 21.11.2021 Why not use ditrans-second-arg-control-lex-item from matrix.tdl?
+; Because clause is headed by a C (main verb does not govern a  VP, but a S)
+; see clausal-third-arg-ditrans-lex-item 
 cl-3rd-arg-ditrans-2nd-arg-control-lex-item := non-local-none-lex-item & one-icons-lex-item &
    [ ARG-ST < [ LOCAL [ CAT cat-sat,
                         CONT.HOOK [ INDEX ref-ind & #ind1,
@@ -323,11 +352,30 @@ clausal-nom-rec-verb-lex := clausal-ditrans-verb-lex &
   [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun & [ CASE nom ],
     SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp & [ CASE rec ] ].
 
+;TODO: 27.10.21 create common supertype for the following two types
+
 ind-cl-rec-verb-lex := fin-cl-verb-lex & clausal-nom-rec-verb-lex & clausal-third-arg-ditrans-lex-item  &
   [ SYNSEM [ LOCAL.CAT.VAL.COMPS.REST.FIRST [ LOCAL [ CAT [ HEAD comp &
                                                         [ FORM que ],
                                                    WH.BOOL - ],
                                              CONT.HOOK.INDEX [ E.MOOD indicative,
+                                                               SF prop ] ] ] ,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+quest-cl-rec-verb-lex := fin-cl-verb-lex & clausal-nom-rec-verb-lex & clausal-third-arg-ditrans-lex-item  &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS.REST.FIRST [ LOCAL [ CONT.HOOK.INDEX [ E.MOOD indicative,
+                                                             SF ques ],
+                                           CAT [ HEAD +vc &
+                                                      [ FORM finite ],
+                                                 WH.BOOL + ] ] ] ,
+             NON-LOCAL.QUE.LIST < > ] ].
+
+
+subj-cl-rec-verb-lex := fin-cl-verb-lex & clausal-nom-rec-verb-lex & clausal-third-arg-ditrans-lex-item  &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS.REST.FIRST [ LOCAL [ CAT [ HEAD comp &
+                                                        [ FORM que ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX [ E.MOOD subjunctive,
                                                                SF prop ] ] ] ,
              NON-LOCAL.QUE.LIST < > ] ].
 
@@ -353,7 +401,7 @@ case-marking-adp-lex := non-local-none-lex-item & raise-sem-lex-item &
                            HEAD noun &
                                 [ CASE case ] ] ] > ].
 
-prep-case-marking-adp-lex := case-marking-adp-lex & [ ARG-ST.FIRST.LOCAL.CAT.HEAD.CASE obl ].
+obl-case-marking-adp-lex := case-marking-adp-lex & [ ARG-ST.FIRST.LOCAL.CAT.HEAD.CASE obl ].
 
 ; auxiliaries (subject raising verbs) subcategorizing for an infinitival complement headed by a complementizer
 
@@ -411,6 +459,15 @@ em-compl-subj-raise-aux-with-pred := compl-subj-raise-aux-with-pred & [ ARG-ST.R
 ; complementizers heading an infinitival complement of a subject raising verb (auxiliary) or an object control verb
 
 ; TODO: include SPR < > in VAL of of complement? See subj-raise-aux type.
+
+a-que-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
+  [ SYNSEM.LOCAL [ CAT [ MC na-or--,
+                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC -,
+                                                       HEAD.FORM finite ],
+                                                 CONT.HOOK.INDEX.E.MOOD subjunctive ],
+                         HEAD.FORM a_que ],
+                   CONT.HOOK.INDEX.SF prop ] ].
+		   
 complementizer-lex-item-1 := raise-sem-lex-item & non-local-none-lex-item & basic-icons-lex-item &
   [ SYNSEM.LOCAL.CAT [ HEAD comp &
                             [ FORM #form, MOD < > ],
@@ -466,6 +523,14 @@ trans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & tran
 
 inf-trans-first-arg-control-verb-lex := trans-first-arg-control-verb-lex & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
+;  subject control verb governing a facultatively inflected bare infinitive
+;os artistas disseram ter ganho o festival
+;os artistas disseram terem ganho o festival
+
+fac-infl-inf-trans-first-arg-control-verb-lex := trans-first-arg-control-verb-lex & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
+
+infl-inf-trans-first-arg-control-verb-lex := trans-first-arg-control-verb-lex & [ ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl_infinitive].
+
 ; subject control verbs governing an infinitival CP headed by a prepositional complementizer
 ; o artista insistiu em perseguir o cachorro
 ; TODO 15.10.21: create a more general supertype for trans-first-arg-control-verb-lex and comp-trans-first-arg-control-verb-lex
@@ -493,6 +558,9 @@ inf-comp-trans-first-arg-control-verb-lex := comp-trans-first-arg-control-verb-l
 ; SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infinitive
 em-inf-comp-trans-first-arg-control-verb-lex := inf-comp-trans-first-arg-control-verb-lex &
 [ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM em_comp].
+
+de-inf-comp-trans-first-arg-control-verb-lex := inf-comp-trans-first-arg-control-verb-lex &
+[ARG-ST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp].
 
 
 ; ditransitives with subject control
@@ -526,7 +594,7 @@ ditrans-first-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & di
 
 inf-ditrans-first-arg-control-verb-lex := ditrans-first-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infinitive].
 
-
+; TODO 19.10.21: create common supertype for some of the folllowing types in order to simplify encoding of individual related types 
 ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
                              COMPS < #comp1, #comp2 >,
@@ -545,16 +613,35 @@ ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & c
 			  
              #comp2 &
              [ LOCAL.CAT.HEAD comp ] > ].
-	     
 
 
-inf-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
+; a Maria viu as amigas chorando
+; embedded verb is a VP complement
+nonpast-nonfin-ditrans-second-arg-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & ;cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
+ditrans-second-arg-control-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
+                             COMPS < #comp1, #comp2 >,
+                             SUBJ < #subj > ] ],
+    ARG-ST < #subj &
+             [ LOCAL.CAT [ HEAD noun &
+                                  [ CASE nom ],
+                             VAL [ SUBJ < >,
+                                   SPR < >,
+                                   SPEC < >,
+                                   COMPS < > ] ] ],
+	      #comp1 &
+	      [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                             HEAD noun & [ CASE acc ] ] ],	   
+			  
+             #comp2 &
+             [ LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
+                                 COMPS < >,
+                                 SPR < >,
+                                 SPEC < > ],
+                           HEAD verb & [FORM nonpast-nonfinite ] ] ] > ].
+            
 
-; a estudante obrigou o artista a matar a ratazana
-a-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM a_comp ].
-
-; a estudante impediu o artista de matar a ratazana
-de-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
 
 ditrans-second-arg-rec-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & cl-3rd-arg-ditrans-2nd-arg-control-lex-item &
   [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
@@ -574,6 +661,18 @@ ditrans-second-arg-rec-control-verb-lex :=  main-verb-lex & noninh-refl-verb-lex
 			  
              #comp2 &
              [ LOCAL.CAT.HEAD comp ] > ].
+	     
+
+a-que-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM a_que].
+
+inf-ditrans-second-arg-control-verb-lex := ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
+
+; a estudante obrigou o artista a matar a ratazana
+a-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM a_comp ].
+
+; a estudante impediu o artista de matar a ratazana
+de-inf-ditrans-second-arg-control-verb-lex := inf-ditrans-second-arg-control-verb-lex &  [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.COMP-FORM de_comp ].
+
 
 ; TODO 15.10.21: this specification seems redundant, because the COMP-FORM specification below seems to enforce verb form 
 inf-ditrans-second-arg-rec-control-verb-lex := ditrans-second-arg-rec-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
@@ -600,6 +699,42 @@ para-inf-ditrans-second-arg-rec-control-verb-lex := inf-ditrans-second-arg-rec-c
 ; fin-cl-verb-lex := noninh-refl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM finite].
 
 
-ind-cl-verb-lex := que-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.E.MOOD indicative].
+inf-cl-rec-verb-lex  :=  noninh-refl-verb-lex & clausal-nom-rec-verb-lex & clausal-third-arg-ditrans-lex-item  & 
+ [ SYNSEM [ LOCAL.CAT.VAL.COMPS.REST.FIRST [ LOCAL [ CAT [ HEAD verb &
+                                                        [ FORM infl_infinitive ],
+                                                   WH.BOOL - ],
+                                             CONT.HOOK.INDEX.SF prop ] ] ,
+             NON-LOCAL.QUE.LIST < > ] ].
 
-subj-cl-verb-lex := fin-cl-verb-lex & [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.E.MOOD subjunctive].
+
+ditrans-second-arg-raising-verb-lex :=  main-verb-lex & noninh-refl-verb-lex & ditrans-second-arg-raising-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPEC < >,
+                             COMPS < #comp1, #comp2 >,
+                             SUBJ < #subj > ] ],
+    ARG-ST < #subj &
+             [ LOCAL.CAT [ HEAD noun &
+                                  [ CASE nom ],
+                             VAL [ SUBJ < >,
+                                   SPR < >,
+                                   SPEC < >,
+                                   COMPS < > ] ] ],
+	      #comp1 &
+	      [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                             HEAD noun & [ CASE acc ] ] ],	   
+			  
+             #comp2 &
+             [ LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
+                                 COMPS < >,
+                                 SPR < >,
+                                 SPEC < > ],
+                           HEAD verb ] ] > ].
+
+
+inf-ditrans-second-arg-raising-verb-lex := ditrans-second-arg-raising-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].
+
+; TODO 23.11.21: create more mnemonic names for second argument control verbs governing a CP and a VP
+; the present terminology is confusing
+; verbs like "forçar alguém a fazer algo" and corresponding supertypes should be cl-ditrans...
+;  verbs like "mandar alguém fazer algo" and corresponding supertypes should be ditrans...
+bare-inf-ditrans-second-arg-control-verb-lex := nonpast-nonfin-ditrans-second-arg-control-verb-lex & [ ARG-ST.REST.REST.FIRST.LOCAL.CAT.HEAD.FORM infl-or-not-infinitive].

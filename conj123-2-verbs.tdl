@@ -6,7 +6,4 @@ partir := trans-verb-lex &
   [ STEM < "partir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_partir_v_rel" ].
 
-vender := trans-verb-lex &
-  [ STEM < "vender" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_vender_v_rel" ].
 

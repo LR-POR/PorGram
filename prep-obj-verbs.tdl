@@ -18,4 +18,16 @@ contar := ind-cl-rec-verb-lex &
    [ STEM < "contar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_contar_v_rel" ].
 
+perguntar_3 := quest-cl-rec-verb-lex &
+   [ STEM < "perguntar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_perguntar_v_3_rel" ].
+
+exigir_2 := subj-cl-rec-verb-lex &
+   [ STEM < "exigir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_exigir_v_2_rel" ].
+
+exigir_3 := inf-cl-rec-verb-lex &
+   [ STEM < "exigir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_exigir_v_3_rel" ].
+
 

@@ -207,16 +207,17 @@ o gato ouviu os cachorros ladrarem
 o gato ouviu os cachorros latirem
 o gato ouviu os cachorros latindo
 *o gato ouviu os cachorros latido
-*o gato ouviu os cachorros ladrar
-*o gato ouviu os cachorros latir
+o gato ouviu os cachorros ladrar
+o gato ouviu os cachorros latir
 o gato ouviu que os cachorros ladravam
 o gato ouviu que os cachorros latiam
 *o gato ouviu que os cachorros ladrassem
 *o gato ouviu que os cachorros latissem
 o gato mandou os cachorros ladrarem
 o gato mandou os cachorros latirem
-*o gato mandou os cachorros ladrar
-*o gato mandou os cachorros latir
+o gato mandou os cachorros ladrar
+*o gato mandou que os cachorros ladrar
+o gato mandou os cachorros latir
 o gato mandou que os cachorros ladrassem
 o gato mandou que os cachorros latissem
 *o gato mandou que os cachorros ladram
@@ -471,9 +472,9 @@ os cachorros não haviam chegado
 os cachorros não haviam tentado dormir
 não haviam chegado
 o cachorro está querendo perseguir o gato
-o cachorro está desejando perseguir o gato 
+o cachorro está desejando perseguir o gato
 o cachorro vai querer perseguir o gato
-o cachorro vai desejar perseguir o gato 
+o cachorro vai desejar perseguir o gato
 o cachorro vai estar dormindo
 o cachorro está indo dormir
 o artista doa uma bicicleta a o estudante
@@ -560,7 +561,6 @@ eu pedi para que ela entregasse a bola a o gato
 *ela insistiu com que o gato dormisse
 ela insistiu para que o gato dormisse
 eles lamentam ladrar
-ele doou a bicicleta para o artista
 o artista doa uma bicicleta para o estudante
 nós vamos entregar o cachorro para o artista
 será que eles irão entregar o cachorro para o artista
@@ -570,10 +570,62 @@ a artista prometeu para o estudante matar a ratazana
 a estudante disse para o artista para trazer uma bola
 ele vai entregar a bola para o gato
 eu pedi para que ela entregasse a bola para o gato
-
-
-
-
-
-
-
+eu autorizei os alunos a que escrevessem a carta
+eu autorizei os alunos a escreverem a carta
+eu autorizei os alunos a escrever a carta
+eu autorizei que os alunos escrevessem a carta
+eu aprovo que tu tenhas concorrido
+eu aprovo que tenhas concorrido
+eu aprovo tu teres concorrido
+eu aprovo teres concorrido
+*eu aprovo eu concorrer
+*eu aprovo concorrer
+*eu aprovo que concorro
+o João insistiu em que os alunos acabassem o trabalho
+o João insistiu em acabar o trabalho
+perguntei-me a quem o cachorro estava obedecendo
+os artistas perguntavam-se quem tencionava obedecer a o estudante
+as artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes
+*perguntei-me a quem o cachorro estava obedecido
+*perguntei-me de quem o cachorro estava obedecendo
+*os artistas perguntavam-se quem tencionava obedecendo a o estudante
+*as artistas tinham começando a detestar que os cachorros não obedecessem a os estudantes
+o artista perguntou a o estudante quem perseguiu o gato
+o artista perguntou a o estudante quem o cachorro perseguiu
+o artista perguntou a o estudante que cachorro perseguiu o gato
+o artista perguntou a o estudante que gato o cachorro perseguiu
+o artista perguntou a o estudante que cachorros perseguiram o gato
+o artista perguntou a o estudante que gatos o cachorro perseguiu
+o artista perguntou a o estudante que gatos os cachorros perseguiram
+o artista perguntou a o estudante que ratazana o cachorro perseguiu
+o artista perguntou a o estudante que ratazanas perseguiram o gato
+o artista perguntou a o estudante que ratazanas o cachorro perseguiu
+o artista perguntou a o estudante que ratazanas os cachorros perseguiram
+o artista perguntou a o estudante qual cachorro perseguiu o gato
+o artista perguntou a o estudante quais cachorros perseguiram o gato
+o artista perguntou a o estudante quais gatos o cachorro perseguiu
+o artista perguntou a o estudante qual ratazana perseguiu o gato
+o artista perguntou a o estudante qual ratazana o gato perseguiu
+o artista perguntou a o estudante quais ratazanas perseguiram o gato
+o artista perguntou a o estudante quais ratazanas o cachorro perseguiu
+o artista perguntou a o estudante quais ratazanas os cachorros perseguiram
+o artista perguntou a o estudante se o cachorro perseguiu o gato
+o gato fez os cachorros ladrarem
+o gato fez os cachorros latirem
+o gato fez os cachorros ladrar
+o gato fez os cachorros latir
+a estudante fez os cachorros perseguirem a ratazana
+a estudante fez os cachorros perseguir a ratazana
+*o gato fez os cachorros ladram
+*o gato fez os cachorros latem
+*o gato fez os cachorros ladra
+*o gato fez os cachorros late
+*a estudante fez os cachorros perseguem a ratazana
+*a estudante fez os cachorros persegue a ratazana
+*o gato fez os cachorros ladrando
+*o gato fez os cachorros latindo
+*a estudante fez os cachorros perseguindo a ratazana
+ele deixou os cachorros saírem
+ele deixou os cachorros sair
+ele deixou os cachorros perseguirem a ratazana
+ele deixou os cachorros perseguir a ratazana

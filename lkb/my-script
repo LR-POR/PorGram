@@ -52,7 +52,7 @@
 ;;; Next, the lexicon itself, instantiating (lexical) types of the grammar
 ;;; (some grammars with larger lexica organize them into multiple files).
 ;;;
-
+;@start
 (read-tdl-lex-file-aux (list
 			(lkb-pathname (parent-directory) "lexicon.tdl")
 			(lkb-pathname (parent-directory) "arity-1-verbs.tdl")
@@ -65,7 +65,9 @@
 			(lkb-pathname (parent-directory) "my-auxiliaries.tdl")
 			(lkb-pathname (parent-directory) "control-verbs.tdl")
 			(lkb-pathname (parent-directory) "my-nouns.tdl")
+			(lkb-pathname (parent-directory) "my-cl-compl-verbs.tdl")
 			))
+;@end
 ;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
 
 

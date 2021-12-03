@@ -2,6 +2,94 @@ bola := fem-noun-lex &
   [ STEM < "bola" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bola_n_rel" ].
 
+aluno := masc-noun-lex &
+  [ STEM < "aluno" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aluno_n_rel" ].
+
+passarinho := masc-noun-lex &
+  [ STEM < "passarinho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_passarinho_n_rel" ].
+
+rapaz := masc-noun-lex &
+  [ STEM < "rapaz" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_rapaz_n_rel" ].
+
+aluna := fem-noun-lex &
+  [ STEM < "aluna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aluna_n_rel" ].
+
+amigo := masc-noun-lex &
+  [ STEM < "amigo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amigo_n_rel" ].
+
+amiga := fem-noun-lex &
+  [ STEM < "amiga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amiga_n_rel" ].
+
+carta := fem-noun-lex &
+  [ STEM < "carta" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_carta_n_rel" ].
+
+casa := fem-noun-lex &
+  [ STEM < "casa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_casa_n_rel" ].
+
+crítico := masc-noun-lex &
+  [ STEM < "crítico" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_crítico_n_rel" ].
+
+trabalho := masc-noun-lex &
+  [ STEM < "trabalho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_trabalho_n_rel" ].
+
+Antônio := proper-noun-noun-lex &
+  [ STEM < "Antônio" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_Antônio_n_rel" ].
+    
+Luís := proper-noun-noun-lex &
+  [ STEM < "Luís" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_Luís_n_rel" ].
+    
+Maria := proper-noun-noun-lex &
+  [ STEM < "Maria" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_Maria_n_rel" ].
+
+João := proper-noun-noun-lex &
+  [ STEM < "João" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_João_n_rel" ].
+
+festival := masc-noun-lex &
+  [ STEM < "festival" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_festival_n_rel" ].
+
+filme := masc-noun-lex &
+  [ STEM < "filme" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_filme_n_rel" ].
+
+verba := fem-noun-lex &
+  [ STEM < "verba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_verba_n_rel" ].
+
+governo := masc-noun-lex &
+  [ STEM < "governo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_governo_n_rel" ].
+
+preço := masc-noun-lex &
+  [ STEM < "preço" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_preço_n_rel" ].
+
+instituto := masc-noun-lex &
+  [ STEM < "instituto" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_instituto_n_rel" ].
+
+relatório := masc-noun-lex &
+  [ STEM < "relatório" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_relatório_n_rel" ].
+
+jarra := fem-noun-lex &
+  [ STEM < "jarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_jarra_n_rel" ].
+
 mim := prep-pers-pron-1s-noun-lex &
   [ STEM < "mim" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eu_n_rel" ].

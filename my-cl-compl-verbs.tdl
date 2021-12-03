@@ -1,0 +1,12 @@
+; manually encoded divalent verbs governing a clausal complement
+
+aprovar_3 := inf-eval-verb-lex &
+  [ STEM < "aprovar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aprovar_v_3_rel" ].
+
+pensar_2 := quest-verb-lex &
+  [ STEM < "pensar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pensar_v_2_rel" ].
+
+
+
