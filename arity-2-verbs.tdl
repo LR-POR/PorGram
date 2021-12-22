@@ -2,6 +2,10 @@ acabar := trans-verb-lex &
   [ STEM < "acabar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acabar_v_rel" ].
 
+terminar := trans-verb-lex &
+  [ STEM < "terminar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_terminar_v_rel" ].
+
 fazer_4 := trans-verb-lex &
   [ STEM < "fazer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_4_rel" ].

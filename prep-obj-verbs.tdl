@@ -1,3 +1,7 @@
+endereçar := nom-acc-dat-ditransitive-verb-lex &
+  [ STEM < "endereçar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_endereçar_v_rel_" ].
+
 doar_1 := nom-acc-rec-ditransitive-verb-lex &
   [ STEM < "doar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_doar_v_2_rel" ].
@@ -6,9 +10,17 @@ entregar := nom-acc-rec-ditransitive-verb-lex &
   [ STEM < "entregar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_entregar_v_rel" ].
 
-ajudar := dat-obj-verb-lex &
+adaptar := refl-dat-obj-verb-lex &
+  [ STEM < "adaptar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_adaptar_v_rel" ].
+
+ajudar := nonrefl-dat-obj-verb-lex &
   [ STEM < "ajudar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ajudar_v_rel" ].
+
+obedecer := nonrefl-dat-obj-verb-lex &
+  [ STEM < "obedecer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_obedecer_v_rel" ].
 
 gostar_1 := nonrefl-gen-obj-verb-lex &
   [ STEM < "gostar" >,
@@ -17,6 +29,10 @@ gostar_1 := nonrefl-gen-obj-verb-lex &
 contar := ind-cl-rec-verb-lex &
    [ STEM < "contar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_contar_v_rel" ].
+
+dizer_5 := ind-cl-rec-verb-lex &
+   [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_5_rel" ].
 
 perguntar_3 := quest-cl-rec-verb-lex &
    [ STEM < "perguntar" >,

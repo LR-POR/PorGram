@@ -73,13 +73,17 @@ convencer_1 := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "convencer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_1_rel" ].
 
-impedir_1 := de-inf-ditrans-second-arg-control-verb-lex &
-  [ STEM < "impedir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_1_rel" ].
-
 proibir_1 := de-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "proibir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_proibir_v_1_rel" ].
+
+impedir_1 :=de-ditrans-second-arg-raising-verb-lex &
+  [ STEM < "impedir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_1_rel" ].
+
+fazer_3 := inf-ditrans-second-arg-raising-verb-lex &
+  [ STEM < "fazer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_3_rel" ].
 
 obrigar_1 := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "obrigar" >,
@@ -105,6 +109,10 @@ autorizar_1 := a-que-ditrans-second-arg-control-verb-lex &
   [ STEM < "autorizar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_autorizar_v_1_rel" ].
 
+dizer_6 := que-ditrans-second-arg-rec-control-verb-lex &
+  [ STEM < "dizer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_6_rel" ].
+
 autorizar_2 := a-inf-ditrans-second-arg-control-verb-lex &
   [ STEM < "autorizar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_autorizar_v_2_rel" ].
@@ -120,10 +128,6 @@ ver_2 := nonpast-nonfin-ditrans-second-arg-control-verb-lex &
 ver_3 := infl-inf-trans-first-arg-control-verb-lex &
   [ STEM < "ver" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ver_v_3_rel" ].
-
-fazer_3 := inf-ditrans-second-arg-raising-verb-lex &
-  [ STEM < "fazer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_3_rel" ].
 
 deixar_2 := inf-ditrans-second-arg-raising-verb-lex  &
   [ STEM < "deixar" >,

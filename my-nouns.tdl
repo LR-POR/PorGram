@@ -26,6 +26,14 @@ amiga := fem-noun-lex &
   [ STEM < "amiga" >,
     SYNSEM.LKEYS.KEYREL.PRED "_amiga_n_rel" ].
 
+professora := fem-noun-lex &
+  [ STEM < "professora" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_professora_n_rel" ].
+
+tarefa := fem-noun-lex &
+  [ STEM < "tarefa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tarefa_n_rel" ].
+
 carta := fem-noun-lex &
   [ STEM < "carta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_carta_n_rel" ].

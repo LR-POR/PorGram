@@ -20,3 +20,32 @@ gen-marker_de := obl-case-marking-adp-lex &
                                  CLAUSE-KEY #clause ],
                           ICONS.LIST < > ],
                    CAT.HEAD [ CASE gen ] ] ].
+
+
+all-marker_de := obl-case-marking-adp-lex &
+  [ STEM < "sobre" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE all ] ] ].
+
+ine-marker_de := obl-case-marking-adp-lex &
+  [ STEM < "em" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE ine ] ] ].
+
+per-marker_de := obl-case-marking-adp-lex &
+  [ STEM < "por" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE per ] ] ].
+
+com-marker_de := obl-case-marking-adp-lex &
+  [ STEM < "por" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE com ] ] ].
