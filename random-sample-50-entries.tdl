@@ -1,0 +1,221 @@
+; This a random sample of 50 entries from the new-lexicon-rec.tdl file, which contains 2059 new
+; automatically extracted from the UD_Portuguese-Bosque treebank.
+; Correct entries are assined one of the following tags, which mark either that the corresponding valence class is validated by our own native speaker intuitions or that is attested in at least one dictionary:
+
+;BOR: BORBA, F. da S. (Ed.). Dicionário gramatical de verbos do português contemporâneo do Brasil. 2. ed. São Paulo: Editora da UNESP, 1991.
+;FER: FERNANDES, F. Dicionário de verbos e regimes. 35. ed. Rio de Janeiro: Globo, 1987.
+;LEO: Leonel Figueiredo de Alencar
+;PER19: PERINI, M. A. et al. Valency dictionary of Brazilian Portuguese verbs. Unpublished. 2019.
+;POR: Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-01-04 13:32:25]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portugues
+
+; Entries with wrong types are assigned an ERROR tag, followed by an explanation of the error source and/or the correect target type.
+
+; A máquina acabou em pedaços. (Perini 2019)
+; Ana acabou no hospital. (Perini 2019) (PP is goal)
+acabar_2 := nonrefl-ine-obj-verb-lex & ; PER19
+  [ STEM < "acabar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acabar_v_2_rel" ].
+
+ligar_1 := nonrefl-goa-obj-verb-lex & ; LEO
+  [ STEM < "ligar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ligar_v_1_rel" ].
+
+vetar_1 := trans-verb-lex & ; LEO
+  [ STEM < "vetar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vetar_v_1_rel" ].
+
+mencionar_1 := trans-verb-lex & ; LEO
+  [ STEM < "mencionar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mencionar_v_1_rel" ].
+
+
+; Porto Editora – relegar no Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-01-04 13:30:43]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portuguesa/relegar
+relegar_1 := trans-verb-lex & ; POR
+  [ STEM < "relegar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_relegar_v_1_rel" ].
+
+
+; Porto Editora – colmatar no Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-01-04 13:32:25]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portuguesa/colmatar
+colmatar_1 := trans-verb-lex & ; POR
+  [ STEM < "colmatar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_colmatar_v_1_rel" ].
+
+calibrar_1 := trans-verb-lex & ; LEO
+  [ STEM < "calibrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_calibrar_v_1_rel" ].
+
+chamar_1 := trans-verb-lex & ; LEO
+  [ STEM < "chamar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chamar_v_1_rel" ].
+
+bater_3 := refl-int-verb-lex & ; FER
+  [ STEM < "bater" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bater_v_3_rel" ].
+
+indicar_3 := trans-verb-lex & ; LEO
+  [ STEM < "indicar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_indicar_v_3_rel" ].
+
+celebrar_1 := trans-verb-lex & ; LEO
+  [ STEM < "celebrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_celebrar_v_1_rel" ].
+
+acoplar_1 := nonrefl-dat-obj-verb-lex & ; BOR
+  [ STEM < "acoplar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acoplar_v_1_rel" ].
+
+concentrar_1 := trans-verb-lex & ; LEO
+  [ STEM < "concentrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_concentrar_v_1_rel" ].
+
+explodir_1 := trans-verb-lex & ; LEO
+  [ STEM < "explodir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_explodir_v_1_rel" ].
+
+cessar_1 := trans-verb-lex & ; LEO
+  [ STEM < "cessar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cessar_v_1_rel" ].
+
+amplificar_1 := trans-verb-lex & ; LEO
+  [ STEM < "amplificar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_amplificar_v_1_rel" ].
+
+formular_1 := trans-verb-lex & ; LEO
+  [ STEM < "formular" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_formular_v_1_rel" ].
+
+; <VERB:act,expl>: Reencontrou-se com o seu irmão Manuel, também ele um timorense pró-integração que progressivamente foi caminhando ao encontro das posições da resistência.
+; PER: C245	VSubj>Theme     V      com NP>Goal
+; FER: pronominal
+; BOR: com-PP is complement
+reencontrar_2 := refl-int-verb-lex & ; ERROR:refl-com-obj-verb-lex
+  [ STEM < "reencontrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_reencontrar_v_2_rel" ].
+
+colher_1 := trans-verb-lex & ; LEO
+  [ STEM < "colher" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_colher_v_1_rel" ].
+
+supor_3 := trans-verb-lex & ; LEO
+  [ STEM < "supor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_supor_v_3_rel" ].
+
+passar_3 := refl-int-verb-lex & ; BOR
+  [ STEM < "passar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_passar_v_3_rel" ].
+
+batizar_1 := nonrefl-gen-obj-verb-lex & ; ERROR: no active form, passive participle without auxiliary
+  [ STEM < "batizar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_batizar_v_1_rel" ].
+
+cobrar_1 := trans-verb-lex & ; LEO
+  [ STEM < "cobrar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cobrar_v_1_rel" ].
+
+solicitar_3 := subj-cl-rec-verb-lex & ; LEO
+  [ STEM < "solicitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_solicitar_v_3_rel" ].
+
+estourar_1 := trans-verb-lex & ; LEO
+  [ STEM < "estourar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_estourar_v_1_rel" ].
+
+treinar_1 := trans-verb-lex & ; LEO
+  [ STEM < "treinar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_treinar_v_1_rel" ].
+
+consubstanciar_1 := trans-verb-lex & ; FER
+  [ STEM < "consubstanciar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_consubstanciar_v_1_rel" ].
+
+revisitar_1 := trans-verb-lex & ; LEO
+  [ STEM < "revisitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_revisitar_v_1_rel" ].
+
+votar_2 := trans-verb-lex & ; FER
+  [ STEM < "votar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_votar_v_2_rel" ].
+
+conformar_1 := refl-com-obj-verb-lex & ; LEO
+  [ STEM < "conformar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_conformar_v_1_rel" ].
+
+valer_1 := trans-verb-lex & ; FER
+  [ STEM < "valer" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_valer_v_1_rel" ].
+
+acompanhar_2 := nonrefl-gen-obj-verb-lex &  ; ERROR: no active form, passive participle without auxiliary
+  [ STEM < "acompanhar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_acompanhar_v_2_rel" ].
+
+torturar_1 := trans-verb-lex & ; LEO
+  [ STEM < "torturar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_torturar_v_1_rel" ].
+
+punir_1 := trans-verb-lex & ; LEO
+  [ STEM < "punir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_punir_v_1_rel" ].
+
+replicar_1 := ind-cl-verb-lex & ; LEO
+  [ STEM < "replicar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_replicar_v_1_rel" ].
+
+visitar_1 := trans-verb-lex & ; LEO
+  [ STEM < "visitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_visitar_v_1_rel" ].
+
+reconstruir_1 := trans-verb-lex & ; LEO
+  [ STEM < "reconstruir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_reconstruir_v_1_rel" ].
+
+estudar_1 := trans-verb-lex & ; LEO
+  [ STEM < "estudar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_estudar_v_1_rel" ].
+
+privilegiar_1 := trans-verb-lex & ; LEO
+  [ STEM < "privilegiar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_privilegiar_v_1_rel" ].
+
+contar_5 := nonrefl-com-obj-verb-lex & ; LEO
+  [ STEM < "contar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_contar_v_5_rel" ].
+
+mimetizar_1 := trans-verb-lex & ; LEO
+  [ STEM < "mimetizar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mimetizar_v_1_rel" ].
+
+demover_1 := trans-verb-lex & ; LEO
+  [ STEM < "demover" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_demover_v_1_rel" ].
+
+plantar_1 := trans-verb-lex & ; LEO
+  [ STEM < "plantar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_plantar_v_1_rel" ].
+
+afastar_1 := refl-gen-obj-verb-lex & ; LEO
+  [ STEM < "afastar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_afastar_v_1_rel" ].
+
+adiantar_3 := nom-acc-dat-ditransitive-verb-lex & ; LEO
+  [ STEM < "adiantar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_adiantar_v_3_rel" ].
+
+mentir_1 := nonrefl-dat-obj-verb-lex & ; LEO
+  [ STEM < "mentir" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mentir_v_1_rel" ].
+
+dissolver_1 := trans-verb-lex & ; LEO
+  [ STEM < "dissolver" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dissolver_v_1_rel" ].
+
+reconciliar_1 := trans-verb-lex & ; FER
+  [ STEM < "reconciliar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_reconciliar_v_1_rel" ].
+
+inscrever_2 := refl-ine-obj-verb-lex & ; LEO
+  [ STEM < "inscrever" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_inscrever_v_2_rel" ].
+
+repor_1 := trans-verb-lex & ; LEO
+  [ STEM < "repor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_repor_v_1_rel" ].
