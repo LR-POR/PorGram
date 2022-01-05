@@ -49,3 +49,63 @@ gen-marker_de_gr_3 := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
     FLAGS [ SUBSUME < #i >,
             TRIGGER "gen-marker_de" ] ].
+
+all-marker_de_gr_1 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "all-marker_de" ] ].
+
+all-marker_de_gr_2 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "all-marker_de" ] ].
+
+all-marker_de_gr_3 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "all-marker_de" ] ]. 
+
+ine-marker_de_gr_1 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "ine-marker_de" ] ].
+
+ine-marker_de_gr_2 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "ine-marker_de" ] ].
+
+ine-marker_de_gr_3 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "ine-marker_de" ] ]. 
+
+per-marker_de_gr_1 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "per-marker_de" ] ].
+
+per-marker_de_gr_2 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "per-marker_de" ] ].
+
+per-marker_de_gr_3 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "per-marker_de" ] ]. 
+
+com-marker_de_gr_1 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "com-marker_de" ] ].
+
+com-marker_de_gr_2 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "com-marker_de" ] ].
+
+com-marker_de_gr_3 := arg0e_gtr &
+	  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+	    FLAGS [ SUBSUME < #i >,
+	            TRIGGER "com-marker_de" ] ]. 
