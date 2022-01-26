@@ -182,8 +182,10 @@ recordar_2 := trans-verb-lex & ; MIC
   """
   Mais qualquer discurso fez que não recordo.
   """. 
-; this is not a pronominal verb; the reflexive pronoun realizes the object of the verb (FER, BOR)
-; the reflexive is ARG1, realizing the patient role (http://143.107.183.175:12680/verbobrasil/textoFrames/proteger-v.html)
+; This is not a pronominal verb for AUL, AUR, FER, POR, PER19 and BOR; the reflexive pronoun realizes the object of the verb.
+; The reflexive is ARG1, realizing the patient role (http://143.107.183.175:12680/verbobrasil/textoFrames/proteger-v.html).
+; MIC15, PRI and HOU analyze this variant as a pronominal verb.
+; This verb is not include in VER.
 proteger_1 := refl-gen-obj-verb-lex & ; ERROR:nom-acc-gen-ditransitive-verb-lex (TODO)
   [ STEM < "proteger" >,
     SYNSEM.LKEYS.KEYREL.PRED "_proteger_v_1_rel" ]

@@ -5,11 +5,13 @@
 ;LEO: Leonel Figueiredo de Alencar
 ;PER19: PERINI, M. A. et al. Valency dictionary of Brazilian Portuguese verbs. Unpublished. 2019.
 ;POR: Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-01-04 13:32:25]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portugues
-; MIC Michaelis Moderno Dicionário da Língua Portuguesa
-; MIC15  Michaelis Dicionário Brasileiro da Língua Portuguesa https://michaelis.uol.com.br/moderno-portugues/
-; AUL https://aulete.com.br/
-; HOU Dicionário Houaiss da Língua Portuguesa
-; PRI  Dicionário Priberam da Língua Portuguesa (DPLP) https://dicionario.priberam.org/
+;MIC Michaelis Moderno Dicionário da Língua Portuguesa. São Paulo: Melhoramentos, 2009. 
+;MIC15  Michaelis Dicionário Brasileiro da Língua Portuguesa https://michaelis.uol.com.br/moderno-portugues/
+;AUL https://aulete.com.br/
+;HOU Dicionário Houaiss da Língua Portuguesa
+;PRI  Dicionário Priberam da Língua Portuguesa (DPLP) https://dicionario.priberam.org/
+;VER Cançado, M; Amaral, L.; Meirelles, L. 2017. VerboWeb: classificação sintático-semântica dos verbos do português brasileiro. Banco de dados lexicais. UFMG. Disponível em: http://www.letras.ufmg.br/verboweb.
+;AUR Ferreira, Aurélio Buarque de Holanda. Novo diciuonário da língua portuguesa. 2. ed. Rio de Janeiro: Nova Fronteira, 1986.;VEB Verbo-Brasil http://143.107.183.175:12680/verbobrasil/index.php?lang=pt-br 
 
 ; Entries with wrong types are assigned an ERROR tag, followed by an explanation of the error source and/or the correct target type.
 
@@ -102,8 +104,14 @@ acoplar_1 := nonrefl-dat-obj-verb-lex & ; BOR
     SYNSEM.LKEYS.KEYREL.PRED "_acoplar_v_1_rel" ]
   """
   O Audioman foi desenvolvido na Suíça em apenas sete meses e compõe-se de um microfone e de um altifalante que se podem acoplar facilmente a um computador, devendo ser comercializado ao preço de 290 francos suíços (28 contos).
-  """. 
+  """.
+; this is a pronominal verb with the  sense of "agrupar-se, reunir-se" or "convergir" (BOR, FER, MIC, VER, HOU, AUR, VEB)
+; pronominal verb with the sense of "dirigir a atenção e o pensamento para uma ideia, assunto ou tarefa em particular; pensar ou refletir atentamente" (POR)
+;https://www.infopedia.pt/dicionarios/lingua-portuguesa/concentrar
 ; PP is a locative complement of the pronominal verb variant (BOR)
+; Estrutura sintática básica: [SN V SN (SP)] (verbo bitransitivo)
+; medium voice ("reflexiva média") of bitransitive verb (VER)
+; Os soldados (se) concentraram no alto do morro (para iniciar a batalha).
 concentrar_1 := trans-verb-lex & ; ERROR:refl-ine-obj-verb-lex (TODO: refl-loc-obj-verb-lex)
   [ STEM < "concentrar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_concentrar_v_1_rel" ]
