@@ -408,11 +408,16 @@ prep-obj-verb-lex := transitive-verb-lex &
 dat-obj-verb-lex := prep-obj-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE dat ].
 
-nonrefl-dat-obj-verb-lex := noninh-refl-verb-lex & dat-obj-verb-lex &
-  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE dat ].
-
 gen-obj-verb-lex := prep-obj-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE gen ].
+
+nonrefl-gen-obj-verb-lex := noninh-refl-verb-lex & gen-obj-verb-lex.
+
+refl-gen-obj-verb-lex := inh-refl-verb-lex & gen-obj-verb-lex.
+
+nonrefl-dat-obj-verb-lex := noninh-refl-verb-lex & dat-obj-verb-lex.
+
+refl-dat-obj-verb-lex := inh-refl-verb-lex & dat-obj-verb-lex.
 
 goa-obj-verb-lex := prep-obj-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE goa ].
@@ -429,19 +434,19 @@ com-obj-verb-lex := prep-obj-verb-lex &
 per-obj-verb-lex := prep-obj-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE per ].
 
-refl-dat-obj-verb-lex := inh-refl-verb-lex & dat-obj-verb-lex.
-
 refl-goa-obj-verb-lex := inh-refl-verb-lex & goa-obj-verb-lex.
 
 refl-ine-obj-verb-lex := inh-refl-verb-lex & ine-obj-verb-lex.
 
-refl-all-obj-verb-lex := inh-refl-verb-lex & all-obj-verb-lex. 
+refl-sup-obj-verb-lex := inh-refl-verb-lex & all-obj-verb-lex. 
 
 refl-per-obj-verb-lex := inh-refl-verb-lex & per-obj-verb-lex.
 
+refl-com-obj-verb-lex := inh-refl-verb-lex & com-obj-verb-lex.
+
 nonrefl-ine-obj-verb-lex := noninh-refl-verb-lex & ine-obj-verb-lex.
 
-nonrefl-all-obj-verb-lex := noninh-refl-verb-lex & all-obj-verb-lex.
+nonrefl-sup-obj-verb-lex := noninh-refl-verb-lex & all-obj-verb-lex.
 
 nonrefl-per-obj-verb-lex := noninh-refl-verb-lex & per-obj-verb-lex.
 

@@ -173,7 +173,7 @@ fazer_5 := refl-int-verb-lex &
   Neste sistema, a recolha far-se-á «uma vez por semana para os materiais orgânicos e três por semana para os restantes resíduos domésticos».
   """. 
 
-fazer_6 := nonrefl-all-obj-verb-lex &
+fazer_6 := nonrefl-sup-obj-verb-lex &
   [ STEM < "fazer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_6_rel" ]
   """
@@ -1230,7 +1230,7 @@ informar_3 := nonrefl-gen-obj-verb-lex &
   Nuno Bio não tem dúvidas de que se trata de «uma tentativa frustrada por parte dos orgãos competentes da faculdade de obrigar os caloiros, menos informados destas coisas, a pagar, para poder afirmar depois que há muita gente a pagar propinas».
   """. 
 
-informar_4 := nonrefl-all-obj-verb-lex &
+informar_4 := nonrefl-sup-obj-verb-lex &
   [ STEM < "informar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_informar_v_4_rel" ]
   """
@@ -1279,7 +1279,7 @@ isolar_2 := refl-int-verb-lex &
   Com este resultado, o FC Porto isolou-se no segundo lugar do «Nacional», enquanto o Benfica igualou a Ovarense no comando.
   """. 
 
-falar_1 := nonrefl-all-obj-verb-lex &
+falar_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "falar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_falar_v_1_rel" ]
   """
@@ -3386,7 +3386,7 @@ dar_6 := trans-verb-lex &
   Dão cobertor?»
   """. 
 
-teorizar_1 := nonrefl-all-obj-verb-lex &
+teorizar_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "teorizar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_teorizar_v_1_rel" ]
   """
@@ -3400,28 +3400,28 @@ perguntar_4 := trans-verb-lex &
   «O que eu pergunto é por que é que para a polícia a minha identificação é suficiente e para a senhora notária não é», questiona Maria Armanda.
   """. 
 
-perguntar_5 := nonrefl-all-obj-verb-lex &
+perguntar_5 := nonrefl-sup-obj-verb-lex &
   [ STEM < "perguntar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_perguntar_v_5_rel" ]
   """
   Perguntado sobre a qualidade das refeições, Covas ironizou:
   """. 
 
-incidir_1 := nonrefl-all-obj-verb-lex &
+incidir_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "incidir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_incidir_v_1_rel" ]
   """
   Alterações ao Código Civil que incidem sobre o direito da família.
   """. 
 
-especular_1 := nonrefl-all-obj-verb-lex &
+especular_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "especular" >,
     SYNSEM.LKEYS.KEYREL.PRED "_especular_v_1_rel" ]
   """
   Recorde-se aliás que, em Dezembro de 1992, quando a China realizou a maior explosão não nuclear de sempre -- arrasando a montanha Paotai, situada na Zona Económica Especial de Zhuhai, na ilha de Sanzao, 25 quilómetros a sudoeste de Macau --, na qual foram gastas 11 mil toneladas de dinamite, não faltou quem especulasse sobre a possibilidade de um dia realizar obras desse tipo com engenhos nucleares.
   """. 
 
-recair_1 := nonrefl-all-obj-verb-lex &
+recair_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "recair" >,
     SYNSEM.LKEYS.KEYREL.PRED "_recair_v_1_rel" ]
   """
@@ -4933,7 +4933,7 @@ lançar_4 := trans-verb-lex &
   E lançou um alerta:
   """. 
 
-lançar_5 := refl-all-obj-verb-lex &
+lançar_5 := refl-sup-obj-verb-lex &
   [ STEM < "lançar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lançar_v_5_rel" ]
   """
@@ -5297,7 +5297,7 @@ manifestar_2 := refl-int-verb-lex &
   Desde logo se manifestou a habilidade do «regisseur» controlando mais de um filme em simultâneo.
   """. 
 
-manifestar_3 := refl-all-obj-verb-lex &
+manifestar_3 := refl-sup-obj-verb-lex &
   [ STEM < "manifestar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_manifestar_v_3_rel" ]
   """

@@ -446,7 +446,7 @@ anunciar_2 := trans-verb-lex & ; MIC
   IBM anuncia dois CDs educativos
   """. 
 
-incidir_1 := nonrefl-all-obj-verb-lex & ; FER
+incidir_1 := nonrefl-sup-obj-verb-lex & ; FER
   [ STEM < "incidir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_incidir_v_1_rel" ]
   """

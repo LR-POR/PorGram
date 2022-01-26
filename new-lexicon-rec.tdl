@@ -98,7 +98,7 @@ fazer_5 := refl-int-verb-lex &
   [ STEM < "fazer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_5_rel" ].
 
-fazer_6 := nonrefl-all-obj-verb-lex &
+fazer_6 := nonrefl-sup-obj-verb-lex &
   [ STEM < "fazer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_6_rel" ].
 
@@ -766,7 +766,7 @@ informar_3 := nonrefl-gen-obj-verb-lex &
   [ STEM < "informar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_informar_v_3_rel" ].
 
-informar_4 := nonrefl-all-obj-verb-lex &
+informar_4 := nonrefl-sup-obj-verb-lex &
   [ STEM < "informar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_informar_v_4_rel" ].
 
@@ -794,7 +794,7 @@ isolar_2 := refl-int-verb-lex &
   [ STEM < "isolar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_isolar_v_2_rel" ].
 
-falar_1 := nonrefl-all-obj-verb-lex &
+falar_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "falar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_falar_v_1_rel" ].
 
@@ -2098,7 +2098,7 @@ dar_6 := trans-verb-lex &
   [ STEM < "dar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dar_v_6_rel" ].
 
-teorizar_1 := nonrefl-all-obj-verb-lex &
+teorizar_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "teorizar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_teorizar_v_1_rel" ].
 
@@ -2106,19 +2106,19 @@ perguntar_4 := trans-verb-lex &
   [ STEM < "perguntar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_perguntar_v_4_rel" ].
 
-perguntar_5 := nonrefl-all-obj-verb-lex &
+perguntar_5 := nonrefl-sup-obj-verb-lex &
   [ STEM < "perguntar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_perguntar_v_5_rel" ].
 
-incidir_1 := nonrefl-all-obj-verb-lex &
+incidir_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "incidir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_incidir_v_1_rel" ].
 
-especular_1 := nonrefl-all-obj-verb-lex &
+especular_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "especular" >,
     SYNSEM.LKEYS.KEYREL.PRED "_especular_v_1_rel" ].
 
-recair_1 := nonrefl-all-obj-verb-lex &
+recair_1 := nonrefl-sup-obj-verb-lex &
   [ STEM < "recair" >,
     SYNSEM.LKEYS.KEYREL.PRED "_recair_v_1_rel" ].
 
@@ -3090,7 +3090,7 @@ lançar_4 := trans-verb-lex &
   [ STEM < "lançar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lançar_v_4_rel" ].
 
-lançar_5 := refl-all-obj-verb-lex &
+lançar_5 := refl-sup-obj-verb-lex &
   [ STEM < "lançar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lançar_v_5_rel" ].
 
@@ -3334,7 +3334,7 @@ manifestar_2 := refl-int-verb-lex &
   [ STEM < "manifestar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_manifestar_v_2_rel" ].
 
-manifestar_3 := refl-all-obj-verb-lex &
+manifestar_3 := refl-sup-obj-verb-lex &
   [ STEM < "manifestar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_manifestar_v_3_rel" ].
 
