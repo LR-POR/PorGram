@@ -4100,14 +4100,14 @@ apostar_2 := trans-verb-lex &
   «Era um cara que sempre apostou no que acreditava.
   """. 
 
-gerir_1 := nonrefl-ine-obj-verb-lex &
-  [ STEM < "gerir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_gerir_v_1_rel" ]
-  """
-  Além do Museu do Ar, o projecto gira em torno do parque temático propriamente dito.
-  """. 
+;gerir_1 := nonrefl-ine-obj-verb-lex &
+;  [ STEM < "gerir" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_gerir_v_1_rel" ]
+;  """
+;  Além do Museu do Ar, o projecto gira em torno do parque temático propriamente dito.
+;  """. 
 
-gerir_2 := trans-verb-lex &
+gerir_1 := trans-verb-lex &
   [ STEM < "gerir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gerir_v_2_rel" ]
   """
