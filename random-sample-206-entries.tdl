@@ -59,7 +59,7 @@ encarar_1 := trans-verb-lex & ; MIC
   É tempo de desdramatizar o ambiente e de o encarar de uma forma racional e corajosa, não basta o bom senso.
   """. 
 
-começar_2 := trans-verb-lex & ; MIC
+começar_3 := trans-verb-lex & ; MIC
   [ STEM < "começar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_começar_v_2_rel" ]
   """

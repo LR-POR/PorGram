@@ -2,6 +2,18 @@ bola := fem-noun-lex &
   [ STEM < "bola" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bola_n_rel" ].
 
+renda := fem-noun-lex &
+  [ STEM < "renda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_renda_n_rel" ].
+
+imposto := masc-noun-lex &
+  [ STEM < "imposto" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_imposto_n_rel" ].
+
+consumo := masc-noun-lex &
+  [ STEM < "consumo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_consumo_n_rel" ].
+
 aluno := masc-noun-lex &
   [ STEM < "aluno" >,
     SYNSEM.LKEYS.KEYREL.PRED "_aluno_n_rel" ].

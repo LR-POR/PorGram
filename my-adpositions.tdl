@@ -22,12 +22,12 @@ gen-marker_de := obl-case-marking-adp-lex &
                    CAT.HEAD [ CASE gen ] ] ].
 
 
-all-marker_de := obl-case-marking-adp-lex &
+sup-marker_de := obl-case-marking-adp-lex &
   [ STEM < "sobre" >,
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
                                  CLAUSE-KEY #clause ],
                           ICONS.LIST < > ],
-                   CAT.HEAD [ CASE all ] ] ].
+                   CAT.HEAD [ CASE sup ] ] ].
 
 ine-marker_de := obl-case-marking-adp-lex &
   [ STEM < "em" >,

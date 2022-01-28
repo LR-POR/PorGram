@@ -1,4 +1,4 @@
-começar_2 := a-compl-subj-raise-aux-with-pred &
+começar_1 := a-compl-subj-raise-aux-with-pred &
   [ STEM < "começar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_começar_v_rel" ].
 

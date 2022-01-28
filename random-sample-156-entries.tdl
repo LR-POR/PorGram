@@ -310,7 +310,7 @@ transformar_3 := trans-verb-lex & ; MIC
   Um encontro com a pastora de Fátima transformou João Paulo I
   """. 
 
-começar_1 := nonrefl-com-obj-verb-lex & ; FER
+começar_2 := nonrefl-com-obj-verb-lex & ; FER
   [ STEM < "começar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_começar_v_1_rel" ]
   """
@@ -988,7 +988,7 @@ resumir_2 := refl-dat-obj-verb-lex & ;  BOR
   Segundo a tesoureira da campanha de Lula, Tatau Godinho, os custos se resumem à passagem aérea, já que o candidato ficou hospedado na casa do embaixador do Brasil na África do Sul, Antônio Amaral de Sampaio.
   """. 
 
-estar_2 := nonrefl-com-obj-verb-lex & ; PER19
+estar_3 := nonrefl-com-obj-verb-lex & ; PER19
   [ STEM < "estar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_estar_v_2_rel" ]
   """

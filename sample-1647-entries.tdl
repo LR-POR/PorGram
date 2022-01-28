@@ -158,8 +158,8 @@ fazer_5 := refl-int-verb-lex &
   """
   Neste sistema, a recolha far-se-á «uma vez por semana para os materiais orgânicos e três por semana para os restantes resíduos domésticos».
   """. 
-
-fazer_6 := nonrefl-sup-obj-verb-lex &
+; annotation error: "sobre" introduces the object of "deliberar"
+fazer_6 := nonrefl-sup-obj-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "fazer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_6_rel" ]
   """
@@ -1881,7 +1881,7 @@ ir_6 := nonrefl-dat-obj-verb-lex &
   Projeção vai a 3,72% brutos
   """. 
 
-estar_3 := nonrefl-dat-obj-verb-lex &
+estar_4 := nonrefl-dat-obj-verb-lex &
   [ STEM < "estar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_estar_v_3_rel" ]
   """

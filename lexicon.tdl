@@ -750,9 +750,9 @@ insistir_3 := em-que-cl-verb-lex &
   [ STEM < "insistir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_3_rel" ].
 
-obedecer := dat-obj-verb-lex &
-  [ STEM < "obedecer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_obedecer_v_rel" ].
+;obedecer := dat-obj-verb-lex &
+;  [ STEM < "obedecer" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_obedecer_v_rel" ].
 
 dizer_2 := dir-verb-lex &
   [ STEM < "dizer" >,
