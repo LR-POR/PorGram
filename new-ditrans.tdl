@@ -1,501 +1,590 @@
-contentar_v1 := nom-acc-com-ditransitive-verb-lex &
+; pronominal verb (MIC, FER, BOR, POR, VER, PRI, AUR, HOU)
+; com-PP is a complement (AUL, FER, VER)
+; - Estrutura sintática básica: [SN V SN] (verbo transitivo)
+;- Estrutura de papéis temáticos: {Estímulo, Experienciador}
+;- Licencia a inversão do argumento Experienciador: O Mauro se contentou com os elogios do chefe.
+contentar_v1 := nom-acc-com-ditransitive-verb-lex & ; ERROR:refl-com-obj-verb-lex
   [ STEM < "contentar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_contentar_v_1_rel" ]
   """
   Entretanto, eu -- e os milhares de pessoas que o leram no PÚBLICO (da passada segunda-feira) -- vou-me contentando com as suas Cartas de Inglaterra.
   """. 
-
-deparar_v4 := nom-acc-com-ditransitive-verb-lex &
+; pronominal verb (MIC, FER, BOR, POR, PRI)
+; algo se depara a alguém (FER, BOR, MIC)
+; in the construction with com-PP, the experiencer and the stimulus invert postions, analogously to "contentar" above 
+deparar_v4 := nom-acc-com-ditransitive-verb-lex & ; ERROR:refl-com-obj-verb-lex
   [ STEM < "deparar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_deparar_v_4_rel" ]
   """
   Então me deparei com um estudo que afirma que algumas pessoas realmente têm um paladar mais aguçado do que outras.
   """. 
 
-discutir_v2 := nom-acc-com-ditransitive-verb-lex &
+discutir_v2 := nom-acc-com-ditransitive-verb-lex & ; FER
   [ STEM < "discutir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_discutir_v_2_rel" ]
   """
   Britto já informou a Streck que é favorável, mas ficou de discutir a questão com o PMDB gaúcho.
   """. 
 
-dividir_v6 := nom-acc-ine-ditransitive-verb-lex &
+dividir_v6 := nom-acc-ine-ditransitive-verb-lex & ; FER
   [ STEM < "dividir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dividir_v_6_rel" ]
   """
   Tive de dividir os homens em grupos mais pequenos.
   """. 
 
-dividir_v7 := nom-acc-com-ditransitive-verb-lex &
+dividir_v7 := nom-acc-com-ditransitive-verb-lex & ; FER
   [ STEM < "dividir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dividir_v_7_rel" ]
   """
   No final do último ano, Coelho dividiu a cena com o tenor espanhol Plácido Domingo.
   """. 
 
-negociar_v4 := nom-acc-com-ditransitive-verb-lex &
+negociar_v4 := nom-acc-com-ditransitive-verb-lex & ; FER
   [ STEM < "negociar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_negociar_v_4_rel" ]
   """
   «Queremos também negociar com as indústrias rentabilidade mínima de 15%», diz Araújo.
   """. 
-
-revestir_v3 := nom-acc-com-ditransitive-verb-lex &
+; theme argument is realized as a de-PP (FER), also as a com-PP (AUL)
+; com-PP is an instrumental adjunct (BOR)
+revestir_v3 := nom-acc-com-ditransitive-verb-lex & ; AUL
   [ STEM < "revestir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_revestir_v_3_rel" ]
   """
   O casal quer trocar o piso do banheiro, revestir o piso das áreas sociais com madeira e instalar armários.
   """. 
 
-comentar_v3 := nom-acc-com-ditransitive-verb-lex &
+comentar_v3 := nom-acc-com-ditransitive-verb-lex & ; BOR
   [ STEM < "comentar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_comentar_v_3_rel" ]
   """
   Comentei com minha amiga espanhola, Dolores de Pança, a profusão de beijos melados que massacraram minhas aveludadas bochechas na Bienal.
   """. 
-
-combinar_v3 := nom-acc-com-ditransitive-verb-lex &
+; com-PP is a complement of the verb in this sense (and also in the sense of "combinar algo com alguém") (BOR)
+combinar_v3 := nom-acc-com-ditransitive-verb-lex & ; AUL
   [ STEM < "combinar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_combinar_v_3_rel" ]
   """
   «A Interpretação dos Sonhos», um dos textos fundadores da psicanálise, apresenta toda uma tropologia do ato de sonhar e dá a base para uma poética que combina a teoria da tropologia com a noção da invenção poética.
   """. 
-
-haver_v5 := nom-acc-com-ditransitive-verb-lex &
+; impersonal verb
+; problem of valence extraction script: all null subject valence frames are augmented with a subject 
+; com-PP seems to be a complement, compare this construction with "algo sucede a alguém"
+haver_v5 := nom-acc-com-ditransitive-verb-lex & ; ERROR:acc-com-ditransitive-verb-lex (TODO)
   [ STEM < "haver" >,
     SYNSEM.LKEYS.KEYREL.PRED "_haver_v_5_rel" ]
   """
   Vamos verificar o que houve com essas matérias-primas.»
   """. 
-
-associar_v3 := nom-acc-com-ditransitive-verb-lex &
+; pronominal verb (MIC, FER, BOR, POR, PRI)
+; inconsistent analysis in AUL?
+; 2. Reunir(-se) em grupo para finalidade comum [td. : Queriam associar mais alguns escritores para irem falar com o ministro] [tdr. + a : Associou -se ao grupo para reivindicar aumento.] (AUL)
+associar_v3 := nom-acc-com-ditransitive-verb-lex & ;  ERROR:refl-com-obj-verb-lex
   [ STEM < "associar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_associar_v_3_rel" ]
   """
   Eu não me associo com moda.
   """. 
 
-confundir_v3 := nom-acc-com-ditransitive-verb-lex &
+confundir_v3 := nom-acc-com-ditransitive-verb-lex & ; AUL, BOR
   [ STEM < "confundir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_confundir_v_3_rel" ]
   """
   Há quem se orgulhe dos golpes que consegue imaginar e confunda artimanhas com estratégia.
   """. 
-
-consumir_v3 := nom-acc-com-ditransitive-verb-lex &
+; em-PP with the verb sense "aplicar" is a complement (FER, BOR)
+; inconsistent analysis in BOR?
+; com-PP is a complement of "gastar" with the sense of "consumir" (BOR)
+consumir_v3 := nom-acc-com-ditransitive-verb-lex & ; LEO
   [ STEM < "consumir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_consumir_v_3_rel" ]
   """
   Uma das consequências disso é outra aberração na saúde brasileira: em 1991, os hospitais psiquiátricos cadastrados à rede federal consumiam 7,5% das despesas com internações realizadas pelo SUS e representavam o equivalente a 18% dos leitos.
   """. 
 
-comparar_v5 := nom-acc-com-ditransitive-verb-lex &
+comparar_v5 := nom-acc-com-ditransitive-verb-lex & ; AUL
   [ STEM < "comparar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_comparar_v_5_rel" ]
   """
   PT compara gestão Erundina com a de Maluf
   """. 
 
-substituir_v2 := nom-acc-per-ditransitive-verb-lex &
+substituir_v2 := nom-acc-per-ditransitive-verb-lex & ; AUL
   [ STEM < "substituir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_substituir_v_2_rel" ]
   """
   O português «secou» de tal forma o génio parmesão que Ancelotti acabou por substitui-lo por Melli.
   """. 
 
-trocar_v2 := nom-acc-per-ditransitive-verb-lex &
+trocar_v2 := nom-acc-per-ditransitive-verb-lex & ; FER
   [ STEM < "trocar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_trocar_v_2_rel" ]
   """
   Corrêa trocaria a preocupação pela descontração.
   """. 
 
-distribuir_v5 := nom-acc-per-ditransitive-verb-lex &
+distribuir_v5 := nom-acc-per-ditransitive-verb-lex & ; AUL
   [ STEM < "distribuir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_distribuir_v_5_rel" ]
   """
   Na mesma altura, começou a funcionar um sistema informático que permite distribuir mais rapidamente os estrangeiros pelos campos de refugiados.
-  """. 
-
-apaixonar_v3 := nom-acc-per-ditransitive-verb-lex &
+  """.
+; pronominal verb (POR, PER19, PRI, FER, BOR)
+; prototypical pronominal verb (inversion of experiencer, see "contentar" above)
+; inconsistent analysis in AUL?  
+; 2. Fazer experimentar ou experimentar grande interesse ou entusiasmo [td. : O trabalho da bailarina apaixona o público.] [tr. + por : Nosso amigo alemão apaixonou-se pela língua portuguesa.] (AUL
+apaixonar_v3 := nom-acc-per-ditransitive-verb-lex & ; ERROR:refl-per-obj-verb-lex
   [ STEM < "apaixonar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_apaixonar_v_3_rel" ]
   """
   Apaixonou-se por um cego que não era aluno dele.
   """. 
-
-ganhar_v5 := nom-acc-per-ditransitive-verb-lex &
+; annotation error: por-PP is not a complement (BOR)
+ganhar_v5 := nom-acc-per-ditransitive-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "ganhar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ganhar_v_5_rel" ]
   """
-  Quinto colocado no Mundial de F-Indy, com 46 pontos, Mansell disse que pretende continuar a correr na categoria até o final da temporada, condição que ele impôs a Frank Williams para voltar à equipe pela qual ganhou o título mundial de 1992.
+  Quinto colocado no Mundial de F-Indy, com 46 pontos, Mansell disse que pretende continuar a correr na categoria até o final da temporada, condição que ele impôs a Frank Williams para voltar à equipe pela@iobj:por->obl:por@ qual ganhou o título mundial de 1992.
   """. 
 
-responsabilizar_v2 := nom-acc-per-ditransitive-verb-lex &
+responsabilizar_v2 := nom-acc-per-ditransitive-verb-lex & ; BOR
   [ STEM < "responsabilizar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_responsabilizar_v_2_rel" ]
   """
   A diretoria do Banerj responsabilizou o Banco Central pela perda de liquidez do banco e informou que o Banerj tem dinheiro para receber do BC: R$ 100 milhões pagos a mais desde 1992, R$ 30 milhões de multa e mais R$ 600 milhões recolhidos como depósito compulsório, depois do Plano Real
   """. 
 
-pagar_v6 := nom-acc-per-ditransitive-verb-lex &
+pagar_v6 := nom-acc-per-ditransitive-verb-lex & ; BOR
   [ STEM < "pagar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pagar_v_6_rel" ]
   """
   O jornal popular alemão «Bild» anunciou ontem que o construtor automobilístico alemão Audi vai pagar 200 milhões de marcos (cerca de 20,4 milhões de contos) pela marca italiana Lamborghini.
   """. 
 
-culpar_v2 := nom-acc-per-ditransitive-verb-lex &
+culpar_v2 := nom-acc-per-ditransitive-verb-lex & ; FER
   [ STEM < "culpar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_culpar_v_2_rel" ]
   """
   Michael Schumacher culpou um degrau existente nas zebras do circuito de Adelaide por seu acidente ontem no final da primeira sessão de treinos oficiais.
   """. 
 
-culpar_v3 := nom-acc-gen-ditransitive-verb-lex &
+culpar_v3 := nom-acc-gen-ditransitive-verb-lex & ; FER
   [ STEM < "culpar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_culpar_v_3_rel" ]
   """
   O Conselho de Arbitragem da Associação de Futebol de Lisboa apoiou ontem Jorge Coroado e contestou a Comissão de Arbitragem da Liga Portuguesa de Futebol Profissional, que excluiu aquele árbitro do jogo FC Porto-V.Guimarães depois de ter montado um esquema para culpar Coroado de fugas de informação.
   """. 
 
-multiplicar_v2 := nom-acc-per-ditransitive-verb-lex &
+multiplicar_v2 := nom-acc-per-ditransitive-verb-lex & ; BOR
   [ STEM < "multiplicar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_multiplicar_v_2_rel" ]
   """
   Multiplique isso por 15, some o valor do transporte e se tem US$ 400 mil.
   """. 
-
-criar_v4 := nom-acc-ine-ditransitive-verb-lex &
+; em-PP is not a complement (FER, BOR)
+; annotation error: em-PP is not an iobj, but an obl
+criar_v4 := nom-acc-ine-ditransitive-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "criar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_criar_v_4_rel" ]
   """
-  J.S.R. -- Uma das condições fundamentais para se criar outros gostos nas pessoas são os concertos.
+  J.S.R. -- Uma das condições fundamentais para se criar outros gostos nas@iobj:em->obl:em@ pessoas são os concertos.
   """. 
 
-estimar_v5 := nom-acc-ine-ditransitive-verb-lex &
+estimar_v5 := nom-acc-ine-ditransitive-verb-lex & ; BOR
   [ STEM < "estimar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_estimar_v_5_rel" ]
   """
   Ele estima em dez horas o tempo necessário para classificar as áreas e culturas plantadas em uma extensão de 180 quilômetros.
   """. 
 
-converter_v4 := nom-acc-ine-ditransitive-verb-lex &
+converter_v4 := nom-acc-ine-ditransitive-verb-lex & ; BOR
   [ STEM < "converter" >,
     SYNSEM.LKEYS.KEYREL.PRED "_converter_v_4_rel" ]
   """
   «Ainda se considera, pela última vez, ser desnecessária a prisão», dita o juiz para o escrivão, convertendo os cinco meses na penitenciária em 45 mil escudos de multa, ou, em alternativa, em cem dias de detenção.
   """. 
-
-apoiar_v3 := nom-acc-ine-ditransitive-verb-lex &
+; annotation error: em-PP is not an iobj, but an obl
+apoiar_v3 := nom-acc-ine-ditransitive-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "apoiar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_apoiar_v_3_rel" ]
   """
   Por isso, condena as «interpretações de conveniência» da lei e põe os seus serviços ao dispôr de Coroado, para apoiar o árbitro em «qualquer acção disciplinar que porventura lhe seja injustamente instaurada».
   """. 
+;ENFIAR   ‘insert’, ‘stick (into)’
 
-enfiar_v3 := nom-acc-ine-ditransitive-verb-lex &
+;C72	VSubj>Agent      V      NP>Theme      X>Location
+
+;	Jorge enfiou a lança no dragão.
+;		‘Jorge stabbed the dragon with the spear’  
+;[lit.: stabbed the spear into the dragon]
+ 
+;	Eu enfiei a mala debaixo da cama.
+;		‘I pushed the suitcase under the bed’ (PER19)
+
+enfiar_v3 := nom-acc-ine-ditransitive-verb-lex & ; PER19
   [ STEM < "enfiar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_enfiar_v_3_rel" ]
   """
   E a Regina Casé me disse que churrasco da Brahma, vulgo churrasquinho de Los Gatos, é assim: você enfia o dedo na picanha e fica rodando.
   """. 
 
-gastar_v3 := nom-acc-ine-ditransitive-verb-lex &
+gastar_v3 := nom-acc-ine-ditransitive-verb-lex & ; BOR
   [ STEM < "gastar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gastar_v_3_rel" ]
   """
   Freneticamente, o Governo tem-se empenhado em gastar centenas de milhares de contos em propaganda para nos convencer das vantagens do aumento em 50 por cento da capacidade (seis faixas) da ponte em termos rodoviários e noutra inquestionável vantagem que é a futura implantação nela do caminho-de-ferro.
   """. 
+; C17	VSubj>Agent     V      NP>Patient+αRef       em NP>Goal+αRef 
 
-transformar_v5 := nom-acc-ine-ditransitive-verb-lex &
+;	O governo transformou a cidade em um chiqueiro.
+;		‘the government turned the city into a pig-sty’ (PER19)
+transformar_v5 := nom-acc-ine-ditransitive-verb-lex & ; PER19
   [ STEM < "transformar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_transformar_v_5_rel" ]
   """
   Crianças de 11 a 14 anos vão aprender a transformar sucatas em brinquedos educativos.
   """. 
 
-basear_v3 := nom-acc-ine-ditransitive-verb-lex &
+basear_v3 := nom-acc-ine-ditransitive-verb-lex & ; BOR
   [ STEM < "basear" >,
     SYNSEM.LKEYS.KEYREL.PRED "_basear_v_3_rel" ]
   """
   O grupo suíço baseia sua música na combinação de barulhentas guitarras sampleadas, vocais guturais e pesadas batidas dançantes.
   """. 
 
-investir_v3 := nom-acc-ine-ditransitive-verb-lex &
+investir_v3 := nom-acc-ine-ditransitive-verb-lex & ; BOR
   [ STEM < "investir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_investir_v_3_rel" ]
   """
   A Espanha vai investir até ao fim do ano 67,6 mil milhões de pesetas em infra-estruturas ferroviárias.
   """. 
-
-pôr_v3 := nom-acc-ine-ditransitive-verb-lex &
+; em-PP as predicative complement? "pôr fora de combate" (BOR)
+;C72	VSubj>Agent      V      NP>Theme      X>Location
+;
+;	O fazendeiro pôs as frutas no balaio.    
+;		‘the farmer placed the fruits in the basket’ (PER19)
+; MWE?
+;pôr-se em contacto com
+;travar conhecimento com (POR)
+pôr_v3 := nom-acc-ine-ditransitive-verb-lex & ; ERROR?
   [ STEM < "pôr" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pôr_v_3_rel" ]
   """
   Porque é a embraiagem «que põe o motor em contacto com as rodas que geram o movimento, que para nós é o desenvolvimento».
   """. 
-
-impor_v5 := nom-acc-ine-ditransitive-verb-lex &
+; em-PP is not a complement (BOR)
+; annotation error: em-PP is not an iobj, but an obl
+impor_v5 := nom-acc-ine-ditransitive-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "impor" >,
     SYNSEM.LKEYS.KEYREL.PRED "_impor_v_5_rel" ]
   """
   Porque -- consideram os relatores, interpretando as diversas contribuições ao congresso -- «a natureza difícil dos problemas, a escala de tempo longa da sua resolução, a sua raiz cultural e o facto que o objecto das políticas não é outro senão a mudança de comportamentos das comunidades educativa e científica, impõem uma implicação orgânica dessas comunidades nas políticas que lhes dizem respeito».
   """. 
-
-falar_v7 := nom-acc-sup-ditransitive-verb-lex &
+; sobre-PP is a complement of a divalent variant (BOR)
+; in the German translation of the example, the corresponding verb governs an accusative complement and a PP complement (HLB)
+falar_v7 := nom-acc-sup-ditransitive-verb-lex & ; HLB
   [ STEM < "falar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_falar_v_7_rel" ]
   """
   Não ouvi falar nada sobre arbitragens.
   """. 
-
-dizer_v14 := nom-acc-sup-ditransitive-verb-lex &
+; in the German translation of the example, the corresponding verb governs an accusative complement and a PP complement (HLB)
+dizer_v14 := nom-acc-sup-ditransitive-verb-lex & ; HLB
   [ STEM < "dizer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dizer_v_14_rel" ]
   """
   Estou surpreso», foi o que Franco disse a sobre as declarações da mãe.
   """. 
-
-contar_v7 := nom-acc-sup-ditransitive-verb-lex &
+; see dizer_v14 and falar_v7
+contar_v7 := nom-acc-sup-ditransitive-verb-lex & ; LEO
   [ STEM < "contar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_contar_v_7_rel" ]
   """
   O livro «Apresentando Rembrandt -- Pintor, Gravador, Professor» (editora Klick), de Alexander Sturgis, conta muitas outras coisas sobre a vida e as obras do pintor.
   """. 
-
-colocar_v4 := nom-acc-sup-ditransitive-verb-lex &
+; the 2nd complement is a locative (TODO: implement locative type)
+colocar_v4 := nom-acc-sup-ditransitive-verb-lex & ; BOR
   [ STEM < "colocar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_colocar_v_4_rel" ]
   """
   Esta precipitação dos acontecimentos vem de encontro a algumas das críticas feitas à actuação da Comissão Permanente, criticada por ter «deixado arrastar» durante semanas o contencioso com o eurodeputado, em vez de desde logo, como muitos defenderam, chamar Campos para este prestar esclarecimentos e colocar uma pedra sobre o assunto.
   """. 
-
-distanciar_v2 := nom-acc-gen-ditransitive-verb-lex &
+; pronominal verb (MIC, FER, BOR, VER, POR, PRI, HOU, AUR)
+; de-PP is a not an argument (VER):
+; Classe: Causação: verbos de mudança de estado opcionalmente agentivos
+; Propriedades da Classe:
+; - Conteúdo semântico recorrente na classe: x age causando y ficar em determinado estado
+;- Estrutura sintática básica: [SN V SN] (verbo transitivo)
+;- Estrutura de papéis temáticos: {Causa ou Agente, Paciente}
+; de-PP is a complement of the pronominal verb (AUL, BOR)
+distanciar_v2 := nom-acc-gen-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
   [ STEM < "distanciar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_distanciar_v_2_rel" ]
   """
   Casa Branca distancia-se de Carter
   """. 
-
-levar_v5 := nom-acc-gen-ditransitive-verb-lex &
+; 20. Ser atingido (física ou moralmente) por; ser o alvo de (golpe, ação ou crítica); receber, ganhar [td. : Ele vai acabar levando uma surra: O rapaz levou um soco: A menina levou uma bronca] [tdi. + de : O menino levou uma repreensão da mãe] (AUL)
+levar_v5 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "levar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_levar_v_5_rel" ]
   """
   O operário da construção civil negro e desempregado Rodney King, 28, vai receber US$ 3,8 milhões da Prefeitura de Los Angeles como compensação pelos efeitos da surra que levou de quatro policiais brancos em março de 1991.
   """. 
-
-acusar_v3 := nom-acc-gen-ditransitive-verb-lex &
+; 1. Imputar falta ou crime a (alguém ou a si próprio); declarar(-se) culpado; CULPAR(-SE) [td. : acusar um inocente: Acusaram -se mutuamente.] [tdr. + de, por : O menor acusou o policial de agressão. (AUL)
+; inconsistent analysis in AUL? Why not "vtdi"? See levar_v5.
+acusar_v3 := nom-acc-gen-ditransitive-verb-lex & ; 
   [ STEM < "acusar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acusar_v_3_rel" ]
   """
   Resposta Injusta principalmente quando nos acusa de tráfico de drogas, de participar de quadrilha e sequestro.
   """. 
-
-orgulhar_v3 := nom-acc-gen-ditransitive-verb-lex &
+; pronominal verb (FER, BOR, POR, PRI, HOU, AUR)
+orgulhar_v3 := nom-acc-gen-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
   [ STEM < "orgulhar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_orgulhar_v_3_rel" ]
   """
   Tenho 46 anos, ou seja, pertenço exactamente a essa geração, facto de que me orgulho muito.
   """. 
 
-desvincular_v3 := nom-acc-gen-ditransitive-verb-lex &
+desvincular_v3 := nom-acc-gen-ditransitive-verb-lex & ; BOR
   [ STEM < "desvincular" >,
     SYNSEM.LKEYS.KEYREL.PRED "_desvincular_v_3_rel" ]
   """
   Para Serra, se não for aprovada a emenda constitucional que desvincula dos fundos de participação dos Estados e municípios as receitas dos novos tributos, de nada adiantará o aumento de impostos.
   """. 
 
-dotar_v3 := nom-acc-gen-ditransitive-verb-lex &
+dotar_v3 := nom-acc-gen-ditransitive-verb-lex & ; FER
   [ STEM < "dotar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dotar_v_3_rel" ]
   """
   «É preciso dotar a Comunidade de uma constituição»
-  """. 
-
-esperar_v7 := nom-acc-gen-ditransitive-verb-lex &
+  """.
+; reflexive pronoun "se" annotaded as subject
+; in the sentence "Vende-se mobílias usadas na Feira da Ladra", the invariante clitic (called impersonal ou nominative "se") "absorves nominative case and blocks the assignment of a semantic function to the constituent in subject position (Mateus et al., 1989, p. 212).
+; possible annotation error according to traditional grammars: since the verb is a direct transitive, this pronoun should be a passivization pronoun ("pronome apassivador") and not a "símbolo de indeterminação do sujeito", which restricted to intransitive verbs  (Cunha; Cintra, 1985, p. 298)
+; this possible annotation error, however, did not result in an incorrect type
+;# sent_id = CF304-3
+;# source = CETENFolha n=304 cad=Esporte sec=des sem=94a
+;12	que	que	PRON	Gender=Masc|Number=Sing|PronType=Rel	14	obj
+;13	se	se	PRON	Case=Acc|PronType=Prs	14	nsubj
+;14	espera	esperar	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl
+;15-16	da	_	_	_	_	_
+;15	de	de	ADP	_	17	case	_	_
+;16	a	o	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det
+;17	gigante	gigante	NOUN	Gender=Fem|Number=Sing	14	iobj
+esperar_v7 := nom-acc-gen-ditransitive-verb-lex & ; BOR
   [ STEM < "esperar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_esperar_v_7_rel" ]
   """
   Com a desclassificação, Jack Girafa não teve o comportamento pacato que se espera da gigante das savanas.
   """. 
 
-convencer_v5 := nom-acc-gen-ditransitive-verb-lex &
+convencer_v5 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "convencer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_5_rel" ]
   """
   E jamais chegará a isto se não tiver a total dedicação de alguém como Ricupero, um excepcional «cadre», que em pouco tempo convenceu os brasileiros da sua inteligência e competência na vida pública.
   """. 
 
-proteger_v3 := nom-acc-gen-ditransitive-verb-lex &
+proteger_v3 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "proteger" >,
     SYNSEM.LKEYS.KEYREL.PRED "_proteger_v_3_rel" ]
   """
   Mas é difícil fazer a droga chegar ao cérebro devido à barreira hemato-encefálica (que protege o cérebro de agressões exteriores).»
   """. 
-
-ter_v7 := nom-acc-gen-ditransitive-verb-lex &
+; "ter muito de alguém" (BOR)
+ter_v7 := nom-acc-gen-ditransitive-verb-lex & ; LEO
   [ STEM < "ter" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ter_v_7_rel" ]
   """
   A delegação britânica era a mais forte em termos intelectuais, embora outros participantes tivessem dela uma opinião algo debochada.
   """. 
 
-aproximar_v3 := nom-acc-gen-ditransitive-verb-lex &
+aproximar_v3 := nom-acc-gen-ditransitive-verb-lex & ; AUL, BOR
   [ STEM < "aproximar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_aproximar_v_3_rel" ]
   """
   Aumento no número de passes e lançamentos aproxima futebol brasileiro do praticado no Mundial dos EUA
   """. 
-
-abrir_v9 := nom-acc-gen-ditransitive-verb-lex &
+; MWE
+; Abrir mão (de)
+; 1 Desistir de, dispensar: Foi sorteado mas abriu mão do prêmio (AUL)
+abrir_v9 := nom-acc-gen-ditransitive-verb-lex & ; LEO
   [ STEM < "abrir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_abrir_v_9_rel" ]
   """
   Os empresários abriram mão de posições históricas, eventualmente visando sua proteção, para construir e defender idéias exclusivamente de interesse coletivo para o desenvolvimento global.
   """. 
 
-distinguir_v3 := nom-acc-gen-ditransitive-verb-lex &
+distinguir_v3 := nom-acc-gen-ditransitive-verb-lex & ; BOR
   [ STEM < "distinguir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_distinguir_v_3_rel" ]
   """
   E o que a distingue de facto das televisões ditas «comerciais»?
   """. 
-
-fazer_v11 := nom-acc-gen-ditransitive-verb-lex &
+; 2nd argument is a predicative complement
+; 7. Deixar, tornar [td. : A idade fez dele uma pessoa séria] (AUL)
+; inconsistent analysis in AUL?
+; 1. Fazer ficar ou ficar; fazer ou vir a ser [tdp. : Tornar o ambiente agradável.] [tp. : Tornar-se elegante.]
+fazer_v11 := nom-acc-gen-ditransitive-verb-lex & ; ERROR
   [ STEM < "fazer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fazer_v_11_rel" ]
   """
   Certo é que Pinochet fez do país uma casa portuguesa, com certeza.
   """. 
 
-afastar_v5 := nom-acc-gen-ditransitive-verb-lex &
+afastar_v5 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "afastar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_afastar_v_5_rel" ]
   """
   Uma nova escalada obscurantista na China afastou ontem de Cannes o cineasta Zhang Yimou, diretor do célebre «Lanternas Vermelhas».
   """. 
-
-lembrar_v5 := nom-acc-gen-ditransitive-verb-lex &
+; pronominal verb (FER)
+lembrar_v5 := nom-acc-gen-ditransitive-verb-lex & ; FER
   [ STEM < "lembrar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lembrar_v_5_rel" ]
   """
   Senão eu não ia mais conseguir discutir salário com ele sem me lembrar do episódio e rir.»
   """. 
 
-salvar_v2 := nom-acc-gen-ditransitive-verb-lex &
+salvar_v2 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "salvar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_salvar_v_2_rel" ]
   """
   Computador na sala de aula não salva ninguém da ignorância.
-  """. 
-
-livrar_v2 := nom-gen-dat-ditransitive-verb-lex &
+  """.
+; pronominal verb (FER) 
+; 2. Salvar(-se) ou safar(-se) de embaraço, perigo, dificuldade etc. [tdr. + de : Conseguiu livrar -se das multas: o acordo que livrou o deputado de perder seu mandato: Livrar -se de um mal/de uma acusação] (AUL)
+; annotation error: clitic pronoun is accusative, not dative
+livrar_v2 := nom-gen-dat-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
   [ STEM < "livrar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_livrar_v_2_rel" ]
   """
   «O objectivo da lei é livrarmo-nos de habitantes inconvenientes», explica Michal Pulo, presidente da maior organização de ciganos da República Checa.
   """. 
-
-livrar_v3 := nom-acc-gen-ditransitive-verb-lex &
+; pronominal verb (FER)
+; annotation error: reflexive clitic is an expletive pronoun
+livrar_v3 := nom-acc-gen-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
   [ STEM < "livrar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_livrar_v_3_rel" ]
   """
   Outra ideia exposta por Soltwedel foi a de que o mercado de trabalho, apesar de envolver pessoas, «deve funcionar como qualquer outro mercado», acrescentando que «os europeus têm de se livrar da ideia que os salários não têm nada a ver com o trabalho realizado».
   """. 
-
-rodear_v2 := nom-acc-gen-ditransitive-verb-lex &
+; pronominal verb (FER)
+; annotation error: reflexive clitic is an expletive pronoun
+rodear_v2 := nom-acc-gen-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
   [ STEM < "rodear" >,
     SYNSEM.LKEYS.KEYREL.PRED "_rodear_v_2_rel" ]
   """
   Rodeaste-te de algum material especial, como foi?
   """. 
-
-expulsar_v2 := nom-acc-gen-ditransitive-verb-lex &
+; 1. Pôr (alguém) para fora, fazer sair à força de onde está; REPELIR [td. tda. : Os soldados expulsaram os invasores (da fazenda).]
+expulsar_v2 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "expulsar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_expulsar_v_2_rel" ]
   """
   Pode vir a ser o ponto de viragem na Igreja, cuja hierarquia, com a excepção de um único bispo, prefere os militares golpistas a Aristide, o Presidente eleito democraticamente, ele próprio um padre que os salesianos expulsaram da ordem.
   """. 
-
-libertar_v2 := nom-acc-gen-ditransitive-verb-lex &
+; pronominal verb (FER)
+libertar_v2 := nom-acc-gen-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
   [ STEM < "libertar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_libertar_v_2_rel" ]
   """
   Nascida no seio da estética M-Base, de que se tornou a única porta-voz vocal, à medida que foi avançando mar adentro, Cassandra soube libertar-se do lastro que lhe ajudou a voz a crescer mas que ameaçava paralisá-la.
   """. 
 
-receber_v3 := nom-acc-gen-ditransitive-verb-lex &
+receber_v3 := nom-acc-gen-ditransitive-verb-lex & ; FER
   [ STEM < "receber" >,
     SYNSEM.LKEYS.KEYREL.PRED "_receber_v_3_rel" ]
   """
   RECEITA RECEBE US$ 1,5 MILHÃO DE ENVOLVIDOS, EDNA DANTAS (Da Sucursal do Rio)
-  """. 
-
-tirar_v3 := nom-acc-gen-ditransitive-verb-lex &
+  """.
+; ditransitive with a source 2nd argument, paraphrased as "fazer sair de um lugar para outro" (BOR)
+; pronominal verb with the sense "afastar-se" (FER)
+; verbo pronominal
+; 33. Sair, libertar-se.
+; "tirar", in Dicionário Priberam da Língua Portuguesa [em linha], 2008-2021, https://dicionario.priberam.org/tirar [consultado em 01-02-2022].
+; verbo pronominal
+; 1.	desviar-se
+; 2.	livrar-se
+; 3.	sair
+; 4.	tomar uma resolução definitiva
+; Porto Editora – tirar no Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-02-01 21:36:59]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portuguesa/tirar
+; vtd e vpr 50 Afastar(-se), apartar(-se), desviar(-se): A donzela pudica tira os olhos da cena indecorosa. O justo tira-se da presença dos escarnecedores.(MIC)
+; 1. Fazer sair ou sair de (um lugar); RETIRAR(-SE) [td. : Só abri o armário para tirar as roupas] [tda. : Tiraram todos os livros da estante. Antôn.: colocar, pôr. ] (AUL)
+; ERROR:refl-gen-obj-verb-lex?
+tirar_v3 := nom-acc-gen-ditransitive-verb-lex & ; BOR
   [ STEM < "tirar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tirar_v_3_rel" ]
   """
   Eu me tirei das ruas e comecei a estudar.
   """. 
-
-sentir_v5 := nom-acc-gen-ditransitive-verb-lex &
+; de-PP is not a complement of the verb (FER, BOR), but of the verb's obj
+sentir_v5 := nom-acc-gen-ditransitive-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "sentir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sentir_v_5_rel" ]
   """
   Encontramos um homem-gol de que sentíamos falta há muitos anos», disse Van Himst, ele próprio um dos maiores jogadores que a Bélgica já teve.
   """. 
-
-entupir_v1 := nom-acc-gen-ditransitive-verb-lex &
+; - Estrutura sintática básica: [SN V SN (SP)] (verbo bitransitivo)
+; - Estrutura de papéis temáticos: {Causa ou Agente, Paciente, (Instrumento)} (VER)
+; de-PP is not a complement (BOR)
+entupir_v1 := nom-acc-gen-ditransitive-verb-lex & ; VER
   [ STEM < "entupir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_entupir_v_1_rel" ]
   """
   É bom ela entupir a nécessaire de Engov, que a festa vai ser chata para caramba
   """. 
 
-exigir_v7 := nom-acc-gen-ditransitive-verb-lex &
+exigir_v7 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "exigir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_exigir_v_7_rel" ]
   """
   Não comporta qualquer reserva, e bendito o país em que os homens públicos exigem dos candidatos a solução de problemas nacionais, minorar a fome, dando leite às crianças que se alimentam de lixo, e estradas para desenvolver o país.
   """. 
 
-retirar_v5 := nom-acc-gen-ditransitive-verb-lex &
+retirar_v5 := nom-acc-gen-ditransitive-verb-lex & ; FER
   [ STEM < "retirar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_retirar_v_5_rel" ]
   """
   Até as 17h, a Prefeitura de Caraguatatuba não havia retirado o golfinho da praia.
-  """. 
-
-limpar_v1 := nom-acc-gen-ditransitive-verb-lex &
+  """.
+; de-PP is a complement of the ditransitive verb meaning "fazer ficar livre, libertar, expurgar" (BOR)
+; a de-PP is not included in the syntactic structure and does not occur in the examples:
+; - Estrutura sintática básica: [SN V SN] (verbo transitivo)
+;- Estrutura de papéis temáticos: {Agente, Objeto Afetado}
+;- Estrutura de decomposição de predicados: [ [ X ACT <event>] thing ON Y] (VER)
+limpar_v1 := nom-acc-gen-ditransitive-verb-lex & ; BOR
   [ STEM < "limpar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_limpar_v_1_rel" ]
   """
   Com os olhos na Rússia, tecnicamente em violação do texto assinado em 1990, os países-membros do tratado sobre as armas convencionais na Europa voltam a reunir-se a partir de hoje, em Viena, para tentar limpar definitivamente o continente de armas convencionais.
   """. 
-
-indiferenciar_v1 := nom-acc-gen-ditransitive-verb-lex &
+; spelling mistake:"indiferência" instead of "indiferencia"
+; de-PP is a complement of the ditransitive verb "diferenciar"", of which "indiferenciar" is an antonym (their meanings are contradictory)
+indiferenciar_v1 := nom-acc-gen-ditransitive-verb-lex & ; LEO
   [ STEM < "indiferenciar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_indiferenciar_v_1_rel" ]
   """
   Toda vez que um crime cometido por representantes do poder público fica sem punição, o ônus recai sobre a corporação como um todo, gerando um turbilhão que indiferência os bons dos maus policiais.
   """. 
 
-excluir_v3 := nom-acc-gen-ditransitive-verb-lex &
+excluir_v3 := nom-acc-gen-ditransitive-verb-lex & ; FER
   [ STEM < "excluir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_excluir_v_3_rel" ]
   """
   O conselho lisboeta considera «censurável» o comportamento de Coroado, mas recorda que não está prevista nas normas qualquer pena para a infracção que este terá cometido, pelo que a comissão da Liga não podia tê-lo excluído do jogo.
   """. 
 
-ressarcir_v1 := nom-acc-gen-ditransitive-verb-lex &
+ressarcir_v1 := nom-acc-gen-ditransitive-verb-lex & ; BOR
   [ STEM < "ressarcir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ressarcir_v_1_rel" ]
   """
   Para ressarcir a Câmara das despesas a suportar, bem como do direito à montagem do equipamento, irá ser estabelecido um contrato de comodato de um bloco sanitário e dois abrigos para passageiros.
   """. 
 
-passar_v10 := nom-gen-goa-ditransitive-verb-lex &
+passar_v10 := nom-gen-goa-ditransitive-verb-lex & ; BOR
   [ STEM < "passar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_passar_v_10_rel" ]
   """
