@@ -44,7 +44,7 @@ per-marker_de := obl-case-marking-adp-lex &
                    CAT.HEAD [ CASE per ] ] ].
 
 com-marker_de := obl-case-marking-adp-lex &
-  [ STEM < "por" >,
+  [ STEM < "com" >,
     SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
                                  CLAUSE-KEY #clause ],
                           ICONS.LIST < > ],

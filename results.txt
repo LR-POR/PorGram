@@ -1,7 +1,7 @@
 True negatives
 11 *o cachorro está perseguido o gato 0 211
-12 *o cachorro tem perseguindo o gato 0 151
-14 *o cachorro tem estado perseguido o gato 0 464
+12 *o cachorro tem perseguindo o gato 0 179
+14 *o cachorro tem estado perseguido o gato 0 618
 17 *o cachorro quer que o gato late 0 140
 21 *o cachorro perguntou se o gato lata 0 217
 25 *o cachorro ladrou-se 0 16
@@ -23,7 +23,7 @@ True negatives
 81 *os gatos é simples 0 83
 87 *os artistas amarelas são felizes 0 143
 89 *as artistas amarelos são felizes 0 155
-96 *o gato lamenta os cachorros ter ladrado 0 462
+96 *o gato lamenta os cachorros ter ladrado 0 534
 98 *o gato lamenta os cachorros ladrar 0 185
 111 *os cachorros vai ladrar 0 162
 112 *os cachorros vai ladrarem 0 113
@@ -37,20 +37,20 @@ True negatives
 152 *o gato detesta que os cachorros latem 0 162
 154 *o gato detesta que os cachorros ladram 0 162
 160 *o gato detesta que o cachorro está latindo 0 315
-161 *o gato detesta que o cachorro tem latido 0 298
-163 *o gato detestou que o cachorro tem latido 0 303
+161 *o gato detesta que o cachorro tem latido 0 330
+163 *o gato detestou que o cachorro tem latido 0 335
 176 *o cachorro está-se triste 0 27
 177 *o cachorro é-se triste 0 19
-178 *o gato detestou que o cachorro tivesse-se latido 0 206
-179 *o gato detestou que o cachorro tivesse latido-se 0 523
-181 *o gato lamenta os cachorros têm ladrado 0 262
-182 *o gato lamenta os cachorros tenham ladrado 0 262
-183 *o gato quer os cachorros tenham ladrado 0 242
-184 *o gato quer os cachorros terem ladrado 0 249
-185 *o gato quer que os cachorros terem ladrado 0 274
-186 *o gato quer que os cachorros têm ladrado 0 286
-188 *o gato quer os cachorros ter ladrado 0 442
-189 *o gato quer o cachorro terem ladrado 0 207
+178 *o gato detestou que o cachorro tivesse-se latido 0 208
+179 *o gato detestou que o cachorro tivesse latido-se 0 623
+181 *o gato lamenta os cachorros têm ladrado 0 290
+182 *o gato lamenta os cachorros tenham ladrado 0 290
+183 *o gato quer os cachorros tenham ladrado 0 270
+184 *o gato quer os cachorros terem ladrado 0 278
+185 *o gato quer que os cachorros terem ladrado 0 303
+186 *o gato quer que os cachorros têm ladrado 0 318
+188 *o gato quer os cachorros ter ladrado 0 514
+189 *o gato quer o cachorro terem ladrado 0 228
 190 *o gato quer o cachorro ladrado 0 116
 191 *o gato quer o cachorro ladrar 0 173
 192 *o gato quer os cachorros ladrarem 0 134
@@ -58,10 +58,10 @@ True negatives
 197 *o gato perguntou se o cachorro ladrado 0 207
 198 *o gato perguntou se o cachorro ladre 0 217
 199 *o gato perguntou se o cachorro ladrar 0 264
-200 *o gato perguntou se o cachorro tiver ladrado 0 435
-201 *o gato perguntou se o cachorro ter ladrado 0 586
-202 *o gato perguntou se os cachorros terem ladrado 0 340
-203 *o gato perguntou se os cachorros tiverem ladrado 0 333
+200 *o gato perguntou se o cachorro tiver ladrado 0 487
+201 *o gato perguntou se o cachorro ter ladrado 0 670
+202 *o gato perguntou se os cachorros terem ladrado 0 369
+203 *o gato perguntou se os cachorros tiverem ladrado 0 361
 204 *o gato perguntou se os cachorros ladrando 0 211
 205 *o gato perguntou se os cachorros ladrarem 0 225
 209 *o gato ouviu os cachorros latido 0 144
@@ -70,8 +70,8 @@ True negatives
 219 *o gato mandou que os cachorros ladrar 0 241
 223 *o gato mandou que os cachorros ladram 0 196
 224 *o gato mandou que os cachorros latem 0 196
-229 *o gato fez que os cachorros ladram 0 298
-230 *o gato fez que os cachorros latem 0 298
+229 *o gato fez que os cachorros ladram 0 344
+230 *o gato fez que os cachorros latem 0 344
 235 *o gato sabia que os cachorros ladrassem 0 320
 236 *o gato sabia que os cachorros latissem 0 320
 237 *o gato sabe que os cachorros ladrem 0 204
@@ -99,34 +99,34 @@ True negatives
 510 *o cachorro parou a late 0 111
 511 *o artista insistiu em persegue o cachorro 0 165
 512 *os artistas insistiram em perseguirem o cachorro 0 308
-524 *o cachorro tem de obedece a o artista 0 309
-525 *o cachorro tem que obedece a o artista 0 219
-526 *o cachorro tem a obedecer a o artista 0 278
-527 *o cachorro tem em obedecer a o artista 0 275
-547 *a estudante disse a o artista a trazer uma bola 0 1104
-548 *a estudante disse a o artista de trazer uma bola 0 1273
-550 *a estudante disse a os artistas a trazerem uma bola 0 863
-551 *a estudante disse a os artistas de trazerem uma bola 0 993
+524 *o cachorro tem de obedece a o artista 0 337
+525 *o cachorro tem que obedece a o artista 0 265
+526 *o cachorro tem a obedecer a o artista 0 306
+527 *o cachorro tem em obedecer a o artista 0 303
+547 *a estudante disse a o artista a trazer uma bola 0 1156
+548 *a estudante disse a o artista de trazer uma bola 0 1325
+550 *a estudante disse a os artistas a trazerem uma bola 0 915
+551 *a estudante disse a os artistas de trazerem uma bola 0 1045
 553 *o cachorro declarou que o gato lata 0 160
-557 *eu pedi com que ela entregasse a bola a o gato 0 502
+557 *eu pedi com que ela entregasse a bola a o gato 0 504
 558 *eu pedi em que ela entregasse a bola a o gato 0 728
-559 *ela fez em que o gato dormisse 0 408
-560 *ela fez para que o gato dormisse 0 468
-561 *ela insistiu com que o gato dormisse 0 163
+559 *ela fez em que o gato dormisse 0 460
+560 *ela fez para que o gato dormisse 0 520
+561 *ela insistiu com que o gato dormisse 0 165
 583 *eu aprovo que concorro 0 128
 589 *perguntei-me a quem o cachorro estava obedecido 0 325
 590 *perguntei-me de quem o cachorro estava obedecendo 0 547
 591 *os artistas perguntavam-se quem tencionava obedecendo a o estudante 0 130
-592 *as artistas tinham começando a detestar que os cachorros não obedecessem a os estudantes 0 1075
-619 *o gato fez os cachorros ladram 0 272
-620 *o gato fez os cachorros latem 0 272
-621 *o gato fez os cachorros ladra 0 268
-622 *o gato fez os cachorros late 0 268
-623 *a estudante fez os cachorros perseguem a ratazana 0 308
-624 *a estudante fez os cachorros persegue a ratazana 0 298
-625 *o gato fez os cachorros ladrando 0 274
-626 *o gato fez os cachorros latindo 0 272
-627 *a estudante fez os cachorros perseguindo a ratazana 0 308
+592 *as artistas tinham começando a detestar que os cachorros não obedecessem a os estudantes 0 1103
+619 *o gato fez os cachorros ladram 0 318
+620 *o gato fez os cachorros latem 0 318
+621 *o gato fez os cachorros ladra 0 314
+622 *o gato fez os cachorros late 0 314
+623 *a estudante fez os cachorros perseguem a ratazana 0 354
+624 *a estudante fez os cachorros persegue a ratazana 0 344
+625 *o gato fez os cachorros ladrando 0 320
+626 *o gato fez os cachorros latindo 0 318
+627 *a estudante fez os cachorros perseguindo a ratazana 0 354
 True positives
 1 o cachorro latiu 1 34
 2 o cachorro perseguiu o gato 1 69
@@ -134,11 +134,11 @@ True positives
 4 tabaco chegou 1 104
 5 o tabaco chegou 1 128
 6 chegou o tabaco 1 118
-7 o cachorro tem perseguido o gato 1 221
-8 o cachorro tem latido 1 159
+7 o cachorro tem perseguido o gato 1 249
+8 o cachorro tem latido 1 187
 9 o cachorro está perseguindo o gato 1 281
 10 o cachorro está latindo 1 180
-13 o cachorro tem estado perseguindo o gato 1 627
+13 o cachorro tem estado perseguindo o gato 1 781
 15 o cachorro vai latir 1 200
 16 o cachorro quer que o gato lata 2 194
 18 o cachorro acredita que o gato late 2 206
@@ -197,7 +197,7 @@ True positives
 92 artistas amarelas são felizes 22 180
 93 artistas simples são amarelos 22 178
 94 artistas simples são amarelas 22 179
-95 o gato lamenta os cachorros terem ladrado 1 496
+95 o gato lamenta os cachorros terem ladrado 1 569
 97 o gato lamenta os cachorros ladrarem 1 191
 101 o cachorro late 1 34
 103 o cachorro ladra 1 34
@@ -235,18 +235,18 @@ True positives
 146 o artista sorriu 1 54
 147 os artistas sorriram 2 95
 148 os artistas venderam o cachorro 2 245
-149 a porta abriu 1 166
-150 a porta abriu-se 1 104
+149 a porta abriu 1 194
+150 a porta abriu-se 1 106
 151 o gato detesta que os cachorros latam 1 200
 153 o gato detesta que os cachorros ladrem 1 200
-155 o gato detesta que os cachorros tenham latido 1 530
-156 o gato detesta que os cachorros tenham ladrado 1 532
+155 o gato detesta que os cachorros tenham latido 1 606
+156 o gato detesta que os cachorros tenham ladrado 1 608
 157 o gato detesta que os cachorros estejam latindo 1 514
-158 o gato detesta que o cachorro tenha latido 1 632
+158 o gato detesta que o cachorro tenha latido 1 732
 159 o gato detesta que o cachorro esteja latindo 1 631
-162 o gato detestou que o cachorro tenha latido 1 637
+162 o gato detestou que o cachorro tenha latido 1 737
 164 o gato detestava que o cachorro estivesse latindo 1 865
-165 o gato detestou que o cachorro tivesse latido 1 637
+165 o gato detestou que o cachorro tivesse latido 1 737
 166 o gato detestou que o cachorro latisse 1 213
 167 o gato lamenta o cachorro ladrar 1 230
 168 lamento ladrares 1 129
@@ -257,8 +257,8 @@ True positives
 173 ele lamenta ladrar 3 261
 174 os cachorros estão tristes 6 197
 175 o cachorro está triste 6 188
-180 o gato detestou que o cachorro tivesse queixado-se 1 857
-187 o gato quer que os cachorros tenham ladrado 2 518
+180 o gato detestou que o cachorro tivesse queixado-se 1 957
+187 o gato quer que os cachorros tenham ladrado 2 594
 196 o gato quer que os cachorros ladrem 2 186
 206 o gato ouviu os cachorros ladrarem 1 197
 207 o gato ouviu os cachorros latirem 1 195
@@ -273,10 +273,10 @@ True positives
 220 o gato mandou os cachorros latir 1 248
 221 o gato mandou que os cachorros ladrassem 1 234
 222 o gato mandou que os cachorros latissem 1 234
-225 o gato fez que os cachorros ladrassem 2 340
-226 o gato fez que os cachorros latissem 2 340
-227 o gato fez com que os cachorros ladrassem 1 294
-228 o gato fez com que os cachorros latissem 1 294
+225 o gato fez que os cachorros ladrassem 2 386
+226 o gato fez que os cachorros latissem 2 386
+227 o gato fez com que os cachorros ladrassem 1 324
+228 o gato fez com que os cachorros latissem 1 324
 231 o gato sabe que os cachorros ladram 2 246
 232 o gato sabe que os cachorros latem 2 246
 233 o gato sabia que os cachorros ladravam 2 382
@@ -430,12 +430,12 @@ True positives
 395 o cachorro ousou latir 1 120
 396 o cachorro desejou latir 1 165
 397 o cachorro ousou desejar latir 1 559
-398 o cachorro disse que o gato latisse 2 823
-399 os cachorros disseram que o gato latisse 4 897
-401 os cachorros tinham dito que o gato latisse 2 1189
+398 o cachorro disse que o gato latisse 2 908
+399 os cachorros disseram que o gato latisse 4 989
+401 os cachorros tinham dito que o gato latisse 2 1326
 402 o cachorro admitiu que o gato latisse 2 174
 403 o cachorro consentiu que o gato latisse 1 134
-404 o cachorro exigiu que o gato latisse 2 332
+404 o cachorro exigiu que o gato latisse 2 378
 405 o cachorro ordenou que o gato latisse 1 171
 406 o cachorro permitiu que o gato latisse 2 220
 407 o cachorro continua latindo 1 117
@@ -457,9 +457,9 @@ True positives
 423 nós fomos chegando 1 499
 424 eu fui chegando 1 495
 425 eu ia chegando 1 492
-426 os cachorros haviam chegado 1 334
-427 haviam chegado 1 236
-428 o cachorro havia chegado 1 519
+426 os cachorros haviam chegado 1 362
+427 haviam chegado 1 256
+428 o cachorro havia chegado 1 571
 429 o cachorro impediu que o gato perseguisse a ratazana 2 310
 430 o cachorro evitou que o gato perseguisse a ratazana 1 264
 431 cheguei 1 76
@@ -477,7 +477,7 @@ True positives
 443 o artista ignora se os cachorros andam perseguindo os gatos 1 566
 444 o artista ignora se os cachorros querem perseguir os gatos 1 657
 445 o artista ignora quais gatos os cachorros querem perseguir 1 353
-446 o artista ignora quem tem perseguido os gatos 1 295
+446 o artista ignora quem tem perseguido os gatos 1 315
 447 o artista ignora quem está perseguindo os gatos 1 313
 448 o artista sabe quem está perseguindo os gatos 1 375
 449 quem está perseguindo os gatos 1 195
@@ -485,11 +485,11 @@ True positives
 451 o artista não sabe quem quer perseguir os gatos 1 527
 452 quem quer perseguir os gatos 1 227
 453 quem não quer perseguir os gatos 1 307
-454 o cachorro exigiu que o gato não latisse 2 352
-455 o artista exigiu que o cachorro não perseguisse o gato 2 547
-456 o gato não tem conseguido dormir 1 550
-457 o gato tem conseguido dormir 1 382
-458 o gato tem precisado dormir 1 338
+454 o cachorro exigiu que o gato não latisse 2 398
+455 o artista exigiu que o cachorro não perseguisse o gato 2 593
+456 o gato não tem conseguido dormir 1 594
+457 o gato tem conseguido dormir 1 410
+458 o gato tem precisado dormir 1 366
 459 o gato está precisando dormir 1 463
 460 o gato está tentando dormir 1 637
 461 o gato está conseguindo dormir 1 546
@@ -501,9 +501,9 @@ True positives
 467 o gato vai conseguir dormir 1 613
 469 o gato não vai tentar dormir 1 924
 470 o gato não vai conseguir dormir 1 781
-471 os cachorros não haviam chegado 1 494
-472 os cachorros não haviam tentado dormir 1 566
-473 não haviam chegado 1 396
+471 os cachorros não haviam chegado 1 538
+472 os cachorros não haviam tentado dormir 1 610
+473 não haviam chegado 1 432
 474 o cachorro está querendo perseguir o gato 1 795
 475 o cachorro está desejando perseguir o gato 1 795
 476 o cachorro vai querer perseguir o gato 1 727
@@ -527,28 +527,27 @@ True positives
 494 o estudante perguntou quem estava obedecendo a o artista 1 511
 513 o cachorro vai começar a latir 1 697
 514 o cachorro vai querer começar a latir 1 1434
-515 o cachorro tinha começado a latir 1 653
-516 o cachorro tem insistido em começar a latir 1 1287
-517 o cachorro tinha parado de latir 1 833
+515 o cachorro tinha começado a latir 1 705
+516 o cachorro tem insistido em começar a latir 1 1315
+517 o cachorro tinha parado de latir 1 885
 519 o cachorro está parando de latir 1 808
 520 o cachorro vai parar de latir 1 898
-522 o cachorro tem de obedecer a o artista 1 491
-523 o cachorro tem que obedecer a o artista 1 415
-528 o artista contou a o estudante que o gato tinha matado uma ratazana 1 876
+522 o cachorro tem de obedecer a o artista 1 519
+523 o cachorro tem que obedecer a o artista 1 461
+528 o artista contou a o estudante que o gato tinha matado uma ratazana 1 1005
 529 o gato prefere dormir 1 188
 530 a estudante impediu o artista de matar a ratazana 2 583
 531 a estudante obrigou o artista a matar a ratazana 2 505
 532 a estudante proibiu o artista de matar a ratazana 2 583
 533 a estudante forçou o artista a matar a ratazana 2 395
 534 a estudante persuadiu o artista a matar a ratazana 2 361
-535 a estudante convenceu o artista a matar a ratazana 2 458
+535 a estudante convenceu o artista a matar a ratazana 2 504
 537 a artista prometeu a o estudante matar a ratazana 1 393
 538 a artista prometeu matar a ratazana 1 448
 539 a artista planeja matar a ratazana 1 260
 540 a artista tenciona matar a ratazana 1 240
-544 a estudante disse a o artista para trazer uma bola 2 1743
-545 a estudante disse a os artistas para trazerem uma bola 1 1254
-546 a estudante disse a os artistas para trazer uma bola 1 1499
+545 a estudante disse a os artistas para trazerem uma bola 1 1306
+546 a estudante disse a os artistas para trazer uma bola 1 1551
 554 o cachorro afirmou que o gato late 2 187
 555 ele vai entregar a bola a o gato 2 968
 556 eu pedi para que ela entregasse a bola a o gato 2 1616
@@ -557,22 +556,22 @@ True positives
 565 nós vamos entregar o cachorro para o artista 4 1375
 566 será que eles irão entregar o cachorro para o artista 5 1835
 567 não sei o que eles entregavam para o artista 1 554
-568 o artista contou para o estudante que o gato tinha matado uma ratazana 1 1285
+568 o artista contou para o estudante que o gato tinha matado uma ratazana 1 1486
 569 a artista prometeu para o estudante matar a ratazana 1 643
 571 ele vai entregar a bola para o gato 3 1598
 573 eu autorizei os alunos a que escrevessem a carta 2 985
 574 eu autorizei os alunos a escreverem a carta 2 656
 575 eu autorizei os alunos a escrever a carta 2 1032
 576 eu autorizei que os alunos escrevessem a carta 2 603
-577 eu aprovo que tu tenhas concorrido 1 521
-578 eu aprovo que tenhas concorrido 1 841
-579 eu aprovo tu teres concorrido 1 483
-580 eu aprovo teres concorrido 1 768
+577 eu aprovo que tu tenhas concorrido 1 585
+578 eu aprovo que tenhas concorrido 1 951
+579 eu aprovo tu teres concorrido 1 546
+580 eu aprovo teres concorrido 1 872
 584 o João insistiu em que os alunos acabassem o trabalho 1 596
 585 o João insistiu em acabar o trabalho 1 614
 586 perguntei-me a quem o cachorro estava obedecendo 1 410
 587 os artistas perguntavam-se quem tencionava obedecer a o estudante 1 326
-588 as artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes 1 1757
+588 as artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes 1 1785
 593 o artista perguntou a o estudante quem perseguiu o gato 1 234
 594 o artista perguntou a o estudante quem o cachorro perseguiu 1 221
 595 o artista perguntou a o estudante que cachorro perseguiu o gato 1 282
@@ -593,18 +592,30 @@ True positives
 610 o artista perguntou a o estudante quais ratazanas o cachorro perseguiu 1 249
 611 o artista perguntou a o estudante quais ratazanas os cachorros perseguiram 2 293
 612 o artista perguntou a o estudante se o cachorro perseguiu o gato 1 389
-613 o gato fez os cachorros ladrarem 1 325
-614 o gato fez os cachorros latirem 1 323
-615 o gato fez os cachorros ladrar 1 356
-616 o gato fez os cachorros latir 1 350
-617 a estudante fez os cachorros perseguirem a ratazana 1 415
-618 a estudante fez os cachorros perseguir a ratazana 1 472
+613 o gato fez os cachorros ladrarem 1 371
+614 o gato fez os cachorros latirem 1 369
+615 o gato fez os cachorros ladrar 1 402
+616 o gato fez os cachorros latir 1 396
+617 a estudante fez os cachorros perseguirem a ratazana 1 461
+618 a estudante fez os cachorros perseguir a ratazana 1 518
 628 ele deixou os cachorros saírem 1 475
 629 ele deixou os cachorros sair 1 650
 630 ele deixou os cachorros perseguirem a ratazana 1 290
 631 ele deixou os cachorros perseguir a ratazana 1 347
 632 esse imposto incide sobre a renda 1 155
-633 aqueles impostos incidiam sobre o consumo 1 148
+633 aqueles impostos incidiam sobre o consumo 1 168
+634 o artista dividiu a cena com a estudante 1 226
+635 tive de dividir os alunos em grupos 4 1829
+636 ele ficou de discutir a questão com a professora 1 740
+637 eles querem revestir o piso com madeira 1 565
+638 comentei os beijos com uma amiga 1 125
+639 as aulas combinam teoria com prática 1 162
+640 os hospitais consumiam uma fortuna com internações 1 148
+641 ele trocaria a preocupação por a descontração 1 196
+642 ele culpou o artista de homicídio 1 384
+643 o juiz converteu a prisão em multa 4 251
+644 o jogador falou uma bobagem sobre o time 1 314
+645 o país passou de euforia para depressão 4 688
 False positives
 99 *os cachorros ladrarem 1 54
 100 *o cachorro ladrar 1 93
@@ -613,7 +624,7 @@ False positives
 107 *os cachorros admirarem o gato 1 107
 193 *o gato quer que o cachorro ladrar 2 241
 194 *o gato quer que os cachorros ladrarem 2 202
-552 *a estudante disse a os artistas que trazerem uma bola 1 1656
+552 *a estudante disse a os artistas que trazerem uma bola 1 1708
 581 *eu aprovo eu concorrer 1 264
 582 *eu aprovo concorrer 2 420
 False negatives

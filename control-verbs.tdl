@@ -61,6 +61,10 @@ gostar_2 := de-inf-comp-trans-first-arg-control-verb-lex &
   [ STEM < "gostar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gostar_v_2_rel" ].
 
+ficar_4 := de-inf-comp-trans-first-arg-control-verb-lex &
+  [ STEM < "ficar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ficar_v_4_rel" ].
+
 insistir_4 := em-inf-comp-trans-first-arg-control-verb-lex &
   [ STEM < "insistir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_insistir_v_4_rel" ].

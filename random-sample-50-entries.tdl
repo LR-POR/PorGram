@@ -12,6 +12,7 @@
 ;PRI  Dicionário Priberam da Língua Portuguesa (DPLP) https://dicionario.priberam.org/
 ;VER Cançado, M; Amaral, L.; Meirelles, L. 2017. VerboWeb: classificação sintático-semântica dos verbos do português brasileiro. Banco de dados lexicais. UFMG. Disponível em: http://www.letras.ufmg.br/verboweb.
 ;AUR Ferreira, Aurélio Buarque de Holanda. Novo diciuonário da língua portuguesa. 2. ed. Rio de Janeiro: Nova Fronteira, 1986.;VEB Verbo-Brasil http://143.107.183.175:12680/verbobrasil/index.php?lang=pt-br 
+;HLB Helbig, G. / Schenkel, W. (1991). Wörterbuch zur Valenz und Distribution deutscher Verben. 8. ed. Tübingen, Niemeyer. (1. ed. Leipzig, Bibliographisches Institut, 1969.)
 
 ; Entries with wrong types are assigned an ERROR tag, followed by an explanation of the error source and/or the correct target type.
 

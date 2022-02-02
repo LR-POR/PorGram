@@ -2,13 +2,106 @@ bola := fem-noun-lex &
   [ STEM < "bola" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bola_n_rel" ].
 
+país := masc-noun-lex &
+  [ STEM < "país" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_país_n_rel" ].
+
+euforia := fem-noun-lex &
+  [ STEM < "euforia" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_euforia_n_rel" ].
+
+depressão := fem-noun-lex &
+  [ STEM < "depressão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_depressão_n_rel" ].
+
+jogador := masc-noun-lex &
+  [ STEM < "jogador" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_jogador_n_rel" ].
+
+bobagem := fem-noun-lex &
+  [ STEM < "bobagem" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bobagem_n_rel" ].
+
+time := masc-noun-lex &
+  [ STEM < "time" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_time_n_rel" ].
+
+
+juiz := masc-noun-lex &
+  [ STEM < "juiz" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_juiz_n_rel" ].
+
+prisão := fem-noun-lex &
+  [ STEM < "prisão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_prisão_n_rel" ].
+
+multa := fem-noun-lex &
+  [ STEM < "multa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_multa_n_rel" ].
+
+cena := fem-noun-lex &
+  [ STEM < "cena" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cena_n_rel" ].
+
 renda := fem-noun-lex &
   [ STEM < "renda" >,
     SYNSEM.LKEYS.KEYREL.PRED "_renda_n_rel" ].
 
+questão := fem-noun-lex &
+  [ STEM < "questão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_questão_n_rel" ].
+
 imposto := masc-noun-lex &
   [ STEM < "imposto" >,
     SYNSEM.LKEYS.KEYREL.PRED "_imposto_n_rel" ].
+
+grupo := masc-noun-lex &
+  [ STEM < "grupo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_grupo_n_rel" ].
+
+piso := masc-noun-lex &
+  [ STEM < "piso" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_piso_n_rel" ].
+
+beijo := masc-noun-lex &
+  [ STEM < "beijo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_beijo_n_rel" ].
+
+madeira := fem-noun-lex &
+  [ STEM < "madeira" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_madeira_n_rel" ].
+
+aula := fem-noun-lex &
+  [ STEM < "aula" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_aula_n_rel" ].
+    
+teoria := fem-noun-lex &
+  [ STEM < "teoria" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_teoria_n_rel" ].
+    
+prática := fem-noun-lex &
+  [ STEM < "prática" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_prática_n_rel" ].
+
+preocupação := fem-noun-lex &
+  [ STEM < "preocupação" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_preocupação_n_rel" ].
+
+descontração := fem-noun-lex &
+  [ STEM < "descontração" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_descontração_n_rel" ].
+
+fortuna := fem-noun-lex &
+  [ STEM < "fortuna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fortuna_n_rel" ].
+
+internação := fem-noun-lex &
+  [ STEM < "internação" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_internação_n_rel" ].
+
+hospital := masc-noun-lex &
+  [ STEM < "hospital" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hospital_n_rel" ].
 
 consumo := masc-noun-lex &
   [ STEM < "consumo" >,
@@ -93,6 +186,10 @@ verba := fem-noun-lex &
 governo := masc-noun-lex &
   [ STEM < "governo" >,
     SYNSEM.LKEYS.KEYREL.PRED "_governo_n_rel" ].
+
+homicídio := masc-noun-lex &
+  [ STEM < "homicídio" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_homicídio_n_rel" ].
 
 preço := masc-noun-lex &
   [ STEM < "preço" >,

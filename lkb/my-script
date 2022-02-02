@@ -66,6 +66,11 @@
 			(lkb-pathname (parent-directory) "control-verbs.tdl")
 			(lkb-pathname (parent-directory) "my-nouns.tdl")
 			(lkb-pathname (parent-directory) "my-cl-compl-verbs.tdl")
+			(lkb-pathname (parent-directory) "random-sample-50-entries.tdl")
+			(lkb-pathname (parent-directory) "random-sample-156-entries.tdl")
+			(lkb-pathname (parent-directory) "random-sample-206-entries.tdl")
+			(lkb-pathname (parent-directory) "sample-1647-entries.tdl")
+		        (lkb-pathname (parent-directory) "new-ditrans.tdl")
 			))
 ;@end
 ;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
