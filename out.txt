@@ -632,7 +632,7 @@
 632 esse imposto incide sobre a renda 1 155
 633 aqueles impostos incidiam sobre o consumo 1 168
 634 o artista dividiu a cena com a estudante 1 226
-635 tive de dividir os alunos em grupos 4 1829
+635 tive de dividir os alunos em grupos 2 1499
 636 ele ficou de discutir a questão com a professora 1 740
 637 eles querem revestir o piso com madeira 1 565
 638 comentei os beijos com uma amiga 1 125
@@ -643,7 +643,18 @@
 643 o juiz converteu a prisão em multa 4 251
 644 o jogador falou uma bobagem sobre o time 1 314
 645 o país passou de euforia para depressão 4 688
+646 reparei em a bandeira 1 92
+647 será que ela está pensando em mim 2 1400
+648 ele caiu em o ostracismo 1 149
+649 eles não conseguiram acabar com a pobreza 2 872
+650 os clientes poderão servir-se de o ravióli 1 413
+651 ele referia-se a um longo telefonema 2 94
+652 depararam-se com uma estranha normalidade 4 137
+653 o regime caracterizava-se por a austeridade 1 79
+654 o jogador integrou-se em as movimentações 1 115
+655 eles têm contribuído para que o artista não caia em o esquecimento 1 2073
+656 ela responde por o pagamento 1 118
 
-;;; Total CPU time: 45074 msecs
-;;; Mean edges: 321.29
-;;; Mean parses: 1.67
+;;; Total CPU time: 44906 msecs
+;;; Mean edges: 323.85
+;;; Mean parses: 1.66

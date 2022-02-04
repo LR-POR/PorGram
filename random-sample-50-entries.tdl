@@ -15,6 +15,7 @@
 ;HLB Helbig, G. / Schenkel, W. (1991). Wörterbuch zur Valenz und Distribution deutscher Verben. 8. ed. Tübingen, Niemeyer. (1. ed. Leipzig, Bibliographisches Institut, 1969.)
 
 ; Entries with wrong types are assigned an ERROR tag, followed by an explanation of the error source and/or the correct target type.
+; Corrected entries are assigned a CORR tag 
 
 ; A máquina acabou em pedaços. (Perini 2019) (PP is Quality)
 ; Ana acabou no hospital. (Perini 2019) (PP is goal)

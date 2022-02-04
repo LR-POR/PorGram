@@ -457,7 +457,8 @@ salvar_v2 := nom-acc-gen-ditransitive-verb-lex & ; AUL
 ; pronominal verb (FER) 
 ; 2. Salvar(-se) ou safar(-se) de embaraço, perigo, dificuldade etc. [tdr. + de : Conseguiu livrar -se das multas: o acordo que livrou o deputado de perder seu mandato: Livrar -se de um mal/de uma acusação] (AUL)
 ; annotation error: clitic pronoun is accusative, not dative
-livrar_v2 := nom-gen-dat-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
+; livrar_v2 := nom-gen-dat-ditransitive-verb-lex & ; ERROR:refl-gen-obj-verb-lex
+livrar_v2 := refl-gen-obj-verb-lex & ; CORR
   [ STEM < "livrar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_livrar_v_2_rel" ]
   """

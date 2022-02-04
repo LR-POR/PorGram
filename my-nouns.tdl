@@ -213,4 +213,48 @@ mim := prep-pers-pron-1s-noun-lex &
 
 ti := prep-pers-pron-2s-noun-lex &
   [ STEM < "ti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].bandeira := fem-noun-lex &
+  [ STEM < "bandeira" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bandeira_n_rel" ].
+
+ostracismo := masc-noun-lex &
+  [ STEM < "ostracismo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ostracismo_n_rel" ].
+
+pobreza := fem-noun-lex &
+  [ STEM < "pobreza" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pobreza_n_rel" ].
+
+ravióli := masc-noun-lex &
+  [ STEM < "ravióli" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ravióli_n_rel" ].
+
+
+telefonema := masc-noun-lex &
+  [ STEM < "telefonema" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_telefonema_n_rel" ].
+
+normalidade := fem-noun-lex &
+  [ STEM < "normalidade" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_normalidade_n_rel" ].
+
+regime := masc-noun-lex &
+  [ STEM < "regime" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_regime_n_rel" ].
+
+austeridade := fem-noun-lex &
+  [ STEM < "austeridade" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_austeridade_n_rel" ].
+
+esquecimento := masc-noun-lex &
+  [ STEM < "esquecimento" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_esquecimento_n_rel" ].
+
+pagamento := masc-noun-lex &
+  [ STEM < "pagamento" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pagamento_n_rel" ].
+
+movimentação := fem-noun-lex &
+  [ STEM < "movimentação" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_movimentação_n_rel" ].
+

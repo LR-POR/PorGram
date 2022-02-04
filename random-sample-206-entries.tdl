@@ -135,7 +135,8 @@ dizer_10 := ind-cl-verb-lex & ; BOR
   """
   Vasco diz que não fez seguro para Dener
   """.
-; pronominal verb (PRI, HOU)  
+; pronominal verb (PRI, HOU, AUL)
+; 4. Direcionar(-se) para um mesmo ponto; reunir(-se) em torno de um ponto central. [tr. + em : As discussões centraram -se no referendo.] [tdr. + em : O enfermeiro centrava sua atenção no paciente: Para a pesquisa, centrei -me na consulta de jornais da época.] (AUL)
 ; annotation of past participle of pronominal verb represents source of error for valence extraction
 centrar_1 := nonrefl-ine-obj-verb-lex & ; ERROR:refl-ine-obj-verb-lex
   [ STEM < "centrar" >,
@@ -165,6 +166,9 @@ elevar_1 := nom-acc-goa-ditransitive-verb-lex & ; FER
   Segundo os produtores, o incentivo à pesquisa elevará este desempenho para 2.400 kg/ha.
   """. 
 ; transitive-relative verb (FER)
+; 2. P.ext. Pôr ou dispor algo extenso, ou várias coisas ou pessoas, em torno de (um lugar, um objeto), para proteger, adornar, delimitar etc. [tdr. + de, com : Cercou a mansão de / com seguranças: cercar o lago com pedrinhas.] (AUL)
+; - Estrutura sintática básica: [SN V SN (SP)] (verbo bitransitivo)
+;- Estrutura de papéis temáticos: {Causa ou Agente, Paciente, (Instrumento)} (VER)
 cercar_2 := nonrefl-gen-obj-verb-lex & ; ERROR:nom-acc-gen-verb-lex
   [ STEM < "cercar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_cercar_v_2_rel" ]
@@ -226,7 +230,7 @@ destacar_2 := refl-int-verb-lex & ; BOR
   [ STEM < "destacar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_destacar_v_2_rel" ]
   """
-  Importados pela Céramus, os pisos de uso comercial (para hotéis e shopping centers) destacam-se pela grande resistência.
+  Importados pela Céramus, os pisos de uso comercial (para hotéis e shopping centers) destacam-se pela@obl@ grande resistência.
   """. 
 
 exigir_6 := nom-acc-dat-ditransitive-verb-lex & ; FER
@@ -249,7 +253,7 @@ desviar_1 := trans-verb-lex & ; POR
   """
   Eles desviaram quatro toneladas da carga.
   """. 
-; passive "se" incorrectly annotade as expletive
+; passive "se" incorrectly annotaded as expletive
 construir_2 := refl-int-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "construir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_construir_v_2_rel" ]
@@ -264,11 +268,13 @@ desempatar_1 := trans-verb-lex & ; MIC
   Foi quando John Konkac marcou os dois lances livres que desempataram o jogo, e de seguida impediu que os Magic chegassem ao cesto, obrigando-os a um «turnover».
   """. 
 ; com-PP is not a complement (BOR)
+;- Estrutura sintática básica: [SN V] (verbo intransitivo)
+;- Estrutura de papéis temáticos: {Agente} (VER)
 passear_2 := nonrefl-com-obj-verb-lex & ; ERROR:nonrefl-int-verb-lex
   [ STEM < "passear" >,
     SYNSEM.LKEYS.KEYREL.PRED "_passear_v_2_rel" ]
   """
-  Brito ofereceu a Ivic -- que vinha acompanhado pelo empresário Luciano d'Onófrio -- um convite para o seu camarote na Luz e, antes do início do encontro, passeou com@obl@ ele pelas instalações do estádio, servindo de cicerone ao treinador e ao ex-empresário do FC Porto.»
+  Brito ofereceu a Ivic -- que vinha acompanhado pelo empresário Luciano d'Onófrio -- um convite para o seu camarote na Luz e, antes do início do encontro, passeou com@obj:com->obl@ ele pelas instalações do estádio, servindo de cicerone ao treinador e ao ex-empresário do FC Porto.»
   """. 
 
 ressalvar_1 := ind-cl-verb-lex & ; BOR
@@ -327,6 +333,10 @@ banir_1 := trans-verb-lex & ; MIC
   Grã-Bretanha quer banir açúcar artificial
   """. 
 ; reciprocal reflexive pronoun incorrectly annotaded as an expletive
+; there is a pronominal variant of this verb
+;- Estrutura sintática básica: [SN V SN] (verbo transitivo)
+;- Estrutura de papéis temáticos: {Estímulo, Experienciador}
+; - Licencia a inversão do argumento Experienciador: O José se incomodou com a voz esganiçada daquela mulher.
 incomodar_2 := refl-int-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "incomodar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_incomodar_v_2_rel" ]
@@ -565,7 +575,7 @@ ir_4 := trans-verb-lex & ; ERROR:refl-int-verb-lex
   """
   O homem insiste, meio zonzo, a patroa não cede e ele acaba por ir-se em grande dificuldade.
   """. 
-; a source or directional PP is a compleemtn of the pronominal verb variant (BOR) 
+; a source or directional PP is a complement of the pronominal verb variant (BOR) 
 mandar_5 := refl-int-verb-lex & ; ERROR:refl-nom-goa-verb-lex (TODO)
   [ STEM < "mandar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_mandar_v_5_rel" ]
@@ -755,7 +765,7 @@ impor_2 := refl-int-verb-lex & ; MIC
   """
   O respeito que se impõe.
   """. 
-; "batizar" in teh construction of the example is a ditranstive verb with a predicative complement (BOR)
+; "batizar" in the example is a ditranstive verb with a predicative complement (BOR)
 rebatizar_1 := trans-verb-lex & ; ERROR
   [ STEM < "rebatizar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_rebatizar_v_1_rel" ]
@@ -799,9 +809,10 @@ poupar_2 := refl-int-verb-lex & ; BOR
   """. 
 ; anotation error: lemmatization
 ; correct lemma: "despedaçar"
-despedacer_1 := refl-int-verb-lex & ; FER
-  [ STEM < "despedacer" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_despedacer_v_1_rel" ]
+; despedacer_1 := refl-int-verb-lex & 
+despedaçar_1 := refl-int-verb-lex & ; FER
+  [ STEM < "despedaçar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_despedaçar_v_1_rel" ]
   """
   Aliás, há no poema uma alusão explícita à cor («brancos os arcos», para não falar na implícita dos «alabastros» e dos «blocos de gelos») e várias imagens cinéticas: «de que esvoaçam», «por baixo passam», «se despedaçam», «caudais de choro», «trémulos astros» ...
   """. 
@@ -821,11 +832,12 @@ atirar_2 := nom-acc-dat-ditransitive-verb-lex & ; BOR
   """. 
 ; orthographic error in corpus
 ; correct form and lemma: "comprimimos" and "comprimir"
-cumprimir_1 := trans-verb-lex & ; MIC
-  [ STEM < "cumprimir" >,
+; cumprimir_1 := trans-verb-lex & ; 
+comprimir_1 := trans-verb-lex & ; MIC
+  [ STEM < "comprimir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_cumprimir_v_1_rel" ]
   """
-  «Se nós cumprimimos a matéria, não deixamos os quarks distanciarem-se o suficiente para produzirem o Psi», explica Paula Bordalo.
+  «Se nós <choice><sic>cumprimimos</sic><corr>comprimimos</corr></choice>  a matéria, não deixamos os quarks distanciarem-se o suficiente para produzirem o Psi», explica Paula Bordalo.
   """. 
 
 comprar_1 := trans-verb-lex & ; MIC
@@ -864,7 +876,7 @@ insistir_5 := nonrefl-ine-obj-verb-lex & ; FER
   """
   ANC insiste num Governo de transição
   """. 
-; error of valence extraction script (expansion of null subject frame leads to incorrect results)
+; error of valence extraction script (expansion of null subject frame leads to incorrect results with impersonal verbs)
 haver_4 := trans-verb-lex & ; ERROR:verb with expltive null subject
   [ STEM < "haver" >,
     SYNSEM.LKEYS.KEYREL.PRED "_haver_v_4_rel" ]
@@ -941,8 +953,8 @@ produzir_1 := trans-verb-lex & ; AUL
   """
   Argentina produz mais petróleo
   """. 
-; error of valence extraction script (expansion of null subject frame leads to incorrect results)
-parecer_5 := que-subj-cl-verb-lex & ; ERROR::verb with expltive null subject
+; error of valence extraction script (expansion of null subject frame leads to incorrect results with impersonal verbs)
+parecer_5 := que-subj-cl-verb-lex & ; ERROR::verb with expletive null subject
   [ STEM < "parecer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_parecer_v_5_rel" ]
   """
@@ -1054,7 +1066,7 @@ parecer_3 := nonrefl-com-obj-verb-lex & ; PER19
   Talvez por isso a São Paulo de «Anjos da Noite» pareça com qualquer lugar do mundo.
   """. 
 ; locative PP is a complement (BOR)
-colocar_1 := trans-verb-lex & ; ERROR:nom-acc-ine-ditransitive-verb-lex (TODO)
+colocar_1 := trans-verb-lex & ; ERROR:nom-acc-ine-ditransitive-verb-lex (TODO) (DONE)
   [ STEM < "colocar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_colocar_v_1_rel" ]
   """
@@ -1067,7 +1079,13 @@ reparar_1 := nonrefl-ine-obj-verb-lex & ; FER
   """
   Outro dia reparei numa bandeira hasteada no passeio em frente.
   """. 
-; para-PP is a complement (BOR)
+; para-PP is a complement (BOR,VEB)
+; obl in UD maps to argument in HPSG
+; http://143.107.183.175:21380/verbobrasil/textoFrames/transferir-v.html
+; Arg0: agente que faz a transferência (vnrole: 11.1-agent, 13.2-agent)
+; Arg1: coisa transferida (vnrole: 11.1-theme, 13.2-theme)
+; Arg2: novo proprietário ou lugar (transferir a, transferir para) ou as duas partes (transferir entre) (vnrole: ; 11.1-destination, 13.2-recipient)
+; Arg3: antigo proprietário ou lugar (transferir de) (vnrole: 11.1-source)
 transferir_3 := refl-int-verb-lex & ; ERROR:refl-goa-obj-verb-lex
   [ STEM < "transferir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_transferir_v_3_rel" ]
@@ -1132,7 +1150,7 @@ responder_4 := nonrefl-per-obj-verb-lex & ; FER
   Do volume de protestos, a região Sudeste respondeu por 39,1% do total e a Sul, 23,5%.
   """. 
 ; a-PP or para-PP is a complement of the ditransitive variant (FER)
-transferir_2 := trans-verb-lex & ; ERROR:nom-acc-goa-ditransitive-verb-lex
+transferir_2 := trans-verb-lex & ; ERROR:nom-acc-goa-ditransitive-verb-lex (TODO collapse transferir_2 and transferir_3) 
   [ STEM < "transferir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_transferir_v_2_rel" ]
   """
@@ -1209,7 +1227,7 @@ demonstrar_2 := trans-verb-lex & ; POR
   """. 
 ; pronominal verb (FER), no pronominal verb (BOR)
 ; possible annotation error: reflexive is an expletive, not a true obj 
-interrogar_1 := trans-verb-lex & ; ERROR:refl-quest-verb-lex
+interrogar_1 := trans-verb-lex & ; ERROR:refl-quest-verb-lex (TODO collapse interrogar_1 and interrogar_2)
   [ STEM < "interrogar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_interrogar_v_1_rel" ]
   """
@@ -1312,7 +1330,7 @@ entreter_1 := refl-int-verb-lex & ; BOR
   Um americano de 43 anos, John Esposito, que se entretinha a sequestrar crianças numa cela metálica enterrada no jardim da sua casa em Nova Iorque, que vigiava através de circuitos internos de vídeo, entrega-se à polícia.
   """. 
 ; relative verb (FER)
-; annotation error: "carraugem" is an inverted subject
+; annotation error: "carruagem" is an inverted subject
 chegar_2 := trans-verb-lex & ; ERROR:nonrefl-dat-obj-verb-lex
   [ STEM < "chegar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_chegar_v_2_rel" ]
@@ -1340,7 +1358,8 @@ aceder_1 := nonrefl-dat-obj-verb-lex & ; AUL
   """
   Se a Federação Internacional do Automóvel, que já aprovou os planos de alteração ao circuito, aceder aos sonhos dos chineses, estes garantem a presença de 200 mil espectadores.
   """.
-; indirect transitive verb (MIC), relative verb (FER) 
+; indirect transitive verb (MIC), relative verb (FER)
+; 37. Entregar-se a práticas ou atividades que, para determinados padrões éticos ou sociais, representam degradação moral ou comportamental [tr. + em : cair na prostituição: Assim que nomeados, caíram em desenfreada corrupção.] (AUL)
 ; locative PP is not a complement for BOR and PER19:
 ;C4	VSubj>Patient      V						
 ;
@@ -1349,7 +1368,6 @@ aceder_1 := nonrefl-dat-obj-verb-lex & ; AUL
 ;
 ;	O preço da carne caiu um pouco.
 ;		‘the price of meat fell a little’
-
 cair_1 := nonrefl-ine-obj-verb-lex & ; AUL, FER, MIC
   [ STEM < "cair" >,
     SYNSEM.LKEYS.KEYREL.PRED "_cair_v_1_rel" ]
