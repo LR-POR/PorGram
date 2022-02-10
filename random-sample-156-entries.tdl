@@ -1106,8 +1106,8 @@ traduzir_3 := refl-int-verb-lex & ; ERROR:refl-per-obj-verb-lex
   """
   A administração sempre foi bastante conservadora nas suas aplicações de capital, que se traduzem principalmente por investimentos no sector do petróleo e pela gestão de uma carteira de títulos no valor de dois biliões de dólares nos Estados Unidos, composta por acções e obrigações.
   """. 
-; Annotation error: reflexive is a pronominalized (referential) direct object of the causative verb "fazer".
-; It is not an expletive, i.e., this is not a pronominal verb: "passar por", paraphrased as "ser tido, reputado como" (FER)
+; annotation error: reflexive is a pronominalized (referential) direct object of the causative verb "fazer"
+; it is not an expletive, i.e., this is not a pronominal verb: "passar por", paraphrased as "ser tido, reputado como" (FER)
 passar_2 := refl-per-obj-verb-lex & ; ERROR:nonrefl-per-obj-verb-lex
   [ STEM < "passar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_passar_v_2_rel" ]

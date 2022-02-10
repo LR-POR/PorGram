@@ -15,9 +15,11 @@ afunilar_1 := trans-verb-lex & ; MIC, BOR
   """
   Na sua opinião, Manuel Martins, que é também líder da Concelhia do PSD local e que agora se apresenta novamente como candidato à Câmara, «afunilou o PSD» a nível local e «não está à altura de conduzir este partido para o futuro».
   """. 
-; annotation error: no active form, passive participle without auxiliary
-; two complements (BOR)
-subordinar_1 := nonrefl-dat-obj-verb-lex & ; ERROR:nom-acc-dat-obj-verb-lex
+; annotation error: no active form, passive participle without auxiliary OR
+; past participle of pronominal verb
+; annotation of past participle of pronominal verb represents source of error for valence extraction
+; two complements (direct object and a-PP) or pronominal verb governing an a-PP (BOR)
+subordinar_1 := nonrefl-dat-obj-verb-lex & ; ERROR:nom-acc-dat-obj-verb-lex OR refl-dat-obj-verb-lex
   [ STEM < "subordinar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_subordinar_v_1_rel" ]
   """
@@ -877,7 +879,7 @@ insistir_5 := nonrefl-ine-obj-verb-lex & ; FER
   ANC insiste num Governo de transição
   """. 
 ; error of valence extraction script (expansion of null subject frame leads to incorrect results with impersonal verbs)
-haver_4 := trans-verb-lex & ; ERROR:verb with expltive null subject
+haver_4 := trans-verb-lex & ; ERROR:verb with expletive null subject
   [ STEM < "haver" >,
     SYNSEM.LKEYS.KEYREL.PRED "_haver_v_4_rel" ]
   """
@@ -954,7 +956,7 @@ produzir_1 := trans-verb-lex & ; AUL
   Argentina produz mais petróleo
   """. 
 ; error of valence extraction script (expansion of null subject frame leads to incorrect results with impersonal verbs)
-parecer_5 := que-subj-cl-verb-lex & ; ERROR::verb with expletive null subject
+parecer_5 := que-subj-cl-verb-lex & ; ERROR:verb with expletive null subject
   [ STEM < "parecer" >,
     SYNSEM.LKEYS.KEYREL.PRED "_parecer_v_5_rel" ]
   """

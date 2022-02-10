@@ -11,8 +11,9 @@
 ;HOU Dicionário Houaiss da Língua Portuguesa
 ;PRI  Dicionário Priberam da Língua Portuguesa (DPLP) https://dicionario.priberam.org/
 ;VER Cançado, M; Amaral, L.; Meirelles, L. 2017. VerboWeb: classificação sintático-semântica dos verbos do português brasileiro. Banco de dados lexicais. UFMG. Disponível em: http://www.letras.ufmg.br/verboweb.
-;AUR Ferreira, Aurélio Buarque de Holanda. Novo diciuonário da língua portuguesa. 2. ed. Rio de Janeiro: Nova Fronteira, 1986.;VEB Verbo-Brasil http://143.107.183.175:12680/verbobrasil/index.php?lang=pt-br 
+;AUR Ferreira, Aurélio Buarque de Holanda. Novo dicionário da língua portuguesa. 2. ed. Rio de Janeiro: Nova Fronteira, 1986.;VEB Verbo-Brasil http://143.107.183.175:12680/verbobrasil/index.php?lang=pt-br 
 ;HLB Helbig, G. / Schenkel, W. (1991). Wörterbuch zur Valenz und Distribution deutscher Verben. 8. ed. Tübingen, Niemeyer. (1. ed. Leipzig, Bibliographisches Institut, 1969.)
+; Lopes, Ana Cristina Macário; Carapinha, Conceição. Por outras palavras e digamos: marcadores de reformulação? Revista Galega de Filoloxía, 2017, 18: 115-131 DOI: https://doi.org/10.17979/rgf.2017.18.0.3183
 
 ; Entries with wrong types are assigned an ERROR tag, followed by an explanation of the error source and/or the correct target type.
 ; Corrected entries are assigned a CORR tag 
@@ -374,7 +375,11 @@ reconciliar_1 := trans-verb-lex & ; ERROR:nom-acc-com-ditransitive-verb-lex (TOD
   """
   O «efeito Garzón», a inclusão na lista de Madrid do magistrado que mais reconciliou os espanhóis com@obj?@ a Justiça, não teve, no entanto, o efeito duradouro que o líder socialista pretendia.
   """. 
-; the reflexive is a referential pronoun functioning as a complement for BOR in this sense
+; the reflexive functions as a referential object of ditransitive variants with analogous meaning (BOR)
+; 1. Registrar(-se) ou incluir(-se) oficialmente (em programa, instituição, competição, curso etc.) [tda. : Inscreveu a irmã no curso de teatro: Inscreveu -se no concurso para o banco] (AUL)
+; verbo pronominal
+; escrever ou fazer escrever o seu nome num livro, lista, etc.; matricular-se (POR)
+; Porto Editora – inscrever no Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-02-07 17:56:41]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portuguesa/inscrever
 ; pronominal verb also for FER
 inscrever_2 := refl-ine-obj-verb-lex & ; MIC
   [ STEM < "inscrever" >,
