@@ -658,3 +658,10 @@
 ;;; Total CPU time: 44906 msecs
 ;;; Mean edges: 323.85
 ;;; Mean parses: 1.66
+1 os estudantes partiram para o sertão 2 298
+2 a artista partiu para a briga 1 196
+3 a janela dava para o quintal 1 362
+
+;;; Total CPU time: 256 msecs
+;;; Mean edges: 285.33
+;;; Mean parses: 1.33

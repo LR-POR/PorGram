@@ -627,6 +627,9 @@ True positives
 654 o jogador integrou-se em as movimentações 1 115
 655 eles têm contribuído para que o artista não caia em o esquecimento 1 2073
 656 ela responde por o pagamento 1 118
+1 os estudantes partiram para o sertão 2 298
+2 a artista partiu para a briga 1 196
+3 a janela dava para o quintal 1 362
 False positives
 99 *os cachorros ladrarem 1 54
 100 *o cachorro ladrar 1 93

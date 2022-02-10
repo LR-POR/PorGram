@@ -1513,7 +1513,8 @@ redigir_1 := trans-verb-lex & ; AUL
   A agência Nova China informou que para redigir este dicionário de 34 470 entradas em língua chinesa, foi necessário o trabalho de 300 especialistas durante três anos.
   """. 
 ; error of valence extraction script (expansion of null subject frame leads to incorrect results with impersonal verbs)
-tratar_1 := refl-gen-obj-verb-lex & ; ERROR: verb with expletive null subject (TODO)
+; impersonal verb with expletive null subject (TODO)
+tratar_1 := refl-gen-obj-verb-lex & ; ERROR
   [ STEM < "tratar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tratar_v_1_rel" ]
   """

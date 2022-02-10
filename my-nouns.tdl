@@ -258,3 +258,20 @@ movimentação := fem-noun-lex &
   [ STEM < "movimentação" >,
     SYNSEM.LKEYS.KEYREL.PRED "_movimentação_n_rel" ].
 
+briga := fem-noun-lex &
+  [ STEM < "briga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_briga_n_rel" ].
+
+janela := fem-noun-lex &
+  [ STEM < "janela" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_janela_n_rel" ].
+
+quintal := masc-noun-lex &
+  [ STEM < "quintal" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quintal_n_rel" ].
+
+sertão := masc-noun-lex &
+  [ STEM < "sertão" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sertão_n_rel" ].
+
+

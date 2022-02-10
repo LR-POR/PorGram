@@ -295,7 +295,7 @@ assentar_1 := nonrefl-ine-obj-verb-lex & ; BOR
   """
   A defesa desta estratégia de «guerra total» no plenário das Nações Unidas não assenta exclusivamente no impulso que a questão timorense ganhou com a atribuição do Nobel a Horta e a Belo -- Ramos Horta já tinha sugerido esse passo num memorando que fez chegar ao Palácio das Necessidades meses antes de se conhecer a escolha de Oslo --, mas o certo é que o Nobel da Paz timorense constitui um reforço importante.
   """. 
-
+; pronominal verb with the reading "limitar-se", "resumir-se" etc. (FER, MIC, BOR, AUR, HOU, PRI)
 restringir_1 := trans-verb-lex & ; ERROR:refl-dat-obj-verb-lex
   [ STEM < "restringir" >,
     SYNSEM.LKEYS.KEYREL.PRED "_restringir_v_1_rel" ]
@@ -1128,7 +1128,7 @@ envolver_3 := trans-verb-lex & ; MIC
   """
   Além do contrato com a Servaz, há outros do mesmo tipo, envolvendo mais empreiteiras.
   """. 
-; passive "se"
+; annotation error: passive "se"
 pavimentar_1 := refl-int-verb-lex & ; ERROR:trans-verb-lex
   [ STEM < "pavimentar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pavimentar_v_1_rel" ]
