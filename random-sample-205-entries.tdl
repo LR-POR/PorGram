@@ -1147,10 +1147,10 @@ conectar_2 := nonrefl-dat-obj-verb-lex & ; ERROR:refl-dat-obj-verb-lex OR nom-ac
   Para se ter uma idéia da importância da InterNet, a Casa Branca está conectada a essa rede, disponibilizando publicações e documentos para qualquer pessoa do mundo.
   """. 
 ; C105	VSubj>Theme     V      para NP>Goal
-;	Os aventureiros partiram para o sertão.
-;	‘the adventurers left for the backlands’
-;	Here para does not alternate with a and em.;
-;	Partir is used in the reading ‘start (an activity)’ as in vou partir para a briga ‘I am going to start 	a fight’ and ela partiu para o comércio informal ‘she went into informal commerce’. It is not 	clear whether these constructions are examples of C105 or idioms. (PER19)
+; Os aventureiros partiram para o sertão.
+; ‘the adventurers left for the backlands’
+; [...] "vou partir para a briga" ‘I am going to start a fight’ [..]. (PER19)
+; para-PP with NP denoting an action, e.g., "partir para o tapa" (BOR)
 ; relative variant with para-PP complement (FER)
 partir_2 := nonrefl-goa-obj-verb-lex & ; BOR 
   [ STEM < "partir" >,
