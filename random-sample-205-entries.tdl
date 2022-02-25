@@ -870,7 +870,7 @@ restar_1 := trans-verb-lex & ; ERROR:nonrefl-int-verb-lex
   [ STEM < "restar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_restar_v_1_rel" ]
   """
-  «Chegámos a acordo sobre a maior parte das questões, só restam algumas divergências menores», explicaram Yilmaz e Erbakan na conferência de imprensa conjunta que deram ontem.
+  «Chegámos a acordo sobre a maior parte das questões, só restam algumas divergências@obj->nsubj@ menores», explicaram Yilmaz e Erbakan na conferência de imprensa conjunta que deram ontem.
   """. 
 
 encorajar_1 := trans-verb-lex & ; MIC

@@ -1,0 +1,1629 @@
+;; AUL a
+;; AUR u
+;; FER f
+;; GEI g
+;; HOU h
+;; MIC m
+;; POR p
+;; BOR b
+;; PER19 r
+;; LEO l
+;; VER v
+;; k=x annotation error: "x" is a syntactic obj of the causative verb
+;; k=y annotation error: "y" is a syntactic obj of the causative verb, where "y" is the dependent incorrectly attached to the embedded verb
+;; p= annotation error: no active form, passive participle without auxiliary
+;; p] annotation of past participle of pronominal or unaccusative verb represents source of error for valence extraction
+;; p=/ p= OR p]
+;; p' annotation of stative passive represents source of error for valence extraction
+;; p'] p' OR p]
+;; p/ annotation error: passive "se"
+;; n/ annotation error: impersonal "se"
+;; la/ annotation error: pleonastic direct object and prepositioned direct object (Mateus et al., 1989, p. 164)
+;; l/ annotation error: pleonastic direct object aka clitic doubling (Mateus et al., 1989, p. 164)
+;; a/ annotation error: prepositioned direct object (Mateus et al., 1989, p. 164)
+;; ap/ annotation creates a problem for valence extraction: Theme or Patient maps to a direct object, not a prepositional one
+; https://github.com/LR-POR/valex/issues/8#issue-1113846411
+;; i/ impersonal "se" of direct transitive verb
+;; pr pronominal verb
+;; -sense in some other sense, not in the relevant sense
+;; -pr no pronominal verb
+;; -prs no pronominal verb in this sense
+;; -x-er annotation error: x-PP is an obj or iobj
+;; -x-pp x-PP is not a complement
+;; x-pp x-PP is a complement
+;; (-)y-pp y-PP is (not) a complement, where y is the corresponding case-marking preposition
+;; r,type ERROR:type
+;; r,type1/type2 ERROR:type1 OR type2
+;; r, ERROR?
+;; r,[] ERROR:TODO
+;; r,x-vl ERROR:x-verb-lex
+;; r,x-d-vl ERROR:x-ditransitive-verb-lex
+;; r,tr ERROR:trans-verb-lex
+;; [x (x)
+;; [x,y (x, y)
+;; io indirect object
+;; td transitivo direto [g
+;; tdi transitivo direto e indireto [g
+;; ta-x transitivo adverbiado + x [g
+;; tda transitivo direto adverbiado [g
+;; tdp transitivo direto e predicativo [g
+;; [] TODO
+;; dposs dative of possession (dativus possessivus)
+;; dcom dative of interest (dativus commodi)
+;; /k prototypical example
+
+reduzir_3 := trans-verb-lex & ; a
+[ STEM < "reduzir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reduzir_v_3_rel" ]
+"""
+Palmela reduz contribuição autárquica
+""".
+
+manifestar_2 := refl-int-verb-lex & ; f
+[ STEM < "manifestar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_manifestar_v_2_rel" ]
+"""
+Desde logo se manifestou a habilidade do «regisseur» controlando mais de um filme em simultâneo.
+""".
+; p= /k
+; 1. Jur. Proferir (o juiz) sentença de punição contra (réu). [td. : A justiça condenou o estelionatário.] [tdr. + a : Condenou o réu a dois anos de prisão. Antôn.: absolver. ] [a
+condenar_2 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-ditransitive-verb-lex
+[ STEM < "condenar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_condenar_v_2_rel" ]
+"""
+Condenado a prisão perpétua
+""".
+; meaning related to "confessar" not registered in [a,b,p
+assumir_1 := ind-cl-verb-lex & ; l
+[ STEM < "assumir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_assumir_v_1_rel" ]
+"""
+A deputada não decidiu ainda, contudo, se se vai abster ou votar a favor do texto de Strecht Monteiro, mas assume claramente que considera o projecto «pró-natalista» e «vem corrigir a lei em vigor», pelo que «merece simpatia».
+""".
+
+comissariar_1 := trans-verb-lex & ; p
+[ STEM < "comissariar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_comissariar_v_1_rel" ]
+"""
+Sendo, além de crítico de ópera e fotografia, professor de química, trabalhando no domínio da termodinâmica dos objectos moleculares e das relações entre artes e ciências, Calado estava habilitado como ninguém a comissariar esta exposição.
+""".
+; p]
+; pr [h
+; pr "endereçar" [h
+; pr para-pp "ter como direção"
+; pr -sense [g,b,p
+; pr ta [g
+; verbo pronominal
+; [...] 3. consagrar-se a [p
+; Porto Editora – dirigir no Dicionário infopédia da Língua Portuguesa [em linha]. Porto: Porto Editora. [consult. 2022-02-11 00:28:54]. Disponível em https://www.infopedia.pt/dicionarios/lingua-portuguesa/dirigir
+; apparently, no pronominal verb for [r
+; C155 VSubj>Theme V NP>Theme X>Goal
+; O guia dirigia os turistas à sacristia.
+; ‘the guide directed the tourists towards the vestry’
+; [..]
+; Meu trabalho atual se dirige à descrição da língua xavante.
+; ‘my current work is directed to the description of the Xavante language’ [r
+; "O livro se dirige a iniciantes em estudos de economia, leigos e também economistas que se interessam pelo assunto [...].
+; http://www.centrocelsofurtado.org.br/interna.php?ID_M=1586
+;  As palestras se dirigem a estudantes, professores e servidores técnico-administrativos da UFMG [...].
+; https://www.ufmg.br/online/arquivos/030351.shtml
+dirigir_4 := nonrefl-dat-obj-verb-lex & ; r,refl-dat-obj-verb-lex
+[ STEM < "dirigir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_dirigir_v_4_rel" ]
+"""
+O Conia terá 18 palestras dirigidas às áreas de medicina, odontologia, veterinária, arquitetura, urbanismo, engenharia e direito.
+""".
+
+reiterar_1 := trans-verb-lex & ; m
+[ STEM < "reiterar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reiterar_v_1_rel" ]
+"""
+Em declarações ao PÚBLICO, Francisco Costa, membro da comissão de ligação do Hospital, um órgão de contacto entre os hospitais e as Testemunhas de Jeová, disse conhecer o documento, que, no essencial, reitera uma prática utilizada anteriormente pela direcção do hospital, à excepção do que se passava com o tratamento de crianças.
+""".
+; a-PP "especificador" [b
+; 13. Sofrer redução em quantidade, intensidade, valor etc. [int. : A previsão é que a temperatura cairá: A cotação do dólar deve cair no próximo mês.: O dólar caiu de quase R$4 para menos de R$2.: O vento estava forte, mas agora caiu.] [a
+cair_3 := nonrefl-dat-obj-verb-lex & ; b
+[ STEM < "cair" >,
+SYNSEM.LKEYS.KEYREL.PRED "_cair_v_3_rel" ]
+"""
+Segundo Franco, o BC vai comprar dólares quando a cotação cair a um ponto determinado, «não conhecido pelo mercado».
+""".
+
+abordar_1 := trans-verb-lex & ; m
+[ STEM < "abordar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_abordar_v_1_rel" ]
+"""
+Se abordo este tema aqui não é para arriscar-me na análise política, coisa que outros farão melhor do que eu.
+""".
+; p']
+; - Estrutura sintática básica: [SN V SN] (verbo transitivo)
+; - Licencia a forma descontínua (fatoração de argumento): O químico/ o calor ligou um metal ao outro.
+; - Licencia a passiva estativa da forma descontínua: Um metal está ligado ao outro. [v
+;C72 VSubj>Agent V NP>Theme X>Location
+; Nós vamos ligar o motor no gerador.
+; ‘we will connect the engine to the generator’ [...]
+; C275 VSubj>Agent V NP>Patient+Theme a NP>Goal
+; Nós vamos ligar o motor ao gerador.
+; ‘we will connect the engine to the generator’ [r
+; a-pp pr [b
+ligar_3 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-obj-verb-lex/refl-dat-obj-verb-lex
+[ STEM < "ligar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_ligar_v_3_rel" ]
+"""
+MAIORIA DOS PROGRAMAS ESTÁ LIGADA À REDE DE ESGOTOS*.
+""".
+
+congestionar_1 := trans-verb-lex & ; m
+[ STEM < "congestionar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_congestionar_v_1_rel" ]
+"""
+Vamos confrontar os titulares que tudo perderam com esses meninos que são a derradeira esperança de um título neste ano: enquanto os titulares de Telê privilegiam o meio-campo, com três, quatro, às vezes cinco volantes congestionando o setor, o que, na prática, não confere nem poder ofensivo ao time, tampouco proteção infalível à defesa, os garotos jogam com Mona, o único volante típico.
+""".
+; 2. Incitar (alguém) a realizar ação conside rada difícil. [tdr. + a : Desafio você a subir na árvore.] [a
+desafiar_1 := nom-acc-dat-ditransitive-verb-lex & ; a
+[ STEM < "desafiar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_desafiar_v_1_rel" ]
+"""
+O secretário regional da Economia, Duarte Ponte, justificou o apoio governamental com o envolvimento camarário no projecto, desafiando outras autarquias das ilhas a iniciativas semelhantes.
+""".
+
+totalizar_1 := trans-verb-lex & ; m
+[ STEM < "totalizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_totalizar_v_1_rel" ]
+"""
+A começar em Outubro de 1929 e acabar em Setembro de 1933, totalizando 41 peças, esta compilação é um disco de cabeceira.
+""".
+; annotation error: no active form, passive participle with "ter" auxiliary (Lunguinho, 2011)
+; LUNGUINHO, M. V. S. Verbos auxiliares e a sintaxe dos domínios não-finitos. 2011. 225f. Tese (Doutorado em Linguística) - Universidade de São Paulo, São Paulo, 2011.
+; -de-pp (a,b,r)
+; tritransitive as "traduzir" according to [b?
+reduzir_4 := nonrefl-gen-obj-verb-lex & ; r,nom-acc-gen-goa-tritransitive-verb-lex []
+[ STEM < "reduzir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reduzir_v_4_rel" ]
+"""
+A Souza Cruz, que lidera o mercado, teve sua participação reduzida de 83% em 92 para 79,6% em 93, consequência de uma retração de 10,5% nas suas vendas.
+""".
+
+configurar_1 := trans-verb-lex & ; a
+[ STEM < "configurar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_configurar_v_1_rel" ]
+"""
+Tanto dinheiro parece tornar desprezível a ética do marketing: a Delta recebe centenas de cartas de crianças denunciando pais ou parentes que preferiram viajar por outras companhias aéreas, configurando um claro estímulo ao «dedodurismo» precoce.
+""".
+
+aproximar_2 := refl-int-verb-lex & ; f
+[ STEM < "aproximar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_aproximar_v_2_rel" ]
+"""
+O deputado se aproximou.
+""".
+
+esgotar_2 := refl-int-verb-lex & ; p
+[ STEM < "esgotar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_esgotar_v_2_rel" ]
+"""
+Havia bichas para tudo, desde a tabacaria até aos bares, onde as provisões mostravam uma perigosa tendência para se esgotar.
+""".
+
+destinar_4 := nom-acc-dat-ditransitive-verb-lex & ; a
+[ STEM < "destinar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_destinar_v_4_rel" ]
+"""
+O projeto original do governo destinava ao TSE R$ 334,9 milhões.
+""".
+; pr (p)
+portar_1 := trans-verb-lex & ; r,refl-int-verb-lex
+[ STEM < "portar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_portar_v_1_rel" ]
+"""
+E a portar-se à Cintra, não dando cavaco, sequer, ao jogador, que até já vendera a casa lá na Old England.
+""".
+
+referir_5 := trans-verb-lex & ; m
+[ STEM < "referir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_referir_v_5_rel" ]
+"""
+um documento de meados do século XVII refere já uma Rua do Reimão.
+""".
+
+completar_1 := trans-verb-lex & ; m
+[ STEM < "completar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_completar_v_1_rel" ]
+"""
+Steven quer aproveitar a viagem ao Brasil para completar sua discografia dos Mutantes e conhecer Arnaldo Baptista.
+""".
+; incorrect lemmatization
+;atinjir_1 := trans-verb-lex & ;
+;  [ STEM < "atinjir" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_atinjir_v_1_rel" ]
+;  """
+;  Entre cada parte do submarino há isolamento, evitando que acidentes numa parte atinjam as outras.
+;  """.
+atingir_1 := trans-verb-lex & ; m
+[ STEM < "atingir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_atingir_v_1_rel" ]
+"""
+Entre cada parte do submarino há isolamento, evitando que acidentes numa parte atinjam as outras.
+""".
+
+dificultar_1 := trans-verb-lex & ; m
+[ STEM < "dificultar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_dificultar_v_1_rel" ]
+"""
+Eles vêm de trás com a bola e nos dificultam», disse.
+""".
+
+especializar_3 := trans-verb-lex & ; a
+[ STEM < "especializar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_especializar_v_3_rel" ]
+"""
+«Me parece que há um acordo quanto a especializar os centros vocacionados para a pesquisa e não tentar fazer que todos os centros do país façam pesquisa.»
+""".
+; pr [f
+curvar_1 := trans-verb-lex & ; r,refl-dat-obj-verb-lex
+[ STEM < "curvar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_curvar_v_1_rel" ]
+"""
+«Eu curvei-me às razões do Presidente», disse Luiza Erundina, que contrariou o veto público de Lula à participação do PT no Governo e o próprio partido, que já havia declarado oficialmente a sua oposição a Itamar Franco.
+""".
+
+esquecer_3 := nonrefl-gen-obj-verb-lex & ; r
+[ STEM < "esquecer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_esquecer_v_3_rel" ]
+"""
+Não esqueça dos óculos escuros e uma capa de chuva.
+""".
+
+definir_1 := quest-verb-lex & ; l
+[ STEM < "definir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_definir_v_1_rel" ]
+"""
+Até o meio-dia de ontem, o desembargador estava tentando um contato com o governador para definir se aceitava ou não o cargo.
+""".
+
+possibilitar_1 := trans-verb-lex & ; a
+[ STEM < "possibilitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_possibilitar_v_1_rel" ]
+"""
+O governo não está errado em formular regras que possibilitem o alongamento.
+""".
+
+zerar_1 := trans-verb-lex & ; m
+[ STEM < "zerar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_zerar_v_1_rel" ]
+"""
+Na tarde de ontem, diante de dezenas de jornalistas, Pertence «zerou» os computadores da Justiça Eleitoral.
+""".
+
+derivar_1 := nonrefl-gen-obj-verb-lex & ; f
+[ STEM < "derivar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_derivar_v_1_rel" ]
+"""
+Todos os nomes citados derivam desta cena, que rapidamente foi superada por outras modas.
+""".
+
+decifrar_1 := trans-verb-lex & ; m
+[ STEM < "decifrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_decifrar_v_1_rel" ]
+"""
+O resultado foi que um francês, Jean-François Champollion, que só visitou o Egito em 1828, foi o primeiro a decifrar os hieroglifos.
+""".
+
+aprofundar_1 := trans-verb-lex & ; m
+
+[ STEM < "aprofundar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_aprofundar_v_1_rel" ]
+"""
+Aprofundando as dúvidas, Leila se deixou cair na tentação do duplo.
+""".
+
+lotar_1 := trans-verb-lex & ; b
+[ STEM < "lotar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_lotar_v_1_rel" ]
+"""
+«Queremos lotar dois ônibus com a 80 pessoas e fechar o hotel», disse o administrador de empresas E., 31, um dos organizadores.
+""".
+
+varrer_1 := trans-verb-lex & ; m
+[ STEM < "varrer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_varrer_v_1_rel" ]
+"""
+Os economistas alinham vários motivos básicos, entre eles a possibilidade de inversão aberta com a queda dos regimes socialistas, a onda liberalizante que varre a América Latina, a forte expansão econômica dos países do Sudeste Asiático e também a baixa e estável remuneração de tradicionais aplicações.
+""".
+
+propalar_1 := trans-verb-lex & ; a
+[ STEM < "propalar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_propalar_v_1_rel" ]
+"""
+Com uma visão facciosa e míope do que é o desenvolvimento rural (já que as receitas da caça raramente ficam nos locais onde esta se pratica), continua a Secretaria de Estado da Agricultura e do Desenvolvimento Rural (SEADR) a empenhar-se em propalar sem quantificar os proveitos desta actividade.
+""".
+
+recuperar_1 := trans-verb-lex & ; r
+[ STEM < "recuperar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_recuperar_v_1_rel" ]
+"""
+Senna, todo mundo viu, rodou quando estava em segundo lugar e com poucas chances de recuperar o primeiro.
+""".
+; n/
+respirar_1 := refl-int-verb-lex & ; r,nonrefl-int-verb-lex
+[ STEM < "respirar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_respirar_v_1_rel" ]
+"""
+Respirou-se fundo, no ar e em terra.
+""".
+; ap/
+pagar_4 := nonrefl-gen-obj-verb-lex & ; r,tr
+[ STEM < "pagar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_pagar_v_4_rel" ]
+"""
+Até lá, no entanto, o imenso país precisa da ajuda do Ocidente e, se bem que esteja convencido da «irreversibilidade das reformas em curso», o Presidente russo não deixaria de argumentar que, se elas falharem, «aí haveria que pagar dez vezes mais do que os investimentos que agora são necessários para sustentar a reforma».
+""".
+
+pensar_8 := que-subj-cl-verb-lex & ; l
+[ STEM < "pensar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_pensar_v_8_rel" ]
+"""
+No fundo, e de acordo com Elkabbach, três apostas: o primado da «produção» sobre a «difusão»; a recusa em opor «divertimento» a «cultura»; e por fim a vontade de conciliar o imperativo do mercado (o famoso «nível de audiências» ao qual é definitivamente absurdo pensar que qualquer televisão possa escapar) e a exigência de qualidade (à qual é perfeitamente escandaloso acreditar que uma «série», mesmo «popular», deva ser estranha, por natureza).
+""".
+; de-pp [b
+desvincular_2 := refl-int-verb-lex & ; r,refl-gen-obj-verb-lex
+[ STEM < "desvincular" >,
+SYNSEM.LKEYS.KEYREL.PRED "_desvincular_v_2_rel" ]
+"""
+Desde Maio deste ano que Joaquim Correia, escultor natural do concelho da Marinha Grande - que doou os seus trabalhos para integrar o núcleo do museu no Convento de Santo Agostinho - chegou mesmo a ameaçar desvincular-se do compromisso com a autarquia, caso o processo não fosse desbloqueado até ao final do ano.
+""".
+; em-pp [a
+; 4. Dar apoio a, ou ter o apoio de; APOIAR(-SE) [td. : "Guiomar sustentava a resolução da madrinha..." ( Machado de Assis , A mão e a luva) ] [tdr. + em : Sustentava -se na fé] [a
+; C103 VSubj>Located.thing Refl V X>Location
+; Minha análise se apoia em evidência suficiente.
+; ‘my analysis rests on sufficient evidence’
+; O edifício se apoia em alicerces profundos.
+; ‘the building rests on deep foundations’ [r
+; -em-pp [b,r
+; C3 VSubj>Patient Refl V
+; A cabana se sustentava em escoras.
+; ‘the hus was supported on props’ [r
+sustentar_3 := refl-int-verb-lex & ; r,refl-ine-obj-verb-lex
+[ STEM < "sustentar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_sustentar_v_3_rel" ]
+"""
+ A posição de Brandão sustenta-se numa@obl:em->obj:em@ carta da Lacto-Lusa, de 6 de Agosto de 1993, que anula o contrato com a Socifa.
+""".
+
+refutar_1 := trans-verb-lex & ; m
+[ STEM < "refutar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_refutar_v_1_rel" ]
+"""
+As soluções adoptadas para a expansão da rede estão a gerar posições contrárias e desta vez é a empresa que escreve a Sampaio para refutar as afirmações do Município.
+""".
+
+chumbar_1 := trans-verb-lex & ; m
+[ STEM < "chumbar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_chumbar_v_1_rel" ]
+"""
+Na melhor das hipóteses, o povo, devidamente aterrorizado pelo fantasma do separatismo, chumba o processo.
+""".
+
+acumular_2 := refl-int-verb-lex & ; m
+[ STEM < "acumular" >,
+SYNSEM.LKEYS.KEYREL.PRED "_acumular_v_2_rel" ]
+"""
+De facto, os indícios acumulam-se nesse sentido.
+""".
+
+circundar_1 := trans-verb-lex & ; a
+[ STEM < "circundar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_circundar_v_1_rel" ]
+"""
+Ele circundou com giz os cinco meias.
+""".
+
+assaltar_1 := trans-verb-lex & ; m
+[ STEM < "assaltar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_assaltar_v_1_rel" ]
+"""
+No último dia 11, Frank Kerr, 53, foi morto com um tiro na cabeça quando três homens assaltaram um posto do correio.
+""".
+
+prescindir_1 := nonrefl-gen-obj-verb-lex & ; f
+[ STEM < "prescindir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_prescindir_v_1_rel" ]
+"""
+Para cada trecho de François Couperin, Royere, Forqueray, um espírito mais comedido não prescindiu de enorme fantasia, por vezes de transbordante emoção numa atitude comunicativa e interiorizada, simples e aristocrática, reveladora de uma fascinante personalidade de intérprete.
+""".
+
+invadir_1 := trans-verb-lex & ; f
+[ STEM < "invadir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_invadir_v_1_rel" ]
+"""
+Os Piranhos do Kung Fu invadem o salão!
+""".
+
+rebater_1 := trans-verb-lex & ; b
+[ STEM < "rebater" >,
+SYNSEM.LKEYS.KEYREL.PRED "_rebater_v_1_rel" ]
+"""
+Caciques do PFL já preparam o discurso para rebater uma possível tentativa tucana de atrair apoios de outros partidos para «diluir» a influência pefelista num eventual governo FHC:
+""".
+
+acostumar_1 := trans-verb-lex & ; m
+[ STEM < "acostumar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_acostumar_v_1_rel" ]
+"""
+A generalização dessa indexação diária não só acostuma a economia, como passa a exercer pressão para que o governo oficialize e universalize a prática.
+""".
+
+exercitar_1 := trans-verb-lex & ; a
+[ STEM < "exercitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_exercitar_v_1_rel" ]
+"""
+Imagino que para a grande maioria dos políticos este seja o momento de glória porque exercita o que considera uma virtude: a arte da esperteza, a política segundo os cânones herdados da velha tradição das raposas políticas.
+""".
+
+faltar_1 := nonrefl-com-obj-verb-lex & ; a
+[ STEM < "faltar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_faltar_v_1_rel" ]
+"""
+O partido expulsou ontem Walter Queiroz por considerar que ele «faltou com a verdade» no episódio da dupla declaração de renda.
+""".
+; p=
+; em-pp [b
+calcular_2 := nonrefl-ine-obj-verb-lex & ; r,nom-acc-ine-obj-verb-lex
+[ STEM < "calcular" >,
+SYNSEM.LKEYS.KEYREL.PRED "_calcular_v_2_rel" ]
+"""
+Num país em que -- ainda segundo estatísticas das Nações Unidas -- mais de metade da população tem menos de 15 anos, foi estranho para muitos observadores que o número de eleitores potenciais se estimasse em 5,8 milhões, para uma população total calculada em dez.
+""".
+
+escrever_4 := nonrefl-dat-obj-verb-lex & ; f
+[ STEM < "escrever" >,
+SYNSEM.LKEYS.KEYREL.PRED "_escrever_v_4_rel" ]
+"""
+«Escrevemos ao PS pedindo um envio rápido da contra-proposta, passadas três semanas ainda não conhecemos oficialmente a posição do PS.
+""".
+
+calcular_4 := que-subj-cl-verb-lex & ; b
+[ STEM < "calcular" >,
+SYNSEM.LKEYS.KEYREL.PRED "_calcular_v_4_rel" ]
+"""
+Para 1995, a administração da PT calcula que os lucros atinjam valores próximos dos 25 milhões de contos e pretende manter os níveis de investimento, verificados em 1994.
+""".
+; pr [f,b,m,a,p,h,u
+acentuar_1 := trans-verb-lex & ; r,refl-int-verb-lex
+[ STEM < "acentuar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_acentuar_v_1_rel" ]
+"""
+«Em primeiro lugar, e trata-se da conclusão mais forte, parece indiscutível que se verificou um sério agravamento dos desequilíbrios internos à região, acentuando-se a concentração no litoral e o esvaziamento do interior;
+""".
+
+excitar_1 := trans-verb-lex & ; f
+[ STEM < "excitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_excitar_v_1_rel" ]
+"""
+O que já escrevemos esta semana excitou as consciências do Partido Popular, ciosas em mostrar que o processo da lista de candidatos por Lisboa correu na maior das lisuras, incluindo o folhetim Luís Nobre Guedes.
+""".
+
+lembrar_3 := trans-verb-lex & ; f
+[ STEM < "lembrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_lembrar_v_3_rel" ]
+"""
+As construções lembram vagamente uma verdadeira vila de pescadores.
+""".
+; p/
+; de-pp [b
+excluir_1 := refl-gen-obj-verb-lex & ; r,nom-acc-gen-ditransitive-verb-lex
+[ STEM < "excluir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_excluir_v_1_rel" ]
+"""
+Isto porque, de acordo com a lei, nas presidenciais é eleito o candidato que obtiver mais de metade dos votos expressos -- ou seja, pelo menos 50 por cento mais um --, excluindo-se desta contabilidade os votos em branco e os nulos.
+""".
+; a-pp [r,b,a
+; -para-pp [r,b,a
+; C305 VSubj>Agent V NP>Patient+αRef a NP>Goal+αRef
+; Esse governo reduziu meu salário a uma miséria.
+; ‘this administration reduced my salary to a pittance’ [r
+reduzir_1 := nom-acc-rec-ditransitive-verb-lex & ; l
+[ STEM < "reduzir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reduzir_v_1_rel" ]
+"""
+«Vamos reduzir o número de expositores para cem.
+""".
+; a-pp OR para-pp as io of tdi [g
+alegar_3 := nom-acc-dat-ditransitive-verb-lex & ; g
+[ STEM < "alegar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_alegar_v_3_rel" ]
+"""
+Abel Chivukuvuku, membro da Comissão Conjunta Político-Militar (CCPM) para a fiscalização do cessar-fogo, alegou à imprensa razões técnico-logísticas para a anulação da viagem, relacionadas quer com o número reduzido de presos que desejaria voltar para Luanda quer com a «programação da cerimónia».
+""".
+; k=encarregado
+descansar_1 := trans-verb-lex & ; r,nonrefl-int-verb-lex
+[ STEM < "descansar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_descansar_v_1_rel" ]
+"""
+O estudante nunca falsifica uma assinatura, deixa descansar o seu encarregado de educação, que vê nele um grande futuro.
+""".
+; p=
+; [g,f
+dedicar_3 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-obj-verb-lex
+[ STEM < "dedicar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_dedicar_v_3_rel" ]
+"""
+No ranking dedicado aos homens aparecem o ator Sean Connery e o cantor Sting.
+""".
+
+necessitar_1 := nonrefl-gen-obj-verb-lex & ; g
+[ STEM < "necessitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_necessitar_v_1_rel" ]
+"""
+3ª Prioridade -- situações urgentes: situações que necessitam de intervenção dentro da primeira hora.
+""".
+; -pr [f see also "eleger"
+reeleger_1 := refl-int-verb-lex & ; b
+[ STEM < "reeleger" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reeleger_v_1_rel" ]
+"""
+Chiles, que pertence ao Partido Democrata e ao mesmo grupo neoconservador que ajudou Bill Clinton a chegar à Casa Branca, vai tentar se reeleger em novembro deste ano.
+""".
+; p=
+; ta [g
+; 1. Encostar ou fazer encostar (embarcação, aeronave) em (terra, outra embarcação ou aeronave etc.). [ta. + em : O navio atracou no cais.] [a
+atracar_1 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-obj-verb-lex
+[ STEM < "atracar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_atracar_v_1_rel" ]
+"""
+O certo é que, pouco depois, Vítor-Emanuel apercebeu-se que um barco pneumático fora deslocado do seu iate e atracado ao Cocke, o navio dos jovens italianos.
+""".
+
+desenvolver_1 := trans-verb-lex & ; g
+[ STEM < "desenvolver" >,
+SYNSEM.LKEYS.KEYREL.PRED "_desenvolver_v_1_rel" ]
+"""
+Mas, nos anos 90, os yuppies desenvolvem consciência.
+""".
+
+reunir_1 := refl-com-obj-verb-lex & ; f, b
+[ STEM < "reunir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reunir_v_1_rel" ]
+"""
+Após esta intervenção, os membros da expedição reuniram-se com a organização da viagem para deliberar sobre o que fazer.
+""".
+
+sofrer_2 := nonrefl-gen-obj-verb-lex & ; f
+[ STEM < "sofrer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_sofrer_v_2_rel" ]
+"""
+No caso do doente agora tratado, que sofre de uma forma comum do cancro do pulmão, o tratamento consiste em administrar várias injecções do gene p53 normal -- ou seja, dotado da sua acção supressora de cancros -- dentro do próprio tumor, «a bordo» de um vírus.
+""".
+
+preocupar_2 := trans-verb-lex & ; f
+[ STEM < "preocupar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_preocupar_v_2_rel" ]
+"""
+Boicote nos EUA preocupa bancos suíços
+""".
+
+gozar_1 := trans-verb-lex & ; g
+[ STEM < "gozar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_gozar_v_1_rel" ]
+"""
+Começa a dar resultados a política da União Europeia de bloquear todas as tentativas suíças de gozar as vantagens da UE, sem as responsabilidades de um país membro.
+""".
+; p=
+; -a-pp [g,f,b,r,v
+furar_1 := nonrefl-dat-obj-verb-lex & ; r,tr
+[ STEM < "furar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_furar_v_1_rel" ]
+"""
+Desta vez, com uma camiseta branca furada a bala e empapada de sangue acima de calças militares.
+""".
+
+proibir_3 := trans-verb-lex & ; g
+[ STEM < "proibir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_proibir_v_3_rel" ]
+"""
+Lei brasileira não proíbe a gravidez pós-menopausa
+""".
+; random-sample-205-entries.tdl:1517:tratar_1 := refl-gen-obj-verb-lex & ; ERROR
+; impersonal verb with expletive null subject []
+; error of valence extraction script (expansion of null subject frame leads to incorrect results with impersonal verbs)
+; -de-er
+; de-pp [b,f,g
+tratar_2 := refl-int-verb-lex & ; r,[]
+[ STEM < "tratar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_tratar_v_2_rel" ]
+"""
+trata-se das Laffer Utilities (Laffer é o nome de família do herói), apresentadas como um conjunto de programas para «perder tempo quando devia era estar a trabalhar».
+""".
+
+ingerir_1 := trans-verb-lex & ; g
+[ STEM < "ingerir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_ingerir_v_1_rel" ]
+"""
+Levantamento realizado entre pacientes que ingeriram cápsulas com a substância entre 1969 e 1992 indicou que 16 pessoas podem ter morrido em consequência de contra-indicações causadas pelo sulfato de quinino.
+""".
+; dative of possession
+atenuar_2 := nom-acc-dat-ditransitive-verb-lex & ; l
+[ STEM < "atenuar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_atenuar_v_2_rel" ]
+"""
+Qualquer deles prosseguiu na linha da pop electrónica, todavia, só Marc Almond e os Erasure seguem hoje uma atitude «camp», embora ambos com algumas «nuances» que de algum modo tendem a atenuar-lhes a envolvência escandalosa.
+""".
+; passive "se" or impersonal "se"?
+; # sent_id = CP507-1
+; # source = CETEMPúblico n=507 sec=soc sem=97a
+; 15-16 inverte-se _ _ _ _
+; 15 inverte inverter VERB 0 root
+; 16 se se PRON 15 nsubj
+; 17 o o DET 18 det
+; 18 sentido sentido NOUN 15 obj
+inverter_1 := trans-verb-lex & ; g
+[ STEM < "inverter" >,
+SYNSEM.LKEYS.KEYREL.PRED "_inverter_v_1_rel" ]
+"""
+Assim, de acordo com informação da CML, na Rua Edison inverte-se o sentido, passando a circular-se da Av. de Roma para a Av. de Madrid.
+""".
+; p'
+; com-pp [b,g
+comprometer_1 := nonrefl-com-obj-verb-lex & ; r,nom-acc-com-verb-lex
+[ STEM < "comprometer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_comprometer_v_1_rel" ]
+"""
+A maior parte da produção (250 t) já está comprometida com uma indústria de processamento da polpa.
+""".
+
+pressionar_1 := trans-verb-lex & ; g
+[ STEM < "pressionar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_pressionar_v_1_rel" ]
+"""
+Procura de fundos pressiona o mercado
+""".
+; annotation error: direct speech was not analysed as a clause governed by the verb
+declarar_5 := nonrefl-dat-obj-verb-lex & ; r,ind-cl-rec-verb-lex
+[ STEM < "declarar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_declarar_v_5_rel" ]
+"""
+Às vezes cheguei a ser radical e sectária, mas aprendi que a gente só interfere se estiver dentro do barco», declarou a ex-prefeita à imprensa paulista, ao justificar a sua presente decisão.
+""".
+; de-pp [f,g
+; annotation error: "de" is a preposition, not a conjunction, it functions as 'case' instead of as 'mark'
+; # sent_id = CF633-3
+; # source = CETENFolha n=633 cad=Brasil sec=pol sem=94a
+; 8 o o DET 9 det
+; 9 instrumental instrumental NOUN 7 obj
+; 10 de de SCONJ 12 mark
+; 11 que que PRON 12 obj
+; 12 careço carecer VERB 9 acl
+carecer_1 := trans-verb-lex & ; r,nonrefl-gen-obj-verb-lex
+[ STEM < "carecer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_carecer_v_1_rel" ]
+"""
+Ele está me municiando e me dando o instrumental de que careço para imaginar a solução dos problemas do Estado.
+""".
+
+comprometer_2 := trans-verb-lex & ; g
+[ STEM < "comprometer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_comprometer_v_2_rel" ]
+"""
+Não me comprometa
+""".
+
+deparar_2 := nonrefl-com-obj-verb-lex & ; b
+[ STEM < "deparar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_deparar_v_2_rel" ]
+"""
+Deparamos então com uma situação caricata.
+""".
+
+preconizar_1 := trans-verb-lex & ; g
+[ STEM < "preconizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_preconizar_v_1_rel" ]
+"""
+Para evitar uma aplicação desgarrada de milhões de contos no Vale do Ave, Cravinho preconiza «um sistema de gestão forte», que ponha todos a trabalhar de forma articulada para uma boa aplicação das verbas.
+""".
+
+aproveitar_2 := trans-verb-lex & ; g
+[ STEM < "aproveitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_aproveitar_v_2_rel" ]
+"""
+Oxalá aproveite esta oportunidade.
+""".
+
+aterrorizar_2 := trans-verb-lex & ; g
+[ STEM < "aterrorizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_aterrorizar_v_2_rel" ]
+"""
+Terrível foi o combate e assustadores os gritos da batalha, que o improvisado cavaleiro acaba por vencer, expulsando a fera, que foge por entre o público e vai aterrorizar outras paragens.
+""".
+
+multiplicar_1 := trans-verb-lex & ; g
+[ STEM < "multiplicar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_multiplicar_v_1_rel" ]
+"""
+Para multiplicar o porte das suas denúncias, ele apresentou as suas perorações em dois sítios diferentes, às procuradorias de Roma e de Milão.
+""".
+
+confiscar_1 := trans-verb-lex & ; g
+[ STEM < "confiscar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_confiscar_v_1_rel" ]
+"""
+A GF confiscou ainda uma viatura ligeira de marca Bedford, envolvida na rede de contrabando, ontem descoberta.
+""".
+
+insinuar_2 := trans-verb-lex & ; g
+[ STEM < "insinuar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_insinuar_v_2_rel" ]
+"""
+Decidimos então, por uma questão de economia cênica, abolir uma das casas e só insinuar as outras duas, fazendo apenas suas entradas, que parecem as de um templo.
+""".
+
+exemplificar_1 := trans-verb-lex & ; h
+[ STEM < "exemplificar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_exemplificar_v_1_rel" ]
+"""
+É bastante didático e utiliza bem desenhos para exemplificar efeitos especiais.
+""".
+
+divergir_1 := nonrefl-gen-obj-verb-lex & ; f
+[ STEM < "divergir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_divergir_v_1_rel" ]
+"""
+Esta versão diverge da do clínico responsável pelo despejo dos medicamentos junto à urbanização de São João da Foz:
+""".
+; dativus incommodi
+; https://www.degruyter.com/database/WSK/entry/wsk_id_wsk_artikel_artikel_20166/html
+traçar_2 := nom-acc-dat-ditransitive-verb-lex & ; l
+[ STEM < "traçar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_traçar_v_2_rel" ]
+"""
+Circunstância que, tendo em conta a argumentação agora utilizada para tirar a castanha da Europa do braseiro da indiferença popular, só pode ser lida de uma forma: a tendência dominante da classe política já traçou o destino à velha quimera da descentralização.
+""".
+
+encontrar_1 := refl-com-obj-verb-lex & ; b
+[ STEM < "encontrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_encontrar_v_1_rel" ]
+"""
+Hoje deve se encontrar com FHC.
+""".
+; a-pp sense 2.1.1 [b
+abrir_2 := refl-goa-obj-verb-lex & ; b
+[ STEM < "abrir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_abrir_v_2_rel" ]
+"""
+Refúgios de pesca se abrem para o turismo
+""".
+
+arranjar_1 := trans-verb-lex & ; g
+[ STEM < "arranjar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_arranjar_v_1_rel" ]
+"""
+A relação entre os dois piorou quando Fishel arranjou uma amante, no final dos anos 80.
+""".
+
+desvalorizar_1 := trans-verb-lex & ; m
+[ STEM < "desvalorizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_desvalorizar_v_1_rel" ]
+"""
+O deputado disse mesmo que «o Governo está, deliberadamente, a querer desvalorizar politicamente um problema que é um escândalo financeiro gravíssimo que envolve muitos milhares de contos em fugas ao fisco».
+""".
+
+interessar_1 := refl-per-obj-verb-lex & ; b
+[ STEM < "interessar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_interessar_v_1_rel" ]
+"""
+Não é de admirar que Hollywood se interesse por este mercado, mesmo após o relativo insucesso de «Super Mario Bros.»
+""".
+; em-pp [g
+reintegrar_1 := trans-verb-lex & ; r,nom-acc-ine-ditransitive-verb-lex
+[ STEM < "reintegrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reintegrar_v_1_rel" ]
+"""
+Esses números vão de encontro com a tendência mundial, segundo a qual o paciente deve ficar o menor tempo possível internado, e os esforços devem ser para reintegrá-lo na sociedade.
+""".
+
+contactar_1 := trans-verb-lex & ; p
+[ STEM < "contactar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_contactar_v_1_rel" ]
+"""
+De acordo com aquele gestor, o IIPA contactou o Banco Comercial dos Açores, a sociedade Espírito Santo - sociedade de investimentos e o Banco Pinto & Sotto Mayor.
+""".
+
+limitar_2 := refl-dat-obj-verb-lex & ; b
+[ STEM < "limitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_limitar_v_2_rel" ]
+"""
+O ex-ministro da Fazenda Ernane Galvêas (governo Figueiredo) disse que sua participação no episódio limitou-se a um «de acordo» no processo que teria vindo pronto do Banco Nacional de Habitação, subordinado na época ao Ministério do Interior.
+""".
+; -y-pp td [g,b
+; free beneficiary?
+contratar_2 := nonrefl-goa-obj-verb-lex & ; r,nom-acc-goa-d-vl
+[ STEM < "contratar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_contratar_v_2_rel" ]
+"""
+Desse total, CR$ 127 milhões serão destinados à campanha de combate à dengue e ao pagamento dos 200 agentes de saúde contratados para@obj->obl@ a campanha.
+""".
+
+chefiar_1 := trans-verb-lex & ; m
+[ STEM < "chefiar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_chefiar_v_1_rel" ]
+"""
+Foi substituído como candidato por Ernesto Zedillo, que chefiava sua campanha.
+""".
+
+resistir_1 := nonrefl-dat-obj-verb-lex & ; g
+[ STEM < "resistir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_resistir_v_1_rel" ]
+"""
+Eddie também está em crise com sua mulher (interpretada pela mulher de Abel Ferrara) e não resiste à tentação da atriz, que paga para ele filmar (Madonna é produtora de «Olhos de Serpente»).
+""".
+
+defender_1 := ind-cl-verb-lex & ; l
+[ STEM < "defender" >,
+SYNSEM.LKEYS.KEYREL.PRED "_defender_v_1_rel" ]
+"""
+R. -- Há muito que defendo que os acordos de concertação social devem ultrapassar as dimensões temporal e de conteúdo que têm tido.
+""".
+
+abalar_1 := trans-verb-lex & ; m
+[ STEM < "abalar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_abalar_v_1_rel" ]
+"""
+Até aqui, os tiros de Lula parecem não ter abalado o alvo.
+""".
+
+revestir_2 := trans-verb-lex & ; m
+[ STEM < "revestir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_revestir_v_2_rel" ]
+"""
+Depois da cabeça vem uma autêntica fábrica ambulante que tritura as pedras e as envia para o exterior, ao mesmo tempo que vai enfiando uns aros em betão armado, impermeáveis e resistentes a uma pressão de 200 bars, que revestem o túnel.
+""".
+
+acumular_1 := trans-verb-lex & ; m
+[ STEM < "acumular" >,
+SYNSEM.LKEYS.KEYREL.PRED "_acumular_v_1_rel" ]
+"""
+Em 94 acumula alta de 701,5%.
+""".
+; dcom
+meter_2 := nom-acc-dat-ditransitive-verb-lex & ; l
+[ STEM < "meter" >,
+SYNSEM.LKEYS.KEYREL.PRED "_meter_v_2_rel" ]
+"""
+Daí a meter uma cunha aos antigos colegas foi um passo.
+""".
+
+definir_2 := trans-verb-lex & ; m
+[ STEM < "definir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_definir_v_2_rel" ]
+"""
+FMI define plano para o Brasil
+""".
+
+avisar_1 := ind-cl-verb-lex & ; b
+[ STEM < "avisar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_avisar_v_1_rel" ]
+"""
+Os dirigentes da Fenprof avisam no entanto desde já que se Couto dos Santos insistir nalgumas das directrizes dos seus antecessores arranjará lenha para se queimar.
+""".
+
+saborear_1 := trans-verb-lex & ; m
+[ STEM < "saborear" >,
+SYNSEM.LKEYS.KEYREL.PRED "_saborear_v_1_rel" ]
+"""
+E Pioline saboreou esse instante:
+""".
+
+basear_2 := refl-ine-obj-verb-lex & ; b
+[ STEM < "basear" >,
+SYNSEM.LKEYS.KEYREL.PRED "_basear_v_2_rel" ]
+"""
+O cálculo baseia-se na comparação dos preços brasileiros com o americano.
+""".
+
+personificar_1 := trans-verb-lex & ; m
+[ STEM < "personificar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_personificar_v_1_rel" ]
+"""
+Apoiada nos travesseiros, o busto levantado na animação da conversa, o rosto concentrado no jogo dos búzios, no instante da adivinhação, Menininha do Gantois personificava a verdade do Brasil, de um Brasil mais profundo e mais belo, situado além da corrupção, da injustiça, da violência, da mentira, das pequenezes, da delação transformada pelos pobres homens da baixa política em suprema virtude nacional.
+""".
+
+comprovar_1 := trans-verb-lex & ; m
+[ STEM < "comprovar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_comprovar_v_1_rel" ]
+"""
+A última delas, com a participação de três cientistas, comprovou superfaturamento de 343%.
+""".
+
+demonstrar_1 := ind-cl-verb-lex & ; b
+[ STEM < "demonstrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_demonstrar_v_1_rel" ]
+"""
+Mayhew disse que o IRA poderia demonstrar que realmente não autorizou a operação de Newry devolvendo os US$ 210 mil levados durante o assalto.
+""".
+; random-sample-50-entries.tdl:119:concentrar_1 := trans-verb-lex & ; ERROR:refl-ine-obj-verb-lex (TODO: refl-loc-obj-verb-lex)
+concentrar_2 := refl-int-verb-lex & ; r,refl-ine-obj-verb-le
+[ STEM < "concentrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_concentrar_v_2_rel" ]
+"""
+Rua onde ainda hoje se concentram algumas das mais antigas casas de mármores e cantaria da cidade,a Avenida de Rodrigues de Freitas conta ainda com duas instituições de especial relevo para a história da cidade,descontado o já referido recolhimento para órfãs: a Biblioteca Pública Municipal do Porto -- cuja fachada lateral está voltada para a Rua de D. João IV e para o Jardim de Marques de Oliveira (vulgo de S. Lázaro)-- e a Escola Superior de Belas-artes do Porto.
+""".
+
+atestar_1 := trans-verb-lex & ; m
+[ STEM < "atestar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_atestar_v_1_rel" ]
+"""
+É o resultado de um ofício enviado na semana finda pelo Ministério do Ambiente, o qual atesta a inocuidade daquelas cinzas e aconselha a sua deposição do aterro de Ermesinde.
+""".
+
+recusar_2 := trans-verb-lex & ; m
+[ STEM < "recusar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_recusar_v_2_rel" ]
+"""
+Sasportes não enjeita a responsabilidade pedagógica, mas recusa os exercícios didácticos:
+""".
+
+continuar_3 := trans-verb-lex & ; m
+[ STEM < "continuar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_continuar_v_3_rel" ]
+"""
+Mas decidiram, e bem, continuá-la:
+""".
+
+zonear_1 := trans-verb-lex & ; m
+[ STEM < "zonear" >,
+SYNSEM.LKEYS.KEYREL.PRED "_zonear_v_1_rel" ]
+"""
+O Depav também está zoneando o parque.
+""".
+
+esperar_4 := trans-verb-lex & ; m
+[ STEM < "esperar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_esperar_v_4_rel" ]
+"""
+Teresa espera casamento
+""".
+
+abraçar_1 := trans-verb-lex & ; m
+[ STEM < "abraçar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_abraçar_v_1_rel" ]
+"""
+O treinador, de sorriso rasgado, abraça-o.
+""".
+; mwe?
+; auxiliar sense IV. [b, e.g., "estavam à espera", "estavam esperando", "estavam a esperar"
+estar_4 := nonrefl-dat-obj-verb-lex & ; r,[]
+[ STEM < "estar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_estar_v_3_rel" ]
+"""
+Mais tarde disse que teve a sensação que as pessoas estavam à espera do climax que não aconteceu.
+""".
+
+independer_1 := nonrefl-gen-obj-verb-lex & ; g
+[ STEM < "independer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_independer_v_1_rel" ]
+"""
+Afora historicismo, isso é menosprezar um fator interno à arte brasileira, que independe de contexto internacional.
+""".
+
+sonhar_1 := nonrefl-com-obj-verb-lex & ; f
+[ STEM < "sonhar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_sonhar_v_1_rel" ]
+"""
+O torcedor paulista sonhava com uma era futura, em que São Paulo chegaria à supremacia, se possível de forma arrasadora.
+""".
+
+ceder_1 := trans-verb-lex & ; m
+[ STEM < "ceder" >,
+SYNSEM.LKEYS.KEYREL.PRED "_ceder_v_1_rel" ]
+"""
+A equipe econômica considera que cedeu tudo o que podia durante a votação da emenda no primeiro turno.
+""".
+
+estuprar_1 := trans-verb-lex & ; m
+[ STEM < "estuprar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_estuprar_v_1_rel" ]
+"""
+A polícia de Arealva (386 km a noroeste de São Paulo) prendeu três rapazes acusados de estuprar a funcionária pública A.P.S., 30, no último domingo.
+""".
+; -prs [g,f
+; k=se
+representar_3 := refl-int-verb-lex & ; r,tr
+[ STEM < "representar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_representar_v_3_rel" ]
+"""
+Sabendo antecipadamente o grau hierárquico da personalidade que vai actuar, fazem-se representar em conformidade.
+""".
+
+prometer_4 := trans-verb-lex & ; a
+[ STEM < "prometer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_prometer_v_4_rel" ]
+"""
+Rubens Barrichello promete um anúncio nos próximos dias.
+""".
+
+passar_4 := nom-acc-dat-ditransitive-verb-lex & ; b
+[ STEM < "passar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_passar_v_4_rel" ]
+"""
+O nome seria uma tentativa de passar às pessoas o conceito de auto-suficiência cada ser é um «planeta» mas também de inter-relação entre os «planetas».
+""".
+
+promover_1 := trans-verb-lex & ; p
+[ STEM < "promover" >,
+SYNSEM.LKEYS.KEYREL.PRED "_promover_v_1_rel" ]
+"""
+«Nossa preocupação é promover o desenvolvimento.
+""".
+
+acreditar_3 := ind-cl-verb-lex & ; b
+[ STEM < "acreditar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_acreditar_v_3_rel" ]
+"""
+Mas acredito que as preocupações que os realizadores têm, também a direcção do IPACA as tem.
+""".
+; pr [f,b
+; sobre-pp [b
+pronunciar_1 := trans-verb-lex & ; r,refl-sup-obj-verb-lex
+[ STEM < "pronunciar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_pronunciar_v_1_rel" ]
+"""
+Os parlamentos da federação croato-muçulmana e dos sérvios bósnios vão hoje pronunciar-se sobre o novo plano de paz internacional para a república.
+""".
+; pr [f,b
+; de-pp [b
+desviar_2 := refl-int-verb-lex & ; r,refl-gen-obj-verb-lex
+[ STEM < "desviar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_desviar_v_2_rel" ]
+"""
+O jogador -- que desempenha o papel de Fox McCloud -- tem de completar um total de 18 missões, sobrevoando planetas ou enfrentando os inimigos no espaço, onde as dificuldades são acrescidas, já que, para além dos opositores, tem de desviar-se de@obl->obj:de?@ autênticas chuvas de asteróides e outros objectos que vagueiam sem rumo.
+""".
+; p]
+; [b
+convencer_4 := nonrefl-gen-obj-verb-lex & ; r,refl-gen-obj-verb-lex/nom-acc-gen-obj-verb-lex
+[ STEM < "convencer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_convencer_v_4_rel" ]
+"""
+Até lá, no entanto, o imenso país precisa da ajuda do Ocidente e, se bem que esteja convencido da «irreversibilidade das reformas em curso», o Presidente russo não deixaria de argumentar que, se elas falharem, «aí haveria que pagar dez vezes mais do que os investimentos que agora são necessários para sustentar a reforma».
+""".
+
+fragilizar_1 := trans-verb-lex & ; m
+[ STEM < "fragilizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_fragilizar_v_1_rel" ]
+"""
+Lembrava apenas que «tudo está ainda em aberto» e, por isso, insistiu na necessidade de não haver declarações precipitadas de apoio até porque poderiam fragilizar «eventuais candidaturas que possam vir a aparecer».
+""".
+
+confessar_3 := trans-verb-lex & ; m
+[ STEM < "confessar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_confessar_v_3_rel" ]
+"""
+O delegado Celso Antonio Borlina, 38, disse que Rúbio confessou o crime.
+""".
+; y-pp tda [g,b
+exercer_2 := refl-int-verb-lex & ; r,refl-sup-obj-verb-lex
+[ STEM < "exercer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_exercer_v_2_rel" ]
+"""
+Amaral disse ainda que esse aumento de importações decorre do aumento da demanda que se exerce sobre@obl->obj:sobre@ toda a oferta de produtos.
+""".
+
+empurrar_1 := trans-verb-lex & ; m
+[ STEM < "empurrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_empurrar_v_1_rel" ]
+"""
+Barkley é acusado de ter agredido Edward Durham num bar, depois de este o ter criticado por empurrar uma senhora que apenas pedia um autógrafo.
+""".
+
+resultar_2 := nonrefl-gen-obj-verb-lex & ; f
+[ STEM < "resultar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_resultar_v_2_rel" ]
+"""
+Poder-se-á dizer que o estilo resulta da sua profissão, fotojornalista.
+""".
+
+segurar_1 := trans-verb-lex & ; m
+[ STEM < "segurar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_segurar_v_1_rel" ]
+"""
+Ambos seguraram uma bandeira dos Estados Unidos durante a partida.
+""".
+; [g
+dedicar_1 := trans-verb-lex & ; r,nom-acc-dat-verb-lex
+[ STEM < "dedicar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_dedicar_v_1_rel" ]
+"""
+Ainda assim, os planos do Planalto de dedicar apoio total ao ex-ministro Fernando Henrique Cardoso, como esta Folha revelou na edição de ontem, esbarram em problemas.
+""".
+
+explicar_2 := trans-verb-lex & ; m
+[ STEM < "explicar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_explicar_v_2_rel" ]
+"""
+«Como é que explicamos todas estas medidas israelitas?
+""".
+
+tentar_3 := trans-verb-lex & ; m
+[ STEM < "tentar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_tentar_v_3_rel" ]
+"""
+Amorim ainda tentou na «super pole» um melhor resultado, mas cometeu um excesso na chicane:
+""".
+
+reavaliar_1 := trans-verb-lex & ; m
+[ STEM < "reavaliar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reavaliar_v_1_rel" ]
+"""
+O juro flutante permite reavaliar periodicamente as taxas de juros das aplicações e empréstimos.
+""".
+
+bombardear_1 := trans-verb-lex & ; m
+[ STEM < "bombardear" >,
+SYNSEM.LKEYS.KEYREL.PRED "_bombardear_v_1_rel" ]
+"""
+Segundo a agência Interfax, a artilharia russa bombardeou na noite de sexta para sábado as localidades de Samachki e Zakan-Iurt (situadas respectivamente a 30 km e 15 km a oeste de Grozni).
+""".
+
+indignar_1 := trans-verb-lex & ; m
+[ STEM < "indignar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_indignar_v_1_rel" ]
+"""
+Como cronista, Sarney toma o cuidado de não indignar ninguém, e é difícil antipatizar com ele.
+""".
+
+visar_1 := trans-verb-lex & ; m
+[ STEM < "visar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_visar_v_1_rel" ]
+"""
+O trabalho faz parte do projeto «Exercícios Visuais» do Sesc Pompéia, que visa a ocupação inusual de espaços da ex-fábrica.
+""".
+
+acusar_1 := trans-verb-lex & ; m
+[ STEM < "acusar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_acusar_v_1_rel" ]
+"""
+Cingapura acusa mais um americano
+""".
+; -pr [b
+coligar_1 := refl-int-verb-lex & ; p,f
+[ STEM < "coligar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_coligar_v_1_rel" ]
+"""
+Além do PSDB e do PFL, coligou-se em torno da candidatura Covas o pequeno PV.
+""".
+
+verificar_2 := quest-verb-lex & ; b
+[ STEM < "verificar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_verificar_v_2_rel" ]
+"""
+Para fazer uma boa compra, a técnica do Procon recomenda ao consumidor que verifique se já há dentro de casa os tradicionais equipamentos que desempenham as mesmas funções do conjugado, só que separadamente.
+""".
+
+emocionar_1 := trans-verb-lex & ; m
+[ STEM < "emocionar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_emocionar_v_1_rel" ]
+"""
+Quando as imagens do Cobe foram publicadas, elas emocionaram toda a gente.
+""".
+; k=y
+; [g
+vibrar_1 := trans-verb-lex & ; r,nonrefl-int-verb-lex
+[ STEM < "vibrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_vibrar_v_1_rel" ]
+"""
+Do alto de uma varanda, microfone na mão, ele atordoa a praça, vibra e faz vibrar todos os que o escutam.
+""".
+
+descrever_1 := trans-verb-lex & ; m
+[ STEM < "descrever" >,
+SYNSEM.LKEYS.KEYREL.PRED "_descrever_v_1_rel" ]
+"""
+Muitos, no entanto, preferem descrever em detalhes toda sua trajetória educacional e profissional o que acaba deixando o currículo extenso e de difícil leitura.
+""".
+
+radicalizar_1 := trans-verb-lex & ; m
+[ STEM < "radicalizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_radicalizar_v_1_rel" ]
+"""
+Resumindo: Lutoslawski radicalizou Bartók naquilo que este tinha de noturno, de dramático e «moderno».
+""".
+
+levantar_2 := refl-int-verb-lex & ; r
+[ STEM < "levantar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_levantar_v_2_rel" ]
+"""
+As reacções foram cautelosas e os EUA, porque nos maus filmes de terror os mortos-vivos conseguem sempre levantar-se, exigiram uma autópsia.
+""".
+; y-pp [g,f
+dispor_1 := trans-verb-lex & ; r,nonrefl-gen-obj-verb-lex
+[ STEM < "dispor" >,
+SYNSEM.LKEYS.KEYREL.PRED "_dispor_v_1_rel" ]
+"""
+P. -- Face aos dados de que dispõe, continua a acreditar em poder alcançar a maioria absoluta?
+""".
+
+exportar_1 := trans-verb-lex & ; m
+[ STEM < "exportar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_exportar_v_1_rel" ]
+"""
+Segundo o Instituto Nacional de Estatística (INE), Portugal exportou 265,2 milhões de contos e importou 521 milhões de contos, durante os primeiros cinco meses de 1995, o que resultou num défice comercial de 255,8 milhões de contos.
+""".
+; a-pp [b
+adaptar_1 := refl-int-verb-lex & ; r,refl-dat-obj-verb-lex
+[ STEM < "adaptar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_adaptar_v_1_rel" ]
+"""
+A primeira das críticas ontem apresentadas foi para o novo sistema retributivo, que os enfermeiros consideram nunca se ter adaptado à carreira de enfermagem.
+""".
+
+surpreender_2 := trans-verb-lex & ; m
+[ STEM < "surpreender" >,
+SYNSEM.LKEYS.KEYREL.PRED "_surpreender_v_2_rel" ]
+"""
+Mesmo asim, Van Himst pretende surpreender a defesa saudita, colocando dois atacantes velozes.
+""".
+
+seguir_3 := refl-dat-obj-verb-lex & ; b
+[ STEM < "seguir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_seguir_v_3_rel" ]
+"""
+Todos os elementos de um grupo de animais que não tinha sido vacinado com o HIV2 morreram da sida dos macacos, nos meses que se seguiram à sua infecção pelo SIV.
+""".
+; p=
+; y-pp [g
+transpor_1 := nonrefl-goa-obj-verb-lex & ; r,nom-acc-goa-obj-verb-lex
+[ STEM < "transpor" >,
+SYNSEM.LKEYS.KEYREL.PRED "_transpor_v_1_rel" ]
+"""
+Algo como um samba de breque transposto para o domínio eletrificado do rock.
+""".
+; pr [b
+eleger_1 := trans-verb-lex & ; r,refl-int-verb-lex
+[ STEM < "eleger" >,
+SYNSEM.LKEYS.KEYREL.PRED "_eleger_v_1_rel" ]
+"""
+Tenho certeza de que se pudesse concorrer a algum cargo, me elegeria.
+""".
+
+reivindicar_1 := trans-verb-lex & ; m
+[ STEM < "reivindicar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_reivindicar_v_1_rel" ]
+"""
+GRUPO LIBANÊS REIVINDICA RAPTO DE NORTE-AMERICANOS --
+""".
+
+imaginar_2 := ind-cl-verb-lex & ; b
+[ STEM < "imaginar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_imaginar_v_2_rel" ]
+"""
+Você não pode imaginar que quão longe eu venho.
+""".
+
+chorar_2 := trans-verb-lex & ; m
+[ STEM < "chorar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_chorar_v_2_rel" ]
+"""
+Cinco meses mais tarde, a imagem de uma mulher chorando a perda dos seus oito filhos, baptizada como «pietà argelina», voltava a ser impressa, desta feita porque o seu autor, escondido atrás do pseudónimo Hocine por razões de segurança, recebia o Prémio World Press Photo 1997.
+""".
+
+brindar_1 := trans-verb-lex & ; m
+[ STEM < "brindar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_brindar_v_1_rel" ]
+"""
+O irrequieto José Magalhães resolveu brindar deputados, jornalistas e amigos com uma prenda «pirata».
+""".
+; p]
+; "[...] a Associação cadastrou-se ao projeto no início do ano passado [...]"
+; http://www.jornalcorreiolivre.com/noticias/geral/803/aama-recebeu-mais-de-r-68-mil-do-programa-nota-fiscal-gaucha
+; -y-pp [f,b,g
+cadastrar_1 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-obj-verb-lex
+[ STEM < "cadastrar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_cadastrar_v_1_rel" ]
+"""
+Uma das consequências disso é outra aberração na saúde brasileira: em 1991, os hospitais psiquiátricos cadastrados à rede federal consumiam 7,5% das despesas com internações realizadas pelo SUS e representavam o equivalente a 18% dos leitos.
+""".
+
+resgatar_1 := trans-verb-lex & ; m
+[ STEM < "resgatar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_resgatar_v_1_rel" ]
+"""
+Caixa resgata a década perdida de Elvis
+""".
+
+desvirtuar_1 := trans-verb-lex & ; m
+[ STEM < "desvirtuar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_desvirtuar_v_1_rel" ]
+"""
+Não se trata simplesmente da questão da escravidão certamente ter tido efeitos duradouros sobre a cultura negra, nem mesmo dela ter exercido um amplo efeito negativo sobre a auto-confiança e auto-estima dos negros, mas mais especificamente da experiência da escravatura ter desvirtuado e tolhido a evolução do algoritmo etnocêntrico que os negros americanos teriam desenvolvido no decorrer normal dos acontecimentos.
+""".
+
+aprender_2 := trans-verb-lex & ; m
+[ STEM < "aprender" >,
+SYNSEM.LKEYS.KEYREL.PRED "_aprender_v_2_rel" ]
+"""
+«Adventure in Castle» é um programa para aprender matemática.
+""".
+
+partir_3 := nonrefl-gen-obj-verb-lex & ; g
+[ STEM < "partir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_partir_v_3_rel" ]
+"""
+«Sete Ondas» não está partindo do marco zero.
+""".
+; tdp [g
+intitular_1 := trans-verb-lex & ; r,t
+[ STEM < "intitular" >,
+SYNSEM.LKEYS.KEYREL.PRED "_intitular_v_1_rel" ]
+"""
+O segundo, com algum humor, intitulou a sua peça «O meu corpo»; e, no meio de uma estrutura de mármore, colocou dois vasos com água a diferentes níveis, que se foi sujando -- e enchendo de moedas -- com o passar dos dias.
+""".
+
+ornar_1 := trans-verb-lex & ; p
+[ STEM < "ornar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_ornar_v_1_rel" ]
+"""
+Walter Saunders, outro realizador e produtor arborígene, sublinhou a pilhagem cultural que a sua comunidade continua a sofrer, por exemplo no domínio das imagens: dos motivos arborígenes utilizados para ornamentar louça e tecidos, os símbolos que ornam os aviões australianos, os boomerangs fabricados e vendidos por australianos brancos, sem que os arborigenes recebam quaisquer direitos ...
+""".
+; p=/
+; - Estrutura sintática básica: [SN V SN (SP)] (verbo bitransitivo)
+; - Estrutura de papéis temáticos: {Causa ou Agente, Paciente, (Instrumento)}
+; - Licencia a passiva estativa com dois argumentos : A roupa do ator está empapada de/com sangue. [v
+empapar_1 := nonrefl-gen-obj-verb-lex & ; r,nom-acc-gen-verb-lex/refl-gen-obj-verb-lex
+[ STEM < "empapar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_empapar_v_1_rel" ]
+"""
+Desta vez, com uma camiseta branca furada a bala e empapada de sangue acima de calças militares.
+""".
+
+mexer_2 := trans-verb-lex & ; m
+[ STEM < "mexer" >,
+SYNSEM.LKEYS.KEYREL.PRED "_mexer_v_2_rel" ]
+"""
+Cosic era o único candidato e os diplomatas ocidentais notam que o seu poder é, na prática, fictício, pois o homem que «mexe os cordelinhos» em Belgrado continua a ser o Presidente sérvio, Slobodan Milosevic.
+""".
+
+marcar_1 := trans-verb-lex & ; m
+[ STEM < "marcar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_marcar_v_1_rel" ]
+"""
+As baixas dos demais mercados marcaram uma tendência.
+""".
+
+consumar_2 := refl-int-verb-lex & ; p
+[ STEM < "consumar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_consumar_v_2_rel" ]
+"""
+Mais tarde, o Ford Fiesta voltou a parar no mesmo local -- à esquina da rua da Pensão Beira Baixa, onde Carlos Miguel almoçou, e também muito próximo de um eucaliptal onde o rapto se consumou.
+""".
+; -a-er
+; a-pp [b
+deparar_3 := refl-int-verb-lex & ; r,refl-dat-obj-verb-lex
+[ STEM < "deparar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_deparar_v_3_rel" ]
+"""
+A primeira dificuldade que se depara às empresas que conseguem concretizar um processo de investimento em Moçambique é o de recrutamento de quadros para permanências prolongadas no país.
+""".
+; vtd [g
+; dposs
+tapar_1 := nom-acc-dat-ditransitive-verb-lex & ; l
+[ STEM < "tapar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_tapar_v_1_rel" ]
+"""
+No momento em que regressava a casa, o indivíduo lançou-se sobre ela, tapou-lhe a boca, agrediu-a e atirou-a ao chão.
+""".
+
+especializar_2 := refl-ine-obj-verb-lex & ; b
+[ STEM < "especializar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_especializar_v_2_rel" ]
+"""
+Vítor Mendes realça também o significado dos títulos na perspectiva que defende de o atletismo do clube não se especializar só no meio-fundo, como chegou a ser superiormente equacionado:
+""".
+
+impedir_3 := que-subj-cl-verb-lex & ; b
+[ STEM < "impedir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_impedir_v_3_rel" ]
+"""
+Isto não impede que, no íntimo, eu deseje alguma espécie de uma complexa, delicada e difícil soberania para nós.
+""".
+
+ocupar_1 := refl-gen-obj-verb-lex & ; b
+[ STEM < "ocupar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_ocupar_v_1_rel" ]
+"""
+Se, como nele se diz, «a Igreja deseja encetar um diálogo construtivo com os que continuam convencidos da necessidade de realizar um controle imperativo da população e com os governos e as instituições que se ocupam de políticas da população, já que existem problemas demográficos reais, apesar de frequentemente serem vistos a partir de uma perspectiva errada e de se proporem soluções depravadas para os resolver» (nº24), não pode favorecer os mal-entendidos.
+""".
+
+atrapalhar_1 := trans-verb-lex & ; m
+[ STEM < "atrapalhar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_atrapalhar_v_1_rel" ]
+"""
+Itamar disse que o assédio da imprensa continua «atrapalhando muito» seu namoro com June.
+""".
+
+financiar_1 := trans-verb-lex & ; m
+[ STEM < "financiar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_financiar_v_1_rel" ]
+"""
+A Tejofran e a Power são acusadas por Rui Ramos, ex-integrante da campanha tucana, de financiar a estrutura política do candidato do PSDB ao governo, Mário Covas.
+""".
+; a-pp [g
+fixar_1 := trans-verb-lex & ; r,nom-acc-dat-d-vl
+[ STEM < "fixar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_fixar_v_1_rel" ]
+"""
+Os meninos brincarão com o vento da madrugada, com ele fixando o capim à terra ...
+""".
+; Apesar dos parisienses terem alinhado com Neymar, Mbappé e Messi, que inclusivamente rematou uma bola à barra, o trio não conseguiu evitar a vitória adversária [...]
+; https://www.record.pt/internacional/paises/franca/psg/detalhe/pochettino-e-a-primeira-derrota-do-psg-na-ligue-1-foi-muito-duro-para-a-equipa
+rematar_1 := nom-acc-dat-ditransitive-verb-lex & ; l
+[ STEM < "rematar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_rematar_v_1_rel" ]
+"""
+O Parma voltou a acordar aos 66',quando Melli rematou à barra uma bola passada por Dino Baggio.
+""".
+
+necessitar_2 := que-subj-cl-verb-lex & ; b
+[ STEM < "necessitar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_necessitar_v_2_rel" ]
+"""
+E enquanto por um lado a administração trabalhista não dependerá dos unionistas para obter o apoio parlamentar, por outro, necessitará que eles se mantenham comprometidos para assegurar o avanço das negociações de paz.
+""".
+
+associar_2 := nom-acc-dat-ditransitive-verb-lex & ; g
+[ STEM < "associar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_associar_v_2_rel" ]
+"""
+Poderá assim tomar consciência do contraste entre o volume sugerido e a massa das bolas, e associar a caixa a outras formas semelhantes, feitas no mesmo material, que já tenha visto: túmulos, sarcófagos ...
+""".
+
+conquistar_1 := trans-verb-lex & ; m
+[ STEM < "conquistar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_conquistar_v_1_rel" ]
+"""
+Iti Fuji conquista clientela a ferro e fogo
+""".
+
+abolir_1 := trans-verb-lex & ; m
+[ STEM < "abolir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_abolir_v_1_rel" ]
+"""
+Decidimos então, por uma questão de economia cênica, abolir uma das casas e só insinuar as outras duas, fazendo apenas suas entradas, que parecem as de um templo.
+""".
+; -y-pp [b,g
+; y-pp [l
+; y-pp "envolver" [g
+submergir_1 := trans-verb-lex & ; r,nom-acc-ine-d-vl
+[ STEM < "submergir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_submergir_v_1_rel" ]
+"""
+Quando o navio estava a passar no estreito dos Dardanelos e as cúpulas das mesquitas de Constantinopla pareciam pombas brancas numa atmosfera de palhetas douradas, apresenta-se-lhe uma velha senhora magra, elegante e «pripudrennaia» (empoada) que a submerge numa admiração comovida, quase como se se tratasse de uma irmã ou de um familiar regressado do túmulo.
+""".
+
+conduzir_1 := trans-verb-lex & ; m
+[ STEM < "conduzir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_conduzir_v_1_rel" ]
+"""
+Não se pode conduzir a política de acordo com as tendências das sondagens.
+""".
+; p=
+; random-sample-205-entries.tdl:1124:propor_3 := nom-acc-dat-ditransitive-verb-lex & ; BOR
+propor_2 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-d-vl
+[ STEM < "propor" >,
+SYNSEM.LKEYS.KEYREL.PRED "_propor_v_2_rel" ]
+"""
+O sistema encontra-se disponível no mercado português e faz parte do pacote proposto aos franchisados.
+""".
+; /la
+; -a-pp in this sense [g
+prender_3 := nom-acc-dat-ditransitive-verb-lex & ; r,tr
+[ STEM < "prender" >,
+SYNSEM.LKEYS.KEYREL.PRED "_prender_v_3_rel" ]
+"""
+«Se querem prender alguém, têm que nos prender a todos, porque fomos nós todos juntos que cortámos a estrada e barricámos a empresa.
+""".
+
+valorizar_1 := trans-verb-lex & ; m
+[ STEM < "valorizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_valorizar_v_1_rel" ]
+"""
+Lang subiu muito no terreno, ficando Oceano sozinho no apoio à defesa, facto que valorizou o futebol ofensivo dos «leões».
+""".
+
+fiscalizar_1 := trans-verb-lex & ; m
+[ STEM < "fiscalizar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_fiscalizar_v_1_rel" ]
+"""
+«A administração pública não tem capacidade do ponto de vista veterinário para fiscalizar e punir os prevaricadores».
+""".
+
+interessar_3 := nonrefl-dat-obj-verb-lex & ; f
+[ STEM < "interessar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_interessar_v_3_rel" ]
+"""
+Ao regime não interessava o desenvolvimento cultural do país.
+""".
+; random-sample-156-entries.tdl:172:conferir_3 := nom-acc-dat-ditransitive-verb-lex & ; FER
+conferir_2 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-d-vl
+[ STEM < "conferir" >,
+SYNSEM.LKEYS.KEYREL.PRED "_conferir_v_2_rel" ]
+"""
+O provedor recomenda, assim, a «imediata transferência» do agente da PSP para um estabelecimento prisional «tutelado pelo Ministério da Justiça» e «que permita compatibilizar as exigências de segurança com o exercício dos direitos conferidos a qualquer recluso em ambiente prisional normal».
+""".
+
+afastar_4 := refl-int-verb-lex & ; b
+[ STEM < "afastar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_afastar_v_4_rel" ]
+"""
+Quando Quinito foi contratado para o FC Porto e se propôs recuperar, entre outros, Gomes e Madjer, o homem de Palmela afastou-se e, nas suas costas, começaram a aparecer muitas das histórias a seu respeito que, até então, tinham ficado escondidas nos segredos dos bastidores.
+""".
+; i/
+; # sent_id = CP43-3
+; # source = CETEMPúblico n=43 sec=clt-soc sem=95a
+; 6 noticiava noticiar VERB 0 root
+; 7 se se PRON 6 nsubj
+; 8 a o DET 9 det
+; 9 introdução introdução NOUN 6 obj
+noticiar_2 := trans-verb-lex & ; m
+[ STEM < "noticiar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_noticiar_v_2_rel" ]
+"""
+Em Janeiro de 1994, noticiava-se a introdução na Alemanha de um supercomputador que regista as impressões digitais dos candidatos a asilo político, para tentar detectar fraudes nos subsídios da segurança social.
+""".
+
+meter_1 := trans-verb-lex & ; m
+[ STEM < "meter" >,
+SYNSEM.LKEYS.KEYREL.PRED "_meter_v_1_rel" ]
+"""
+«Este homem mete medo...»
+""".
+
+falhar_1 := trans-verb-lex & ; m
+[ STEM < "falhar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_falhar_v_1_rel" ]
+"""
+a portuguesa, muito nervosa, falhou por completo o primeiro lançamento.
+""".
+
+cumprimentar_1 := trans-verb-lex & ; m
+[ STEM < "cumprimentar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_cumprimentar_v_1_rel" ]
+"""
+Em sinal de protesto, de hoje em diante, quem me cumprimentar com beijo suado leva uma muqueta no focinho.
+""".
+; -pr [r
+; -prs [b
+cruzar_2 := refl-int-verb-lex & ; f,g,m,p
+[ STEM < "cruzar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_cruzar_v_2_rel" ]
+"""
+Cerimónia e combate em que a mística grotowski-barbiana, as artes marciais orientais, a música e a poesia italiana e um projecto intercultural se cruzam em boa harmonia.
+""".
+; -y-pp [g
+; dcom
+tirar_1 := nom-acc-rec-ditransitive-verb-lex & ; l
+[ STEM < "tirar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_tirar_v_1_rel" ]
+"""
+E óculos escuros -- porque estava «muito cansado» -- que tirou para@iobj->obl?@ o fotógrafo.
+""".
+
+chocar_3 := refl-int-verb-lex & ; g,b
+[ STEM < "chocar" >,
+SYNSEM.LKEYS.KEYREL.PRED "_chocar_v_3_rel" ]
+"""
+Um Gol e um Voyage se chocaram.
+""".
+; prototypical p= with passive agent por-PP
+; tdi + a g]
+suscitar_2 := nonrefl-dat-obj-verb-lex & ; r,nom-acc-dat-d-vl
+  [ STEM < "suscitar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_suscitar_v_2_rel" ]
+  """
+  São várias as dúvidas suscitadas à DGCP pelo processo da taxa.
+  """. 
+
+liberar_1 := trans-verb-lex & ; m
+  [ STEM < "liberar" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_liberar_v_1_rel" ]
+  """
+  Prefeitura libera 10 salas
+  """. 
+

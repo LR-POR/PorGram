@@ -274,4 +274,48 @@ sertão := masc-noun-lex &
   [ STEM < "sertão" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sertão_n_rel" ].
 
+metade := fem-noun-lex &
+  [ STEM < "metade" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_metade_n_rel" ].
+
+mundo := masc-noun-lex &
+  [ STEM < "mundo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mundo_n_rel" ].
+
+empresa := fem-noun-lex &
+  [ STEM < "empresa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_empresa_n_rel" ].
+
+mercado := masc-noun-lex &
+  [ STEM < "mercado" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mercado_n_rel" ].
+
+óculo := masc-noun-lex &
+  [ STEM < "óculo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_óculo_n_rel" ].
+
+fotógrafo := masc-noun-lex &
+  [ STEM < "fotógrafo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fotógrafo_n_rel" ].
+
+camisa := fem-noun-lex &
+  [ STEM < "camisa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_camisa_n_rel" ].
+
+revista := fem-noun-lex &
+  [ STEM < "revista" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_revista_n_rel" ].
+
+foto := fem-noun-lex &
+  [ STEM < "foto" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_foto_n_rel" ].
+
+diretor := masc-noun-lex &
+  [ STEM < "diretor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_diretor_n_rel" ].
+
+professor := masc-noun-lex &
+  [ STEM < "professor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_professor_n_rel" ].
+
 

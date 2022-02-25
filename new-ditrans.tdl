@@ -333,7 +333,7 @@ levar_v5 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   """. 
 ; 1. Imputar falta ou crime a (alguém ou a si próprio); declarar(-se) culpado; CULPAR(-SE) [td. : acusar um inocente: Acusaram -se mutuamente.] [tdr. + de, por : O menor acusou o policial de agressão. (AUL)
 ; inconsistent analysis in AUL? Why not "vtdi"? See levar_v5.
-acusar_v3 := nom-acc-gen-ditransitive-verb-lex & ; 
+acusar_v3 := nom-acc-gen-ditransitive-verb-lex & ; AUL
   [ STEM < "acusar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_acusar_v_3_rel" ]
   """
