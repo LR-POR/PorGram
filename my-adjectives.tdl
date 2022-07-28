@@ -2,6 +2,6 @@ longo := non-uniform-adj-lex &
   [ STEM < "longo" >,
     SYNSEM.LKEYS.KEYREL.PRED "_longo_a_rel" ].
     
-estranho := non-uniform-adj-lex &
+estranho_a := non-uniform-adj-lex &
   [ STEM < "estranho" >,
     SYNSEM.LKEYS.KEYREL.PRED "_estranho_a_rel" ].

@@ -3,7 +3,8 @@ dispensar_2 := nom-acc-dat-ditransitive-verb-lex & ; FER
     SYNSEM.LKEYS.KEYREL.PRED "_dispensar_v_2_rel" ]
   """
   Adelaide critica Emília por esta sair pouco de casa e, em seguida, deixa a sala irritada pela pouca atenção qu lhe é dispensada pela mãe.
-  """. 
+  """.
+  
 ; dative clitic "lhe" is not an argument of "enriquecer"
 ; http://match.grew.fr/data/61e1e3eee0590/6479.svg
 enriquecer_2 := nom-acc-dat-ditransitive-verb-lex & ; ERROR:trans-verb-lex 
@@ -11,14 +12,16 @@ enriquecer_2 := nom-acc-dat-ditransitive-verb-lex & ; ERROR:trans-verb-lex
     SYNSEM.LKEYS.KEYREL.PRED "_enriquecer_v_2_rel" ]
   """
   estabelecer uma ordem na multiplicidade caótica das imagens pode ser uma tarefa exterior e desligada desse real mas também pode, ao procurar entender as intenções dos fotógrafos, enriquecer o conjunto fornecer-lhe um novo sentido.
-  """. 
+  """.
+  
 ; PP is not pronominalizable
 comparar_4 := nom-acc-dat-ditransitive-verb-lex & ; FER
   [ STEM < "comparar" >,
     SYNSEM.LKEYS.KEYREL.PRED "_comparar_v_4_rel" ]
   """
   Mais metafórico foi o secretário de Estado do Desenvolvimento Regional, Adriano Pimpão, que comparou o acordo a «uma embraiagem».
-  """. 
+  """.
+  
 ; the expletive reflexive pronoun of the previous verb, i.e., pronominal verb "abster-se", was incorrectly assigned to "votar"
 ; contra-PP is a beneficiary argument (BOR)
 ; votar a favor de algo (FER)
