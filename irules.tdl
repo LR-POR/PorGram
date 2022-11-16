@@ -289,6 +289,18 @@ a-pl-suffix :=
 %suffix (* s)
 a-pl-lex-rule.
 
+dim-suffix1 :=
+%suffix (* inho)
+dim-lex-rule.
+
+dim-suffix2 :=
+%suffix (* ito)
+dim-lex-rule.
+
+dim-suffix3 :=
+%suffix (* zinho)
+dim-lex-rule.
+
 cop-past-part-suffix :=
 %suffix (* ado)
 cop-past-part-lex-rule.
