@@ -78,7 +78,7 @@ dim-lex-rule.
 
 dim-suffix2 :=
 ; (fraco fraquito) (forte fortito) (bom bonzito) (lindo lindito) (fracos fraquitos) (fortes fortitos) (bons bonzitos)
-%suffix (c!o quit!o) (e ito) (e ita) (m nzito) (!o it!o) (c!os quit!os) (es itos) (itas) (ns nzitos) (!os it!os)
+%suffix (c!o quit!o) (e ito) (e ita) (m nzito) (!o it!o) (c!os quit!os) (es itos) (es itas) (ns nzitos) (!os it!os)
 dim-lex-rule.
 
 dim-suffix3 :=
