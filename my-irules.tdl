@@ -73,17 +73,17 @@ det-pl-lex-rule.
 
 dim-suffix1 :=
 ; (forte fortinho) (aceso acesinho) (feliz felizinho) (fraco fraquinho) (lindo lindinho) (fortes fortinhos) (acesos acesinhos) (felizes felizinhos) (fracos fraquinhos) (lindos lindinhos)
-%suffix (e inho) (e inha) (s!o sinh!o) (z zinho) (z zinha) (c!o quinh!o) (!o inh!o) (es inhos) (es inhas) (s!os sinh!os) (zes zinhos) (zes zinhas) (c!os quinh!os) (!os inh!os)
+%suffix (e inho) (s!o sinh!o) (z zinho) (c!o quinh!o) (!o inh!o) (es inhos) (s!os sinh!os) (zes zinhos) (c!os quinh!os) (!os inh!os)
 dim-lex-rule.
 
 dim-suffix2 :=
 ; (fraco fraquito) (forte fortito) (bom bonzito) (lindo lindito) (fracos fraquitos) (fortes fortitos) (bons bonzitos)
-%suffix (c!o quit!o) (e ito) (e ita) (m nzito) (!o it!o) (c!os quit!os) (es itos) (es itas) (ns nzitos) (!os it!os)
+%suffix (c!o quit!o) (e ito) (m nzito) (!o it!o) (c!os quit!os) (es itos) (ns nzitos) (!os it!os)
 dim-lex-rule.
 
 dim-suffix3 :=
 ; (fortes fortezinhos) (lindos lindozinhos) (bons bonzinhos) (adoráveis adoraveizinhos) (forte fortezinho) (lindo lindozinho) (lambedor lambedorzinho) (adorável adoravelzinho) (bom bonzinho)
-%suffix (!is !izinhos) (!os !ozin!os) (ns nzinhos) (ns nzinhas) (áveis aveizinhos) (áveis aveizinhas) (!i !izinho) (!i !izinha) (!o !ozinh!o) (r rzinho) (ável avelzinho) (ável avelzinha) (m nzinho) (m nzinha)
+%suffix (!is !izinhos) (!os !ozin!os) (ns nzinhos) (áveis aveizinhos) (!i !izinho) (!o !ozinh!o) (r rzinho) (ável avelzinho) (m nzinho)
 dim-lex-rule.
 
 perf-ind-1sg-suffix :=

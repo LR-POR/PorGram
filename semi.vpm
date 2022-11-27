@@ -37,6 +37,10 @@ COG-ST : COG-ST
   * <> *
 
 
+PNG.EVAL : PNG.EVAL
+  diminutive <> diminutive
+  * <> *
+
 PNG.PER : PNG.PER
   3rd <> 3rd
   2nd <> 2nd
