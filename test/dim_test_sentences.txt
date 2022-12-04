@@ -1,16 +1,17 @@
-o cachorro fortinho
-o gato acesinho
-as gatas felizezinhas
-os cachorros fraquitos
-os gatos lindinhos
-o cachorro bonzito
-as gatas adoraveizinhas
-o cachorro lambedorzinho
-*o cachorro fortinhos
-*o gato acesinhos
-*as gatas felizezinha
-*os cachorros fraquito
-*as gatas lindinhos
-*o cachorro bonzitos
-*as gatas adoravelzinha
-*o cachorro lambedorzinhos
+o cachorro fortinho latiu
+o gato acesinho partiu
+os gatos felizezinhos partiram
+os cachorros fraquitos latiram
+os gatos lindinhos partiram
+o cachorro bonzito latiu
+os gatos adoraveizinhos partiram
+o cachorro lambedorzinho latiu
+*o cachorro fortinhos latiu
+*o gato acesinhos partiu
+*as gatas felizezinha partiram
+*os cachorros fraquito latiram
+*as gatas lindinhos partiram
+*o cachorro bonzitos latiu
+*as gatas adoravelzinha partiram
+*o cachorro lambedorzinhos latiu
+*as gatas amarelinhas partiu
