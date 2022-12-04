@@ -2,6 +2,10 @@ gato := masc-noun-lex &
   [ STEM < "gato" >,
     SYNSEM.LKEYS.KEYREL.PRED "_gato_n_rel" ].
 
+gata := fem-noun-lex &
+  [ STEM < "gata" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gata_n_rel" ].
+
 cachorro := masc-noun-lex &
   [ STEM < "cachorro" >,
     SYNSEM.LKEYS.KEYREL.PRED "_cachorro_n_rel" ].
