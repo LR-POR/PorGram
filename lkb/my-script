@@ -1,4 +1,3 @@
-
 ;;; -*- Mode: LISP; Syntax: Common-Lisp; Package: LKB; Coding: utf-8 -*-
 
 ;;;
@@ -54,27 +53,27 @@
 ;;;
 ;@start
 (read-tdl-lex-file-aux (list
-			(lkb-pathname (parent-directory) "lexicon.tdl")
-			(lkb-pathname (parent-directory) "lexicon/arity-1-verbs.tdl")
-			(lkb-pathname (parent-directory) "lexicon/arity-2-verbs.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-determiners.tdl")
-			(lkb-pathname (parent-directory) "lexicon/conj123-2-verbs.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-adpositions.tdl")
-			(lkb-pathname (parent-directory) "lexicon/prep-obj-verbs.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-complementizers.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-auxiliaries.tdl")
-			(lkb-pathname (parent-directory) "lexicon/control-verbs.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-nouns.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-cl-compl-verbs.tdl")
-			(lkb-pathname (parent-directory) "lexicon/random-sample-50-entries.tdl")
-			(lkb-pathname (parent-directory) "lexicon/random-sample-156-entries.tdl")
-			(lkb-pathname (parent-directory) "lexicon/random-sample-206-entries.tdl")
-			(lkb-pathname (parent-directory) "lexicon/random-sample-205-entries.tdl")
-			(lkb-pathname (parent-directory) "lexicon/random-sample-204-entries.tdl")
-			(lkb-pathname (parent-directory) "lexicon/random-sample-209-entries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/arity-1-verbs.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/arity-2-verbs.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-determiners.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/conj123-2-verbs.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-adpositions.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/prep-obj-verbs.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-complementizers.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-auxiliaries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/control-verbs.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-nouns.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-cl-compl-verbs.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/random-sample-50-entries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/random-sample-156-entries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/random-sample-206-entries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/random-sample-205-entries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/random-sample-204-entries.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/random-sample-209-entries.tdl")
 			;(lkb-pathname (parent-directory) "lexicon/sample-1029-entries.tdl")
-		        (lkb-pathname (parent-directory) "lexicon/new-ditrans.tdl")
-			(lkb-pathname (parent-directory) "lexicon/my-adjectives.tdl")
+		        ;(lkb-pathname (parent-directory) "lexicon/new-ditrans.tdl")
+			;(lkb-pathname (parent-directory) "lexicon/my-adjectives.tdl")
 			(lkb-pathname (parent-directory) "lexicon/dim-test-lexicon.tdl")
 			))
 ;@end
