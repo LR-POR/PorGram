@@ -1,0 +1,15 @@
+lambedor	lambedorita	+A+DIM+F+SG
+lambedor	lambedoritas	+A+DIM+F+PL
+adorável	adorávéis	+A+PL
+adorável	adorávéizinhos	+A+DIM+M+PL
+lindo	lindito	+A+DIM+M+SG
+lindo	linditos	+A+DIM+M+PL
+lindo	lindita	+A+DIM+F+SG
+lindo	linditas	+A+DIM+F+PL
+feliz	felizitos	+A+DIM+M+PL
+aceso	acesito	+A+DIM+M+SG
+aceso	acesitos	+A+DIM+M+PL
+aceso	acesita	+A+DIM+F+SG
+aceso	acesitas	+A+DIM+F+PL
+forte	fortito	+A+DIM+M+SG
+forte	fortitos	+A+DIM+M+PL
