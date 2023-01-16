@@ -72,6 +72,15 @@ getLex mtags path = do
     aux m xs = map (\s -> let p = (T.splitOn ")" (last $ T.splitOn "(" s))
      in ((T.strip $ T.toLower $ head (T.splitOn "(" s)),((T.strip $ T.toLower (last p)),getRule (head p) m))) xs
 
+
+getLex2 :: M.Map T.Text [T.Text]  -> FilePath -> IO (M.Map T.Text [(T.Text, T.Text)])
+getLex2 mtags path = do
+    content <- TO.readFile path
+    return $ M.fromListWith (++) $ nub $ aux mtags (T.lines content)
+ where
+    aux m xs = map (\s -> let p = (T.splitOn ")" (last $ T.splitOn "(" s))
+     in ((T.strip $ T.toLower $ head (T.splitOn "(" s)),[((T.strip $ T.toLower (last p)),getRule (head p) m)])) xs
+
 ------ comparando formas
 -- verifica se a forma é esta no MorphoBr, se não estiver retorna a forma e a regra 
 isRegular :: (T.Text,T.Text) -> T.Text ->  M.Map T.Text [(T.Text,T.Text)] -> [T.Text]
@@ -95,6 +104,13 @@ getIrregs xs m = map (aux m) xs
     | null (testEmpty lema morpho) = []
     | otherwise = isRegular forma lema morpho
 
+getIrregs2 :: [(T.Text,[(T.Text,T.Text)])] -> M.Map T.Text [(T.Text,T.Text)] -> [[T.Text]]
+getIrregs2 xs m = concatMap ((\m (lema,ys) -> map (aux m lema) ys) m) xs
+ where
+   aux morpho lema forma
+    | null (testEmpty lema morpho) = []
+    | otherwise = isRegular forma lema morpho
+
 -- recebe dois paths, um com o diretório dos arquivos a serem verificados e outro onde serão 
 -- escritas as formas irregulares
 mkIrregsTab :: FilePath -> FilePath -> FilePath -> IO ()
@@ -104,5 +120,15 @@ mkIrregsTab dir lex outpath = do
   lex <- getLex mtags lex
   dicts <- mapM (lemmaDict . combine dir) paths
   TO.writeFile outpath (aux $ getIrregs (nub lex) (foldr (M.unionWith (++)) M.empty dicts))
+ where
+   aux x = T.intercalate "\n" $ map (T.intercalate "\t") $ del x
+
+check :: FilePath -> FilePath -> FilePath -> IO ()
+check dir lex outpath = do
+  mtags <- tag2rule "etc/expanded_lex_tags.dict"
+  paths <- listDirectory dir
+  lex <- getLex2 mtags lex
+  dicts <- mapM (lemmaDict . combine dir) paths
+  TO.writeFile outpath (aux $ getIrregs2 (M.toList $ foldr (M.unionWith (++)) M.empty dicts) lex)
  where
    aux x = T.intercalate "\n" $ map (T.intercalate "\t") $ del x
