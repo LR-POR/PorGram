@@ -53,7 +53,7 @@
 ;;;
 ;@start
 (read-tdl-lex-file-aux (list
-			;(lkb-pathname (parent-directory) "lexicon.tdl")
+			(lkb-pathname (parent-directory) "lexicon.tdl")
 			;(lkb-pathname (parent-directory) "lexicon/arity-1-verbs.tdl")
 			;(lkb-pathname (parent-directory) "lexicon/arity-2-verbs.tdl")
 			;(lkb-pathname (parent-directory) "lexicon/my-determiners.tdl")
