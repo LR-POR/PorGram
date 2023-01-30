@@ -22,6 +22,10 @@ feliz := uniform-adj-lex &
 		    [ STEM < "feliz" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
 
+voraz := uniform-adj-lex &
+		    [ STEM < "voraz" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_voraz_a_rel" ].
+
 fraco := non-uniform-adj-lex &
 		    [ STEM < "fraco" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_fraco_a_rel" ].
@@ -41,3 +45,11 @@ adorável := uniform-adj-lex &
 lambedor := non-uniform-adj-lex &
 		    [ STEM < "lambedor" >,
 		    SYNSEM.LKEYS.KEYREL.PRED "_lambedor_a_rel" ].
+
+incolor := uniform-adj-lex &
+		    [ STEM < "incolor" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_incolor_a_rel" ].
+
+adorável := non-uniform-adj-lex &
+		    [ STEM < "adorável" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_adorável_a_rel" ].
