@@ -1,0 +1,75 @@
+;;; -*- Mode: TDL; Package: DISCO -*-
+;;;
+;;; $Id: pet.tdl,v 1.2 2008-05-23 01:44:21 sfd Exp $
+;;;
+
+:begin :type.
+
+;;
+;; type hierarchy
+;;
+
+:include "head-types".
+:include "matrix".
+:include "portuguese".
+:include "my-portuguese".
+:include "mtr".
+
+
+:end :type.
+
+;;
+;; lexicon entries (instances of status lex-entry or generic-lex-entry)
+;;
+
+:begin :instance :status lex-entry.
+:include "lexicon".
+:include "lexicon/arity-1-verbs".
+:include "lexicon/arity-2-verbs".
+:include "lexicon/my-determiners".
+:include "lexicon/conj123-2-verbs".
+:include "lexicon/my-adpositions".
+:include "lexicon/prep-obj-verbs".
+:include "lexicon/my-complementizers".
+:include "lexicon/my-auxiliaries".
+:include "lexicon/control-verbs".
+:include "lexicon/my-nouns".
+:include "lexicon/my-cl-compl-verbs".
+:include "lexicon/random-sample-50-entries".
+:include "lexicon/random-sample-156-entries".
+:include "lexicon/random-sample-206-entries".
+:include "lexicon/random-sample-205-entries".
+:include "lexicon/random-sample-204-entries".
+:include "lexicon/random-sample-209-entries".
+:include "lexicon/new-ditrans".
+:include "lexicon/my-adjectives".
+:end :instance.
+
+;;
+;; grammar rules and lexical rules (instances of status rule)
+;;
+
+:begin :instance :status rule.
+:include "rules".
+:end :instance.
+
+:begin :instance :status lex-rule.
+:include "lrules".
+:include "my-irules".
+:end :instance.
+
+;;
+;; parse-tree labels (instances)
+;;
+
+:begin :instance.
+:include "labels".
+:end :instance.
+
+;;
+;; start symbols of the grammar (instances)
+;;
+
+:begin :instance.
+:include "roots".
+:end :instance.

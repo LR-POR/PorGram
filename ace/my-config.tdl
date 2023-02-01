@@ -1,10 +1,10 @@
 ;;; files to load
 
-grammar-top               := "../my-portuguese.tdl".
+grammar-top               := "../my-portuguese-pet.tdl".
 variable-property-mapping := "../semi.vpm".
 preprocessor              := "../repp/vanilla.rpp".
 ;generation-ignore-signs   := "generation.ignore".
-generation-trigger-rules  := "../trigger.mtr".
+generation-trigger-rules  := "../my-trigger.mtr".
 version                   := "../Version.lsp".
 parse-node-labels         := "../labels.tdl".
 
@@ -50,4 +50,4 @@ mrs-icons-list := ICONS LIST.
 icons-left := IARG1.
 icons-right := IARG2.
 
-
+irregular-forms := ../my-irregs.tab.

@@ -208,7 +208,7 @@ impf-ind-3sg-lex-rule.
 
 impf-ind-2sg-suffix :=
 ; (partir partias) (puir puías) (seguir seguias) (vender vendias) (doar doavas)
-%suffix(!lir !lias) (!kuir !kuías) (!quir !quias) (er ias) (ar avas)
+%suffix (!lir !lias) (!kuir !kuías) (!quir !quias) (er ias) (ar avas)
 impf-ind-2sg-lex-rule.
 
 impf-ind-2pl-suffix :=

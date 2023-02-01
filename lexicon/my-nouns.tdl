@@ -213,7 +213,9 @@ mim := prep-pers-pron-1s-noun-lex &
 
 ti := prep-pers-pron-2s-noun-lex &
   [ STEM < "ti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].bandeira := fem-noun-lex &
+    SYNSEM.LKEYS.KEYREL.PRED "_tu_n_rel" ].
+
+bandeira := fem-noun-lex &
   [ STEM < "bandeira" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bandeira_n_rel" ].
 
