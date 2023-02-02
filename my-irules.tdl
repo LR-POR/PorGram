@@ -355,7 +355,7 @@ pres-part-suffix :=
 pres-part-lex-rule.
 
 past-part-suffix :=
-; (partir partido) (puir puído) (seguir seguido) (vender vendido) (doar doado)
+; (partir partido) (puir puído) (seguir seguido) (vender vendido) (doar doado)  // missing: (atrair atraído)
 %suffix (!lir !lido) (!kuir !kuído) (!quir !quido) (er ido) (ar ado)
 past-part-lex-rule.
 

@@ -901,3 +901,15 @@ a-que-cl-verb-lex := subj-cl-verb-lex & clausal-nom-verb-lex & clausal-second-ar
                                              CONT.HOOK.INDEX.SF prop ] ] >,
              NON-LOCAL.QUE.LIST < > ] ].
 
+
+
+; correcting a missing constraint from matrix. For 'cachorro amarelo'
+; we don't want wh question reading.
+
+; head-adj-phrase :+
+;   [ SYNSEM.NON-LOCAL.QUE.LIST #que,
+;     NH-DTR.SYNSEM.NON-LOCAL.QUE.LIST #que ].
+
+basic-adjective-lex :+
+   [ SYNSEM.NON-LOCAL.QUE.LIST < > ].
+   
