@@ -1,520 +1,659 @@
-1@@@@1@@o cachorro latiu@@@@1@3@@@
-2@@@@1@@o cachorro perseguiu o gato@@@@1@5@@@
-3@@@@1@@chegou tabaco@@@@1@2@@@
-4@@@@1@@tabaco chegou@@@@1@2@@@
-5@@@@1@@o tabaco chegou@@@@1@3@@@
-6@@@@1@@chegou o tabaco@@@@1@3@@@
-7@@@@1@@o cachorro tem perseguido o gato@@@@1@6@@@
-8@@@@1@@o cachorro tem latido@@@@1@4@@@
-9@@@@1@@o cachorro está perseguindo o gato@@@@1@6@@@
-10@@@@1@@o cachorro está latindo@@@@1@4@@@
-11@@@@1@@o cachorro tem estado perseguindo o gato@@@@1@7@@@
-12@@@@1@@o cachorro vai latir@@@@1@4@@@
-13@@@@1@@o cachorro quer que o gato lata@@@@1@7@@@
-14@@@@1@@o cachorro acredita que o gato late@@@@1@7@@@
-15@@@@1@@o cachorro acredita que o gato lata@@@@1@7@@@
-16@@@@1@@o cachorro perguntou se o gato late@@@@1@7@@@
-17@@@@1@@o cachorro se perguntou se o gato latiu@@@@1@8@@@
-18@@@@1@@o cachorro perguntou-se se o gato latiu@@@@1@7@@@
-19@@@@1@@o cachorro ladrou@@@@1@3@@@
-20@@@@1@@o cachorro declarou que o gato late@@@@1@7@@@
-21@@@@1@@o cachorro queixou-se@@@@1@3@@@
-22@@@@1@@eu queixei-me@@@@1@2@@@
-23@@@@1@@eles queixaram-se@@@@1@2@@@
-24@@@@1@@os cachorros ladraram@@@@1@3@@@
-25@@@@1@@os gatos queixaram-se@@@@1@3@@@
-26@@@@1@@será que o cachorro latiu@@@@1@5@@@
-27@@@@1@@que cachorro latiu@@@@1@3@@@
-28@@@@1@@qual cachorro latiu@@@@1@3@@@
-29@@@@1@@quais cachorros ladraram@@@@1@3@@@
-30@@@@1@@o cachorro perseguiu que gato@@@@1@5@@@
-31@@@@1@@que gato o cachorro perseguiu@@@@1@5@@@
-32@@@@1@@o cachorro perseguiu qual gato@@@@1@5@@@
-33@@@@1@@qual gato o cachorro perseguiu@@@@1@5@@@
-34@@@@1@@o cachorro feliz ladrou@@@@1@4@@@
-35@@@@1@@o cachorro triste ladrou@@@@1@4@@@
-36@@@@1@@o cachorro amarelo ladrou@@@@1@4@@@
-37@@@@1@@a ratazana amarela ladrou@@@@1@4@@@
-38@@@@1@@a ratazana feliz ladrou@@@@1@4@@@
-39@@@@1@@a ratazana triste ladrou@@@@1@4@@@
-40@@@@1@@as ratazanas amarelas ladraram@@@@1@4@@@
-41@@@@1@@as ratazanas tristes ladraram@@@@1@4@@@
-42@@@@1@@as ratazanas felizes ladraram@@@@1@4@@@
-43@@@@1@@os cachorros felizes ladraram@@@@1@4@@@
-44@@@@1@@os cachorros tristes ladraram@@@@1@4@@@
-45@@@@1@@os cachorros amarelos ladraram@@@@1@4@@@
-46@@@@1@@os cachorros são felizes@@@@1@4@@@
-47@@@@1@@os cachorros são amarelos@@@@1@4@@@
-48@@@@1@@os cachorros são tristes@@@@1@4@@@
-49@@@@1@@as ratazanas são felizes@@@@1@4@@@
-50@@@@1@@as ratazanas são tristes@@@@1@4@@@
-51@@@@1@@as ratazanas são amarelas@@@@1@4@@@
-52@@@@1@@a ratazana é amarela@@@@1@4@@@
-53@@@@1@@a ratazana é feliz@@@@1@4@@@
-54@@@@1@@os felizes cachorros ladraram@@@@1@4@@@
-55@@@@1@@o cachorro é feliz@@@@1@4@@@
-56@@@@1@@o gato é simples@@@@1@4@@@
-57@@@@1@@os gatos são simples@@@@1@4@@@
-58@@@@1@@a ratazana é simples@@@@1@4@@@
-59@@@@1@@as ratazanas são simples@@@@1@4@@@
-60@@@@1@@a ratazana simples é feliz@@@@1@5@@@
-61@@@@1@@o artista é feliz@@@@1@4@@@
-62@@@@1@@a artista é feliz@@@@1@4@@@
-63@@@@1@@os artistas são felizes@@@@1@4@@@
-64@@@@1@@os artistas amarelos são felizes@@@@1@5@@@
-65@@@@1@@as artistas amarelas são felizes@@@@1@5@@@
-66@@@@1@@artistas simples são felizes@@@@1@4@@@
-67@@@@1@@artistas amarelos são felizes@@@@1@4@@@
-68@@@@1@@artistas amarelas são felizes@@@@1@4@@@
-69@@@@1@@artistas simples são amarelos@@@@1@4@@@
-70@@@@1@@artistas simples são amarelas@@@@1@4@@@
-71@@@@1@@o gato lamenta os cachorros terem ladrado@@@@1@7@@@
-72@@@@1@@o gato lamenta os cachorros ladrarem@@@@1@6@@@
-73@@@@1@@o cachorro late@@@@1@3@@@
-74@@@@1@@o cachorro ladra@@@@1@3@@@
-75@@@@1@@os cachorros ladram@@@@1@3@@@
-76@@@@1@@o cachorro admira o gato@@@@1@5@@@
-77@@@@1@@os cachorros admiraram o gato@@@@1@5@@@
-78@@@@1@@o cachorro vai ladrar@@@@1@4@@@
-79@@@@1@@os cachorros vão ladrar@@@@1@4@@@
-80@@@@1@@será que a estudante adora o cachorro@@@@1@7@@@
-81@@@@1@@será que o cliente adora o cachorro@@@@1@7@@@
-82@@@@1@@os cachorrinhos vão ladrar@@@@1@4@@@
-83@@@@1@@o cachorrinho vai ladrar@@@@1@4@@@
-84@@@@1@@o lagartão admira o cachorro@@@@1@5@@@
-85@@@@1@@a lagartinha admira o cachorro@@@@1@5@@@
-86@@@@1@@a lagartona admira o cachorro@@@@1@5@@@
-87@@@@1@@os lagartões admiram o cachorro@@@@1@5@@@
-88@@@@1@@as lagartinhas admiram o cachorro@@@@1@5@@@
-89@@@@1@@as lagartonas admiram o cachorro@@@@1@5@@@
-90@@@@1@@o cachorro é feroz@@@@1@4@@@
-91@@@@1@@o cachorro é inteligente@@@@1@4@@@
-92@@@@1@@as lagartinhas são inteligentes@@@@1@4@@@
-93@@@@1@@a lagartinha é inteligente@@@@1@4@@@
-94@@@@1@@a lagartinha é feroz@@@@1@4@@@
-95@@@@1@@as lagartinhas são ferozes@@@@1@4@@@
-96@@@@1@@os artistas beirões admiram as artistas beiroas@@@@1@7@@@
-97@@@@1@@os artistas ingleses admiram as artistas judias@@@@1@7@@@
-98@@@@1@@os artistas ingleses admiram as artistas hebreias@@@@1@7@@@
-99@@@@1@@os artistas ilhéus admiram as artistas ilhoas@@@@1@7@@@
-100@@@@1@@o artista ilhéu admira a artista ilhoa@@@@1@7@@@
-101@@@@1@@os cachorrinhos amarelõezinhos são ferozes@@@@1@5@@@
-102@@@@1@@os cachorrinhos amarelões são ferozes@@@@1@5@@@
-103@@@@1@@a artista nua é francesa@@@@1@5@@@
-104@@@@1@@o artista nu é francês@@@@1@5@@@
-105@@@@1@@o artista vendeu o lagartão@@@@1@5@@@
-106@@@@1@@o artista sorriu@@@@1@3@@@
-107@@@@1@@os artistas sorriram@@@@1@3@@@
-108@@@@1@@os artistas venderam o cachorro@@@@1@5@@@
-109@@@@1@@a porta abriu@@@@1@3@@@
-110@@@@1@@a porta abriu-se@@@@1@3@@@
-111@@@@1@@o gato detesta que os cachorros latam@@@@1@7@@@
-112@@@@1@@o gato detesta que os cachorros ladrem@@@@1@7@@@
-113@@@@1@@o gato detesta que os cachorros tenham latido@@@@1@8@@@
-114@@@@1@@o gato detesta que os cachorros tenham ladrado@@@@1@8@@@
-115@@@@1@@o gato detesta que os cachorros estejam latindo@@@@1@8@@@
-116@@@@1@@o gato detesta que o cachorro tenha latido@@@@1@8@@@
-117@@@@1@@o gato detesta que o cachorro esteja latindo@@@@1@8@@@
-118@@@@1@@o gato detestou que o cachorro tenha latido@@@@1@8@@@
-119@@@@1@@o gato detestava que o cachorro estivesse latindo@@@@1@8@@@
-120@@@@1@@o gato detestou que o cachorro tivesse latido@@@@1@8@@@
-121@@@@1@@o gato detestou que o cachorro latisse@@@@1@7@@@
-122@@@@1@@o gato lamenta o cachorro ladrar@@@@1@6@@@
-123@@@@1@@lamento ladrares@@@@1@2@@@
-124@@@@1@@eu lamento ladrares@@@@1@3@@@
-125@@@@1@@eu lamento tu ladrares@@@@1@4@@@
-126@@@@1@@ele lamenta ladrarmos@@@@1@3@@@
-127@@@@1@@ele lamenta nós ladrarmos@@@@1@4@@@
-128@@@@1@@ele lamenta ladrar@@@@1@3@@@
-129@@@@1@@os cachorros estão tristes@@@@1@4@@@
-130@@@@1@@o cachorro está triste@@@@1@4@@@
-131@@@@1@@o gato detestou que o cachorro tivesse queixado-se@@@@1@8@@@
-132@@@@1@@o gato quer que os cachorros tenham ladrado@@@@1@8@@@
-133@@@@1@@o gato quer que os cachorros ladrem@@@@1@7@@@
-134@@@@1@@o gato ouviu os cachorros ladrarem@@@@1@6@@@
-135@@@@1@@o gato ouviu os cachorros latirem@@@@1@6@@@
-136@@@@1@@o gato ouviu os cachorros latindo@@@@1@6@@@
-137@@@@1@@o gato ouviu os cachorros ladrar@@@@1@6@@@
-138@@@@1@@o gato ouviu os cachorros latir@@@@1@6@@@
-139@@@@1@@o gato ouviu que os cachorros ladravam@@@@1@7@@@
-140@@@@1@@o gato ouviu que os cachorros latiam@@@@1@7@@@
-141@@@@1@@o gato mandou os cachorros ladrarem@@@@1@6@@@
-142@@@@1@@o gato mandou os cachorros latirem@@@@1@6@@@
-143@@@@1@@o gato mandou os cachorros ladrar@@@@1@6@@@
-144@@@@1@@o gato mandou os cachorros latir@@@@1@6@@@
-145@@@@1@@o gato mandou que os cachorros ladrassem@@@@1@7@@@
-146@@@@1@@o gato mandou que os cachorros latissem@@@@1@7@@@
-147@@@@1@@o gato fez que os cachorros ladrassem@@@@1@7@@@
-148@@@@1@@o gato fez que os cachorros latissem@@@@1@7@@@
-149@@@@1@@o gato fez com que os cachorros ladrassem@@@@1@8@@@
-150@@@@1@@o gato fez com que os cachorros latissem@@@@1@8@@@
-151@@@@1@@o gato sabe que os cachorros ladram@@@@1@7@@@
-152@@@@1@@o gato sabe que os cachorros latem@@@@1@7@@@
-153@@@@1@@o gato sabia que os cachorros ladravam@@@@1@7@@@
-154@@@@1@@o gato sabia que os cachorros latiam@@@@1@7@@@
-155@@@@1@@o gato pode latir@@@@1@4@@@
-156@@@@1@@o gato parece latir@@@@1@4@@@
-157@@@@1@@o gato continua latindo@@@@1@4@@@
-158@@@@1@@o gato detesta latir@@@@1@4@@@
-159@@@@1@@o gato ousou latir@@@@1@4@@@
-160@@@@1@@o gato deseja latir@@@@1@4@@@
-161@@@@1@@o cachorro começou a latir@@@@1@5@@@
-162@@@@1@@o cachorro parou de latir@@@@1@5@@@
-163@@@@1@@o artista insistiu em perseguir o cachorro@@@@1@7@@@
-164@@@@1@@o cliente insistiu em que os artistas vendessem o cachorro@@@@1@10@@@
-165@@@@1@@o artista insistiu que os artistas vendessem o cachorro@@@@1@9@@@
-166@@@@1@@o artista perguntou quem perseguiu o gato@@@@1@7@@@
-167@@@@1@@o artista perguntou quem o cachorro perseguiu@@@@1@7@@@
-168@@@@1@@o artista perguntou que cachorro perseguiu o gato@@@@1@8@@@
-169@@@@1@@o artista perguntou que gato o cachorro perseguiu@@@@1@8@@@
-170@@@@1@@o artista perguntou que cachorros perseguiram o gato@@@@1@8@@@
-171@@@@1@@o artista perguntou que gatos o cachorro perseguiu@@@@1@8@@@
-172@@@@1@@o artista perguntou que gatos os cachorros perseguiram@@@@1@8@@@
-173@@@@1@@o artista perguntou que ratazana o cachorro perseguiu@@@@1@8@@@
-174@@@@1@@o artista perguntou que ratazanas perseguiram o gato@@@@1@8@@@
-175@@@@1@@o artista perguntou que ratazanas o cachorro perseguiu@@@@1@8@@@
-176@@@@1@@o artista perguntou que ratazanas os cachorros perseguiram@@@@1@8@@@
-177@@@@1@@o artista perguntou qual cachorro perseguiu o gato@@@@1@8@@@
-178@@@@1@@o artista perguntou quais cachorros perseguiram o gato@@@@1@8@@@
-179@@@@1@@o artista perguntou quais gatos o cachorro perseguiu@@@@1@8@@@
-180@@@@1@@o artista perguntou qual ratazana perseguiu o gato@@@@1@8@@@
-181@@@@1@@o artista perguntou qual ratazana o gato perseguiu@@@@1@8@@@
-182@@@@1@@o artista perguntou quais ratazanas perseguiram o gato@@@@1@8@@@
-183@@@@1@@o artista perguntou quais ratazanas o cachorro perseguiu@@@@1@8@@@
-184@@@@1@@o artista perguntou quais ratazanas os cachorros perseguiram@@@@1@8@@@
-185@@@@1@@quais gatos o cachorro perseguiu@@@@1@5@@@
-186@@@@1@@quais ratazanas o cachorro perseguiu@@@@1@5@@@
-187@@@@1@@qual gato o cachorro perseguiu@@@@1@5@@@
-188@@@@1@@qual ratazana o cachorro perseguiu@@@@1@5@@@
-189@@@@1@@qual gato perseguiu o cachorro@@@@1@5@@@
-190@@@@1@@qual ratazana perseguiu o cachorro@@@@1@5@@@
-191@@@@1@@quais gatos perseguiram o cachorro@@@@1@5@@@
-192@@@@1@@quais ratazanas perseguiram o cachorro@@@@1@5@@@
-193@@@@1@@que gatos o cachorro perseguiu@@@@1@5@@@
-194@@@@1@@que ratazanas o cachorro perseguiu@@@@1@5@@@
-195@@@@1@@que gato o cachorro perseguiu@@@@1@5@@@
-196@@@@1@@que ratazana o cachorro perseguiu@@@@1@5@@@
-197@@@@1@@que gato perseguiu o cachorro@@@@1@5@@@
-198@@@@1@@que ratazana perseguiu o cachorro@@@@1@5@@@
-199@@@@1@@que gatos perseguiram o cachorro@@@@1@5@@@
-200@@@@1@@que ratazanas perseguiram o cachorro@@@@1@5@@@
-201@@@@1@@o artista perguntou-se que cachorro perseguiu o gato@@@@1@8@@@
-202@@@@1@@o cachorro perseguiu quais gatos@@@@1@5@@@
-203@@@@1@@o cachorro perseguiu quem@@@@1@4@@@
-204@@@@1@@quem o cachorro perseguiu@@@@1@4@@@
-205@@@@1@@que o cachorro perseguiu@@@@1@4@@@
-206@@@@1@@o artista perguntou que o cachorro perseguiu@@@@1@7@@@
-207@@@@1@@o artista perguntou o que cachorro perseguiu@@@@1@7@@@
-208@@@@1@@o artista perguntou-se que o cachorro perseguiu@@@@1@7@@@
-209@@@@1@@o artista perguntou-se o que o cachorro perseguiu@@@@1@8@@@
-210@@@@1@@o gato obedeceu a o cachorro@@@@1@6@@@
-211@@@@1@@o artista caminhou para a cidade@@@@1@6@@@
-212@@@@1@@ele doou a bicicleta a o artista@@@@1@7@@@
-213@@@@1@@ele doou a bicicleta para o artista@@@@1@7@@@
-214@@@@1@@o que o cachorro perseguiu@@@@1@5@@@
-215@@@@1@@todos os gatos temem o cachorro@@@@1@6@@@
-216@@@@1@@todos gatos temem o cachorro@@@@1@5@@@
-217@@@@1@@todas as ratazanas temem o gato@@@@1@6@@@
-218@@@@1@@toda ratazana teme o gato@@@@1@5@@@
-219@@@@1@@todas ratazanas temem o gato@@@@1@5@@@
-220@@@@1@@todo gato teme o cachorro@@@@1@5@@@
-221@@@@1@@cada gato latiu@@@@1@3@@@
-222@@@@1@@cada ratazana teme algum gato@@@@1@5@@@
-223@@@@1@@todos os gatos perseguiram algum cão@@@@1@6@@@
-224@@@@1@@todos gatos perseguiram algum cão@@@@1@5@@@
-225@@@@1@@todos gatos perseguiram alguns cães@@@@1@5@@@
-226@@@@1@@todos gatos perseguiram alguma ratazana@@@@1@5@@@
-227@@@@1@@todos gatos perseguiram algumas ratazanas@@@@1@5@@@
-228@@@@1@@alguns gatos perseguiram a ratazana@@@@1@5@@@
-229@@@@1@@algum gato perseguiu a ratazana@@@@1@5@@@
-230@@@@1@@alguma ratazana perseguiu o gato@@@@1@5@@@
-231@@@@1@@o gato percebeu que o cachorro dormia@@@@1@7@@@
-232@@@@1@@o gato queria que o cachorro dormisse@@@@1@7@@@
-233@@@@1@@eu percebi que os gatos dormiam@@@@1@6@@@
-234@@@@1@@eu quero que os gatos durmam@@@@1@6@@@
-235@@@@1@@eu estou feliz@@@@1@3@@@
-236@@@@1@@tu estás feliz@@@@1@3@@@
-237@@@@1@@o gato está feliz@@@@1@4@@@
-238@@@@1@@nós estamos felizes@@@@1@3@@@
-239@@@@1@@vós estais felizes@@@@1@3@@@
-240@@@@1@@eles estão felizes@@@@1@3@@@
-241@@@@1@@ambos gatos dormem@@@@1@3@@@
-242@@@@1@@ambas artistas dormem@@@@1@3@@@
-243@@@@1@@ambos os gatos dormem@@@@1@4@@@
-244@@@@1@@ambas as artistas dormem@@@@1@4@@@
-245@@@@1@@uma artista imitou aquele gato@@@@1@5@@@
-246@@@@1@@essa artista imitou este gato@@@@1@5@@@
-247@@@@1@@aquela artista imitou um gato@@@@1@5@@@
-248@@@@1@@o gato perseguiu aquelas ratazanas@@@@1@5@@@
-249@@@@1@@outro gato perseguiu umas ratazanas@@@@1@5@@@
-250@@@@1@@o gato imita aqueles cachorros@@@@1@5@@@
-251@@@@1@@estas ratazanas caçaram aqueles cachorros@@@@1@5@@@
-252@@@@1@@essas ratazanas caçaram aquele cachorro@@@@1@5@@@
-253@@@@1@@duas ratazanas caçaram aquele cachorro@@@@1@5@@@
-254@@@@1@@três ratazanas caçaram aquele cachorro@@@@1@5@@@
-255@@@@1@@muitos gatos caçaram três ratazanas@@@@1@5@@@
-256@@@@1@@poucos gatos caçaram três ratazanas@@@@1@5@@@
-257@@@@1@@muitos gatos dormem@@@@1@3@@@
-258@@@@1@@poucos gatos dormem@@@@1@3@@@
-259@@@@1@@a artista imita qualquer gato@@@@1@5@@@
-260@@@@1@@a artista imita quaisquer gatos@@@@1@5@@@
-261@@@@1@@esse gato persegue qualquer ratazana@@@@1@5@@@
-262@@@@1@@esses gatos perseguem quaisquer ratazanas@@@@1@5@@@
-263@@@@1@@certo gato dorme@@@@1@3@@@
-264@@@@1@@certo gato matou duas ratazanas@@@@1@5@@@
-265@@@@1@@certos gatos mataram certas ratazanas@@@@1@5@@@
-266@@@@1@@estes gatos mataram esta ratazana@@@@1@5@@@
-267@@@@1@@quantos gatos a ratazana caçou@@@@1@5@@@
-268@@@@1@@quantas ratazanas o gato caçou@@@@1@5@@@
-269@@@@1@@quantas ratazanas caçaram o gato@@@@1@5@@@
-270@@@@1@@quantos gatos caçaram a ratazana@@@@1@5@@@
-271@@@@1@@quanto tabaco a artista vendeu@@@@1@5@@@
-272@@@@1@@quanta ratazana o gato caçou@@@@1@5@@@
-273@@@@1@@quanta ratazana dorme@@@@1@3@@@
-274@@@@1@@quantos gatos dormem@@@@1@3@@@
-275@@@@1@@quantas ratazanas dormem@@@@1@3@@@
-276@@@@1@@o gato dorme@@@@1@3@@@
-277@@@@1@@os gatos dormem@@@@1@3@@@
-278@@@@1@@o gato matou a ratazana@@@@1@5@@@
-279@@@@1@@o gato matou as ratazanas@@@@1@5@@@
-280@@@@1@@os gatos mataram a ratazana@@@@1@5@@@
-281@@@@1@@nenhum gato conseguiu caçar uma ratazana@@@@1@6@@@
-282@@@@1@@nenhum artista dormiu@@@@1@3@@@
-283@@@@1@@nenhuma artista dormiu@@@@1@3@@@
-284@@@@1@@nenhuns artistas dormiram@@@@1@3@@@
-285@@@@1@@nenhumas artistas dormiram@@@@1@3@@@
-286@@@@1@@quanto gato a artista vendeu@@@@1@5@@@
-287@@@@1@@quanta ratazana a artista vendeu@@@@1@5@@@
-288@@@@1@@quantos gatos a artista vendeu@@@@1@5@@@
-289@@@@1@@quantas ratazanas a artista vendeu@@@@1@5@@@
-290@@@@1@@quanto gato as artistas venderam@@@@1@5@@@
-291@@@@1@@quanta ratazana as artistas venderam@@@@1@5@@@
-292@@@@1@@quantos gatos as artistas venderam@@@@1@5@@@
-293@@@@1@@quantas ratazanas as artistas venderam@@@@1@5@@@
-294@@@@1@@as artistas venderam muitos gatos@@@@1@5@@@
-295@@@@1@@as artistas venderam vários gatos@@@@1@5@@@
-296@@@@1@@as artistas venderam muitas ratazanas@@@@1@5@@@
-297@@@@1@@as artistas venderam várias ratazanas@@@@1@5@@@
-298@@@@1@@a artista vendeu muitos gatos@@@@1@5@@@
-299@@@@1@@a artista vendeu vários gatos@@@@1@5@@@
-300@@@@1@@a artista vendeu o gato@@@@1@5@@@
-301@@@@1@@a artista vendeu a ratazana@@@@1@5@@@
-302@@@@1@@o cachorro adora tais gatos@@@@1@5@@@
-303@@@@1@@o gato adora tais ratazanas@@@@1@5@@@
-304@@@@1@@o cachorro adora tal gato@@@@1@5@@@
-305@@@@1@@o gato adora tal ratazana@@@@1@5@@@
-306@@@@1@@o cachorro ousou latir@@@@1@4@@@
-307@@@@1@@o cachorro desejou latir@@@@1@4@@@
-308@@@@1@@o cachorro ousou desejar latir@@@@1@5@@@
-309@@@@1@@o cachorro disse que o gato latisse@@@@1@7@@@
-310@@@@1@@os cachorros disseram que o gato latisse@@@@1@7@@@
-311@@@@1@@os cachorros estavam dizendo que o gato latisse@@@@1@8@@@
-312@@@@1@@os cachorros tinham dito que o gato latisse@@@@1@8@@@
-313@@@@1@@o cachorro admitiu que o gato latisse@@@@1@7@@@
-314@@@@1@@o cachorro consentiu que o gato latisse@@@@1@7@@@
-315@@@@1@@o cachorro exigiu que o gato latisse@@@@1@7@@@
-316@@@@1@@o cachorro ordenou que o gato latisse@@@@1@7@@@
-317@@@@1@@o cachorro permitiu que o gato latisse@@@@1@7@@@
-318@@@@1@@o cachorro continua latindo@@@@1@4@@@
-319@@@@1@@o cachorro continua querendo perseguir o gato@@@@1@7@@@
-320@@@@1@@o cachorro continua desejando perseguir o gato@@@@1@7@@@
-321@@@@1@@o cachorro anda desejando perseguir o gato@@@@1@7@@@
-322@@@@1@@o cachorro vive desejando perseguir o gato@@@@1@7@@@
-323@@@@1@@o cachorro vem desejando perseguir o gato@@@@1@7@@@
-324@@@@1@@o cachorro vinha desejando perseguir o gato@@@@1@7@@@
-325@@@@1@@o cachorro anda perseguindo o gato@@@@1@6@@@
-326@@@@1@@o cachorro vem perseguindo o gato@@@@1@6@@@
-327@@@@1@@o cachorro vinha perseguindo o gato@@@@1@6@@@
-328@@@@1@@o cachorro vive perseguindo o gato@@@@1@6@@@
-329@@@@1@@os cachorros estão chegando@@@@1@4@@@
-330@@@@1@@estão chegando@@@@1@2@@@
-331@@@@1@@os cachorros foram chegando@@@@1@4@@@
-332@@@@1@@os cachorros iam chegando@@@@1@4@@@
-333@@@@1@@os cachorros vão chegando@@@@1@4@@@
-334@@@@1@@nós fomos chegando@@@@1@3@@@
-335@@@@1@@eu fui chegando@@@@1@3@@@
-336@@@@1@@eu ia chegando@@@@1@3@@@
-337@@@@1@@os cachorros haviam chegado@@@@1@4@@@
-338@@@@1@@haviam chegado@@@@1@2@@@
-339@@@@1@@o cachorro havia chegado@@@@1@4@@@
-340@@@@1@@o cachorro impediu que o gato perseguisse a ratazana@@@@1@9@@@
-341@@@@1@@o cachorro evitou que o gato perseguisse a ratazana@@@@1@9@@@
-342@@@@1@@cheguei@@@@1@1@@@
-343@@@@1@@chegamos@@@@1@1@@@
-344@@@@1@@chegou@@@@1@1@@@
-345@@@@1@@não chegou@@@@1@2@@@
-346@@@@1@@anda perseguindo o gato@@@@1@4@@@
-347@@@@1@@andavam perseguindo o gato@@@@1@4@@@
-348@@@@1@@perseguimos o gato@@@@1@3@@@
-349@@@@1@@não perseguimos o gato@@@@1@4@@@
-350@@@@1@@o cachorro não impediu que o gato perseguisse a ratazana@@@@1@10@@@
-351@@@@1@@o gato sabe quais cachorros latem@@@@1@6@@@
-352@@@@1@@o artista ignora quais cachorros latem@@@@1@6@@@
-353@@@@1@@o artista ignora se os cachorros perseguem os gatos@@@@1@9@@@
-354@@@@1@@o artista ignora se os cachorros andam perseguindo os gatos@@@@1@10@@@
-355@@@@1@@o artista ignora se os cachorros querem perseguir os gatos@@@@1@10@@@
-356@@@@1@@o artista ignora quais gatos os cachorros querem perseguir@@@@1@9@@@
-357@@@@1@@o artista ignora quem tem perseguido os gatos@@@@1@8@@@
-358@@@@1@@o artista ignora quem está perseguindo os gatos@@@@1@8@@@
-359@@@@1@@o artista sabe quem está perseguindo os gatos@@@@1@8@@@
-360@@@@1@@quem está perseguindo os gatos@@@@1@5@@@
-361@@@@1@@o artista sabe quem quer perseguir os gatos@@@@1@8@@@
-362@@@@1@@o artista não sabe quem quer perseguir os gatos@@@@1@9@@@
-363@@@@1@@quem quer perseguir os gatos@@@@1@5@@@
-364@@@@1@@quem não quer perseguir os gatos@@@@1@6@@@
-365@@@@1@@o cachorro exigiu que o gato não latisse@@@@1@8@@@
-366@@@@1@@o artista exigiu que o cachorro não perseguisse o gato@@@@1@10@@@
-367@@@@1@@o gato não tem conseguido dormir@@@@1@6@@@
-368@@@@1@@o gato tem conseguido dormir@@@@1@5@@@
-369@@@@1@@o gato tem precisado dormir@@@@1@5@@@
-370@@@@1@@o gato está precisando dormir@@@@1@5@@@
-371@@@@1@@o gato está tentando dormir@@@@1@5@@@
-372@@@@1@@o gato está conseguindo dormir@@@@1@5@@@
-373@@@@1@@o gato não está precisando dormir@@@@1@6@@@
-374@@@@1@@o gato não está tentando dormir@@@@1@6@@@
-375@@@@1@@o gato não está conseguindo dormir@@@@1@6@@@
-376@@@@1@@o gato vai estar precisando dormir@@@@1@6@@@
-377@@@@1@@o gato vai tentar dormir@@@@1@5@@@
-378@@@@1@@o gato vai conseguir dormir@@@@1@5@@@
-379@@@@1@@o gato não vai estar precisando dormir@@@@1@7@@@
-380@@@@1@@o gato não vai tentar dormir@@@@1@6@@@
-381@@@@1@@o gato não vai conseguir dormir@@@@1@6@@@
-382@@@@1@@os cachorros não haviam chegado@@@@1@5@@@
-383@@@@1@@os cachorros não haviam tentado dormir@@@@1@6@@@
-384@@@@1@@não haviam chegado@@@@1@3@@@
-385@@@@1@@o cachorro está querendo perseguir o gato@@@@1@7@@@
-386@@@@1@@o cachorro está desejando perseguir o gato@@@@1@7@@@
-387@@@@1@@o cachorro vai querer perseguir o gato@@@@1@7@@@
-388@@@@1@@o cachorro vai desejar perseguir o gato@@@@1@7@@@
-389@@@@1@@o cachorro vai estar dormindo@@@@1@5@@@
-390@@@@1@@o cachorro está indo dormir@@@@1@5@@@
-391@@@@1@@o artista doa uma bicicleta a o estudante@@@@1@8@@@
-392@@@@1@@o cachorro depende de o artista@@@@1@6@@@
-393@@@@1@@o cachorro gosta de o artista@@@@1@6@@@
-394@@@@1@@o cachorro obedece a o artista@@@@1@6@@@
-395@@@@1@@o artista queixou-se de o cachorro@@@@1@6@@@
-396@@@@1@@nós vamos entregar o cachorro a o artista@@@@1@8@@@
-397@@@@1@@será que eles irão entregar o cachorro a o artista@@@@1@10@@@
-398@@@@1@@não sei o que eles entregavam a o artista@@@@1@9@@@
-399@@@@1@@a quem o cachorro obedece@@@@1@5@@@
-400@@@@1@@de quem o cachorro gosta@@@@1@5@@@
-401@@@@1@@a quem eles irão entregar o cachorro@@@@1@7@@@
-402@@@@1@@o artista ignora a quem o cachorro obedece@@@@1@8@@@
-403@@@@1@@o artista perguntou a quem o cachorro estava obedecendo@@@@1@9@@@
-404@@@@1@@o artista perguntou quem estava obedecendo a quem@@@@1@8@@@
-405@@@@1@@o estudante perguntou quem estava obedecendo a o artista@@@@1@9@@@
-406@@@@1@@o cachorro vai começar a latir@@@@1@6@@@
-407@@@@1@@o cachorro vai querer começar a latir@@@@1@7@@@
-408@@@@1@@o cachorro tinha começado a latir@@@@1@6@@@
-409@@@@1@@o cachorro tem insistido em começar a latir@@@@1@8@@@
-410@@@@1@@o cachorro tinha parado de latir@@@@1@6@@@
-411@@@@1@@o cachorro tinha insistido em parar de latir@@@@1@8@@@
-412@@@@1@@o cachorro está parando de latir@@@@1@6@@@
-413@@@@1@@o cachorro vai parar de latir@@@@1@6@@@
-414@@@@1@@o cachorro está indo parar de latir@@@@1@7@@@
-415@@@@1@@o cachorro tem de obedecer a o artista@@@@1@8@@@
-416@@@@1@@o cachorro tem que obedecer a o artista@@@@1@8@@@
-417@@@@1@@o artista contou a o estudante que o gato tinha matado uma ratazana@@@@1@13@@@
-418@@@@1@@o gato prefere dormir@@@@1@4@@@
-419@@@@1@@a estudante impediu o artista de matar a ratazana@@@@1@9@@@
-420@@@@1@@a estudante obrigou o artista a matar a ratazana@@@@1@9@@@
-421@@@@1@@a estudante proibiu o artista de matar a ratazana@@@@1@9@@@
-422@@@@1@@a estudante forçou o artista a matar a ratazana@@@@1@9@@@
-423@@@@1@@a estudante persuadiu o artista a matar a ratazana@@@@1@9@@@
-424@@@@1@@a estudante convenceu o artista a matar a ratazana@@@@1@9@@@
-425@@@@1@@a estudante convenceu o artista a impedir o estudante de matar a ratazana@@@@1@13@@@
-426@@@@1@@a artista prometeu a o estudante matar a ratazana@@@@1@9@@@
-427@@@@1@@a artista prometeu matar a ratazana@@@@1@6@@@
-428@@@@1@@a artista planeja matar a ratazana@@@@1@6@@@
-429@@@@1@@a artista tenciona matar a ratazana@@@@1@6@@@
-430@@@@1@@o artista detesta que o cachorro atraía o gato@@@@1@9@@@
-431@@@@1@@o artista detesta que eles atraíam o gato@@@@1@8@@@
-432@@@@1@@o artista detesta que tu atraías o gato@@@@1@8@@@
-433@@@@1@@a estudante disse a o artista para trazer uma bola@@@@1@10@@@
-434@@@@1@@a estudante disse a os artistas para trazerem uma bola@@@@1@10@@@
-435@@@@1@@a estudante disse a os artistas para trazer uma bola@@@@1@10@@@
-436@@@@1@@o cachorro afirmou que o gato late@@@@1@7@@@
-437@@@@1@@ele vai entregar a bola a o gato@@@@1@8@@@
-438@@@@1@@eu pedi para que ela entregasse a bola a o gato@@@@1@11@@@
-439@@@@1@@ela insistiu para que o gato dormisse@@@@1@7@@@
-440@@@@1@@eles lamentam ladrar@@@@1@3@@@
-441@@@@1@@o artista doa uma bicicleta para o estudante@@@@1@8@@@
-442@@@@1@@nós vamos entregar o cachorro para o artista@@@@1@8@@@
-443@@@@1@@será que eles irão entregar o cachorro para o artista@@@@1@10@@@
-444@@@@1@@não sei o que eles entregavam para o artista@@@@1@9@@@
-445@@@@1@@o artista contou para o estudante que o gato tinha matado uma ratazana@@@@1@13@@@
-446@@@@1@@a artista prometeu para o estudante matar a ratazana@@@@1@9@@@
-447@@@@1@@a estudante disse para o artista para trazer uma bola@@@@1@10@@@
-448@@@@1@@ele vai entregar a bola para o gato@@@@1@8@@@
-449@@@@1@@eu pedi para que ela entregasse a bola para o gato@@@@1@11@@@
-450@@@@1@@eu autorizei os alunos a que escrevessem a carta@@@@1@9@@@
-451@@@@1@@eu autorizei os alunos a escreverem a carta@@@@1@8@@@
-452@@@@1@@eu autorizei os alunos a escrever a carta@@@@1@8@@@
-453@@@@1@@eu autorizei que os alunos escrevessem a carta@@@@1@8@@@
-454@@@@1@@eu aprovo que tu tenhas concorrido@@@@1@6@@@
-455@@@@1@@eu aprovo que tenhas concorrido@@@@1@5@@@
-456@@@@1@@eu aprovo tu teres concorrido@@@@1@5@@@
-457@@@@1@@eu aprovo teres concorrido@@@@1@4@@@
-458@@@@1@@o João insistiu em que os alunos acabassem o trabalho@@@@1@10@@@
-459@@@@1@@o João insistiu em acabar o trabalho@@@@1@7@@@
-460@@@@1@@perguntei-me a quem o cachorro estava obedecendo@@@@1@7@@@
-461@@@@1@@os artistas perguntavam-se quem tencionava obedecer a o estudante@@@@1@9@@@
-462@@@@1@@as artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes@@@@1@14@@@
-463@@@@1@@o artista perguntou a o estudante quem perseguiu o gato@@@@1@10@@@
-464@@@@1@@o artista perguntou a o estudante quem o cachorro perseguiu@@@@1@10@@@
-465@@@@1@@o artista perguntou a o estudante que cachorro perseguiu o gato@@@@1@11@@@
-466@@@@1@@o artista perguntou a o estudante que gato o cachorro perseguiu@@@@1@11@@@
-467@@@@1@@o artista perguntou a o estudante que cachorros perseguiram o gato@@@@1@11@@@
-468@@@@1@@o artista perguntou a o estudante que gatos o cachorro perseguiu@@@@1@11@@@
-469@@@@1@@o artista perguntou a o estudante que gatos os cachorros perseguiram@@@@1@11@@@
-470@@@@1@@o artista perguntou a o estudante que ratazana o cachorro perseguiu@@@@1@11@@@
-471@@@@1@@o artista perguntou a o estudante que ratazanas perseguiram o gato@@@@1@11@@@
-472@@@@1@@o artista perguntou a o estudante que ratazanas o cachorro perseguiu@@@@1@11@@@
-473@@@@1@@o artista perguntou a o estudante que ratazanas os cachorros perseguiram@@@@1@11@@@
-474@@@@1@@o artista perguntou a o estudante qual cachorro perseguiu o gato@@@@1@11@@@
-475@@@@1@@o artista perguntou a o estudante quais cachorros perseguiram o gato@@@@1@11@@@
-476@@@@1@@o artista perguntou a o estudante quais gatos o cachorro perseguiu@@@@1@11@@@
-477@@@@1@@o artista perguntou a o estudante qual ratazana perseguiu o gato@@@@1@11@@@
-478@@@@1@@o artista perguntou a o estudante qual ratazana o gato perseguiu@@@@1@11@@@
-479@@@@1@@o artista perguntou a o estudante quais ratazanas perseguiram o gato@@@@1@11@@@
-480@@@@1@@o artista perguntou a o estudante quais ratazanas o cachorro perseguiu@@@@1@11@@@
-481@@@@1@@o artista perguntou a o estudante quais ratazanas os cachorros perseguiram@@@@1@11@@@
-482@@@@1@@o artista perguntou a o estudante se o cachorro perseguiu o gato@@@@1@12@@@
-483@@@@1@@o gato fez os cachorros ladrarem@@@@1@6@@@
-484@@@@1@@o gato fez os cachorros latirem@@@@1@6@@@
-485@@@@1@@o gato fez os cachorros ladrar@@@@1@6@@@
-486@@@@1@@o gato fez os cachorros latir@@@@1@6@@@
-487@@@@1@@a estudante fez os cachorros perseguirem a ratazana@@@@1@8@@@
-488@@@@1@@a estudante fez os cachorros perseguir a ratazana@@@@1@8@@@
-489@@@@1@@ele deixou os cachorros saírem@@@@1@5@@@
-490@@@@1@@ele deixou os cachorros sair@@@@1@5@@@
-491@@@@1@@ele deixou os cachorros perseguirem a ratazana@@@@1@7@@@
-492@@@@1@@ele deixou os cachorros perseguir a ratazana@@@@1@7@@@
-493@@@@1@@esse imposto incide sobre a renda@@@@1@6@@@
-494@@@@1@@aqueles impostos incidiam sobre o consumo@@@@1@6@@@
-495@@@@1@@o artista dividiu a cena com a estudante@@@@1@8@@@
-496@@@@1@@tive de dividir os alunos em grupos@@@@1@7@@@
-497@@@@1@@ele ficou de discutir a questão com a professora@@@@1@9@@@
-498@@@@1@@eles querem revestir o piso com madeira@@@@1@7@@@
-499@@@@1@@comentei os beijos com uma amiga@@@@1@6@@@
-500@@@@1@@as aulas combinam teoria com prática@@@@1@6@@@
-501@@@@1@@os hospitais consumiam uma fortuna com internações@@@@1@7@@@
-502@@@@1@@ele trocaria a preocupação por a descontração@@@@1@7@@@
-503@@@@1@@ele culpou o artista de homicídio@@@@1@6@@@
-504@@@@1@@o juiz converteu a prisão em multa@@@@1@7@@@
-505@@@@1@@o jogador falou uma bobagem sobre o time@@@@1@8@@@
-506@@@@1@@o país passou de euforia para depressão@@@@1@7@@@
-507@@@@1@@reparei em a bandeira@@@@1@4@@@
-508@@@@1@@será que ela está pensando em mim@@@@1@7@@@
-509@@@@1@@ele caiu em o ostracismo@@@@1@5@@@
-510@@@@1@@eles não conseguiram acabar com a pobreza@@@@1@7@@@
-511@@@@1@@os clientes poderão servir-se de o ravióli@@@@1@7@@@
-512@@@@1@@ele referia-se a um longo telefonema@@@@1@6@@@
-513@@@@1@@depararam-se com uma estranha normalidade@@@@1@5@@@
-514@@@@1@@o regime caracterizava-se por a austeridade@@@@1@6@@@
-515@@@@1@@o jogador integrou-se em as movimentações@@@@1@6@@@
-516@@@@1@@eles têm contribuído para que o artista não caia em o esquecimento@@@@1@12@@@
-517@@@@1@@ela responde por o pagamento@@@@1@5@@@
-518@@@@1@@os estudantes partiram para o sertão@@@@1@6@@@
-519@@@@1@@a artista partiu para a briga@@@@1@6@@@
-520@@@@1@@a janela dava para o quintal@@@@1@6@@@
+00000001@@@@1@@o cachorro latiu@@@@1@3@@@
+00000002@@@@1@@o cachorro perseguiu o gato@@@@1@5@@@
+00000003@@@@1@@chegou tabaco@@@@1@2@@@
+00000004@@@@1@@tabaco chegou@@@@1@2@@@
+00000005@@@@1@@o tabaco chegou@@@@1@3@@@
+00000006@@@@1@@chegou o tabaco@@@@1@3@@@
+00000007@@@@1@@o cachorro tem perseguido o gato@@@@1@6@@@
+00000008@@@@1@@o cachorro tem latido@@@@1@4@@@
+00000009@@@@1@@o cachorro está perseguindo o gato@@@@1@6@@@
+00000010@@@@1@@o cachorro está latindo@@@@1@4@@@
+00000011@@@@1@@o cachorro está perseguido o gato@@@@0@6@@@
+00000012@@@@1@@o cachorro tem perseguindo o gato@@@@0@6@@@
+00000013@@@@1@@o cachorro tem estado perseguindo o gato@@@@1@7@@@
+00000014@@@@1@@o cachorro tem estado perseguido o gato@@@@0@7@@@
+00000015@@@@1@@o cachorro vai latir@@@@1@4@@@
+00000016@@@@1@@o cachorro quer que o gato lata@@@@1@7@@@
+00000017@@@@1@@o cachorro quer que o gato late@@@@0@7@@@
+00000018@@@@1@@o cachorro acredita que o gato late@@@@1@7@@@
+00000019@@@@1@@o cachorro acredita que o gato lata@@@@1@7@@@
+00000020@@@@1@@o cachorro perguntou se o gato late@@@@1@7@@@
+00000021@@@@1@@o cachorro perguntou se o gato lata@@@@0@7@@@
+00000022@@@@1@@o cachorro se perguntou se o gato latiu@@@@1@8@@@
+00000023@@@@1@@o cachorro perguntou-se se o gato latiu@@@@1@7@@@
+00000024@@@@1@@o cachorro ladrou@@@@1@3@@@
+00000025@@@@1@@o cachorro ladrou-se@@@@0@3@@@
+00000026@@@@1@@o cachorro declarou que o gato late@@@@1@7@@@
+00000027@@@@1@@o cachorro afirmou que o gato lata@@@@0@7@@@
+00000028@@@@1@@o cachorro queixou-se@@@@1@3@@@
+00000029@@@@1@@eu queixei-me@@@@1@2@@@
+00000030@@@@1@@eles queixaram-se@@@@1@2@@@
+00000031@@@@1@@eles queixaram@@@@0@2@@@
+00000032@@@@1@@eu queixei@@@@0@2@@@
+00000033@@@@1@@os cachorros ladraram@@@@1@3@@@
+00000034@@@@1@@os gatos queixaram-se@@@@1@3@@@
+00000035@@@@1@@os cachorros ladrou@@@@0@3@@@
+00000036@@@@1@@o cachorro ladraram@@@@0@3@@@
+00000037@@@@1@@será que o cachorro latiu@@@@1@5@@@
+00000038@@@@1@@que cachorro latiu@@@@1@3@@@
+00000039@@@@1@@qual cachorro latiu@@@@1@3@@@
+00000040@@@@1@@quais cachorros ladraram@@@@1@3@@@
+00000041@@@@1@@o cachorro perseguiu que gato@@@@1@5@@@
+00000042@@@@1@@que gato o cachorro perseguiu@@@@1@5@@@
+00000043@@@@1@@o cachorro perseguiu qual gato@@@@1@5@@@
+00000044@@@@1@@qual gato o cachorro perseguiu@@@@1@5@@@
+00000045@@@@1@@o cachorro feliz ladrou@@@@1@4@@@
+00000046@@@@1@@o cachorro triste ladrou@@@@1@4@@@
+00000047@@@@1@@o cachorro amarelo ladrou@@@@1@4@@@
+00000048@@@@1@@a ratazana amarela ladrou@@@@1@4@@@
+00000049@@@@1@@a ratazana feliz ladrou@@@@1@4@@@
+00000050@@@@1@@a ratazana triste ladrou@@@@1@4@@@
+00000051@@@@1@@as ratazanas amarelas ladraram@@@@1@4@@@
+00000052@@@@1@@as ratazanas tristes ladraram@@@@1@4@@@
+00000053@@@@1@@as ratazanas felizes ladraram@@@@1@4@@@
+00000054@@@@1@@os cachorros felizes ladraram@@@@1@4@@@
+00000055@@@@1@@os cachorros tristes ladraram@@@@1@4@@@
+00000056@@@@1@@os cachorros amarelos ladraram@@@@1@4@@@
+00000057@@@@1@@os cachorros são felizes@@@@1@4@@@
+00000058@@@@1@@os cachorros são amarelos@@@@1@4@@@
+00000059@@@@1@@os cachorros são tristes@@@@1@4@@@
+00000060@@@@1@@as ratazanas são felizes@@@@1@4@@@
+00000061@@@@1@@as ratazanas são tristes@@@@1@4@@@
+00000062@@@@1@@as ratazanas são amarelas@@@@1@4@@@
+00000063@@@@1@@a ratazana é amarela@@@@1@4@@@
+00000064@@@@1@@a ratazana é feliz@@@@1@4@@@
+00000065@@@@1@@a ratazana é amarelo@@@@0@4@@@
+00000066@@@@1@@o cachorro é amarela@@@@0@4@@@
+00000067@@@@1@@os cachorros amarelas ladraram@@@@0@4@@@
+00000068@@@@1@@os feliz cachorros ladraram@@@@0@4@@@
+00000069@@@@1@@os felizes cachorros ladraram@@@@1@4@@@
+00000070@@@@1@@os cachorros amarelo ladraram@@@@0@4@@@
+00000071@@@@1@@o cachorro é feliz@@@@1@4@@@
+00000072@@@@1@@os cachorros é feliz@@@@0@4@@@
+00000073@@@@1@@os cachorros são feliz@@@@0@4@@@
+00000074@@@@1@@os cachorros é felizes@@@@0@4@@@
+00000075@@@@1@@o cachorro é felizes@@@@0@4@@@
+00000076@@@@1@@o cachorro são felizes@@@@0@4@@@
+00000077@@@@1@@o gato é simples@@@@1@4@@@
+00000078@@@@1@@os gatos são simples@@@@1@4@@@
+00000079@@@@1@@a ratazana é simples@@@@1@4@@@
+00000080@@@@1@@as ratazanas são simples@@@@1@4@@@
+00000081@@@@1@@os gatos é simples@@@@0@4@@@
+00000082@@@@1@@a ratazana simples é feliz@@@@1@5@@@
+00000083@@@@1@@o artista é feliz@@@@1@4@@@
+00000084@@@@1@@a artista é feliz@@@@1@4@@@
+00000085@@@@1@@os artistas são felizes@@@@1@4@@@
+00000086@@@@1@@os artistas amarelos são felizes@@@@1@5@@@
+00000087@@@@1@@os artistas amarelas são felizes@@@@0@5@@@
+00000088@@@@1@@as artistas amarelas são felizes@@@@1@5@@@
+00000089@@@@1@@as artistas amarelos são felizes@@@@0@5@@@
+00000090@@@@1@@artistas simples são felizes@@@@1@4@@@
+00000091@@@@1@@artistas amarelos são felizes@@@@1@4@@@
+00000092@@@@1@@artistas amarelas são felizes@@@@1@4@@@
+00000093@@@@1@@artistas simples são amarelos@@@@1@4@@@
+00000094@@@@1@@artistas simples são amarelas@@@@1@4@@@
+00000095@@@@1@@o gato lamenta os cachorros terem ladrado@@@@1@7@@@
+00000096@@@@1@@o gato lamenta os cachorros ter ladrado@@@@0@7@@@
+00000097@@@@1@@o gato lamenta os cachorros ladrarem@@@@1@6@@@
+00000098@@@@1@@o gato lamenta os cachorros ladrar@@@@0@6@@@
+00000099@@@@1@@os cachorros ladrarem@@@@0@3@@@
+00000100@@@@1@@o cachorro ladrar@@@@0@3@@@
+00000101@@@@1@@o cachorro late@@@@1@3@@@
+00000102@@@@1@@o cachorro lata@@@@0@3@@@
+00000103@@@@1@@o cachorro ladra@@@@1@3@@@
+00000104@@@@1@@os cachorros ladram@@@@1@3@@@
+00000105@@@@1@@o cachorro admira o gato@@@@1@5@@@
+00000106@@@@1@@o cachorro admirar o gato@@@@0@5@@@
+00000107@@@@1@@os cachorros admirarem o gato@@@@0@5@@@
+00000108@@@@1@@os cachorros admiraram o gato@@@@1@5@@@
+00000109@@@@1@@o cachorro vai ladrar@@@@1@4@@@
+00000110@@@@1@@os cachorros vão ladrar@@@@1@4@@@
+00000111@@@@1@@os cachorros vai ladrar@@@@0@4@@@
+00000112@@@@1@@os cachorros vai ladrarem@@@@0@4@@@
+00000113@@@@1@@os cachorros vão ladrarem@@@@0@4@@@
+00000114@@@@1@@será que a estudante adora o cachorro@@@@1@7@@@
+00000115@@@@1@@será que o cliente adora o cachorro@@@@1@7@@@
+00000116@@@@1@@os cachorrinhos vão ladrar@@@@1@4@@@
+00000117@@@@1@@o cachorrinho vai ladrar@@@@1@4@@@
+00000118@@@@1@@o lagartão admira o cachorro@@@@1@5@@@
+00000119@@@@1@@a lagartinha admira o cachorro@@@@1@5@@@
+00000120@@@@1@@a lagartona admira o cachorro@@@@1@5@@@
+00000121@@@@1@@os lagartãos admiram o cachorro@@@@0@5@@@
+00000122@@@@1@@os lagartões admiram o cachorro@@@@1@5@@@
+00000123@@@@1@@as lagartinhas admiram o cachorro@@@@1@5@@@
+00000124@@@@1@@as lagartonas admiram o cachorro@@@@1@5@@@
+00000125@@@@1@@o cachorro é feroz@@@@1@4@@@
+00000126@@@@1@@o cachorro é inteligente@@@@1@4@@@
+00000127@@@@1@@as lagartinhas são inteligentes@@@@1@4@@@
+00000128@@@@1@@a lagartinha é inteligente@@@@1@4@@@
+00000129@@@@1@@a lagartinha é inteligentea@@@@0@4@@@
+00000130@@@@1@@a lagartinha é inteligenta@@@@0@4@@@
+00000131@@@@1@@a lagartinha é feroz@@@@1@4@@@
+00000132@@@@1@@a lagartinha é feroza@@@@0@4@@@
+00000133@@@@1@@as lagartinhas são ferozes@@@@1@4@@@
+00000134@@@@1@@as lagartinhas são ferozas@@@@0@4@@@
+00000135@@@@1@@as lagartinhas são ferozeas@@@@0@4@@@
+00000136@@@@1@@os artistas beirões admiram as artistas beiroas@@@@1@7@@@
+00000137@@@@1@@os artistas ingleses admiram as artistas judias@@@@1@7@@@
+00000138@@@@1@@os artistas ingleses admiram as artistas hebreias@@@@1@7@@@
+00000139@@@@1@@os artistas ilhéus admiram as artistas ilhoas@@@@1@7@@@
+00000140@@@@1@@o artista ilhéu admira a artista ilhoa@@@@1@7@@@
+00000141@@@@1@@os cachorrinhos amarelõezinhos são ferozes@@@@1@5@@@
+00000142@@@@1@@os cachorrinhos amarelões são ferozes@@@@1@5@@@
+00000143@@@@1@@a artista nua é francesa@@@@1@5@@@
+00000144@@@@1@@o artista nu é francês@@@@1@5@@@
+00000145@@@@1@@o artista vendeu o lagartão@@@@1@5@@@
+00000146@@@@1@@o artista sorriu@@@@1@3@@@
+00000147@@@@1@@os artistas sorriram@@@@1@3@@@
+00000148@@@@1@@os artistas venderam o cachorro@@@@1@5@@@
+00000149@@@@1@@a porta abriu@@@@1@3@@@
+00000150@@@@1@@a porta abriu-se@@@@1@3@@@
+00000151@@@@1@@o gato detesta que os cachorros latam@@@@1@7@@@
+00000152@@@@1@@o gato detesta que os cachorros latem@@@@0@7@@@
+00000153@@@@1@@o gato detesta que os cachorros ladrem@@@@1@7@@@
+00000154@@@@1@@o gato detesta que os cachorros ladram@@@@0@7@@@
+00000155@@@@1@@o gato detesta que os cachorros tenham latido@@@@1@8@@@
+00000156@@@@1@@o gato detesta que os cachorros tenham ladrado@@@@1@8@@@
+00000157@@@@1@@o gato detesta que os cachorros estejam latindo@@@@1@8@@@
+00000158@@@@1@@o gato detesta que o cachorro tenha latido@@@@1@8@@@
+00000159@@@@1@@o gato detesta que o cachorro esteja latindo@@@@1@8@@@
+00000160@@@@1@@o gato detesta que o cachorro está latindo@@@@0@8@@@
+00000161@@@@1@@o gato detesta que o cachorro tem latido@@@@0@8@@@
+00000162@@@@1@@o gato detestou que o cachorro tenha latido@@@@1@8@@@
+00000163@@@@1@@o gato detestou que o cachorro tem latido@@@@0@8@@@
+00000164@@@@1@@o gato detestava que o cachorro estivesse latindo@@@@1@8@@@
+00000165@@@@1@@o gato detestou que o cachorro tivesse latido@@@@1@8@@@
+00000166@@@@1@@o gato detestou que o cachorro latisse@@@@1@7@@@
+00000167@@@@1@@o gato lamenta o cachorro ladrar@@@@1@6@@@
+00000168@@@@1@@lamento ladrares@@@@1@2@@@
+00000169@@@@1@@eu lamento ladrares@@@@1@3@@@
+00000170@@@@1@@eu lamento tu ladrares@@@@1@4@@@
+00000171@@@@1@@ele lamenta ladrarmos@@@@1@3@@@
+00000172@@@@1@@ele lamenta nós ladrarmos@@@@1@4@@@
+00000173@@@@1@@ele lamenta ladrar@@@@1@3@@@
+00000174@@@@1@@os cachorros estão tristes@@@@1@4@@@
+00000175@@@@1@@o cachorro está triste@@@@1@4@@@
+00000176@@@@1@@o cachorro está-se triste@@@@0@4@@@
+00000177@@@@1@@o cachorro é-se triste@@@@0@4@@@
+00000178@@@@1@@o gato detestou que o cachorro tivesse-se latido@@@@0@8@@@
+00000179@@@@1@@o gato detestou que o cachorro tivesse latido-se@@@@0@8@@@
+00000180@@@@1@@o gato detestou que o cachorro tivesse queixado-se@@@@1@8@@@
+00000181@@@@1@@o gato lamenta os cachorros têm ladrado@@@@0@7@@@
+00000182@@@@1@@o gato lamenta os cachorros tenham ladrado@@@@0@7@@@
+00000183@@@@1@@o gato quer os cachorros tenham ladrado@@@@0@7@@@
+00000184@@@@1@@o gato quer os cachorros terem ladrado@@@@0@7@@@
+00000185@@@@1@@o gato quer que os cachorros terem ladrado@@@@0@8@@@
+00000186@@@@1@@o gato quer que os cachorros têm ladrado@@@@0@8@@@
+00000187@@@@1@@o gato quer que os cachorros tenham ladrado@@@@1@8@@@
+00000188@@@@1@@o gato quer os cachorros ter ladrado@@@@0@7@@@
+00000189@@@@1@@o gato quer o cachorro terem ladrado@@@@0@7@@@
+00000190@@@@1@@o gato quer o cachorro ladrado@@@@0@6@@@
+00000191@@@@1@@o gato quer o cachorro ladrar@@@@0@6@@@
+00000192@@@@1@@o gato quer os cachorros ladrarem@@@@0@6@@@
+00000193@@@@1@@o gato quer que o cachorro ladrar@@@@0@7@@@
+00000194@@@@1@@o gato quer que os cachorros ladrarem@@@@0@7@@@
+00000195@@@@1@@o gato quer os cachorros ladrem@@@@0@6@@@
+00000196@@@@1@@o gato quer que os cachorros ladrem@@@@1@7@@@
+00000197@@@@1@@o gato perguntou se o cachorro ladrado@@@@0@7@@@
+00000198@@@@1@@o gato perguntou se o cachorro ladre@@@@0@7@@@
+00000199@@@@1@@o gato perguntou se o cachorro ladrar@@@@0@7@@@
+00000200@@@@1@@o gato perguntou se o cachorro tiver ladrado@@@@0@8@@@
+00000201@@@@1@@o gato perguntou se o cachorro ter ladrado@@@@0@8@@@
+00000202@@@@1@@o gato perguntou se os cachorros terem ladrado@@@@0@8@@@
+00000203@@@@1@@o gato perguntou se os cachorros tiverem ladrado@@@@0@8@@@
+00000204@@@@1@@o gato perguntou se os cachorros ladrando@@@@0@7@@@
+00000205@@@@1@@o gato perguntou se os cachorros ladrarem@@@@0@7@@@
+00000206@@@@1@@o gato ouviu os cachorros ladrarem@@@@1@6@@@
+00000207@@@@1@@o gato ouviu os cachorros latirem@@@@1@6@@@
+00000208@@@@1@@o gato ouviu os cachorros latindo@@@@1@6@@@
+00000209@@@@1@@o gato ouviu os cachorros latido@@@@0@6@@@
+00000210@@@@1@@o gato ouviu os cachorros ladrar@@@@1@6@@@
+00000211@@@@1@@o gato ouviu os cachorros latir@@@@1@6@@@
+00000212@@@@1@@o gato ouviu que os cachorros ladravam@@@@1@7@@@
+00000213@@@@1@@o gato ouviu que os cachorros latiam@@@@1@7@@@
+00000214@@@@1@@o gato ouviu que os cachorros ladrassem@@@@0@7@@@
+00000215@@@@1@@o gato ouviu que os cachorros latissem@@@@0@7@@@
+00000216@@@@1@@o gato mandou os cachorros ladrarem@@@@1@6@@@
+00000217@@@@1@@o gato mandou os cachorros latirem@@@@1@6@@@
+00000218@@@@1@@o gato mandou os cachorros ladrar@@@@1@6@@@
+00000219@@@@1@@o gato mandou que os cachorros ladrar@@@@0@7@@@
+00000220@@@@1@@o gato mandou os cachorros latir@@@@1@6@@@
+00000221@@@@1@@o gato mandou que os cachorros ladrassem@@@@1@7@@@
+00000222@@@@1@@o gato mandou que os cachorros latissem@@@@1@7@@@
+00000223@@@@1@@o gato mandou que os cachorros ladram@@@@0@7@@@
+00000224@@@@1@@o gato mandou que os cachorros latem@@@@0@7@@@
+00000225@@@@1@@o gato fez que os cachorros ladrassem@@@@1@7@@@
+00000226@@@@1@@o gato fez que os cachorros latissem@@@@1@7@@@
+00000227@@@@1@@o gato fez com que os cachorros ladrassem@@@@1@8@@@
+00000228@@@@1@@o gato fez com que os cachorros latissem@@@@1@8@@@
+00000229@@@@1@@o gato fez que os cachorros ladram@@@@0@7@@@
+00000230@@@@1@@o gato fez que os cachorros latem@@@@0@7@@@
+00000231@@@@1@@o gato sabe que os cachorros ladram@@@@1@7@@@
+00000232@@@@1@@o gato sabe que os cachorros latem@@@@1@7@@@
+00000233@@@@1@@o gato sabia que os cachorros ladravam@@@@1@7@@@
+00000234@@@@1@@o gato sabia que os cachorros latiam@@@@1@7@@@
+00000235@@@@1@@o gato sabia que os cachorros ladrassem@@@@0@7@@@
+00000236@@@@1@@o gato sabia que os cachorros latissem@@@@0@7@@@
+00000237@@@@1@@o gato sabe que os cachorros ladrem@@@@0@7@@@
+00000238@@@@1@@o gato sabe que os cachorros latam@@@@0@7@@@
+00000239@@@@1@@o gato pode latir@@@@1@4@@@
+00000240@@@@1@@o gato parece latir@@@@1@4@@@
+00000241@@@@1@@o gato continua latindo@@@@1@4@@@
+00000242@@@@1@@o gato detesta latir@@@@1@4@@@
+00000243@@@@1@@o gato ousou latir@@@@1@4@@@
+00000244@@@@1@@o gato deseja latir@@@@1@4@@@
+00000245@@@@1@@o cachorro começou a latir@@@@1@5@@@
+00000246@@@@1@@o cachorro parou de latir@@@@1@5@@@
+00000247@@@@1@@o artista insistiu em perseguir o cachorro@@@@1@7@@@
+00000248@@@@1@@o cliente insistiu em que os artistas vendessem o cachorro@@@@1@10@@@
+00000249@@@@1@@o artista insistiu que os artistas vendessem o cachorro@@@@1@9@@@
+00000250@@@@1@@o artista perguntou quem perseguiu o gato@@@@1@7@@@
+00000251@@@@1@@o artista perguntou quem o cachorro perseguiu@@@@1@7@@@
+00000252@@@@1@@o artista perguntou que cachorro perseguiu o gato@@@@1@8@@@
+00000253@@@@1@@o artista perguntou que gato o cachorro perseguiu@@@@1@8@@@
+00000254@@@@1@@o artista perguntou que cachorros perseguiram o gato@@@@1@8@@@
+00000255@@@@1@@o artista perguntou que gatos o cachorro perseguiu@@@@1@8@@@
+00000256@@@@1@@o artista perguntou que gatos os cachorros perseguiram@@@@1@8@@@
+00000257@@@@1@@o artista perguntou que ratazana o cachorro perseguiu@@@@1@8@@@
+00000258@@@@1@@o artista perguntou que ratazanas perseguiram o gato@@@@1@8@@@
+00000259@@@@1@@o artista perguntou que ratazanas o cachorro perseguiu@@@@1@8@@@
+00000260@@@@1@@o artista perguntou que ratazanas os cachorros perseguiram@@@@1@8@@@
+00000261@@@@1@@o artista perguntou qual cachorro perseguiu o gato@@@@1@8@@@
+00000262@@@@1@@o artista perguntou quais cachorros perseguiram o gato@@@@1@8@@@
+00000263@@@@1@@o artista perguntou quais gatos o cachorro perseguiu@@@@1@8@@@
+00000264@@@@1@@o artista perguntou qual ratazana perseguiu o gato@@@@1@8@@@
+00000265@@@@1@@o artista perguntou qual ratazana o gato perseguiu@@@@1@8@@@
+00000266@@@@1@@o artista perguntou quais ratazanas perseguiram o gato@@@@1@8@@@
+00000267@@@@1@@o artista perguntou quais ratazanas o cachorro perseguiu@@@@1@8@@@
+00000268@@@@1@@o artista perguntou quais ratazanas os cachorros perseguiram@@@@1@8@@@
+00000269@@@@1@@quais gatos o cachorro perseguiu@@@@1@5@@@
+00000270@@@@1@@quais ratazanas o cachorro perseguiu@@@@1@5@@@
+00000271@@@@1@@qual gato o cachorro perseguiu@@@@1@5@@@
+00000272@@@@1@@qual ratazana o cachorro perseguiu@@@@1@5@@@
+00000273@@@@1@@qual gato perseguiu o cachorro@@@@1@5@@@
+00000274@@@@1@@qual ratazana perseguiu o cachorro@@@@1@5@@@
+00000275@@@@1@@quais gatos perseguiram o cachorro@@@@1@5@@@
+00000276@@@@1@@quais ratazanas perseguiram o cachorro@@@@1@5@@@
+00000277@@@@1@@que gatos o cachorro perseguiu@@@@1@5@@@
+00000278@@@@1@@que ratazanas o cachorro perseguiu@@@@1@5@@@
+00000279@@@@1@@que gato o cachorro perseguiu@@@@1@5@@@
+00000280@@@@1@@que ratazana o cachorro perseguiu@@@@1@5@@@
+00000281@@@@1@@que gato perseguiu o cachorro@@@@1@5@@@
+00000282@@@@1@@que ratazana perseguiu o cachorro@@@@1@5@@@
+00000283@@@@1@@que gatos perseguiram o cachorro@@@@1@5@@@
+00000284@@@@1@@que ratazanas perseguiram o cachorro@@@@1@5@@@
+00000285@@@@1@@o artista perguntou-se que cachorro perseguiu o gato@@@@1@8@@@
+00000286@@@@1@@o cachorro perseguiu quais gatos@@@@1@5@@@
+00000287@@@@1@@o cachorro perseguiu quem@@@@1@4@@@
+00000288@@@@1@@quem o cachorro perseguiu@@@@1@4@@@
+00000289@@@@1@@que o cachorro perseguiu@@@@1@4@@@
+00000290@@@@1@@o artista perguntou que o cachorro perseguiu@@@@1@7@@@
+00000291@@@@1@@o artista perguntou o que cachorro perseguiu@@@@1@7@@@
+00000292@@@@1@@o artista perguntou-se que o cachorro perseguiu@@@@1@7@@@
+00000293@@@@1@@o artista perguntou-se o que o cachorro perseguiu@@@@1@8@@@
+00000294@@@@1@@o gato obedeceu a o cachorro@@@@1@6@@@
+00000295@@@@1@@o gato obedeceu o cachorro@@@@0@5@@@
+00000296@@@@1@@o artista caminhou para a cidade@@@@1@6@@@
+00000297@@@@1@@ele doou a bicicleta a o artista@@@@1@7@@@
+00000298@@@@1@@ele doou a bicicleta para o artista@@@@1@7@@@
+00000299@@@@1@@o que o cachorro perseguiu@@@@1@5@@@
+00000300@@@@1@@todos os gatos temem o cachorro@@@@1@6@@@
+00000301@@@@1@@todos gatos temem o cachorro@@@@1@5@@@
+00000302@@@@1@@todas as ratazanas temem o gato@@@@1@6@@@
+00000303@@@@1@@toda ratazana teme o gato@@@@1@5@@@
+00000304@@@@1@@todas ratazanas temem o gato@@@@1@5@@@
+00000305@@@@1@@todo gato teme o cachorro@@@@1@5@@@
+00000306@@@@1@@cada gato latiu@@@@1@3@@@
+00000307@@@@1@@cada ratazana teme algum gato@@@@1@5@@@
+00000308@@@@1@@todos os gatos perseguiram algum cão@@@@1@6@@@
+00000309@@@@1@@todos gatos perseguiram algum cão@@@@1@5@@@
+00000310@@@@1@@todos gatos perseguiram alguns cães@@@@1@5@@@
+00000311@@@@1@@todos gatos perseguiram alguma ratazana@@@@1@5@@@
+00000312@@@@1@@todos gatos perseguiram algumas ratazanas@@@@1@5@@@
+00000313@@@@1@@alguns gatos perseguiram a ratazana@@@@1@5@@@
+00000314@@@@1@@algum gato perseguiu a ratazana@@@@1@5@@@
+00000315@@@@1@@alguma ratazana perseguiu o gato@@@@1@5@@@
+00000316@@@@1@@o gato percebeu que o cachorro dormia@@@@1@7@@@
+00000317@@@@1@@o gato queria que o cachorro dormisse@@@@1@7@@@
+00000318@@@@1@@o gato queria que o cachorro dormia@@@@0@7@@@
+00000319@@@@1@@o gato percebeu que o cachorro dormisse@@@@0@7@@@
+00000320@@@@1@@eu percebi que os gatos dormiam@@@@1@6@@@
+00000321@@@@1@@eu quero que os gatos durmam@@@@1@6@@@
+00000322@@@@1@@eu percebi que os gatos dormissem@@@@0@6@@@
+00000323@@@@1@@eu quero que os gatos dormem@@@@0@6@@@
+00000324@@@@1@@eu estou feliz@@@@1@3@@@
+00000325@@@@1@@tu estás feliz@@@@1@3@@@
+00000326@@@@1@@o gato está feliz@@@@1@4@@@
+00000327@@@@1@@nós estamos felizes@@@@1@3@@@
+00000328@@@@1@@vós estais felizes@@@@1@3@@@
+00000329@@@@1@@eles estão felizes@@@@1@3@@@
+00000330@@@@1@@ambos gatos dormem@@@@1@3@@@
+00000331@@@@1@@ambas artistas dormem@@@@1@3@@@
+00000332@@@@1@@ambos os gatos dormem@@@@1@4@@@
+00000333@@@@1@@ambas as artistas dormem@@@@1@4@@@
+00000334@@@@1@@uma artista imitou aquele gato@@@@1@5@@@
+00000335@@@@1@@essa artista imitou este gato@@@@1@5@@@
+00000336@@@@1@@aquela artista imitou um gato@@@@1@5@@@
+00000337@@@@1@@o gato perseguiu aquelas ratazanas@@@@1@5@@@
+00000338@@@@1@@outro gato perseguiu umas ratazanas@@@@1@5@@@
+00000339@@@@1@@o gato imita aqueles cachorros@@@@1@5@@@
+00000340@@@@1@@estas ratazanas caçaram aqueles cachorros@@@@1@5@@@
+00000341@@@@1@@essas ratazanas caçaram aquele cachorro@@@@1@5@@@
+00000342@@@@1@@duas ratazanas caçaram aquele cachorro@@@@1@5@@@
+00000343@@@@1@@três ratazanas caçaram aquele cachorro@@@@1@5@@@
+00000344@@@@1@@muitos gatos caçaram três ratazanas@@@@1@5@@@
+00000345@@@@1@@poucos gatos caçaram três ratazanas@@@@1@5@@@
+00000346@@@@1@@muitos gatos dormem@@@@1@3@@@
+00000347@@@@1@@poucos gatos dormem@@@@1@3@@@
+00000348@@@@1@@a artista imita qualquer gato@@@@1@5@@@
+00000349@@@@1@@a artista imita quaisquer gatos@@@@1@5@@@
+00000350@@@@1@@esse gato persegue qualquer ratazana@@@@1@5@@@
+00000351@@@@1@@esses gatos perseguem quaisquer ratazanas@@@@1@5@@@
+00000352@@@@1@@certo gato dorme@@@@1@3@@@
+00000353@@@@1@@certo gato matou duas ratazanas@@@@1@5@@@
+00000354@@@@1@@certos gatos mataram certas ratazanas@@@@1@5@@@
+00000355@@@@1@@estes gatos mataram esta ratazana@@@@1@5@@@
+00000356@@@@1@@quantos gatos a ratazana caçou@@@@1@5@@@
+00000357@@@@1@@quantas ratazanas o gato caçou@@@@1@5@@@
+00000358@@@@1@@quantas ratazanas caçaram o gato@@@@1@5@@@
+00000359@@@@1@@quantos gatos caçaram a ratazana@@@@1@5@@@
+00000360@@@@1@@quanto tabaco a artista vendeu@@@@1@5@@@
+00000361@@@@1@@quanta ratazana o gato caçou@@@@1@5@@@
+00000362@@@@1@@quanta ratazana dorme@@@@1@3@@@
+00000363@@@@1@@quantos gatos dormem@@@@1@3@@@
+00000364@@@@1@@quantas ratazanas dormem@@@@1@3@@@
+00000365@@@@1@@o gato dorme@@@@1@3@@@
+00000366@@@@1@@os gatos dormem@@@@1@3@@@
+00000367@@@@1@@o gato matou a ratazana@@@@1@5@@@
+00000368@@@@1@@o gato matou as ratazanas@@@@1@5@@@
+00000369@@@@1@@os gatos mataram a ratazana@@@@1@5@@@
+00000370@@@@1@@nenhum gato conseguiu caçar uma ratazana@@@@1@6@@@
+00000371@@@@1@@nenhum artista dormiu@@@@1@3@@@
+00000372@@@@1@@nenhuma artista dormiu@@@@1@3@@@
+00000373@@@@1@@nenhuns artistas dormiram@@@@1@3@@@
+00000374@@@@1@@nenhumas artistas dormiram@@@@1@3@@@
+00000375@@@@1@@quanto gato a artista vendeu@@@@1@5@@@
+00000376@@@@1@@quanta ratazana a artista vendeu@@@@1@5@@@
+00000377@@@@1@@quantos gatos a artista vendeu@@@@1@5@@@
+00000378@@@@1@@quantas ratazanas a artista vendeu@@@@1@5@@@
+00000379@@@@1@@quanto gato as artistas venderam@@@@1@5@@@
+00000380@@@@1@@quanta ratazana as artistas venderam@@@@1@5@@@
+00000381@@@@1@@quantos gatos as artistas venderam@@@@1@5@@@
+00000382@@@@1@@quantas ratazanas as artistas venderam@@@@1@5@@@
+00000383@@@@1@@as artistas venderam muitos gatos@@@@1@5@@@
+00000384@@@@1@@as artistas venderam vários gatos@@@@1@5@@@
+00000385@@@@1@@as artistas venderam muitas ratazanas@@@@1@5@@@
+00000386@@@@1@@as artistas venderam várias ratazanas@@@@1@5@@@
+00000387@@@@1@@a artista vendeu muitos gatos@@@@1@5@@@
+00000388@@@@1@@a artista vendeu vários gatos@@@@1@5@@@
+00000389@@@@1@@a artista vendeu o gato@@@@1@5@@@
+00000390@@@@1@@a artista vendeu a ratazana@@@@1@5@@@
+00000391@@@@1@@o cachorro adora tais gatos@@@@1@5@@@
+00000392@@@@1@@o gato adora tais ratazanas@@@@1@5@@@
+00000393@@@@1@@o cachorro adora tal gato@@@@1@5@@@
+00000394@@@@1@@o gato adora tal ratazana@@@@1@5@@@
+00000395@@@@1@@o cachorro ousou latir@@@@1@4@@@
+00000396@@@@1@@o cachorro desejou latir@@@@1@4@@@
+00000397@@@@1@@o cachorro ousou desejar latir@@@@1@5@@@
+00000398@@@@1@@o cachorro disse que o gato latisse@@@@1@7@@@
+00000399@@@@1@@os cachorros disseram que o gato latisse@@@@1@7@@@
+00000400@@@@1@@os cachorros estavam dizendo que o gato latisse@@@@1@8@@@
+00000401@@@@1@@os cachorros tinham dito que o gato latisse@@@@1@8@@@
+00000402@@@@1@@o cachorro admitiu que o gato latisse@@@@1@7@@@
+00000403@@@@1@@o cachorro consentiu que o gato latisse@@@@1@7@@@
+00000404@@@@1@@o cachorro exigiu que o gato latisse@@@@1@7@@@
+00000405@@@@1@@o cachorro ordenou que o gato latisse@@@@1@7@@@
+00000406@@@@1@@o cachorro permitiu que o gato latisse@@@@1@7@@@
+00000407@@@@1@@o cachorro continua latindo@@@@1@4@@@
+00000408@@@@1@@o cachorro continua querendo perseguir o gato@@@@1@7@@@
+00000409@@@@1@@o cachorro continua desejando perseguir o gato@@@@1@7@@@
+00000410@@@@1@@o cachorro anda desejando perseguir o gato@@@@1@7@@@
+00000411@@@@1@@o cachorro vive desejando perseguir o gato@@@@1@7@@@
+00000412@@@@1@@o cachorro vem desejando perseguir o gato@@@@1@7@@@
+00000413@@@@1@@o cachorro vinha desejando perseguir o gato@@@@1@7@@@
+00000414@@@@1@@o cachorro anda perseguindo o gato@@@@1@6@@@
+00000415@@@@1@@o cachorro vem perseguindo o gato@@@@1@6@@@
+00000416@@@@1@@o cachorro vinha perseguindo o gato@@@@1@6@@@
+00000417@@@@1@@o cachorro vive perseguindo o gato@@@@1@6@@@
+00000418@@@@1@@os cachorros estão chegando@@@@1@4@@@
+00000419@@@@1@@estão chegando@@@@1@2@@@
+00000420@@@@1@@os cachorros foram chegando@@@@1@4@@@
+00000421@@@@1@@os cachorros iam chegando@@@@1@4@@@
+00000422@@@@1@@os cachorros vão chegando@@@@1@4@@@
+00000423@@@@1@@nós fomos chegando@@@@1@3@@@
+00000424@@@@1@@eu fui chegando@@@@1@3@@@
+00000425@@@@1@@eu ia chegando@@@@1@3@@@
+00000426@@@@1@@os cachorros haviam chegado@@@@1@4@@@
+00000427@@@@1@@haviam chegado@@@@1@2@@@
+00000428@@@@1@@o cachorro havia chegado@@@@1@4@@@
+00000429@@@@1@@o cachorro impediu que o gato perseguisse a ratazana@@@@1@9@@@
+00000430@@@@1@@o cachorro evitou que o gato perseguisse a ratazana@@@@1@9@@@
+00000431@@@@1@@cheguei@@@@1@1@@@
+00000432@@@@1@@chegamos@@@@1@1@@@
+00000433@@@@1@@chegou@@@@1@1@@@
+00000434@@@@1@@não chegou@@@@1@2@@@
+00000435@@@@1@@anda perseguindo o gato@@@@1@4@@@
+00000436@@@@1@@andavam perseguindo o gato@@@@1@4@@@
+00000437@@@@1@@perseguimos o gato@@@@1@3@@@
+00000438@@@@1@@não perseguimos o gato@@@@1@4@@@
+00000439@@@@1@@o cachorro não impediu que o gato perseguisse a ratazana@@@@1@10@@@
+00000440@@@@1@@o gato sabe quais cachorros latem@@@@1@6@@@
+00000441@@@@1@@o artista ignora quais cachorros latem@@@@1@6@@@
+00000442@@@@1@@o artista ignora se os cachorros perseguem os gatos@@@@1@9@@@
+00000443@@@@1@@o artista ignora se os cachorros andam perseguindo os gatos@@@@1@10@@@
+00000444@@@@1@@o artista ignora se os cachorros querem perseguir os gatos@@@@1@10@@@
+00000445@@@@1@@o artista ignora quais gatos os cachorros querem perseguir@@@@1@9@@@
+00000446@@@@1@@o artista ignora quem tem perseguido os gatos@@@@1@8@@@
+00000447@@@@1@@o artista ignora quem está perseguindo os gatos@@@@1@8@@@
+00000448@@@@1@@o artista sabe quem está perseguindo os gatos@@@@1@8@@@
+00000449@@@@1@@quem está perseguindo os gatos@@@@1@5@@@
+00000450@@@@1@@o artista sabe quem quer perseguir os gatos@@@@1@8@@@
+00000451@@@@1@@o artista não sabe quem quer perseguir os gatos@@@@1@9@@@
+00000452@@@@1@@quem quer perseguir os gatos@@@@1@5@@@
+00000453@@@@1@@quem não quer perseguir os gatos@@@@1@6@@@
+00000454@@@@1@@o cachorro exigiu que o gato não latisse@@@@1@8@@@
+00000455@@@@1@@o artista exigiu que o cachorro não perseguisse o gato@@@@1@10@@@
+00000456@@@@1@@o gato não tem conseguido dormir@@@@1@6@@@
+00000457@@@@1@@o gato tem conseguido dormir@@@@1@5@@@
+00000458@@@@1@@o gato tem precisado dormir@@@@1@5@@@
+00000459@@@@1@@o gato está precisando dormir@@@@1@5@@@
+00000460@@@@1@@o gato está tentando dormir@@@@1@5@@@
+00000461@@@@1@@o gato está conseguindo dormir@@@@1@5@@@
+00000462@@@@1@@o gato não está precisando dormir@@@@1@6@@@
+00000463@@@@1@@o gato não está tentando dormir@@@@1@6@@@
+00000464@@@@1@@o gato não está conseguindo dormir@@@@1@6@@@
+00000465@@@@1@@o gato vai estar precisando dormir@@@@1@6@@@
+00000466@@@@1@@o gato vai tentar dormir@@@@1@5@@@
+00000467@@@@1@@o gato vai conseguir dormir@@@@1@5@@@
+00000468@@@@1@@o gato não vai estar precisando dormir@@@@1@7@@@
+00000469@@@@1@@o gato não vai tentar dormir@@@@1@6@@@
+00000470@@@@1@@o gato não vai conseguir dormir@@@@1@6@@@
+00000471@@@@1@@os cachorros não haviam chegado@@@@1@5@@@
+00000472@@@@1@@os cachorros não haviam tentado dormir@@@@1@6@@@
+00000473@@@@1@@não haviam chegado@@@@1@3@@@
+00000474@@@@1@@o cachorro está querendo perseguir o gato@@@@1@7@@@
+00000475@@@@1@@o cachorro está desejando perseguir o gato@@@@1@7@@@
+00000476@@@@1@@o cachorro vai querer perseguir o gato@@@@1@7@@@
+00000477@@@@1@@o cachorro vai desejar perseguir o gato@@@@1@7@@@
+00000478@@@@1@@o cachorro vai estar dormindo@@@@1@5@@@
+00000479@@@@1@@o cachorro está indo dormir@@@@1@5@@@
+00000480@@@@1@@o artista doa uma bicicleta a o estudante@@@@1@8@@@
+00000481@@@@1@@o cachorro depende de o artista@@@@1@6@@@
+00000482@@@@1@@o cachorro gosta de o artista@@@@1@6@@@
+00000483@@@@1@@o cachorro obedece a o artista@@@@1@6@@@
+00000484@@@@1@@o artista queixou-se de o cachorro@@@@1@6@@@
+00000485@@@@1@@nós vamos entregar o cachorro a o artista@@@@1@8@@@
+00000486@@@@1@@será que eles irão entregar o cachorro a o artista@@@@1@10@@@
+00000487@@@@1@@não sei o que eles entregavam a o artista@@@@1@9@@@
+00000488@@@@1@@a quem o cachorro obedece@@@@1@5@@@
+00000489@@@@1@@de quem o cachorro gosta@@@@1@5@@@
+00000490@@@@1@@a quem eles irão entregar o cachorro@@@@1@7@@@
+00000491@@@@1@@o artista ignora a quem o cachorro obedece@@@@1@8@@@
+00000492@@@@1@@o artista perguntou a quem o cachorro estava obedecendo@@@@1@9@@@
+00000493@@@@1@@o artista perguntou quem estava obedecendo a quem@@@@1@8@@@
+00000494@@@@1@@o estudante perguntou quem estava obedecendo a o artista@@@@1@9@@@
+00000495@@@@1@@o artista doa uma bicicleta o estudante@@@@0@7@@@
+00000496@@@@1@@o cachorro depende o artista@@@@0@5@@@
+00000497@@@@1@@o cachorro obedece o artista@@@@0@5@@@
+00000498@@@@1@@o artista doa uma bicicleta de o estudante@@@@0@8@@@
+00000499@@@@1@@o cachorro depende a o artista@@@@0@6@@@
+00000500@@@@1@@o cachorro obedece de o artista@@@@0@6@@@
+00000501@@@@1@@o cachorro começou de latir@@@@0@5@@@
+00000502@@@@1@@o cachorro parou a latir@@@@0@5@@@
+00000503@@@@1@@o artista insistiu a perseguir o cachorro@@@@0@7@@@
+00000504@@@@1@@o artista insistiu de perseguir o cachorro@@@@0@7@@@
+00000505@@@@1@@o cachorro começou a late@@@@0@5@@@
+00000506@@@@1@@o cachorro parou de late@@@@0@5@@@
+00000507@@@@1@@o cachorro começou que late@@@@0@5@@@
+00000508@@@@1@@o cachorro parou que late@@@@0@5@@@
+00000509@@@@1@@o cachorro começou de late@@@@0@5@@@
+00000510@@@@1@@o cachorro parou a late@@@@0@5@@@
+00000511@@@@1@@o artista insistiu em persegue o cachorro@@@@0@7@@@
+00000512@@@@1@@os artistas insistiram em perseguirem o cachorro@@@@0@7@@@
+00000513@@@@1@@o cachorro vai começar a latir@@@@1@6@@@
+00000514@@@@1@@o cachorro vai querer começar a latir@@@@1@7@@@
+00000515@@@@1@@o cachorro tinha começado a latir@@@@1@6@@@
+00000516@@@@1@@o cachorro tem insistido em começar a latir@@@@1@8@@@
+00000517@@@@1@@o cachorro tinha parado de latir@@@@1@6@@@
+00000518@@@@1@@o cachorro tinha insistido em parar de latir@@@@1@8@@@
+00000519@@@@1@@o cachorro está parando de latir@@@@1@6@@@
+00000520@@@@1@@o cachorro vai parar de latir@@@@1@6@@@
+00000521@@@@1@@o cachorro está indo parar de latir@@@@1@7@@@
+00000522@@@@1@@o cachorro tem de obedecer a o artista@@@@1@8@@@
+00000523@@@@1@@o cachorro tem que obedecer a o artista@@@@1@8@@@
+00000524@@@@1@@o cachorro tem de obedece a o artista@@@@0@8@@@
+00000525@@@@1@@o cachorro tem que obedece a o artista@@@@0@8@@@
+00000526@@@@1@@o cachorro tem a obedecer a o artista@@@@0@8@@@
+00000527@@@@1@@o cachorro tem em obedecer a o artista@@@@0@8@@@
+00000528@@@@1@@o artista contou a o estudante que o gato tinha matado uma ratazana@@@@1@13@@@
+00000529@@@@1@@o gato prefere dormir@@@@1@4@@@
+00000530@@@@1@@a estudante impediu o artista de matar a ratazana@@@@1@9@@@
+00000531@@@@1@@a estudante obrigou o artista a matar a ratazana@@@@1@9@@@
+00000532@@@@1@@a estudante proibiu o artista de matar a ratazana@@@@1@9@@@
+00000533@@@@1@@a estudante forçou o artista a matar a ratazana@@@@1@9@@@
+00000534@@@@1@@a estudante persuadiu o artista a matar a ratazana@@@@1@9@@@
+00000535@@@@1@@a estudante convenceu o artista a matar a ratazana@@@@1@9@@@
+00000536@@@@1@@a estudante convenceu o artista a impedir o estudante de matar a ratazana@@@@1@13@@@
+00000537@@@@1@@a artista prometeu a o estudante matar a ratazana@@@@1@9@@@
+00000538@@@@1@@a artista prometeu matar a ratazana@@@@1@6@@@
+00000539@@@@1@@a artista planeja matar a ratazana@@@@1@6@@@
+00000540@@@@1@@a artista tenciona matar a ratazana@@@@1@6@@@
+00000541@@@@1@@o artista detesta que o cachorro atraía o gato@@@@1@9@@@
+00000542@@@@1@@o artista detesta que eles atraíam o gato@@@@1@8@@@
+00000543@@@@1@@o artista detesta que tu atraías o gato@@@@1@8@@@
+00000544@@@@1@@a estudante disse a o artista para trazer uma bola@@@@1@10@@@
+00000545@@@@1@@a estudante disse a os artistas para trazerem uma bola@@@@1@10@@@
+00000546@@@@1@@a estudante disse a os artistas para trazer uma bola@@@@1@10@@@
+00000547@@@@1@@a estudante disse a o artista a trazer uma bola@@@@0@10@@@
+00000548@@@@1@@a estudante disse a o artista de trazer uma bola@@@@0@10@@@
+00000549@@@@1@@a estudante disse a o artista que trazer uma bola@@@@0@10@@@
+00000550@@@@1@@a estudante disse a os artistas a trazerem uma bola@@@@0@10@@@
+00000551@@@@1@@a estudante disse a os artistas de trazerem uma bola@@@@0@10@@@
+00000552@@@@1@@a estudante disse a os artistas que trazerem uma bola@@@@0@10@@@
+00000553@@@@1@@o cachorro declarou que o gato lata@@@@0@7@@@
+00000554@@@@1@@o cachorro afirmou que o gato late@@@@1@7@@@
+00000555@@@@1@@ele vai entregar a bola a o gato@@@@1@8@@@
+00000556@@@@1@@eu pedi para que ela entregasse a bola a o gato@@@@1@11@@@
+00000557@@@@1@@eu pedi com que ela entregasse a bola a o gato@@@@0@11@@@
+00000558@@@@1@@eu pedi em que ela entregasse a bola a o gato@@@@0@11@@@
+00000559@@@@1@@ela fez em que o gato dormisse@@@@0@7@@@
+00000560@@@@1@@ela fez para que o gato dormisse@@@@0@7@@@
+00000561@@@@1@@ela insistiu com que o gato dormisse@@@@0@7@@@
+00000562@@@@1@@ela insistiu para que o gato dormisse@@@@1@7@@@
+00000563@@@@1@@eles lamentam ladrar@@@@1@3@@@
+00000564@@@@1@@o artista doa uma bicicleta para o estudante@@@@1@8@@@
+00000565@@@@1@@nós vamos entregar o cachorro para o artista@@@@1@8@@@
+00000566@@@@1@@será que eles irão entregar o cachorro para o artista@@@@1@10@@@
+00000567@@@@1@@não sei o que eles entregavam para o artista@@@@1@9@@@
+00000568@@@@1@@o artista contou para o estudante que o gato tinha matado uma ratazana@@@@1@13@@@
+00000569@@@@1@@a artista prometeu para o estudante matar a ratazana@@@@1@9@@@
+00000570@@@@1@@a estudante disse para o artista para trazer uma bola@@@@1@10@@@
+00000571@@@@1@@ele vai entregar a bola para o gato@@@@1@8@@@
+00000572@@@@1@@eu pedi para que ela entregasse a bola para o gato@@@@1@11@@@
+00000573@@@@1@@eu autorizei os alunos a que escrevessem a carta@@@@1@9@@@
+00000574@@@@1@@eu autorizei os alunos a escreverem a carta@@@@1@8@@@
+00000575@@@@1@@eu autorizei os alunos a escrever a carta@@@@1@8@@@
+00000576@@@@1@@eu autorizei que os alunos escrevessem a carta@@@@1@8@@@
+00000577@@@@1@@eu aprovo que tu tenhas concorrido@@@@1@6@@@
+00000578@@@@1@@eu aprovo que tenhas concorrido@@@@1@5@@@
+00000579@@@@1@@eu aprovo tu teres concorrido@@@@1@5@@@
+00000580@@@@1@@eu aprovo teres concorrido@@@@1@4@@@
+00000581@@@@1@@eu aprovo eu concorrer@@@@0@4@@@
+00000582@@@@1@@eu aprovo concorrer@@@@0@3@@@
+00000583@@@@1@@eu aprovo que concorro@@@@0@4@@@
+00000584@@@@1@@o João insistiu em que os alunos acabassem o trabalho@@@@1@10@@@
+00000585@@@@1@@o João insistiu em acabar o trabalho@@@@1@7@@@
+00000586@@@@1@@perguntei-me a quem o cachorro estava obedecendo@@@@1@7@@@
+00000587@@@@1@@os artistas perguntavam-se quem tencionava obedecer a o estudante@@@@1@9@@@
+00000588@@@@1@@as artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes@@@@1@14@@@
+00000589@@@@1@@perguntei-me a quem o cachorro estava obedecido@@@@0@7@@@
+00000590@@@@1@@perguntei-me de quem o cachorro estava obedecendo@@@@0@7@@@
+00000591@@@@1@@os artistas perguntavam-se quem tencionava obedecendo a o estudante@@@@0@9@@@
+00000592@@@@1@@as artistas tinham começando a detestar que os cachorros não obedecessem a os estudantes@@@@0@14@@@
+00000593@@@@1@@o artista perguntou a o estudante quem perseguiu o gato@@@@1@10@@@
+00000594@@@@1@@o artista perguntou a o estudante quem o cachorro perseguiu@@@@1@10@@@
+00000595@@@@1@@o artista perguntou a o estudante que cachorro perseguiu o gato@@@@1@11@@@
+00000596@@@@1@@o artista perguntou a o estudante que gato o cachorro perseguiu@@@@1@11@@@
+00000597@@@@1@@o artista perguntou a o estudante que cachorros perseguiram o gato@@@@1@11@@@
+00000598@@@@1@@o artista perguntou a o estudante que gatos o cachorro perseguiu@@@@1@11@@@
+00000599@@@@1@@o artista perguntou a o estudante que gatos os cachorros perseguiram@@@@1@11@@@
+00000600@@@@1@@o artista perguntou a o estudante que ratazana o cachorro perseguiu@@@@1@11@@@
+00000601@@@@1@@o artista perguntou a o estudante que ratazanas perseguiram o gato@@@@1@11@@@
+00000602@@@@1@@o artista perguntou a o estudante que ratazanas o cachorro perseguiu@@@@1@11@@@
+00000603@@@@1@@o artista perguntou a o estudante que ratazanas os cachorros perseguiram@@@@1@11@@@
+00000604@@@@1@@o artista perguntou a o estudante qual cachorro perseguiu o gato@@@@1@11@@@
+00000605@@@@1@@o artista perguntou a o estudante quais cachorros perseguiram o gato@@@@1@11@@@
+00000606@@@@1@@o artista perguntou a o estudante quais gatos o cachorro perseguiu@@@@1@11@@@
+00000607@@@@1@@o artista perguntou a o estudante qual ratazana perseguiu o gato@@@@1@11@@@
+00000608@@@@1@@o artista perguntou a o estudante qual ratazana o gato perseguiu@@@@1@11@@@
+00000609@@@@1@@o artista perguntou a o estudante quais ratazanas perseguiram o gato@@@@1@11@@@
+00000610@@@@1@@o artista perguntou a o estudante quais ratazanas o cachorro perseguiu@@@@1@11@@@
+00000611@@@@1@@o artista perguntou a o estudante quais ratazanas os cachorros perseguiram@@@@1@11@@@
+00000612@@@@1@@o artista perguntou a o estudante se o cachorro perseguiu o gato@@@@1@12@@@
+00000613@@@@1@@o gato fez os cachorros ladrarem@@@@1@6@@@
+00000614@@@@1@@o gato fez os cachorros latirem@@@@1@6@@@
+00000615@@@@1@@o gato fez os cachorros ladrar@@@@1@6@@@
+00000616@@@@1@@o gato fez os cachorros latir@@@@1@6@@@
+00000617@@@@1@@a estudante fez os cachorros perseguirem a ratazana@@@@1@8@@@
+00000618@@@@1@@a estudante fez os cachorros perseguir a ratazana@@@@1@8@@@
+00000619@@@@1@@o gato fez os cachorros ladram@@@@0@6@@@
+00000620@@@@1@@o gato fez os cachorros latem@@@@0@6@@@
+00000621@@@@1@@o gato fez os cachorros ladra@@@@0@6@@@
+00000622@@@@1@@o gato fez os cachorros late@@@@0@6@@@
+00000623@@@@1@@a estudante fez os cachorros perseguem a ratazana@@@@0@8@@@
+00000624@@@@1@@a estudante fez os cachorros persegue a ratazana@@@@0@8@@@
+00000625@@@@1@@o gato fez os cachorros ladrando@@@@0@6@@@
+00000626@@@@1@@o gato fez os cachorros latindo@@@@0@6@@@
+00000627@@@@1@@a estudante fez os cachorros perseguindo a ratazana@@@@0@8@@@
+00000628@@@@1@@ele deixou os cachorros saírem@@@@1@5@@@
+00000629@@@@1@@ele deixou os cachorros sair@@@@1@5@@@
+00000630@@@@1@@ele deixou os cachorros perseguirem a ratazana@@@@1@7@@@
+00000631@@@@1@@ele deixou os cachorros perseguir a ratazana@@@@1@7@@@
+00000632@@@@1@@esse imposto incide sobre a renda@@@@1@6@@@
+00000633@@@@1@@aqueles impostos incidiam sobre o consumo@@@@1@6@@@
+00000634@@@@1@@o artista dividiu a cena com a estudante@@@@1@8@@@
+00000635@@@@1@@tive de dividir os alunos em grupos@@@@1@7@@@
+00000636@@@@1@@ele ficou de discutir a questão com a professora@@@@1@9@@@
+00000637@@@@1@@eles querem revestir o piso com madeira@@@@1@7@@@
+00000638@@@@1@@comentei os beijos com uma amiga@@@@1@6@@@
+00000639@@@@1@@as aulas combinam teoria com prática@@@@1@6@@@
+00000640@@@@1@@os hospitais consumiam uma fortuna com internações@@@@1@7@@@
+00000641@@@@1@@ele trocaria a preocupação por a descontração@@@@1@7@@@
+00000642@@@@1@@ele culpou o artista de homicídio@@@@1@6@@@
+00000643@@@@1@@o juiz converteu a prisão em multa@@@@1@7@@@
+00000644@@@@1@@o jogador falou uma bobagem sobre o time@@@@1@8@@@
+00000645@@@@1@@o país passou de euforia para depressão@@@@1@7@@@
+00000646@@@@1@@reparei em a bandeira@@@@1@4@@@
+00000647@@@@1@@será que ela está pensando em mim@@@@1@7@@@
+00000648@@@@1@@ele caiu em o ostracismo@@@@1@5@@@
+00000649@@@@1@@eles não conseguiram acabar com a pobreza@@@@1@7@@@
+00000650@@@@1@@os clientes poderão servir-se de o ravióli@@@@1@7@@@
+00000651@@@@1@@ele referia-se a um longo telefonema@@@@1@6@@@
+00000652@@@@1@@depararam-se com uma estranha normalidade@@@@1@5@@@
+00000653@@@@1@@o regime caracterizava-se por a austeridade@@@@1@6@@@
+00000654@@@@1@@o jogador integrou-se em as movimentações@@@@1@6@@@
+00000655@@@@1@@eles têm contribuído para que o artista não caia em o esquecimento@@@@1@12@@@
+00000656@@@@1@@ela responde por o pagamento@@@@1@5@@@
+00000657@@@@1@@os estudantes partiram para o sertão@@@@1@6@@@
+00000658@@@@1@@a artista partiu para a briga@@@@1@6@@@
+00000659@@@@1@@a janela dava para o quintal@@@@1@6@@@
