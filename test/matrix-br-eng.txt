@@ -18,7 +18,7 @@ The window opened.
 
 41
 
-O Atlas perseguiu o Bobi. O Atlas correu atrás do Bobi. 
+O Atlas perseguiu o Bobi. O Atlas correu atrás do Bobi.
 
 Abrams chased Browne.
 
@@ -30,7 +30,7 @@ Abrams handed Browne the cigarette.
 
 61
 
-O Atlas passou ao Bobi o cigarro. O Atlas passou para o Bobi o cigarro. O Atlas deu para o Bobi o cigarro. O Atlas deu ao Bobi o cigarro. 
+O Atlas passou ao Bobi o cigarro. O Atlas passou para o Bobi o cigarro. O Atlas deu para o Bobi o cigarro. O Atlas deu ao Bobi o cigarro.
 
 Abrams handed the cigarette to Browne.
 
@@ -48,7 +48,7 @@ Abrams knew that it rained.
 
 91
 
-O Atlas tinha a intenção de ladrar. O Atlas tinha a intenção de latir. O Atlas queria latir.
+O Atlas tinha a intenção de ladrar. O Atlas tinha a intenção de latir. O Atlas queria latir. O Atlas pretendia latir. O Atlas tencionava ladrar.
 
 Abrams intended to bark.
 
@@ -108,13 +108,13 @@ Mine barked.
 
 191
 
-Isso abriu-se. Isso se abriu. Isso abriu. Aquilo abriu. Esse abriu.  Aquele abriu. 
+Isso abriu-se. Isso se abriu. Isso abriu. Aquilo abriu. Esse abriu.  Aquele abriu.
 
 That opened.
 
 201
 
-Os gatos ladram. Os gatos latem. Gatos latem. 
+Os gatos ladram. Os gatos latem. Gatos latem.
 
 Cats bark.
 
@@ -587,7 +587,7 @@ The happier dog chased Browne.
 
 991
 
-Havia gatos no jardim. Tinha gatos no jardim. 
+Havia gatos no jardim. Tinha gatos no jardim.
 
 There were cats in the garden.
 
@@ -635,6 +635,6 @@ Don't bark!
 
 1071
 
-BR O cão chegou ladrando. 
+BR O cão chegou ladrando.
 
 The dog arrived barking.
