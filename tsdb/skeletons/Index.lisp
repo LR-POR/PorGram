@@ -19,8 +19,8 @@
 ;;; the list lexicographically before output.
 ;;;
 
-(
-((:path . "matrix") (:content . "matrix: A test suite created automatically from the test sentences given in the Grammar Matrix questionnaire."))
-; New test suites here. For example:
-; ((:path . "new-test-suite") (:content . "New Test Suite: A description of the new test suite located at the subdirectory new-test-suite."))
-)
+(((:path . "matrix")
+  (:content . "matrix: Portuguese translation of the matrix test suite."))
+ ((:path . "core")
+  (:content . "the core set of sentences used to develop the PorGram")))
+

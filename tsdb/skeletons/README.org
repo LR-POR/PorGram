@@ -1,5 +1,4 @@
-
-The testsuite matrix-br-eng.txt is based on the (European) Portuguese
+The testsuite matrix-br.txt is based on the (European) Portuguese
 version of the MRS Test Suite:
 
 http://moin.delph-in.net/wiki/MatrixMrsTestSuitePt
