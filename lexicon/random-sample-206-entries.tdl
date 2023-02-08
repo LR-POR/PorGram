@@ -832,15 +832,6 @@ atirar_2 := nom-acc-dat-ditransitive-verb-lex & ; BOR
   """
   No momento em que regressava a casa, o indivíduo lançou-se sobre ela, tapou-lhe a boca, agrediu-a e atirou-a ao chão.
   """. 
-; orthographic error in corpus
-; correct form and lemma: "comprimimos" and "comprimir"
-; cumprimir_1 := trans-verb-lex & ; 
-comprimir_1 := trans-verb-lex & ; MIC
-  [ STEM < "comprimir" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_cumprimir_v_1_rel" ]
-  """
-  «Se nós <choice><sic>cumprimimos</sic><corr>comprimimos</corr></choice>  a matéria, não deixamos os quarks distanciarem-se o suficiente para produzirem o Psi», explica Paula Bordalo.
-  """. 
 
 comprar_1 := trans-verb-lex & ; MIC
   [ STEM < "comprar" >,
