@@ -1,3 +1,56 @@
+
+* Core
+
+delphin mkprof -vv -i core.txt --delimiter "@" --relations Relations --skeleton core
+
+% delphin process -s core -g ~/hpsg/porgram.dat --full-forest --options='--disable-generalization' ../work/core
+Processing |#                               | 41/663NOTE: lexemes do not span position 3 `feroza'!
+NOTE: post reduction gap
+NOTE: ignoring `a lagartinha é feroza'
+Processing |##                              | 42/663NOTE: lexemes do not span position 3 `inteligenta'!
+NOTE: post reduction gap
+NOTE: ignoring `a lagartinha é inteligenta'
+Processing |##                              | 44/663NOTE: lexemes do not span position 3 `inteligentea'!
+NOTE: post reduction gap
+NOTE: ignoring `a lagartinha é inteligentea'
+Processing |####                            | 84/663NOTE: lexemes do not span position 3 `ferozas'!
+NOTE: post reduction gap
+NOTE: ignoring `as lagartinhas são ferozas'
+Processing |####                            | 85/663NOTE: lexemes do not span position 3 `ferozeas'!
+NOTE: post reduction gap
+NOTE: ignoring `as lagartinhas são ferozeas'
+Processing |#########                       | 195/663NOTE: lexemes do not span position 5 `atraiam'!
+NOTE: post reduction gap
+NOTE: ignoring `o artista detesta que eles atraiam o gato'
+Processing |#########                       | 196/663NOTE: lexemes do not span position 6 `atraia'!
+NOTE: post reduction gap
+NOTE: ignoring `o artista detesta que o cachorro atraia o gato'
+Processing |#########                       | 197/663NOTE: lexemes do not span position 5 `atraias'!
+NOTE: post reduction gap
+NOTE: ignoring `o artista detesta que tu atraias o gato'
+Processing |###############                 | 311/663NOTE: lexemes do not span position 2 `está-se'!
+NOTE: post reduction gap
+NOTE: ignoring `o cachorro está-se triste'
+Processing |###############                 | 322/663NOTE: lexemes do not span position 2 `ladrou-se'!
+NOTE: post reduction gap
+NOTE: ignoring `o cachorro ladrou-se'
+Processing |##################              | 388/663NOTE: lexemes do not span position 2 `é-se'!
+NOTE: post reduction gap
+NOTE: ignoring `o cachorro é-se triste'
+Processing |###################             | 412/663NOTE: lexemes do not span position 7 `latido-se'!
+NOTE: post reduction gap
+NOTE: ignoring `o gato detestou que o cachorro tivesse latido-se'
+Processing |####################            | 415/663NOTE: lexemes do not span position 6 `tivesse-se'!
+NOTE: post reduction gap
+NOTE: ignoring `o gato detestou que o cachorro tivesse-se latido'
+Processing |############################    | 588/663NOTE: lexemes do not span position 1 `lagartãos'!
+NOTE: post reduction gap
+NOTE: ignoring `os lagartãos admiram o cachorro'
+Processing |################################| 663/663
+
+
+* Matrix
+
 The testsuite matrix-br.txt is based on the (European) Portuguese
 version of the MRS Test Suite:
 
