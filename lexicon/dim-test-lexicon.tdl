@@ -1,0 +1,55 @@
+gato := masc-noun-lex &
+  [ STEM < "gato" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gato_n_rel" ].
+
+gata := fem-noun-lex &
+  [ STEM < "gata" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gata_n_rel" ].
+
+cachorro := masc-noun-lex &
+  [ STEM < "cachorro" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cachorro_n_rel" ].
+
+forte := uniform-adj-lex &
+		    [ STEM < "forte" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_forte_a_rel" ].
+
+aceso := non-uniform-adj-lex &
+		    [ STEM < "aceso" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_aceso_a_rel" ].
+
+feliz := uniform-adj-lex &
+		    [ STEM < "feliz" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_feliz_a_rel" ].
+
+voraz := uniform-adj-lex &
+		    [ STEM < "voraz" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_voraz_a_rel" ].
+
+fraco := non-uniform-adj-lex &
+		    [ STEM < "fraco" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_fraco_a_rel" ].
+
+lindo := non-uniform-adj-lex &
+		    [ STEM < "lindo" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_lindo_a_rel" ].
+
+bom := non-uniform-adj-lex &
+		    [ STEM < "bom" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_bom_a_rel" ].
+
+adorável := uniform-adj-lex &
+		    [ STEM < "adorável" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_adorável_a_rel" ].
+
+lambedor := non-uniform-adj-lex &
+		    [ STEM < "lambedor" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_lambedor_a_rel" ].
+
+incolor := uniform-adj-lex &
+		    [ STEM < "incolor" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_incolor_a_rel" ].
+
+adorável := non-uniform-adj-lex &
+		    [ STEM < "adorável" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_adorável_a_rel" ].

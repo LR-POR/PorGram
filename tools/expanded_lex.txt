@@ -1,0 +1,19 @@
+LKB> (defun output-for-ebl (orth fs ostream rule-list base-id base-fs ostream2)
+  (declare (ignore fs base-fs ostream2))
+  (format ostream "~&~A ~:A ~S~%" base-id (reverse rule-list) orth))
+
+WARNING: redefining LKB::OUTPUT-FOR-EBL in DEFUN
+OUTPUT-FOR-EBL
+LKB> (let ((*maximal-lex-rule-applications* 2))
+       (output-lex-and-derived :ebl "~/expanded.lex" nil))
+T
+LKB>  *lex-rule-suffix*
+NIL
+LKB> (defparameter *lex-rule-suffix* "")
+*LEX-RULE-SUFFIX*
+LKB> (let ((*maximal-lex-rule-applications* 2))
+       (output-lex-and-derived :ebl "~/expanded.lex" nil))
+; Evaluation aborted on NIL.
+LKB> (let ((*maximal-lex-rule-applications* 2))
+       (output-lex-and-derived :ebl "~/expanded.lex" nil))
+T

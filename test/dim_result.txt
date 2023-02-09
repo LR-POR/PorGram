@@ -1,0 +1,21 @@
+1 o cachorro fortinho latiu 2 55
+2 o gato acesinho partiu 1 102
+3 os gatos felizezinhos partiram 2 172
+4 os cachorros fraquitos latiram 4 78
+5 os gatos lindinhos partiram 2 172
+6 o cachorro bonzito latiu 2 55
+7 os gatos adoraveizinhos partiram 0 104
+8 o cachorro lambedorzinho latiu 2 55
+9 *o cachorro fortinhos latiu 0 31
+10 *o gato acesinhos partiu 0 64
+11 *as gatas felizezinha partiram 0 116
+12 *os cachorros fraquito latiram 0 47
+13 *as gatas lindinhos partiram 0 123
+14 *o cachorro bonzitos latiu 0 31
+15 *as gatas adoravelzinha partiram 0 116
+16 *o cachorro lambedorzinhos latiu 0 24
+17 *as gatas amarelinhas partiu 2 110
+
+;;; Total CPU time: 216 msecs
+;;; Mean edges: 85.59
+;;; Mean parses: 1.00

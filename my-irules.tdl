@@ -45,6 +45,11 @@
 ;;; all letters except l and m
 %(letter-set (!m abcdefghijknopqrstuvwxyzçáéóõãôê))
 
+;;; all letters except r
+%(letter-set (!h abcdefghijklmnopqstuvwxyzçáéóõãôê))
+
+;;; all letters except c
+%(letter-set (!j abdefghijklmnopqrstuvwxyzçáéóõãôê))
 
 ;; Does this rule generate "hífens"? If it doesn't, this form should be included in the my-irregs.tab file,
 ;; if it is considered correct (it seems to be spurious, correct form is "hifens"), cf. issue #98 of MorphoBr
@@ -70,6 +75,21 @@ det-pl-suffix :=
 ; (algum alguns) (alguma algumas) (tal tais)
 %suffix (m ns) (!m !ms) (l is)
 det-pl-lex-rule.
+
+dim-suffix1 :=
+; (forte fortinho) (aceso acesinho) (feliz felizinho) (fraco fraquinho) (lindo lindinho) (fortes fortinhos) (acesos acesinhos) (felizes felizinhos) (fracos fraquinhos) (lindos lindinhos)
+%suffix (e inho) (s!o sinh!o) (z zinho) (c!o quinh!o) (!j!o !jinh!o) (!hes !hinhos) (s!os sinh!os) (zes zinhos) (c!os quinh!os) (!j!os !jinh!os)
+dim-lex-rule.
+
+dim-suffix2 :=
+; (fraco fraquito) (forte fortito) (bom bonzito) (lindo lindito) (fracos fraquitos) (fortes fortitos) (bons bonzitos)
+%suffix (c!o quit!o) (e ito) (m nzito) (!j!o !jit!o) (c!os quit!os) (!hes !hitos) (ns nzitos) (!j!os !jit!os)
+dim-lex-rule.
+
+dim-suffix3 :=
+; (fortes fortezinhos) (lindos lindozinhos) (bons bonzinhos) (adoráveis adoraveizinhos) (forte fortezinho) (lindo lindozinho) (lambedor lambedorzinho) (adorável adoravelzinho) (bom bonzinho)
+%suffix (!is !izinhos) (!os !ozinh!os) (ns nzinhos) (áveis aveizinhos) (!i !izinho) (!o !ozinh!o) (r rzinho) (ável avelzinho) (m nzinho)
+dim-lex-rule.
 
 perf-ind-1sg-suffix :=
 ; (partir parti) (puir puí) (seguir segui) (vender vendi) (dar dei) (atacar ataquei) (caçar cacei) (chegar cheguei)
