@@ -911,5 +911,97 @@ a-que-cl-verb-lex := subj-cl-verb-lex & clausal-nom-verb-lex & clausal-second-ar
 ;     NH-DTR.SYNSEM.NON-LOCAL.QUE.LIST #que ].
 
 basic-adjective-lex :+
-   [ SYNSEM.NON-LOCAL.QUE.LIST < > ].
-   
+   [ SYNSEM.NON-LOCAL [ SLASH.LIST < >,
+			QUE.LIST < >,
+			REL.LIST < > ] ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Additions for punctuation
+;;
+
+synsem-min :+
+  [ PUNCT punctuation-min ].
+
+punct-hd := head.
+
+punct-word := word &
+  [ INFLECTED infl-satisfied,
+    SYNSEM [ LOCAL [ CAT [ HEAD punct-hd,
+                           VAL [ SUBJ < >, SPR < >, SPEC < >,
+                                 COMPS < expressed-synsem &
+                                         [ OPT - ] > ] ],
+                     CONT [ HOOK.INDEX event-or-ref-index,
+			    RELS.LIST < >,
+			    HCONS.LIST < >,
+			    ICONS.LIST < > ] ],
+             NON-LOCAL non-local-none ] ].
+
+punct-mark := avm &
+  [ PSF iforce ].
+
+punctuation-min := avm.
+punctuation := punctuation-min &
+  [ LPUNCT punct-mark,
+    RPUNCT punct-mark ].
+
+comma-or-clause := punct-mark.
+comma-or-no-punct := punct-mark.
+comma-punct := comma-or-clause & comma-or-no-punct.
+clause-or-no-punct := punct-mark.
+clause-punct := comma-or-clause & clause-or-no-punct.
+no-punct := comma-or-no-punct & clause-or-no-punct.
+
+punct-right-word := punct-word &
+  [ SYNSEM [ LOCAL.CAT.POSTHEAD +,
+             PUNCT [ LPUNCT no-punct,
+                     RPUNCT punct-mark ] ] ].
+
+punct-left-word := punct-word &
+  [ SYNSEM [ LOCAL.CAT.POSTHEAD -,
+             PUNCT [ LPUNCT punct-mark,
+                     RPUNCT no-punct ] ] ].
+
+punct-right-clause-word := punct-right-word &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ PUNCT.RPUNCT clause-or-no-punct ] >,
+             PUNCT.RPUNCT clause-punct ] ].
+
+pt-comma-le := punct-right-word &
+  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ PUNCT.RPUNCT no-punct ] >,
+             PUNCT [ LPUNCT no-punct,
+		     RPUNCT comma-punct ] ] ].
+
+prop-or-comm := iforce.
+prop := prop-or-ques & prop-or-comm.
+comm := prop-or-comm.
+
+pt-period-le := punct-right-clause-word &
+  [ SYNSEM.PUNCT.RPUNCT.PSF prop-or-comm ].
+
+pt-qmark-le := punct-right-clause-word &
+  [ SYNSEM.PUNCT.RPUNCT.PSF ques ].
+
+pt-bang-le := punct-right-clause-word &
+  [ SYNSEM.PUNCT.RPUNCT.PSF prop-or-comm ].
+
+punct-phrase := phrase &
+  [ SYNSEM [ LOCAL #local,
+	     NON-LOCAL #nonlocal,
+	     LIGHT #light,
+             MODIFIED #modif ],
+    PT-DTR.SYNSEM.LOCAL.CAT [ HEAD punct-hd,
+			      VAL.COMPS < #synsem > ],
+    NONPT-DTR [ INFLECTED #infl,
+	        SYNSEM #synsem & [ LOCAL #local,
+				   NON-LOCAL #nonlocal,
+				   LIGHT #light & +,
+				   MODIFIED #modif ] ],
+    INFLECTED #infl ].
+
+punct-hinit-rule := punct-phrase &
+ [ PT-DTR #ptdtr,
+   NONPT-DTR #nonptdtr,
+   ARGS < #nonptdtr, #ptdtr > ].
+
+;;
+;; End additions for punctuation
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

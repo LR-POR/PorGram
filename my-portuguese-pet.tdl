@@ -43,6 +43,7 @@
 :include "lexicon/random-sample-209-entries".
 :include "lexicon/new-ditrans".
 :include "lexicon/my-adjectives".
+:include "lexicon/punct-lex".
 :end :instance.
 
 ;;
