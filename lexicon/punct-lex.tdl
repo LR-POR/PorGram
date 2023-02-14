@@ -1,0 +1,12 @@
+period-pct := pt-period-le &
+ [ STEM < "." > ].
+
+qmark-pct := pt-qmark-le &
+ [ STEM < "?" > ].
+
+bang-pct := pt-bang-le &
+ [ STEM < "!" > ].
+
+comma-pct := pt-comma-le &
+ [ STEM < "," > ].
+
