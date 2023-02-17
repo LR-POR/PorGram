@@ -922,13 +922,16 @@ basic-adjective-lex :+
 synsem-min :+
   [ PUNCT punctuation-min ].
 
-punct-hd := head.
+punct-hd := head & [ MOD < > ].
+
+valence-punct := valence &
+  [ PCOMPS list ].
 
 punct-word := word &
   [ INFLECTED infl-satisfied,
     SYNSEM [ LOCAL [ CAT [ HEAD punct-hd,
-                           VAL [ SUBJ < >, SPR < >, SPEC < >,
-                                 COMPS < expressed-synsem &
+                           VAL [ SUBJ < >, SPR < >, SPEC < >, COMPS < >,
+                                 PCOMPS < expressed-synsem &
                                          [ OPT - ] > ] ],
                      CONT [ HOOK.INDEX event-or-ref-index,
 			    RELS.LIST < >,
@@ -950,6 +953,8 @@ comma-punct := comma-or-clause & comma-or-no-punct.
 clause-or-no-punct := punct-mark.
 clause-punct := comma-or-clause & clause-or-no-punct.
 no-punct := comma-or-no-punct & clause-or-no-punct.
+lparen-punct := punct-mark.
+rparen-punct := punct-mark.
 
 punct-right-word := punct-word &
   [ SYNSEM [ LOCAL.CAT.POSTHEAD +,
@@ -962,13 +967,20 @@ punct-left-word := punct-word &
                      RPUNCT no-punct ] ] ].
 
 punct-right-clause-word := punct-right-word &
-  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ PUNCT.RPUNCT clause-or-no-punct ] >,
+  [ SYNSEM [ LOCAL.CAT.VAL.PCOMPS < [ PUNCT.RPUNCT clause-or-no-punct ] >,
              PUNCT.RPUNCT clause-punct ] ].
 
 pt-comma-le := punct-right-word &
-  [ SYNSEM [ LOCAL.CAT.VAL.COMPS < [ PUNCT.RPUNCT no-punct ] >,
-             PUNCT [ LPUNCT no-punct,
-		     RPUNCT comma-punct ] ] ].
+  [ SYNSEM [ LOCAL.CAT.VAL.PCOMPS < [ PUNCT.RPUNCT no-punct ] >,
+             PUNCT.RPUNCT comma-punct ] ].
+
+pt-rparen-le := punct-right-word &
+  [ SYNSEM [ LOCAL.CAT.VAL.PCOMPS < [ PUNCT.RPUNCT no-punct ] >,
+             PUNCT.RPUNCT rparen-punct ] ].
+
+pt-lparen-le := punct-left-word &
+  [ SYNSEM [ LOCAL.CAT.VAL.PCOMPS < [ PUNCT.RPUNCT no-punct ] >,
+             PUNCT.LPUNCT lparen-punct ] ].
 
 prop-or-comm := iforce.
 prop := prop-or-ques & prop-or-comm.
@@ -983,25 +995,50 @@ pt-qmark-le := punct-right-clause-word &
 pt-bang-le := punct-right-clause-word &
   [ SYNSEM.PUNCT.RPUNCT.PSF prop-or-comm ].
 
-punct-phrase := phrase &
-  [ SYNSEM [ LOCAL #local,
+punct-phrase := word-or-lexrule &
+  [ SYNSEM lex-synsem &
+	   [ LOCAL #local,
 	     NON-LOCAL #nonlocal,
 	     LIGHT #light,
              MODIFIED #modif ],
     PT-DTR.SYNSEM.LOCAL.CAT [ HEAD punct-hd,
-			      VAL.COMPS < #synsem > ],
-    NONPT-DTR [ INFLECTED #infl,
-	        SYNSEM #synsem & [ LOCAL #local,
+			      VAL.PCOMPS < #synsem > ],
+    NONPT-DTR word-or-lexrule &
+	      [ INFLECTED #infl,
+	        SYNSEM #synsem & lex-synsem &
+			         [ LOCAL #local,
 				   NON-LOCAL #nonlocal,
 				   LIGHT #light & +,
 				   MODIFIED #modif ] ],
     INFLECTED #infl ].
 
 punct-hinit-rule := punct-phrase &
- [ PT-DTR #ptdtr,
-   NONPT-DTR #nonptdtr,
+ [ SYNSEM.PUNCT [ LPUNCT #lpunct,
+		  RPUNCT #rpunct ],
+   PT-DTR #ptdtr & [ SYNSEM [ LOCAL.CAT.POSTHEAD +,
+			      PUNCT.RPUNCT #rpunct ] ],
+   NONPT-DTR #nonptdtr & [ SYNSEM.PUNCT [ LPUNCT #lpunct,
+					  RPUNCT no-punct ] ],
    ARGS < #nonptdtr, #ptdtr > ].
+
+punct-hfinal-rule := punct-phrase &
+ [ SYNSEM.PUNCT [ LPUNCT #lpunct,
+		  RPUNCT #rpunct ],
+   PT-DTR #ptdtr & [ SYNSEM [ LOCAL.CAT.POSTHEAD -,
+			      PUNCT.LPUNCT #lpunct ] ],
+   NONPT-DTR #nonptdtr & [ SYNSEM lex-synsem &
+				  [ PUNCT.RPUNCT #rpunct ] ],
+   ARGS < #ptdtr, #nonptdtr > ].
 
 ;;
 ;; End additions for punctuation
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Prevent double extraction in a phrase
+
+basic-extracted-arg-phrase :+
+  [ HEAD-DTR.SYNSEM.NON-LOCAL.SLASH.LIST < > ].
+
+basic-extracted-adj-phrase :+
+  [ HEAD-DTR.SYNSEM.NON-LOCAL.SLASH.LIST < > ].
+  

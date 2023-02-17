@@ -35,3 +35,5 @@ wh-ques := wh-ques-phrase.
 in-situ-ques := insitu-int-cl.
 
 hd-pct := punct-hinit-rule.
+
+pct-hd := punct-hfinal-rule.

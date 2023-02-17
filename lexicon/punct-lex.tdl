@@ -10,3 +10,10 @@ bang-pct := pt-bang-le &
 comma-pct := pt-comma-le &
  [ STEM < "," > ].
 
+lparen_pct := pt-lparen-le &
+ [ STEM < "(" > ].
+
+rparen_pct := pt-rparen-le &
+ [ STEM < ")" > ].
+
+
