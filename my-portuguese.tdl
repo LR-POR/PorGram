@@ -1030,6 +1030,17 @@ punct-hfinal-rule := punct-phrase &
 				  [ PUNCT.RPUNCT #rpunct ] ],
    ARGS < #ptdtr, #nonptdtr > ].
 
+unary-phrase :+
+ [ SYNSEM.PUNCT [ LPUNCT #lpunct,
+		  RPUNCT #rpunct ],
+   ARGS < [ SYNSEM.PUNCT [ LPUNCT #lpunct,
+			   RPUNCT #rpunct ] ] > ].
+binary-phrase :+
+ [ SYNSEM.PUNCT [ LPUNCT #lpunct,
+		  RPUNCT #rpunct ],
+   ARGS < [ SYNSEM.PUNCT.LPUNCT #lpunct ],
+	  [ SYNSEM.PUNCT.RPUNCT #rpunct ] > ].
+
 ;;
 ;; End additions for punctuation
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

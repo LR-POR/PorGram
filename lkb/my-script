@@ -75,6 +75,7 @@
 			;(lkb-pathname (parent-directory) "lexicon/sample-1029-entries.tdl")
 		        (lkb-pathname (parent-directory) "lexicon/new-ditrans.tdl")
 			(lkb-pathname (parent-directory) "lexicon/my-adjectives.tdl")
+			(lkb-pathname (parent-directory) "lexicon/punct-lex.tdl")
 			))
 ;@end
 ;;; (read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl") ))
