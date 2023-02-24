@@ -1,0 +1,612 @@
+1000010@@@@1@@Ao fazer uma revisão das minhas anotações sobre os setenta e tantos casos nos quais, durante estes últimos oito anos, tenho estudado os métodos de meu amigo Sherlock Holmes, encontro alguns trágicos, outros cômicos, e um grande número de casos apenas estranhos, mas nenhum comum, porque, trabalhando como ele o faz, mais por amor à arte do que para enriquecer, sempre se recusou a associar-se a qualquer investigação que não apresentasse coisas fora do comum e até fantásticas.@@@@1@78@@@
+1000020@@@@1@@De todos esses casos, não posso recordar nenhum que apresente características mais singulares do que aquele que teve relação com a conhecida família dos Roylott, em Stoke Moran, em Surrey.@@@@1@30@@@
+1000030@@@@1@@Os acontecimentos em questão ocorreram nos primeiros tempos da minha amizade com Holmes, quando alugamos uns aposentos, como solteiros que éramos, na Baker Street.@@@@1@24@@@
+1000040@@@@1@@Eu já podia tê-los contado, mas uma promessa de mante-los em segredo havia sido exigida, e só no mês passado fiquei livre dela, pela inesperada morte da senhora a quem fora feita a promessa.@@@@1@34@@@
+1000050@@@@1@@Talvez seja bom que os fatos agora se tornem conhecidos, porque tenho razões para pensar que há rumores a respeito da morte do dr. Grimesby Roylott que tendem a tornar o assunto mais terrível do que é na verdade.@@@@1@39@@@
+1000060@@@@1@@Foi em abril de 1883.@@@@1@5@@@
+1000070@@@@1@@Ao acordar, encontrei Sherlock Holmes de pé, vestido, ao lado de minha cama.@@@@1@13@@@
+1000080@@@@1@@Geralmente ele se levantava tarde, e, quando olhei para o relógio e vi que eram apenas sete e quinze, olhei-o surpreso, e talvez um pouco aborrecido, porque eu era sempre pontual nos meus hábitos.@@@@1@34@@@
+1000090@@@@1@@— Sinto muito acordá-lo, Watson — disse ele —, mas é a sorte de todos hoje.@@@@1@16@@@
+1000100@@@@1@@A sra. Hudson foi acordada cedo, chamou-me, e agora sou eu que o chamo.@@@@1@14@@@
+1000110@@@@1@@— O que é então?@@@@1@5@@@
+1000120@@@@1@@Um incêndio?@@@@1@2@@@
+1000130@@@@1@@— Não, uma cliente.@@@@1@4@@@
+1000140@@@@1@@Chegou há pouco uma jovem, muitíssimo nervosa, e insiste em ver-me.@@@@1@11@@@
+1000150@@@@1@@Está esperando na sala de estar.@@@@1@6@@@
+1000160@@@@1@@Suponho que, quando as jovens começam a vaguear pela cidade a estas horas da manhã e a acordar os que dormem ainda, algo de muito importante têm a comunicar.@@@@1@29@@@
+1000170@@@@1@@Se provar ser um caso interessante, tenho a certeza de que você quererá segui-lo desde o começo.@@@@1@17@@@
+1000180@@@@1@@Em todo caso, pensei que devia chamá-lo para lhe dar esta oportunidade.@@@@1@12@@@
+1000190@@@@1@@— Meu caro amigo, fez muitíssimo bem.@@@@1@7@@@
+1000200@@@@1@@Meu maior prazer era acompanhar Holmes nas suas investigações profissionais e admirar as deduções e intuições rápidas, sempre baseadas na lógica, com as quais ele deslindava os problemas que lhe eram submetidos.@@@@1@32@@@
+1000210@@@@1@@Vesti-me apressadamente e pouco depois estava pronto para acompanhar meu amigo até a sala.@@@@1@14@@@
+1000220@@@@1@@Uma moça vestida de preto, o rosto coberto por um véu espesso, estava sentada à janela, mas, quando chegamos, levantou-se.@@@@1@20@@@
+1000230@@@@1@@— Bom dia, senhorita — disse Holmes alegremente.@@@@1@8@@@
+1000240@@@@1@@— Meu nome é Sherlock Holmes.@@@@1@6@@@
+1000250@@@@1@@Este é meu íntimo amigo e companheiro, dr. Watson; pode falar francamente na sua presença como se fosse para mim só.@@@@1@21@@@
+1000260@@@@1@@Ah!@@@@1@1@@@
+1000270@@@@1@@Vejo que a sra.@@@@1@4@@@
+1000280@@@@1@@Hudson teve o bom senso de acender o fogo.@@@@1@9@@@
+1000290@@@@1@@Peco-lhe o favor de se aproximar mais dele, e vou mandar vir uma chávena de café bem quente para a senhora, porque vejo que está tiritando de frio.@@@@1@28@@@
+1000300@@@@1@@— Não é de frio — disse ela em voz baixa e mudando de lugar, conforme fora convidada.@@@@1@18@@@
+1000310@@@@1@@— O que é então?@@@@1@5@@@
+1000320@@@@1@@— É medo, sr. Holmes.@@@@1@5@@@
+1000330@@@@1@@É medo.@@@@1@2@@@
+1000340@@@@1@@Levantou o véu ao falar, e pudemos ver que estava realmente num estado doloroso de agitação, o rosto descorado, os olhos irrequietos e amedrontados como os de um animal preso.@@@@1@30@@@
+1000350@@@@1@@Parecia ter uns trinta anos, porém já tinha alguns cabelos grisalhos prematuros; sua expressão demonstrava cansaço e seu semblante estava desfigurado.@@@@1@21@@@
+1000360@@@@1@@Sherlock Holmes examinou-a com um dos seus olhares rápidos e abrangentes.@@@@1@11@@@
+1000370@@@@1@@— Não deve ter medo — disse ele calmamente, inclinando-se para ela e pousando-lhe a mão no braço.@@@@1@18@@@
+1000380@@@@1@@— Depressa resolveremos o assunto, sem dúvida.@@@@1@7@@@
+1000390@@@@1@@Vejo que hoje veio de trem.@@@@1@6@@@
+1000400@@@@1@@— Então o senhor me conhece?@@@@1@6@@@
+1000410@@@@1@@— Não, mas notei o bilhete de regresso na palma da sua luva.@@@@1@13@@@
+1000420@@@@1@@Deve ter saído cedo, mas também viajou de charrete, por estradas ruins, até a estação.@@@@1@15@@@
+1000430@@@@1@@A jovem ficou atônita e olhou alarmada para o meu companheiro.@@@@1@11@@@
+1000440@@@@1@@— Não há mistério nisso, senhorita — disse ele sorrindo.@@@@1@10@@@
+1000450@@@@1@@— A manga esquerda do seu casaco está salpicada de lama nuns sete lugares, e é lama fresca; não há como uma charrete para nos encher de lama, e a senhora sentou-se à esquerda do cocheiro.@@@@1@36@@@
+1000460@@@@1@@— Sejam quais forem suas razões para dizer essas coisas, é mesmo verdade — disse ela.@@@@1@16@@@
+1000470@@@@1@@— Saí de casa às seis horas, cheguei a Leatherhead às seis e vinte, e vim no primeiro trem para Waterloo.@@@@1@21@@@
+1000480@@@@1@@Senhor, não posso aguentar mais esta tensão nervosa, e, se continuar, ficarei doida.@@@@1@13@@@
+1000490@@@@1@@Não tenho ninguém a quem possa apelar… ninguém a não ser uma pessoa que gosta de mim, e ele, pobre rapaz, não pode fazer nada.@@@@1@25@@@
+1000500@@@@1@@Ouvi falar do senhor, sr. Holmes, por intermédio da sra.@@@@1@10@@@
+1000510@@@@1@@Farintosh, a quem o senhor ajudou numa ocasião em que ela necessitava de auxílio.@@@@1@14@@@
+1000520@@@@1@@Foi por intermédio dela que obtive seu endereço.@@@@1@8@@@
+1000530@@@@1@@Oh!, senhor, será que pode também ajudar-me ou pelo menos esclarecer um pouco a escuridão que me cerca?@@@@1@18@@@
+1000540@@@@1@@Atualmente não posso recompensá-lo pelo seu trabalho, mas dentro de uns dois meses vou me casar, e então terei o controle pessoal do que é meu.@@@@1@26@@@
+1000550@@@@1@@A essa altura, pelo menos, o senhor não me considerará ingrata.@@@@1@11@@@
+1000560@@@@1@@Holmes virou-se para a sua escrivaninha e, abrindo-a, tirou uma caderneta de notas e consultou-a.@@@@1@15@@@
+1000570@@@@1@@— Farintosh — disse ele.@@@@1@5@@@
+1000580@@@@1@@— Ah!, sim, lembro-me do caso; tratava-se de um diadema de opalas.@@@@1@12@@@
+1000590@@@@1@@Foi antes de você vir morar aqui, Watson.@@@@1@8@@@
+1000600@@@@1@@Só tenho a dizer, senhorita, que terei prazer em dar a seu caso a mesma atenção que dediquei à sua amiga.@@@@1@21@@@
+1000610@@@@1@@Quanto à recompensa, minha profissão traz por si mesma uma compensação; no entanto, a senhorita terá a liberdade de me reembolsar de qualquer despesa que houver quando lhe for conveniente.@@@@1@30@@@
+1000620@@@@1@@E agora, peco-lhe que nos conte tudo o que nos possa ajudar a formar uma opinião sobre o assunto.@@@@1@19@@@
+1000630@@@@1@@— Ai de mim! — respondeu a nossa visitante.@@@@1@9@@@
+1000640@@@@1@@— O próprio horror da minha posição está no fato de que meus temores são muito vagos e minhas suspeitas dependem inteiramente de uns pequenos fatos, que podem parecer tão triviais aos outros, que até a pessoa de quem, acima de todos, tenho o direito de esperar algum apoio e conselho considera tudo o que vou lhe contar fantasia de mulher nervosa; não o diz, mas sinto-o, quando desvia os olhos e me dá respostas calmas.@@@@1@76@@@
+1000650@@@@1@@Mas sei, sr. Holmes, que o senhor perscruta as coisas mais profundas dos corações humanos, descobrindo a sua perversidade.@@@@1@19@@@
+1000660@@@@1@@O senhor talvez possa aconselhar-me como agir em meio aos perigos que me circundam.@@@@1@14@@@
+1000670@@@@1@@— Sou todo atenção, senhorita.@@@@1@5@@@
+1000680@@@@1@@— Meu nome é Helen Stoner, e moro com meu padrasto, que é o último representante de uma das famílias saxônicas mais antigas da Inglaterra, os Roylott, de Stoke Moran, na margem ocidental do Surrey.@@@@1@35@@@
+1000690@@@@1@@Holmes acenou com a cabeça.@@@@1@5@@@
+1000700@@@@1@@— O nome me é familiar — disse ele.@@@@1@9@@@
+1000710@@@@1@@— A família era, antigamente, uma das mais ricas da Inglaterra.@@@@1@11@@@
+1000720@@@@1@@A herdade estendia-se sobre os limites dos condados de Berkshire, ao norte, e Hampshire, a oeste.@@@@1@16@@@
+1000730@@@@1@@No século passado, todavia, quatro dos herdeiros foram homens dissolutos e de disposição esbanjadora, e a ruína da família finalmente ocorreu com um jogador nos dias da Regência.@@@@1@28@@@
+1000740@@@@1@@Nada restou, senão alguns lotes de campo e a casa secular, e essa, sob o encargo de uma pesada hipoteca.@@@@1@20@@@
+1000750@@@@1@@O último dono arrastou literalmente sua existência ali, levando uma vida horrível de aristocrata pobre; seu único filho, meu padrasto, vendo que tinha de adaptar-se às novas condições, pediu um empréstimo a um parente, que o habilitou a formar-se em medicina, e foi para Calcutá, onde, pela sua aptidão e força de caráter, se estabeleceu com grande clientela.@@@@1@58@@@
+1000760@@@@1@@Enraivecido, porém, por uns furtos que haviam sido feitos na sua casa, agrediu o copeiro, causando-lhe a morte, e por pouco escapou de uma sentença capital.@@@@1@26@@@
+1000770@@@@1@@Mesmo assim ficou preso durante muito tempo e voltou para a Inglaterra transformado num homem desapontado e melancólico.@@@@1@18@@@
+1000780@@@@1@@“Quando o dr. Roylott foi para a Índia, casou-se com minha mãe, sra.@@@@1@13@@@
+1000790@@@@1@@Stoner, viúva do major-general Stoner, da artilharia de Bengala.@@@@1@9@@@
+1000800@@@@1@@Minha irmã e eu éramos gémeas e tínhamos apenas dois anos quando nossa mãe se casou pela segunda vez.@@@@1@19@@@
+1000810@@@@1@@Ela tinha bastante dinheiro, umas mil libras anuais, que legou ao dr. Roylott durante todo o tempo que morássemos com ele, com prescrição de que certa soma anual fosse concedida a cada uma de nós no caso de nos casarmos.@@@@1@40@@@
+1000820@@@@1@@Logo após nosso regresso à Inglaterra, minha mãe morreu num desastre ferroviário perto de Crewe.@@@@1@15@@@
+1000830@@@@1@@Isso foi há oito anos atrás.@@@@1@6@@@
+1000840@@@@1@@O dr. Roylott abandonou a clientela que começara a adquirir em Londres e levou-nos para viver com ele na casa ancestral de Stoke Moran.@@@@1@24@@@
+1000850@@@@1@@O dinheiro que minha mãe deixara era suficiente para todas as necessidades, e parecia não haver impedimento à nossa felicidade.@@@@1@20@@@
+1000860@@@@1@@A essa altura, meu padrasto transformou-se completamente; em vez de cultivar amizades e trocar visitas com as famílias da vizinhança, que no começo se regozijaram ao ver de novo um sucessor dos Roylott morando na velha herdade, fechava-se em casa e raras vezes saía, a não ser para discutir ferinamente com todos aqueles que encontrasse.@@@@1@55@@@
+1000870@@@@1@@O temperamento violento, aproximando-se da loucura, é hereditário nos homens da família, e no caso de meu padrasto, creio, foi agravado pelo fato de ele ter vivido num país de clima tropical.@@@@1@32@@@
+1000880@@@@1@@Houve uma série de brigas vergonhosas, duas das quais terminaram no posto policial, até que por fim ele se tornou o terror da aldeia e as pessoas voavam para longe quando ele se aproximava, porque é homem de grande físico e absolutamente descontrolado na sua ira.@@@@1@46@@@
+1000890@@@@1@@Na semana passada, lançou o ferreiro local de cima do parapeito para dentro do riozinho, e somente com o pagamento de todo o dinheiro que pude arranjar consegui evitar que outro escândalo viesse a público.@@@@1@35@@@
+1000900@@@@1@@Não tinha amigos, senão os ciganos ambulantes.@@@@1@7@@@
+1000910@@@@1@@A estes, dava licença para levantarem acampamento nos terrenos da herdade, e às vezes aceitava a hospitalidade das suas tendas, acompanhando-os semanas seguidas.@@@@1@23@@@
+1000920@@@@1@@Tem paixão também por animais selvagens da Índia, que recebe, mandados por um amigo, Atualmente tem um leopardo e um macaco, que andam livremente e são temidos pelo povo tanto quanto o dono.@@@@1@33@@@
+1000930@@@@1@@O senhor deve imaginar, pelo que estou lhe contando, que minha irmã e eu não tínhamos qualquer prazer na vida.@@@@1@20@@@
+1000940@@@@1@@Nenhuma empregada ficava conosco, e durante muito tempo nós é que fazíamos todo o trabalho da casa.@@@@1@17@@@
+1000950@@@@1@@Ela tinha apenas trinta anos quando morreu, mas, apesar disso, seu cabelo já estava um pouco grisalho, como o meu.”@@@@1@20@@@
+1000960@@@@1@@— Então sua irmã morreu?@@@@1@5@@@
+1000970@@@@1@@— Morreu há dois anos, e é da sua morte que lhe quero falar.@@@@1@14@@@
+1000980@@@@1@@Deve compreender que, levando a vida que tenho descrito, era difícil estar em contato com pessoas da nossa idade e posição.@@@@1@21@@@
+1000990@@@@1@@Tínhamos, todavia, uma tia solteirona, sra.@@@@1@6@@@
+1001000@@@@1@@Honoria Westphail, que mora perto de Harrow, e ocasionalmente tínhamos permissão para lhe fazer uma visita breve.@@@@1@17@@@
+1001010@@@@1@@Julia esteve lá no Natal, há dois anos, e encontrou um major da marinha, de quem ficou noiva.@@@@1@18@@@
+1001020@@@@1@@Meu padrasto soube do noivado quando ela voltou para casa; não fez nenhuma objeção; porém, duas semanas antes do dia fixado para o casamento, deu-se um acontecimento terrível, que levou minha única companheira.@@@@1@33@@@
+1001030@@@@1@@Sherlock Holmes estivera sentado na sua poltrona descansadamente, com os olhos fechados e a cabeça numa almofada, mas nesse momento entreabriu os olhos e fitou a visitante.@@@@1@27@@@
+1001040@@@@1@@— Conte-me todos os pormenores.@@@@1@5@@@
+1001050@@@@1@@— É-me muito fácil fazê-lo, porque tudo o que aconteceu então está gravado na minha memória.@@@@1@16@@@
+1001060@@@@1@@A casa, como já disse, é muito velha, e agora só se usa uma das alas.@@@@1@16@@@
+1001070@@@@1@@Os quartos ficam nessa ala, no andar térreo, e as salas, no centro do edifício.@@@@1@15@@@
+1001080@@@@1@@Desses quartos, o primeiro é do dr. Roylott, o segundo, de minha irmã, e o terceiro, meu.@@@@1@17@@@
+1001090@@@@1@@Não há comunicação entre eles, mas todos se abrem para o mesmo corredor.@@@@1@13@@@
+1001100@@@@1@@Compreende?@@@@1@1@@@
+1001110@@@@1@@— Perfeitamente.@@@@1@2@@@
+1001120@@@@1@@— As janelas dos três quartos abrem-se para o relvado.@@@@1@10@@@
+1001130@@@@1@@Na noite de Natal, o dr. Roylott foi para o seu quarto cedo, embora soubéssemos que ele ainda não estava deitado, porque minha irmã ficou incomodada com o cheiro de um tabaco forte que ele costumava usar, de charutos indianos.@@@@1@40@@@
+1001140@@@@1@@Ela deixou o quarto dela e veio para o meu, onde ficamos conversando sobre os preparativos para o casamento.@@@@1@19@@@
+1001150@@@@1@@Às vinte e três horas, quando já ia se deitar, parou à porta, olhou para trás e perguntou:@@@@1@18@@@
+1001160@@@@1@@“— Diga-me, Helen, tem ouvido um assobio a altas horas da noite?@@@@1@12@@@
+1001170@@@@1@@“— Nunca — respondi.@@@@1@4@@@
+1001180@@@@1@@“— Bem, não creio que você seja capaz de assobiar quando está dormindo.@@@@1@13@@@
+1001190@@@@1@@“— Certamente que não.@@@@1@4@@@
+1001200@@@@1@@Mas por quê?@@@@1@3@@@
+1001210@@@@1@@“— Porque durante estas últimas noites ouço sempre, por volta das três horas, um assobio baixo, mas muito claro.@@@@1@19@@@
+1001220@@@@1@@Tenho o sono leve, e isso me tem acordado.@@@@1@9@@@
+1001230@@@@1@@Não sei de onde vem.@@@@1@5@@@
+1001240@@@@1@@Talvez do quarto ao lado, talvez do relvado.@@@@1@8@@@
+1001250@@@@1@@E simplesmente lembrei-me de lhe perguntar se também tem ouvido.@@@@1@10@@@
+1001260@@@@1@@“— Não, não tenho.@@@@1@4@@@
+1001270@@@@1@@Devem ser aqueles ciganos.@@@@1@4@@@
+1001280@@@@1@@“— Talvez.@@@@1@2@@@
+1001290@@@@1@@Mas, se vem do relvado, fico admirada por você também não o ter ouvido.@@@@1@14@@@
+1001300@@@@1@@“— Ah, mas tenho o sono mais pesado do que você.@@@@1@11@@@
+1001310@@@@1@@“— Bem, não tem importância, em todo caso — disse ela, sorrindo-me.@@@@1@12@@@
+1001320@@@@1@@Fechei a minha porta, e poucos momentos depois ouvi-a dar a volta à chave na porta do seu quarto.”@@@@1@19@@@
+1001330@@@@1@@— Ah, sim? — disse Holmes.@@@@1@6@@@
+1001340@@@@1@@— Era costume fechar as portas à chave durante a noite?@@@@1@11@@@
+1001350@@@@1@@— Sempre.@@@@1@2@@@
+1001360@@@@1@@— Por quê?@@@@1@3@@@
+1001370@@@@1@@— Parece-me que já lhe contei que o doutor tem um leopardo e um macaco.@@@@1@15@@@
+1001380@@@@1@@Não nos sentíamos seguras enquanto nossas portas não estivessem fechadas à chave.@@@@1@12@@@
+1001390@@@@1@@— Está certo.@@@@1@3@@@
+1001400@@@@1@@Continue, por favor.@@@@1@3@@@
+1001410@@@@1@@— Não pude dormir naquela noite.@@@@1@6@@@
+1001420@@@@1@@Um pressentimento vago de que alguma desgraça ia acontecer impressionou-me muito.@@@@1@11@@@
+1001430@@@@1@@Minha irmã e eu éramos gêmeas, e o senhor sabe como são sutis os laços que ligam duas almas tão unidas.@@@@1@21@@@
+1001440@@@@1@@O vento uivava lá fora, e a chuva batia com toda a força nas janelas.@@@@1@15@@@
+1001450@@@@1@@Era uma noite tempestuosa.@@@@1@4@@@
+1001460@@@@1@@Subitamente, em meio ao barulho da tormenta, ouvi o grito horrível de uma mulher aterrorizada.@@@@1@15@@@
+1001470@@@@1@@Reconheci a voz de minha irmã.@@@@1@6@@@
+1001480@@@@1@@Pulei da cama, atirei um xale às costas e corri para o corredor.@@@@1@13@@@
+1001490@@@@1@@Quando abri a porta, pareceu-me ouvir um assobio baixo, como minha irmã havia descrito, e um momento depois um som, como a queda de um pacote de metal.@@@@1@28@@@
+1001500@@@@1@@Corri até a porta do quarto de minha irmã, que se abriu vagarosamente.@@@@1@13@@@
+1001510@@@@1@@Olhei, horrorizada, não sabendo o que ia suceder.@@@@1@8@@@
+1001520@@@@1@@Pela luz do candeeiro do corredor vi minha irmã aparecer à porta, o rosto branco como a morte, aterrorizada, as mãos estendidas como que pedindo socorro, o corpo cambaleante como o de um bêbado.@@@@1@34@@@
+1001530@@@@1@@Corri para ela e lancei-lhe meus braços ao redor do corpo; mas naquele momento seus joelhos dobraram-se e ela caiu no chão.@@@@1@22@@@
+1001540@@@@1@@Torcia-se como quem estivesse com dores horríveis, os braços e as pernas tremendamente convulsionados.@@@@1@14@@@
+1001550@@@@1@@A princípio pensei que não me reconhecia, mas quando me inclinei para ela, gritou num tom de voz de que nunca me esquecerei:@@@@1@23@@@
+1001560@@@@1@@“— Oh, meu Deus!@@@@1@4@@@
+1001570@@@@1@@Helen!@@@@1@1@@@
+1001580@@@@1@@Foi a faixa malhada!@@@@1@4@@@
+1001590@@@@1@@A faixa malhada!@@@@1@3@@@
+1001600@@@@1@@“Havia outra coisa que queria dizer, e apontava com o dedo no ar em direção ao quarto do doutor, mas uma nova convulsão abafou-lhe as palavras.@@@@1@26@@@
+1001610@@@@1@@Saí correndo, chamando meu padrasto em voz alta, e encontrei-o saindo do quarto, com o roupão vestido.@@@@1@17@@@
+1001620@@@@1@@Quando chegou ao lado de minha irmã, ela já estava inconsciente, e, embora lhe despejasse conhaque na garganta e mandasse chamar um médico, tudo foi em vão; ela morreu vagarosamente, sem recuperar os sentidos.@@@@1@34@@@
+1001630@@@@1@@Assim foi a morte horrorosa de minha amada irmã.”@@@@1@9@@@
+1001640@@@@1@@— Um momento — disse Holmes.@@@@1@6@@@
+1001650@@@@1@@— A senhora tem certeza quanto ao assobio e ao som de metal?@@@@1@13@@@
+1001660@@@@1@@Podia mesmo jurar que os ouviu?@@@@1@6@@@
+1001670@@@@1@@— Essa pergunta me foi feita também pelo inspetor na investigação que se seguiu.@@@@1@14@@@
+1001680@@@@1@@Tenho a convicção de os ter ouvido; todavia, com o estrondo da tempestade e o guinchar da casa velha, é possível que me houvesse enganado.@@@@1@25@@@
+1001690@@@@1@@— Sua irmã estava vestida?@@@@1@5@@@
+1001700@@@@1@@— Não, estava de camisola; na mão direita tinha um fósforo queimado, e na esquerda, uma caixa de fósforos.@@@@1@19@@@
+1001710@@@@1@@— Prova de que havia acendido uma luz para ver ao redor quando o alarme começou.@@@@1@16@@@
+1001720@@@@1@@Isso é importante.@@@@1@3@@@
+1001730@@@@1@@E quais foram as conclusões do inspetor?@@@@1@7@@@
+1001740@@@@1@@— Investigou o caso com muito cuidado porque a conduta do dr. Roylott tornara-se notória em toda a localidade, mas não encontrou qualquer dado satisfatório sobre a morte de minha irmã.@@@@1@31@@@
+1001750@@@@1@@Meu testemunho demonstrou que a porta fora trancada do lado de dentro, e as janelas estavam fechadas com portas de madeira, do sistema antigo, e atravessadas com barras de ferro, como se fazia todas as noites.@@@@1@36@@@
+1001760@@@@1@@As paredes não tinham buracos nem fendas, eram sólidas, e o soalho foi bem examinado, com o mesmo resultado.@@@@1@19@@@
+1001770@@@@1@@A chaminé é larga, mas está coberta por quatro grandes barras de madeira.@@@@1@13@@@
+1001780@@@@1@@É certo que minha irmã estava sozinha quando sobreveio a morte.@@@@1@11@@@
+1001790@@@@1@@Além disso, não havia sinais de violência no corpo.@@@@1@9@@@
+1001800@@@@1@@— E envenenamento?@@@@1@3@@@
+1001810@@@@1@@— Os médicos examinaram-na nesse sentido, mas não encontraram nada.@@@@1@10@@@
+1001820@@@@1@@— De que pensa, então, que a infeliz jovem morreu?@@@@1@10@@@
+1001830@@@@1@@— Creio que morreu de medo e choque nervoso, embora não possa imaginar o que lhe meteu medo.@@@@1@18@@@
+1001840@@@@1@@— Havia ciganos nos terrenos naquele tempo?@@@@1@7@@@
+1001850@@@@1@@— Sim, há alguns quase sempre.@@@@1@6@@@
+1001860@@@@1@@— Ah!@@@@1@2@@@
+1001870@@@@1@@E o que foi que deduziu da alusão a uma faixa malhada?@@@@1@12@@@
+1001880@@@@1@@— Às vezes penso que era a linguagem estranha do delírio; outras, que quisesse referir-se a um bando de pessoas, talvez a esses mesmos ciganos.@@@@1@25@@@
+1001890@@@@1@@Não sei se o lenço pintado que eles usam na cabeça poderia ter sugerido o termo que ela usou.@@@@1@19@@@
+1001900@@@@1@@Holmes meneou a cabeça como um homem que está longe de se considerar satisfeito.@@@@1@14@@@
+1001910@@@@1@@— São águas bem fundas — disse ele; — peço que continue a sua narrativa.@@@@1@15@@@
+1001920@@@@1@@— Passaram-se dois anos desde então, e minha vida tornou-se mais solitária do que nunca.@@@@1@15@@@
+1001930@@@@1@@Faz um mês, um caro amigo, que conheci há poucos anos, deu-me a honra de me pedir em casamento.@@@@1@19@@@
+1001940@@@@1@@Chama-se Armitage, Percy Armitage, segundo filho do sr. Armitage, de Crane Water, perto de Reading.@@@@1@15@@@
+1001950@@@@1@@Meu padrasto não se opôs ao casamento, e pretendemos casar-nos na primavera.@@@@1@12@@@
+1001960@@@@1@@Há dois dias começaram alguns consertos na ala oeste da casa e furaram a parede do meu quarto, tanto que tive de mudar-me para o quarto onde morreu minha irmã e dormir na mesma cama onde ela dormia.@@@@1@38@@@
+1001970@@@@1@@Imagine, então, como tremi de horror quando ontem à noite, estando acordada e lembrando-me do seu triste fim, ouvi repentinamente, no silêncio da noite, o assobio que precedeu a sua morte.@@@@1@31@@@
+1001980@@@@1@@Levantei-me, apressada, e acendi a lâmpada, mas não havia nada no quarto; fiquei demasiadamente assustada e, não podendo dormir mais, vesti-me e daí a pouco era dia.@@@@1@27@@@
+1001990@@@@1@@Desci silenciosamente, arranjei uma charrete na Taberna da Coroa, que fica em frente, e fui a Leatherhead, de onde vim esta manhã com o único objetivo de falar com o senhor e de lhe pedir o seu conselho.@@@@1@38@@@
+1002000@@@@1@@— Fez muito bem — disse o meu amigo.@@@@1@9@@@
+1002010@@@@1@@— Mas contou-me tudo?@@@@1@4@@@
+1002020@@@@1@@— Sim, tudo.@@@@1@3@@@
+1002030@@@@1@@— Srta. Stoner, digo-lhe que não contou, porque está querendo poupar o seu padrasto.@@@@1@14@@@
+1002040@@@@1@@— Como?@@@@1@2@@@
+1002050@@@@1@@Que quer dizer com isso?@@@@1@5@@@
+1002060@@@@1@@Por resposta Holmes puxou para trás um debrum de renda preta cobrindo a mão que jazia sobre o joelho da nossa visitante.@@@@1@22@@@
+1002070@@@@1@@Cinco pontos azuis, marca de quatro dedos e um polegar, estavam impressos naquele pulso branco.@@@@1@15@@@
+1002080@@@@1@@— Foi tratada brutalmente — disse Holmes.@@@@1@7@@@
+1002090@@@@1@@A jovem corou e cobriu o pulso maltratado.@@@@1@8@@@
+1002100@@@@1@@— É um homem, e talvez nem imagine a sua força.@@@@1@11@@@
+1002110@@@@1@@Houve um longo silêncio, durante o qual Holmes descansou o queixo sobre as mãos e ficou olhando para as chamas.@@@@1@20@@@
+1002120@@@@1@@— Este caso é muitíssimo sério — disse ele.@@@@1@9@@@
+1002130@@@@1@@— Há muitas coisas que eu gostaria de saber antes de traçar o nosso plano de ação.@@@@1@17@@@
+1002140@@@@1@@Todavia, não temos um momento a perder.@@@@1@7@@@
+1002150@@@@1@@Se fôssemos a Stoke Moran hoje, seria possível visitarmos os quartos sem o conhecimento de seu padrasto?@@@@1@17@@@
+1002160@@@@1@@— Ouvi-o falar em vir à cidade hoje para tratar de um negócio importante.@@@@1@14@@@
+1002170@@@@1@@É provável que esteja fora o dia inteiro, e não haverá nada para atrapalhar.@@@@1@14@@@
+1002180@@@@1@@Temos agora uma empregada, mas é velha e caduca, e eu poderia facilmente pô-la de lado.@@@@1@16@@@
+1002190@@@@1@@— Excelente.@@@@1@2@@@
+1002200@@@@1@@Você não se importa se eu lhe pedir para ir comigo, Watson?@@@@1@12@@@
+1002210@@@@1@@— Claro que não.@@@@1@4@@@
+1002220@@@@1@@— Então iremos os dois.@@@@1@5@@@
+1002230@@@@1@@O que a senhorita vai fazer agora?@@@@1@7@@@
+1002240@@@@1@@— Há uma ou duas coisas que desejo fazer, visto estar na cidade, mas volto no trem do meio-dia, pronta para recebê-los.@@@@1@22@@@
+1002250@@@@1@@— Pode esperar-nos à mesma hora.@@@@1@6@@@
+1002260@@@@1@@Eu também tenho algumas coisas a fazer.@@@@1@7@@@
+1002270@@@@1@@Mas a senhorita não quer esperar o café da manhã?@@@@1@10@@@
+1002280@@@@1@@— Não, preciso ir.@@@@1@4@@@
+1002290@@@@1@@Meu coração está mais aliviado desde que lhe contei minha aflição.@@@@1@11@@@
+1002300@@@@1@@Esperá-los-ei com ansiedade esta tarde.@@@@1@5@@@
+1002310@@@@1@@E a jovem saiu.@@@@1@4@@@
+1002320@@@@1@@— O que pensa disto tudo, Watson?@@@@1@7@@@
+1002330@@@@1@@— perguntou Sherlock Holmes, recostando-se na cadeira.@@@@1@7@@@
+1002340@@@@1@@— Parece-me um caso obscuro e sinistro.@@@@1@7@@@
+1002350@@@@1@@— Contudo, se a jovem não mentiu ao dizer que as paredes e o soalho estão intactos e que a porta, as janelas e a chaminé são impenetráveis, então a irmã dela, sem dúvida, estava sozinha quando morreu tão misteriosamente.@@@@1@40@@@
+1002360@@@@1@@— De acordo.@@@@1@3@@@
+1002370@@@@1@@— O que significam então aqueles assobios noturnos e as palavras esquisitas da irmã?@@@@1@14@@@
+1002380@@@@1@@— Não posso imaginar.@@@@1@4@@@
+1002390@@@@1@@— Quando se alia a idéia de assobios noturnos à presença de um bando de ciganos que têm intimidade com o velho doutor, e também ao fato de que ele tem interesse em frustrar o casamento da enteada, mais ainda, à alusão a uma faixa e, finalmente, ao fato de a srta. Stoner ouvir um baque metálico, que podia ter sido causado por uma barra daquelas que seguram a janela, ao ser recolocada, penso que há um fundamento para que o mistério seja descoberto nesses fatos.@@@@1@86@@@
+1002400@@@@1@@— Mas que fizeram então os ciganos?@@@@1@7@@@
+1002410@@@@1@@— Não tenho idéia.@@@@1@4@@@
+1002420@@@@1@@— Vejo muitas objeções a tal teoria.@@@@1@7@@@
+1002430@@@@1@@— Eu também, e é por isso que vamos a Stoke Moran hoje.@@@@1@13@@@
+1002440@@@@1@@Quero ver se as objeções estão certas ou se podem ser excluídas por algumas explicações.@@@@1@15@@@
+1002450@@@@1@@Mas que diabo é isto?@@@@1@5@@@
+1002460@@@@1@@A exclamação foi arrancada ao meu companheiro pela violência com que nossa porta foi aberta.@@@@1@15@@@
+1002470@@@@1@@Um homem enorme estava postado à entrada.@@@@1@7@@@
+1002480@@@@1@@Sua roupa era uma mistura singular de notário e de agricultor, com cartola preta, casaco comprido, polainas altas e um chicote de caçador na mão.@@@@1@25@@@
+1002490@@@@1@@Tão alto era ele que o chapéu tocava na verga da porta e parecia ter a largura desta de um lado ao outro.@@@@1@23@@@
+1002500@@@@1@@Rosto grande, muito enrugado, queimado pelo sol, com traços de todas as paixões malévolas; virou-se primeiro para um e depois para o outro de nós.@@@@1@25@@@
+1002510@@@@1@@Seus olhos fundos e biliosos, o nariz grande e pontudo, faziam-no assemelhar-se a uma velha e cruel ave de rapina.@@@@1@20@@@
+1002520@@@@1@@— Qual de vocês é Holmes?@@@@1@6@@@
+1002530@@@@1@@— perguntou a aparição.@@@@1@4@@@
+1002540@@@@1@@— É esse o meu nome, senhor, mas não sei o seu — disse o meu amigo.@@@@1@17@@@
+1002550@@@@1@@— Sou o dr. Grimesby Roylott, de Stoke Moran,@@@@1@9@@@
+1002560@@@@1@@— Deveras, doutor?@@@@1@3@@@
+1002570@@@@1@@— disse Holmes suavemente.@@@@1@4@@@
+1002580@@@@1@@— Queira sentar-se.@@@@1@3@@@
+1002590@@@@1@@— Não farei tal coisa.@@@@1@5@@@
+1002600@@@@1@@Minha enteada esteve aqui.@@@@1@4@@@
+1002610@@@@1@@Segui-a.@@@@1@1@@@
+1002620@@@@1@@O que foi que ela lhe contou?@@@@1@7@@@
+1002630@@@@1@@— Está um pouco frio para esta época do ano — disse Holmes.@@@@1@13@@@
+1002640@@@@1@@— O que foi que ela lhe disse?@@@@1@8@@@
+1002650@@@@1@@— gritou o velho, furioso.@@@@1@5@@@
+1002660@@@@1@@— Todavia, ouvi dizer que as tulipas prometem ser abundantes — continuou o meu amigo imperturbavelmente.@@@@1@16@@@
+1002670@@@@1@@— Ah, você se faz de desentendido, hem?@@@@1@8@@@
+1002680@@@@1@@— disse o nosso visitante, dando um passo à frente e sacudindo a cabeça.@@@@1@14@@@
+1002690@@@@1@@— Conheço-o, patife!@@@@1@3@@@
+1002700@@@@1@@Já ouvi falar de você.@@@@1@5@@@
+1002710@@@@1@@Você é Holmes, o mexeriqueiro.@@@@1@5@@@
+1002720@@@@1@@Meu amigo sorriu.@@@@1@3@@@
+1002730@@@@1@@— Holmes, o intrometido!@@@@1@4@@@
+1002740@@@@1@@O sorriso alargou-se.@@@@1@3@@@
+1002750@@@@1@@— Holmes, o “tira” da Scotland Yard!@@@@1@7@@@
+1002760@@@@1@@Holmes riu-se deveras.@@@@1@3@@@
+1002770@@@@1@@— Sua conversa é muito divertida — disse ele.@@@@1@9@@@
+1002780@@@@1@@— Quando o senhor sair, tenha a bondade de fechar a porta.@@@@1@12@@@
+1002790@@@@1@@Há uma forte corrente de ar com ela assim aberta.@@@@1@10@@@
+1002800@@@@1@@— Vou quando houver dito tudo quanto quero dizer.@@@@1@9@@@
+1002810@@@@1@@Não se atreva a se intrometer nos meus assuntos.@@@@1@9@@@
+1002820@@@@1@@Sei que a srta. Stoner esteve aqui, segui-a!@@@@1@8@@@
+1002830@@@@1@@Sou um homem perigoso para que alguém se ponha contra mim.@@@@1@11@@@
+1002840@@@@1@@Veja isto.@@@@1@2@@@
+1002850@@@@1@@Adiantou-se e, pegando o atiçador do fogão, dobrou-o com suas grandes mãos queimadas do sol.@@@@1@15@@@
+1002860@@@@1@@— Cuidado para não cair nas minhas garras — rosnou ele, e, atirando o atiçador na lareira, saiu da sala.@@@@1@20@@@
+1002870@@@@1@@— Parece ser uma pessoa amistosa — tornou Holmes rindo.@@@@1@10@@@
+1002880@@@@1@@— Não tenho um corpo tão grande, mas se ele tivesse continuado, poderia demonstrar-lhe que minhas garras não são menos fracas que as dele.@@@@1@24@@@
+1002890@@@@1@@Enquanto falava, pegou o atiçador de aço, e, com um esforço repentino, endireitou-o.@@@@1@13@@@
+1002900@@@@1@@— Imagine ele me confundir com a força oficial dos detetives!@@@@1@11@@@
+1002910@@@@1@@Este incidente dá mais sabor às nossas investigações.@@@@1@8@@@
+1002920@@@@1@@Todavia, espero que nossa amiguinha não sofra com sua imprudência de deixar este bruto segui-la.@@@@1@15@@@
+1002930@@@@1@@E agora, Watson, vamos comer, depois irei à Doctors’ Commons, onde espero encontrar alguns dados que nos possam ajudar neste caso.@@@@1@21@@@
+1002940@@@@1@@Eram quase treze horas quando Sherlock Holmes voltou da sua excursão, tendo na mão um papel azul, todo rabiscado com anotações de algarismos.@@@@1@23@@@
+1002950@@@@1@@— Vi o testamento da falecida esposa — disse ele —, e, para determinar o seu sentido exato, fui obrigado a calcular os preços atuais dos investimentos a que está ligado.@@@@1@31@@@
+1002960@@@@1@@O rendimento, na ocasião da morte dela, era de pouco menos de mil libras, e está agora, devido à queda de preços, mais ou menos em setecentas e cinquenta libras.@@@@1@30@@@
+1002970@@@@1@@Cada filha pode requerer uma renda de duzentas e cinquenta libras em caso de casamento.@@@@1@15@@@
+1002980@@@@1@@É evidente, portanto, que, se ambas tivessem se casado, o belo homem ficaria com um bocadinho apenas, e, mesmo que fosse uma só, seria bastante prejudicado.@@@@1@26@@@
+1002990@@@@1@@Meu trabalho não foi perdido, pois prova que ele tem bom motivo para tentar frustrar qualquer coisa do género.@@@@1@19@@@
+1003000@@@@1@@E, agora, Watson, o caso é muito sério, e não devemos demorar mais, especialmente em vista de o velho saber que estamos interessados na sua vida; portanto, se está de acordo, vamos chamar um carro e tomar o trem de Waterloo.@@@@1@41@@@
+1003010@@@@1@@Agradeço-lhe se colocar seu revólver no bolso.@@@@1@7@@@
+1003020@@@@1@@Um Eley’s número 2 é um excelente argumento para cavalheiros que conseguem torcer atiçadores de aço.@@@@1@16@@@
+1003030@@@@1@@Isto e uma escova de dentes será tudo de que precisaremos, creio.@@@@1@12@@@
+1003040@@@@1@@Fomos felizes em Waterloo, pois chegamos em tempo de tomar um trem para Leatherhead, onde alugamos um carro e fomos conduzidos por mais de sete ou oito quilômetros através da paisagem maravilhosa de Surrey.@@@@1@34@@@
+1003050@@@@1@@Estava um dia lindo, de sol brilhante e algumas leves nuvens no céu.@@@@1@13@@@
+1003060@@@@1@@As árvores e sebes desabrochavam e o ar impregnava-se do perfume vindo da terra úmida.@@@@1@15@@@
+1003070@@@@1@@Para mim, pelo menos, parecia haver grande contraste entre a natureza em plena primavera e o sinistro caso que nos havia levado ali.@@@@1@23@@@
+1003080@@@@1@@Meu amigo ia na frente, com os braços cruzados e o chapéu puxado sobre os olhos, o queixo caído sobre o peito, em profunda meditação.@@@@1@25@@@
+1003090@@@@1@@De repente, ergueu-se, deu-me uma palmada no ombro e apontou para os prados.@@@@1@13@@@
+1003100@@@@1@@— Olhe para além — pediu ele.@@@@1@7@@@
+1003110@@@@1@@Via-se um parque cheio de árvores que cresciam na encosta de uma pequena colina, e a espessura das árvores aumentava até o cume; era uma verdadeira mata fechada.@@@@1@28@@@
+1003120@@@@1@@Por entre os ramos das árvores viam-se as pontas triangulares da água-furtada de uma velha mansão.@@@@1@16@@@
+1003130@@@@1@@— Stoke Moran — disse ele.@@@@1@6@@@
+1003140@@@@1@@— Sim, senhor, aquela é a casa do dr. Grimesby Roylott — respondeu o cocheiro.@@@@1@15@@@
+1003150@@@@1@@— Estão fazendo obras ali, e é para lá que nós vamos — disse Holmes.@@@@1@15@@@
+1003160@@@@1@@— A vila é esta — disse o cocheiro, apontando para alguns telhados à esquerda.@@@@1@15@@@
+1003170@@@@1@@— Mas para chegar à casa é melhor pular a cancela e seguir o caminho a pé através dos campos.@@@@1@20@@@
+1003180@@@@1@@É ali, de onde vem aquela senhora.@@@@1@7@@@
+1003190@@@@1@@— Creio que é a srta. Stoner — observou Holmes.@@@@1@10@@@
+1003200@@@@1@@— Sim, vamos fazer o que você sugere.@@@@1@8@@@
+1003210@@@@1@@Descemos, pagamos a viagem, e o carro voltou para Leatherhead.@@@@1@10@@@
+1003220@@@@1@@— Achei melhor — disse Holmes, enquanto pulávamos por cima da cerca — que este homem pensasse que viemos como arquitetos ou para algum negócio definido.@@@@1@26@@@
+1003230@@@@1@@Pode ser que assim evite dar com a língua nos dentes.@@@@1@11@@@
+1003240@@@@1@@— Boa tarde, srta. Stoner.@@@@1@5@@@
+1003250@@@@1@@Veja que cumprimos a nossa palavra.@@@@1@6@@@
+1003260@@@@1@@Nossa cliente apressara o passo para vir ter conosco.@@@@1@9@@@
+1003270@@@@1@@— Esperava-os ansiosamente — exclamou ela, apertando-nos as mãos.@@@@1@9@@@
+1003280@@@@1@@— Tudo corre bem.@@@@1@4@@@
+1003290@@@@1@@O dr. Roylott foi para a cidade e creio que não voltará até a tardinha.@@@@1@15@@@
+1003300@@@@1@@— Tivemos o prazer de conhecer o dr. Roylott — disse Holmes, e, em poucas palavras, fez um relato do que acontecera.@@@@1@22@@@
+1003310@@@@1@@A srta. Stoner ficou branca até os lábios.@@@@1@8@@@
+1003320@@@@1@@— Céus! — exclamou ela.@@@@1@5@@@
+1003330@@@@1@@— Ele me seguiu então?@@@@1@5@@@
+1003340@@@@1@@— Parece que sim.@@@@1@4@@@
+1003350@@@@1@@— É tão astuto que nunca sei quando estou em segurança.@@@@1@11@@@
+1003360@@@@1@@Que dirá ele no regresso?@@@@1@5@@@
+1003370@@@@1@@— Ele terá de se acautelar, pois pode descobrir que há alguém tão astuto quanto ele.@@@@1@16@@@
+1003380@@@@1@@É preciso que a senhora se feche hoje à noite aonde ele não possa ir.@@@@1@15@@@
+1003390@@@@1@@Se se tornar violento, nós a levaremos para casa de sua tia em Harrow, Agora, precisamos aproveitar o tempo, e por isso peco-lhe para nos levar aos quartos que devemos examinar.@@@@1@31@@@
+1003400@@@@1@@O edifício era de pedras cinzentas e, em certos lugares, havia moitas de musgo junto às paredes; na parte central era alto, com duas alas curvas como as garras de um caranguejo.@@@@1@32@@@
+1003410@@@@1@@Numa dessas alas, as janelas estavam quebradas e cobertas com tábuas, assim como o teto, que estava também caído, autêntica prova de ruína.@@@@1@23@@@
+1003420@@@@1@@A parte central estava reformada, e a ala à direita fora modernizada, com cortinas nas janelas e fumaça que saía das chaminés, demonstrando que era ali que a família residia.@@@@1@30@@@
+1003430@@@@1@@Alguns andaimes se erguiam contra as paredes dos fundos, onde havia uma abertura, mas sem o menor sinal de pedreiros que trabalhassem à hora da nossa visita.@@@@1@27@@@
+1003440@@@@1@@Holmes andou de cima para baixo no relvado e examinou com muita atenção as janelas do lado de fora.@@@@1@19@@@
+1003450@@@@1@@— Esta, presumo, pertence ao quarto que a senhora ocupava, o do centro era de sua irmã e o ligado ao edifício principal é o do dr. Roylott.@@@@1@28@@@
+1003460@@@@1@@— Exatamente, mas agora durmo no quarto do meio.@@@@1@9@@@
+1003470@@@@1@@— Por causa das reformas.@@@@1@5@@@
+1003480@@@@1@@Mas não vejo assim tanta necessidade de reparação naquele lado da parede.@@@@1@12@@@
+1003490@@@@1@@— Nem havia, e acredito que foi uma desculpa para me obrigar a mudar de quarto.@@@@1@16@@@
+1003500@@@@1@@— Ah, é uma idéia.@@@@1@5@@@
+1003510@@@@1@@Do outro lado desta ala está o corredor para o qual dão estes três quartos.@@@@1@15@@@
+1003520@@@@1@@Há janelas no corredor, com certeza, não?@@@@1@7@@@
+1003530@@@@1@@— Sim, mas muito pequenas.@@@@1@5@@@
+1003540@@@@1@@Estreitas demais para que alguém possa passar por elas.@@@@1@9@@@
+1003550@@@@1@@— Visto que trancavam as portas de seus quartos pelo lado de dentro, não era possível a aproximação por aquele lado.@@@@1@21@@@
+1003560@@@@1@@Tenha a bondade de entrar no seu quarto agora e de trancar as janelas.@@@@1@14@@@
+1003570@@@@1@@Assim fez a srta. Stone, e Holmes, depois de examiná-las bem, esforçou-se por abri-las, sem resultado, pois não havia sequer uma fenda por onde se pudesse introduzir a lâmina de um canivete.@@@@1@32@@@
+1003580@@@@1@@Pegou a lente de aumento e examinou as dobradiças, mas eram de ferro sólido, embutido na parede.@@@@1@17@@@
+1003590@@@@1@@— Hum! — disse ele coçando o queixo, perplexo.@@@@1@9@@@
+1003600@@@@1@@— Minha teoria apresenta algumas dificuldades.@@@@1@6@@@
+1003610@@@@1@@Ninguém poderia passar por estas janelas, uma vez trancadas.@@@@1@9@@@
+1003620@@@@1@@Bem, vamos ver se o interior nos revela qualquer pista.@@@@1@10@@@
+1003630@@@@1@@Uma porta estreita dava entrada a um corredor em ruínas, para onde se abriam os três quartos.@@@@1@17@@@
+1003640@@@@1@@Holmes recusou examinar o terceiro quarto, e assim passamos para o segundo, aquele em que a srta. Stoner dormia agora e no qual sua irmã encontrara a morte.@@@@1@28@@@
+1003650@@@@1@@Era simples, com teto baixo e lareira larga, conforme o costume nas casas de campo antigas.@@@@1@16@@@
+1003660@@@@1@@Uma cômoda acastanhada estava num canto, uma cama coberta com uma colcha branca no outro, e uma mesa de toalete do lado esquerdo da janela.@@@@1@25@@@
+1003670@@@@1@@Esses móveis, com mais duas cadeiras, completavam a mobília do quarto, além de um pequeno tapete ao centro.@@@@1@18@@@
+1003680@@@@1@@As vigas e as tábuas que forravam as paredes eram de carvalho castanho, já bichadas e tão velhas que pareciam ser tão antigas quanto o próprio edifício.@@@@1@27@@@
+1003690@@@@1@@Holmes puxou uma das cadeiras para o canto e sentou-se, muito quieto, enquanto seus olhos corriam em redor repetidas vezes, para baixo, para cima, examinando todos os pormenores do quarto.@@@@1@30@@@
+1003700@@@@1@@— Com que aposento se comunica aquela campainha?@@@@1@8@@@
+1003710@@@@1@@— perguntou ele por fim, apontando para uma corda grossa que estava pendurada ao lado da cama, com a borla em cima do travesseiro.@@@@1@24@@@
+1003720@@@@1@@— Com o quarto da empregada.@@@@1@6@@@
+1003730@@@@1@@— Parece mais nova do que as outras coisas.@@@@1@9@@@
+1003740@@@@1@@— Sim, foi colocada somente há dois anos.@@@@1@8@@@
+1003750@@@@1@@— Foi sua irmã que a pediu?@@@@1@7@@@
+1003760@@@@1@@— Não, nem nunca ouvi dizer que ela a usasse.@@@@1@10@@@
+1003770@@@@1@@Nós mesmas íamos buscar aquilo de que precisávamos.@@@@1@8@@@
+1003780@@@@1@@— Deveras, parece desnecessário colocar uma corda tão bonita ali.@@@@1@10@@@
+1003790@@@@1@@Desculpe-me um instante, vou examinar o assoalho.@@@@1@7@@@
+1003800@@@@1@@— Depois fez o mesmo a todos os painéis de madeira, e finalmente chegou perto da cama, olhando-a bem, assim como à parede que ficava perto.@@@@1@26@@@
+1003810@@@@1@@Nisto pegou o cordão da campainha e deu-lhe um puxão.@@@@1@10@@@
+1003820@@@@1@@— Oh!@@@@1@2@@@
+1003830@@@@1@@É apenas uma imitação — disse ele.@@@@1@7@@@
+1003840@@@@1@@— Não toca?@@@@1@3@@@
+1003850@@@@1@@— Não, nem está ligada ao fio.@@@@1@7@@@
+1003860@@@@1@@Isto é deveras interessante.@@@@1@4@@@
+1003870@@@@1@@Veja, está ligada a um gancho logo acima da abertura que serve apenas para a ventilação.@@@@1@16@@@
+1003880@@@@1@@— Que absurdo!@@@@1@3@@@
+1003890@@@@1@@Nunca reparei nisso antes.@@@@1@4@@@
+1003900@@@@1@@— É muito estranho! — murmurou Holmes, puxando a corda.@@@@1@10@@@
+1003910@@@@1@@— Há um ou dois pontos esquisitos neste quarto.@@@@1@9@@@
+1003920@@@@1@@Por exemplo, que louco devia ser o construtor, que fez uma abertura para a ventilação de um quarto para o outro, quando afinal com o mesmo trabalho podia obter uma comunicação com o exterior.@@@@1@34@@@
+1003930@@@@1@@— É também recente — disse a jovem.@@@@1@8@@@
+1003940@@@@1@@— Foi aberta mais ou menos na ocasião da instalação do cordão?@@@@1@12@@@
+1003950@@@@1@@— indagou Holmes.@@@@1@3@@@
+1003960@@@@1@@— Sim, houve diversas reformas naquela época.@@@@1@7@@@
+1003970@@@@1@@— E parece que tiveram um propósito muito interessante: cordões inúteis, aberturas que não ventilam.@@@@1@15@@@
+1003980@@@@1@@Com a sua permissão, agora vamos fazer nossas pesquisas no quarto central.@@@@1@12@@@
+1003990@@@@1@@O quarto do dr. Grimesby Roylott era maior que o da enteada, mas simples.@@@@1@14@@@
+1004000@@@@1@@Uma cama de campanha, uma prateleira cheia de livros, a maioria de ordem técnica, uma poltrona perto da cama, uma cadeira comum de madeira junto à parede, uma mesa redonda e um cofre enorme de ferro eram as principais coisas que se viam.@@@@1@43@@@
+1004010@@@@1@@Holmes examinou tudo com o maior interesse.@@@@1@7@@@
+1004020@@@@1@@— O que há aqui dentro?@@@@1@6@@@
+1004030@@@@1@@— perguntou ele, dando uma palmada no cofre.@@@@1@8@@@
+1004040@@@@1@@— Os documentos de meu padrasto.@@@@1@6@@@
+1004050@@@@1@@— Ah, então examinou o interior?@@@@1@6@@@
+1004060@@@@1@@— Uma vez, há alguns anos atrás.@@@@1@7@@@
+1004070@@@@1@@Lembro-me de que estava cheio de papéis.@@@@1@7@@@
+1004080@@@@1@@— Não haverá um gato no meio deles, por acaso?@@@@1@10@@@
+1004090@@@@1@@— Que idéia estranha!@@@@1@4@@@
+1004100@@@@1@@— Bem, mas olhe para isto!@@@@1@6@@@
+1004110@@@@1@@E pegou um pequeno pires de leite que estava em cima do cofre.@@@@1@13@@@
+1004120@@@@1@@— Não, não temos nenhum gato.@@@@1@6@@@
+1004130@@@@1@@Mas há um leopardo e um macaco.@@@@1@7@@@
+1004140@@@@1@@— Oh, sim, claro.@@@@1@4@@@
+1004150@@@@1@@Bem, o leopardo é como um gato grande, mas um pires de leite não é bastante para satisfazê-lo, penso eu.@@@@1@20@@@
+1004160@@@@1@@Há um ponto que desejo esclarecer.@@@@1@6@@@
+1004170@@@@1@@Nisto, curvou-se diante da cadeira de madeira e examinou o assento com a maior atenção.@@@@1@15@@@
+1004180@@@@1@@— Muito obrigado.@@@@1@3@@@
+1004190@@@@1@@Está bem — disse ele, levantando-se e colocando a lente no bolso.@@@@1@12@@@
+1004200@@@@1@@— Ah!@@@@1@2@@@
+1004210@@@@1@@Aqui há uma coisa interessante.@@@@1@5@@@
+1004220@@@@1@@O objeto que olhava era um pequeno chicote usado por quem tem cães, pendurado a um canto da cama.@@@@1@19@@@
+1004230@@@@1@@Estava enrolado e amarrado com uma presilha.@@@@1@7@@@
+1004240@@@@1@@— Que pensa disto, Watson?@@@@1@5@@@
+1004250@@@@1@@— É bastante comum, mas não posso perceber por que está enrolado.@@@@1@12@@@
+1004260@@@@1@@— Isso é que não é comum, hem?@@@@1@8@@@
+1004270@@@@1@@Hum!@@@@1@1@@@
+1004280@@@@1@@Há tanta malvadeza no mundo, e quando um homem inteligente volta o cérebro para o crime, torna-se mil vezes pior do que é realmente.@@@@1@24@@@
+1004290@@@@1@@Penso que já vimos bastante, srta. Stoner, e, se nos dá licença, iremos para o relvado.@@@@1@16@@@
+1004300@@@@1@@Nunca vi o rosto do meu amigo tão carregado como quando deixou o cenário de suas investigações.@@@@1@17@@@
+1004310@@@@1@@Ficou muito tempo em silêncio, e nem eu nem a srta. Stoner quisemos perturbar seus pensamentos antes que ele próprio terminasse seus devaneios.@@@@1@23@@@
+1004320@@@@1@@— É essencial, srta. Stoner — volveu ele —, que siga meticulosamente minhas instruções.@@@@1@14@@@
+1004330@@@@1@@— Certamente que o farei.@@@@1@5@@@
+1004340@@@@1@@— O assunto é demasiado importante para haver hesitações.@@@@1@9@@@
+1004350@@@@1@@Sua vida depende de sua obediência.@@@@1@6@@@
+1004360@@@@1@@— Estou em suas mãos.@@@@1@5@@@
+1004370@@@@1@@— Em primeiro lugar, eu e meu amigo devemos passar a noite no seu quarto.@@@@1@15@@@
+1004380@@@@1@@Ela e eu olhamo-nos estupefatos.@@@@1@5@@@
+1004390@@@@1@@— Sim, é preciso que assim seja.@@@@1@7@@@
+1004400@@@@1@@Deixem-me explicar-lhes.@@@@1@2@@@
+1004410@@@@1@@Creio que aquilo lá é a hospedaria da vila.@@@@1@9@@@
+1004420@@@@1@@— Sim, chama-se A Coroa.@@@@1@5@@@
+1004430@@@@1@@— Muito bem, sua janela será vista de lá?@@@@1@9@@@
+1004440@@@@1@@— Certamente que sim.@@@@1@4@@@
+1004450@@@@1@@— É preciso que a senhorita permaneça no quarto pretextando uma forte dor de cabeça, à hora em que seu padrasto voltar.@@@@1@22@@@
+1004460@@@@1@@Depois que ele for para o quarto dele, a senhorita deve abrir a janela, pôr o candeeiro lá como sinal para nós, depois retirar-se para o quarto que ocupava antes; apesar das obras, com certeza poderá acomodar-se lá por uma noite.@@@@1@41@@@
+1004470@@@@1@@— Oh, sim, facilmente.@@@@1@4@@@
+1004480@@@@1@@— Quanto ao resto, deixe nas nossas mãos.@@@@1@8@@@
+1004490@@@@1@@— Mas o que farão?@@@@1@5@@@
+1004500@@@@1@@— Passaremos a noite no seu quarto e investigaremos a causa do barulho que a tem incomodado.@@@@1@17@@@
+1004510@@@@1@@— Creio, sr. Holmes, que o senhor já chegou a alguma conclusão — disse a srta. Stoner, pondo sua mão sobre o braço do meu companheiro.@@@@1@26@@@
+1004520@@@@1@@— Talvez.@@@@1@2@@@
+1004530@@@@1@@— Então, por caridade, diga-me o que foi que matou minha irmã.@@@@1@12@@@
+1004540@@@@1@@— Preferia ter melhores provas antes de falar.@@@@1@8@@@
+1004550@@@@1@@— O senhor pode me dizer, pelo menos, se a morte foi causada por algum susto medonho e repentino.@@@@1@19@@@
+1004560@@@@1@@— Penso que não.@@@@1@4@@@
+1004570@@@@1@@Acho que houve uma causa mais concreta.@@@@1@7@@@
+1004580@@@@1@@E agora, srta. Stoner, precisamos ir, porque se o dr. Roylott voltasse e nos visse aqui, nossa viagem seria em vão.@@@@1@21@@@
+1004590@@@@1@@Adeus, seja corajosa, e, se fizer o que lhe disse, pode ficar descansada, depressa afastaremos os perigos que a ameaçam.@@@@1@20@@@
+1004600@@@@1@@Sherlock Holmes e eu não tivemos dificuldade em alugar um quarto e uma sala na hospedaria.@@@@1@16@@@
+1004610@@@@1@@Ficavam no andar superior, e da nossa janela podíamos ver o portão da alameda que levava à ala habitada da mansão Stoke Moran.@@@@1@23@@@
+1004620@@@@1@@Ao escurecer, vimos o dr. Roylott passar de carro, com o corpo enorme ao lado do rapaz que o acompanhava e que demorou a abrir os pesados portões.@@@@1@28@@@
+1004630@@@@1@@Ouvimos o rosnar rouco da sua voz e vimos a fúria com que fechou os punhos e os mostrou ao rapaz.@@@@1@21@@@
+1004640@@@@1@@O carro continuou, e, uns minutos depois, vimos surgir uma luz entre as árvores, quando foi acesa a lâmpada numa das salas.@@@@1@22@@@
+1004650@@@@1@@— Sabe, Watson?@@@@1@3@@@
+1004660@@@@1@@— disse Holmes quando estávamos sentados juntos na semi-obscuridade.@@@@1@9@@@
+1004670@@@@1@@— Estou indeciso se devo levá-lo hoje à noite ou não.@@@@1@11@@@
+1004680@@@@1@@Há indícios positivos de grande perigo.@@@@1@6@@@
+1004690@@@@1@@— Posso ajudá-lo?@@@@1@3@@@
+1004700@@@@1@@— Sua presença pode ser de alto valor.@@@@1@8@@@
+1004710@@@@1@@— Então certamente irei.@@@@1@4@@@
+1004720@@@@1@@— É muita bondade da sua parte.@@@@1@7@@@
+1004730@@@@1@@— Você fala em perigo.@@@@1@5@@@
+1004740@@@@1@@É evidente que viu naqueles quartos mais do que eu pude ver…@@@@1@12@@@
+1004750@@@@1@@— Não, mas talvez tenha deduzido mais.@@@@1@7@@@
+1004760@@@@1@@Creio que você viu o mesmo que eu.@@@@1@8@@@
+1004770@@@@1@@— Não vi nada de estranho, a não ser o cordão da campainha; para que serve aquilo?@@@@1@17@@@
+1004780@@@@1@@Não posso imaginar.@@@@1@3@@@
+1004790@@@@1@@— Viu também a abertura?@@@@1@5@@@
+1004800@@@@1@@— Sim, mas não penso que seja assim tão raro haver uma pequena abertura entre dois quartos, tão pequena que mal daria passagem a um rato.@@@@1@26@@@
+1004810@@@@1@@— Eu tinha a certeza de que encontraríamos uma abertura de ventilação antes de virmos para Stoke Moran.@@@@1@18@@@
+1004820@@@@1@@— Caro Holmes…@@@@1@3@@@
+1004830@@@@1@@— Oh, sim.@@@@1@3@@@
+1004840@@@@1@@Lembra-se de ela ter dito que a irmã sentia o cheiro dos charutos do dr. Roylott?@@@@1@16@@@
+1004850@@@@1@@Isso por si só sugere que havia uma comunicação entre os dois quartos.@@@@1@13@@@
+1004860@@@@1@@Só podia ser uma abertura pequena, senão as autoridades policiais teriam dado com ela, e por isso deduzi que devia servir para ventilação.@@@@1@23@@@
+1004870@@@@1@@— Mas que mal poderá haver nisso?@@@@1@7@@@
+1004880@@@@1@@— Bem, há pelo menos uma coincidência de datas.@@@@1@9@@@
+1004890@@@@1@@Fez-se uma abertura, pendurou-se uma corda comprida, e uma moça dorme na cama e morre.@@@@1@15@@@
+1004900@@@@1@@Não lhe parece estranho?@@@@1@4@@@
+1004910@@@@1@@— Por ora não vejo relação nenhuma.@@@@1@7@@@
+1004920@@@@1@@— Não viu nada de estranho naquela cama?@@@@1@8@@@
+1004930@@@@1@@— Não.@@@@1@2@@@
+1004940@@@@1@@— Pois estava fixada ao chão.@@@@1@6@@@
+1004950@@@@1@@Já viu alguma cama fixada ao chão?@@@@1@7@@@
+1004960@@@@1@@— Nunca.@@@@1@2@@@
+1004970@@@@1@@— A jovem não podia arrastar a cama, devia ficar sempre na mesma posição em relação à abertura e à corda.@@@@1@21@@@
+1004980@@@@1@@— Holmes — exclamei —, estou percebendo o que você quer dizer.@@@@1@12@@@
+1004990@@@@1@@Estamos no momento exato de evitar um sutil e horrível crime.@@@@1@11@@@
+1005000@@@@1@@— Muito sutil e bastante horrível.@@@@1@6@@@
+1005010@@@@1@@Quando um médico se desvia do bem, torna-se o pior dos criminosos.@@@@1@12@@@
+1005020@@@@1@@Tem nervos e conhecimentos.@@@@1@4@@@
+1005030@@@@1@@Esse homem ultrapassa Palmer e Pritchard, mas creio, Watson, que conseguiremos mais ainda.@@@@1@13@@@
+1005040@@@@1@@Teremos de passar por muitos horrores antes que a noite finde.@@@@1@11@@@
+1005050@@@@1@@Vamos apaziguar nossos nervos fumando um pouco, e, durante alguns instantes, pensar em coisas mais agradáveis.@@@@1@16@@@
+1005060@@@@1@@Cerca das vinte e uma horas, a luz entre as árvores extinguiu-se e tudo ficou escuro na mansão.@@@@1@18@@@
+1005070@@@@1@@Passaram-se duas horas vagarosamente, e, então, repentinamente, justamente quando o relógio da igreja batia vinte e três horas, brilhou a luz bem à nossa frente.@@@@1@25@@@
+1005080@@@@1@@— Aquele é o nosso sinal — disse Holmes, pulando —, está na janela do meio.@@@@1@16@@@
+1005090@@@@1@@Quando saímos, Holmes trocou algumas palavras com o hoteleiro, dizendo que íamos fazer uma visita, embora tarde, a um velho conhecido e talvez passássemos a noite lá.@@@@1@27@@@
+1005100@@@@1@@Um momento depois estávamos nas ruas escuras, com um vento frio que soprava em nosso rosto e uma luz amarela que piscava à nossa frente através das sombras para nos guiar na nossa sombria missão.@@@@1@35@@@
+1005110@@@@1@@Houve pouca dificuldade em entrar na herdade, porque havia muitos vãos no velho paredão do parque.@@@@1@16@@@
+1005120@@@@1@@Adiantando-nos debaixo das árvores, alcançamos o relvado, atravessamo-lo, e íamos entrar pela janela, quando, de dentro de uns arbustos de louro, pulou uma coisa que parecia uma criança aleijada e que se lançou sobre a relva com o corpo todo retorcido e depois desapareceu rapidamente na escuridão.@@@@1@47@@@
+1005130@@@@1@@— Meu Deus! — cochichei.@@@@1@5@@@
+1005140@@@@1@@— Você viu?@@@@1@3@@@
+1005150@@@@1@@Holmes estava tão surpreso quanto eu.@@@@1@6@@@
+1005160@@@@1@@Sua mão fechou-se sobre meu pulso como um torniquete, devido à agitação.@@@@1@12@@@
+1005170@@@@1@@Então riu baixinho, e aproximou a boca do meu ouvido.@@@@1@10@@@
+1005180@@@@1@@— É uma família bonita — murmurou ele —, aquilo é o bugio.@@@@1@13@@@
+1005190@@@@1@@Tinha me esquecido dos bichos de estimação do doutor.@@@@1@9@@@
+1005200@@@@1@@Havia um leopardo também, talvez o sentíssemos nos ombros a qualquer momento.@@@@1@12@@@
+1005210@@@@1@@Confesso que me senti aliviado quando, seguindo o exemplo de Holmes ao tirar os sapatos, me vi dentro do quarto.@@@@1@20@@@
+1005220@@@@1@@Sem fazer qualquer ruído, meu companheiro fechou as janelas, colocou o candeeiro em cima da mesa e olhou ao redor do quarto.@@@@1@22@@@
+1005230@@@@1@@Tudo estava como havíamos visto durante o dia.@@@@1@8@@@
+1005240@@@@1@@Então, chegando-se junto a mim e dobrando a mão em forma de concha, Holmes cochichou ao meu ouvido tão baixo que mal pude distinguir as palavras:@@@@1@26@@@
+1005250@@@@1@@— O menor barulho pode ser fatal aos nossos planos.@@@@1@10@@@
+1005260@@@@1@@Acenei com a cabeça para mostrar que havia entendido.@@@@1@9@@@
+1005270@@@@1@@— Temos de ficar no escuro.@@@@1@6@@@
+1005280@@@@1@@Ele veria a luz pela abertura.@@@@1@6@@@
+1005290@@@@1@@Acenei de novo.@@@@1@3@@@
+1005300@@@@1@@— Não durma.@@@@1@3@@@
+1005310@@@@1@@Talvez sua própria vida dependa disso.@@@@1@6@@@
+1005320@@@@1@@Tenha o revólver à mão.@@@@1@5@@@
+1005330@@@@1@@Talvez precise dele.@@@@1@3@@@
+1005340@@@@1@@Ficarei sentado na beira da cama, e você, naquela cadeira.@@@@1@10@@@
+1005350@@@@1@@Tirei o revólver do bolso e coloquei-o em cima da mesa.@@@@1@11@@@
+1005360@@@@1@@Holmes tirou uma bengala curta e flexível e colocou-a em cima da cama a seu lado, e, junto dela, uma caixa de fósforos e um toco de vela.@@@@1@28@@@
+1005370@@@@1@@Depois apagou a vela e ficamos no escuro.@@@@1@8@@@
+1005380@@@@1@@Nunca me esquecerei daquela noite de vigília.@@@@1@7@@@
+1005390@@@@1@@Não se ouvia som nenhum, nem mesmo o da nossa respiração; contudo, eu sabia que meu companheiro estava sentado ali, de olhos abertos, na mesma tensão nervosa que eu.@@@@1@29@@@
+1005400@@@@1@@As janelas de madeira não deixavam passar o menor raio de luz, e esperamos numa escuridão total.@@@@1@17@@@
+1005410@@@@1@@Lá de fora vinha o grito ocasional de uma ave noturna, e em certo momento, na nossa própria janela, ouvimos um gemido como o miar de gatos, o que nos deu a certeza de que o leopardo andava à solta.@@@@1@40@@@
+1005420@@@@1@@À distância ouvíamos as badaladas profundas do relógio da igreja, que marcavam cada quarto de hora que passava.@@@@1@18@@@
+1005430@@@@1@@E quão compridos pareciam aqueles quartos de hora!@@@@1@8@@@
+1005440@@@@1@@Meia-noite, uma hora, duas e três, e continuávamos em silêncio, esperando o que ocorresse.@@@@1@14@@@
+1005450@@@@1@@De repente, surgiu uma luz na direção da abertura, que se extinguiu quase imediatamente mas foi sucedida por um forte cheiro de óleo queimado e de metal quente.@@@@1@28@@@
+1005460@@@@1@@Alguém no quarto próximo havia acendido uma lamparina.@@@@1@8@@@
+1005470@@@@1@@Ouvi um movimento leve, e depois seguiu-se de novo o silêncio, mas o cheiro continuou e aumentou.@@@@1@17@@@
+1005480@@@@1@@Durante meia hora forcei a vista.@@@@1@6@@@
+1005490@@@@1@@De repente ouviu-se outro som suave como o de vapor saindo de uma chaleira.@@@@1@14@@@
+1005500@@@@1@@No mesmo instante em que ouvimos esse som, Holmes pulou da cama, acendeu um fósforo e bateu furiosamente com a bengala na corda da campainha.@@@@1@25@@@
+1005510@@@@1@@— Você o viu, Watson?@@@@1@5@@@
+1005520@@@@1@@— gritou ele.@@@@1@3@@@
+1005530@@@@1@@— Você o viu?@@@@1@4@@@
+1005540@@@@1@@Mas eu não tinha visto.@@@@1@5@@@
+1005550@@@@1@@No momento em que Holmes riscou o fósforo, ouvi um assobio baixo, mas distinto, porém o brilho repentino nos meus olhos cansados impossibilitou-me de discernir o objeto ao qual meu amigo se atirara e que açoitara com tanta fúria.@@@@1@39@@@
+1005560@@@@1@@Todavia, pude ver que seu rosto estava pálido como a morte e revelava horror e repugnância.@@@@1@16@@@
+1005570@@@@1@@Parou de bater e estava olhando para a abertura quando de repente, quebrando o silêncio da noite, veio o grito mais horroroso que jamais ouvi, que cresceu até se tornar um bramido de dor, de medo e ira, tudo misturado num tremendo uivo estridente.@@@@1@44@@@
+1005580@@@@1@@Dizem que na vila, e até na casa paroquial, aquele grito acordou e fez levantar os que dormiam.@@@@1@18@@@
+1005590@@@@1@@Nossos corações gelaram, e fiquei olhando para Holmes, e ele para mim, até os últimos ecos cessarem a pouco e pouco.@@@@1@21@@@
+1005600@@@@1@@— Que pode ser isso?@@@@1@5@@@
+1005610@@@@1@@— perguntei, ofegante.@@@@1@3@@@
+1005620@@@@1@@— Quer dizer que tudo acabou — respondeu Holmes.@@@@1@9@@@
+1005630@@@@1@@— E, finalmente, talvez para melhor.@@@@1@6@@@
+1005640@@@@1@@Pegue seu revólver e vamos entrar no quarto do dr. Roylott.@@@@1@11@@@
+1005650@@@@1@@Com a fisionomia grave, acendeu o candeeiro e saiu para o corredor.@@@@1@12@@@
+1005660@@@@1@@Bateu na porta duas vezes, sem receber resposta.@@@@1@8@@@
+1005670@@@@1@@Depois virou a maçaneta e entrou; eu vinha logo atrás, com o revólver automático.@@@@1@14@@@
+1005680@@@@1@@Foi uma cena singular a que vimos.@@@@1@7@@@
+1005690@@@@1@@Em cima da mesa, havia uma lamparina com um dos lados meio aberto, lançando um raio de luz sobre o cofre de ferro, cuja porta estava aberta.@@@@1@27@@@
+1005700@@@@1@@Ao lado da mesa, sentado, encontrava-se Grimesby Roylott, vestido com o roupão, os pés metidos em chinelos turcos.@@@@1@18@@@
+1005710@@@@1@@No colo, atravessando-lhe as pernas, estava o açoite em que havíamos reparado durante o dia.@@@@1@15@@@
+1005720@@@@1@@Seu queixo estava caído, os olhos fixos, num olhar rígido, hediondo, dirigidos a um canto do teto.@@@@1@17@@@
+1005730@@@@1@@Ao redor da testa tinha uma faixa amarela esquisita, com pintas castanhas, que parecia estar amarrada com força ao redor da sua cabeça.@@@@1@23@@@
+1005740@@@@1@@— A faixa!@@@@1@3@@@
+1005750@@@@1@@A faixa malhada!@@@@1@3@@@
+1005760@@@@1@@— cochichou Holmes.@@@@1@3@@@
+1005770@@@@1@@Dei um passo à frente.@@@@1@5@@@
+1005780@@@@1@@Nesse instante, o ornamento da cabeça começou a mover-se, e, de dentro do cabelo, levantou-se a cabeça chata, de forma triangular, e o pescoço inchado de uma serpente nojenta.@@@@1@29@@@
+1005790@@@@1@@— É uma cobra do brejo!@@@@1@6@@@
+1005800@@@@1@@— disse Holmes.@@@@1@3@@@
+1005810@@@@1@@— A cobra mais venenosa da Índia.@@@@1@7@@@
+1005820@@@@1@@Ele morreu em menos de um minuto depois de ser mordido; a violência, na verdade, recai sempre sobre os violentos; e o assassino cai sempre na cova que preparou para outro.@@@@1@31@@@
+1005830@@@@1@@Vamos obrigar esta criatura a voltar para o seu lugar, e então poderemos levar a srta. Stoner para algum abrigo seguro e contar à polícia o que aconteceu.@@@@1@28@@@
+1005840@@@@1@@Enquanto falava, retirou o chicote do colo do morto e, deitando o laço ao redor do pescoço do réptil, arrancou-o do seu poleiro macabro e, levando-o de braço estendido, atirou-o para dentro do cofre, cuja porta fechou cuidadosamente.@@@@1@38@@@
+1005850@@@@1@@Esses são os fatos verdadeiros a respeito da morte do dr. Grimesby Roylott, de Stoke Moran.@@@@1@16@@@
+1005860@@@@1@@Não é necessário que se prolongue a narrativa, que já se estendeu demais, para dizer como contamos a triste notícia à jovem aterrorizada, e como a levamos de trem pela manhã e a deixamos em Harrow.@@@@1@36@@@
+1005870@@@@1@@Também não contarei o progresso vagaroso das investigações oficiais, que enfim decidiram que o doutor fora morto quando brincava descuidadamente com um bicho perigoso.@@@@1@24@@@
+1005880@@@@1@@O pouco que ainda me faltava saber do caso foi-me relatado no nosso regresso no dia seguinte.@@@@1@17@@@
+1005890@@@@1@@— Eu havia chegado a uma conclusão completamente errônea, que demonstra, meu caro Watson, como é perigoso raciocinar com dados insuficientes.@@@@1@21@@@
+1005900@@@@1@@A presença dos ciganos, bem como a palavra “faixa”, que a pobre jovem usou, sem dúvida para explicar a visão horrível que teve à luz do fósforo, bastaram para me despistar.@@@@1@31@@@
+1005910@@@@1@@“Meu único mérito foi reconhecer o meu erro, quando percebi a evidência de que qualquer perigo que tivesse ameaçado a dona do quarto não poderia ter vindo da janela nem da porta.@@@@1@32@@@
+1005920@@@@1@@Chamaram a minha atenção a tal abertura e a corda da campainha tão perto da cama.@@@@1@16@@@
+1005930@@@@1@@Achei também esquisito que a cama fosse fixa e a campainha, somente um disfarce, cuja corda vinha diretamente da abertura para a cama; tudo isso me deu a ideia de que era para a descida de qualquer coisa de um ponto ao outro, e pensei logo numa cobra, ainda mais sabendo que o doutor possuía vários animais da Índia.@@@@1@59@@@
+1005940@@@@1@@Assim, pensei que estava na pista certa.@@@@1@7@@@
+1005950@@@@1@@A ideia de uma forma de envenenamento que não pudesse ser descoberta por testes químicos era justamente o que serviria para um homem astuto e cruel, que aprendera essas coisas no Oriente.@@@@1@32@@@
+1005960@@@@1@@A rapidez com que tal veneno faria efeito era considerada por ele uma vantagem.@@@@1@14@@@
+1005970@@@@1@@O médico-legista teria de ser muito perspicaz para dar com os dois pontinhos escuros onde os dentes da cobra haviam picado, introduzindo o veneno.@@@@1@24@@@
+1005980@@@@1@@Depois lembrei-me do assobio.@@@@1@4@@@
+1005990@@@@1@@Era preciso recolher a cobra antes que chegasse a luz do dia, para que a vítima não a visse.@@@@1@19@@@
+1006000@@@@1@@Ele tinha treinado a cobra, talvez com o uso do leite que vimos.@@@@1@13@@@
+1006010@@@@1@@Introduzia-a pela abertura, tendo a certeza de que ela desceria pela corda e chegaria à cama, podendo ou não morder a ocupante.@@@@1@22@@@
+1006020@@@@1@@Talvez ela escapasse todas as noites, durante uma semana inteira, porém, mais cedo ou mais tarde, seria vitimada.@@@@1@18@@@
+1006030@@@@1@@Já havia formulado essas ideias antes de entrarmos no quarto do doutor.@@@@1@12@@@
+1006040@@@@1@@Quando o inspecionei, vi que ele tinha o hábito de subir na cadeira, o que era necessário para poder alcançar a abertura.@@@@1@22@@@
+1006050@@@@1@@“Quando vi o cofre e o pires de leite, o laço feito com a corda do chicote, tudo isso fez desaparecer qualquer sombra de dúvida.@@@@1@25@@@
+1006060@@@@1@@O som de metal que a srta. Stoner ouviu foi, com certeza, causado pelo bater da porta do cofre sobre sua terrível ocupante.@@@@1@23@@@
+1006070@@@@1@@Uma vez convencido de que estava na pista certa, você deve estar lembrado dos passos que dei para pôr à prova as ideias.@@@@1@23@@@
+1006080@@@@1@@Ouvi o bicho assobiar, suponho que você também ouviu, e imediatamente acendi a luz e o ataquei.”@@@@1@17@@@
+1006090@@@@1@@— Com o fito de impeli-lo a voltar pela abertura.@@@@1@10@@@
+1006100@@@@1@@— E também com o intuito de fazê-lo revoltar-se contra o próprio dono do outro lado.@@@@1@16@@@
+1006110@@@@1@@Algumas das pancadas acertaram nele e despertaram-lhe a fúria, e por isso se lançou sobre a primeira pessoa que viu.@@@@1@20@@@
+1006120@@@@1@@Assim, sou indiretamente responsável pela morte do dr. Grimesby Roylott, mas não posso dizer que isso me pese muito na consciência.@@@@1@21@@@

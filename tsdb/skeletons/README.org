@@ -106,3 +106,5 @@ pandoc -f html+smart -t plain -o sh-faixa.txt sh-faixa.html
 
 using emacs, paragraphs converted to `@`, then line breaks converted
 to space and finally the `@` to line breaks.
+
+awk 'BEGIN {OFS="@"; n=1000010; print "i-id","i-input"} {print n,$0; n = n + 10}' sh-faixa.sent > sh-faixa.csv
