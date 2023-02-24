@@ -1521,7 +1521,9 @@ head-comp-phrase := basic-head-1st-comp-phrase & head-initial &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.INIT + ].
 
 subj-head-phrase := decl-head-subj-phrase & head-final &
-  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+  [ SYNSEM [ LOCAL.CONT.HOOK.INDEX.SF #sf,
+	     PUNCT.RPUNCT.PSF #sf ],
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < >,
     NON-HEAD-DTR.SYNSEM.NON-LOCAL.QUE.LIST < > ].
 
 ; Bare NP phrase.  Consider modifying the PRED value of the quantifier relation

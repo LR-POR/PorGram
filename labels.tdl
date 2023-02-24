@@ -228,3 +228,7 @@ nump-label := label &
 				  VAL [ COMPS < >,
 					SPR < > ]],
 	       LABEL-NAME "NUMP" ].
+
+punct-label := label &
+	     [ SYNSEM.LOCAL.CAT.HEAD punct-hd,
+	       LABEL-NAME "PT" ].
