@@ -1,664 +1,665 @@
 i-id@i-input@i-wf
-10@a artista imita quaisquer gatos@1
-20@a artista imita qualquer gato@1
-30@a artista nua é francesa@1
-40@a artista partiu para a briga@1
-50@a artista planeja matar a ratazana@1
-60@a artista prometeu a o estudante matar a ratazana@1
-70@a artista prometeu matar a ratazana@1
-80@a artista prometeu para o estudante matar a ratazana@1
-90@a artista tenciona matar a ratazana@1
-100@a artista tirou os óculos para o fotógrafo@1
-110@a artista vendeu a ratazana@1
-120@a artista vendeu muitos gatos@1
-130@a artista vendeu o gato@1
-140@a artista vendeu vários gatos@1
-150@a artista é feliz@1
-160@a empresa abriu-se para o mercado@1
-170@a estudante convenceu o artista a impedir o estudante de matar a ratazana@1
-180@a estudante convenceu o artista a matar a ratazana@1
-190@a estudante disse a o artista a trazer uma bola@0
-200@a estudante disse a o artista de trazer uma bola@0
-210@a estudante disse a o artista para trazer uma bola@1
-220@a estudante disse a o artista que trazer uma bola@0
-230@a estudante disse a os artistas a trazerem uma bola@0
-240@a estudante disse a os artistas de trazerem uma bola@0
-250@a estudante disse a os artistas para trazer uma bola@1
-260@a estudante disse a os artistas para trazerem uma bola@1
-270@a estudante disse a os artistas que trazerem uma bola@0
-280@a estudante disse para o artista para trazer uma bola@1
-290@a estudante fez os cachorros persegue a ratazana@0
-300@a estudante fez os cachorros perseguem a ratazana@0
-310@a estudante fez os cachorros perseguindo a ratazana@0
-320@a estudante fez os cachorros perseguir a ratazana@1
-330@a estudante fez os cachorros perseguirem a ratazana@1
-340@a estudante forçou o artista a matar a ratazana@1
-350@a estudante impediu o artista de matar a ratazana@1
-360@a estudante obrigou o artista a matar a ratazana@1
-370@a estudante persuadiu o artista a matar a ratazana@1
-380@a estudante proibiu o artista de matar a ratazana@1
-390@a janela dava para o quintal@1
-400@a lagartinha admira o cachorro@1
-410@a lagartinha é feroz@1
-420@a lagartinha é feroza@0
-430@a lagartinha é inteligenta@0
-440@a lagartinha é inteligente@1
-450@a lagartinha é inteligentea@0
-460@a lagartona admira o cachorro@1
-470@a porta abriu-se@1
-480@a porta abriu@1
-490@a quem eles irão entregar o cachorro@1
-500@a quem o cachorro obedece@1
-510@a ratazana amarela ladrou@1
-520@a ratazana feliz ladrou@1
-530@a ratazana simples é feliz@1
-540@a ratazana triste ladrou@1
-550@a ratazana é amarela@1
-560@a ratazana é amarelo@0
-570@a ratazana é feliz@1
-580@a ratazana é simples@1
-590@algum gato perseguiu a ratazana@1
-600@alguma ratazana perseguiu o gato@1
-610@alguns gatos perseguiram a ratazana@1
-620@ambas artistas dormem@1
-630@ambas as artistas dormem@1
-640@ambos gatos dormem@1
-650@ambos os gatos dormem@1
-660@anda perseguindo o gato@1
-670@andavam perseguindo o gato@1
-680@aquela artista imitou um gato@1
-690@aqueles impostos incidiam sobre o consumo@1
-700@artistas amarelas são felizes@1
-710@artistas amarelos são felizes@1
-720@artistas simples são amarelas@1
-730@artistas simples são amarelos@1
-740@artistas simples são felizes@1
-750@as artistas amarelas são felizes@1
-760@as artistas amarelos são felizes@0
-770@as artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes@1
-780@as artistas tinham começando a detestar que os cachorros não obedecessem a os estudantes@0
-790@as artistas venderam muitas ratazanas@1
-800@as artistas venderam muitos gatos@1
-810@as artistas venderam várias ratazanas@1
-820@as artistas venderam vários gatos@1
-830@as aulas combinam teoria com prática@1
-840@as lagartinhas admiram o cachorro@1
-850@as lagartinhas são ferozas@0
-860@as lagartinhas são ferozeas@0
-870@as lagartinhas são ferozes@1
-880@as lagartinhas são inteligentes@1
-890@as lagartonas admiram o cachorro@1
-900@as ratazanas amarelas ladraram@1
-910@as ratazanas felizes ladraram@1
-920@as ratazanas são amarelas@1
-930@as ratazanas são felizes@1
-940@as ratazanas são simples@1
-950@as ratazanas são tristes@1
-960@as ratazanas tristes ladraram@1
-970@cada gato latiu@1
-980@cada ratazana teme algum gato@1
-990@certo gato dorme@1
-1000@certo gato matou duas ratazanas@1
-1010@certos gatos mataram certas ratazanas@1
-1020@chegamos@1
-1030@chegou o tabaco@1
-1040@chegou tabaco@1
-1050@chegou@1
-1060@cheguei@1
-1070@comentei os beijos com uma amiga@1
-1080@de quem o cachorro gosta@1
-1090@depararam-se com uma estranha normalidade@1
-1100@duas ratazanas caçaram aquele cachorro@1
-1110@ela fez em que o gato dormisse@0
-1120@ela fez para que o gato dormisse@0
-1130@ela insistiu com que o gato dormisse@0
-1140@ela insistiu para que o gato dormisse@1
-1150@ela responde por o pagamento@1
-1160@ele caiu em o ostracismo@1
-1170@ele culpou o artista de homicídio@1
-1180@ele deixou os cachorros perseguir a ratazana@1
-1190@ele deixou os cachorros perseguirem a ratazana@1
-1200@ele deixou os cachorros sair@1
-1210@ele deixou os cachorros saírem@1
-1220@ele doou a bicicleta a o artista@1
-1230@ele doou a bicicleta para o artista@1
-1240@ele ficou de discutir a questão com a professora@1
-1250@ele lamenta ladrar@1
-1260@ele lamenta ladrarmos@1
-1270@ele lamenta nós ladrarmos@1
-1280@ele referia-se a um longo telefonema@1
-1290@ele trocaria a preocupação por a descontração@1
-1300@ele vai entregar a bola a o gato@1
-1310@ele vai entregar a bola para o gato@1
-1320@eles estão felizes@1
-1330@eles lamentam ladrar@1
-1340@eles não conseguiram acabar com a pobreza@1
-1350@eles queixaram-se@1
-1360@eles queixaram@0
-1370@eles querem revestir o piso com madeira@1
-1380@eles têm contribuído para que o artista não caia em o esquecimento@1
-1390@essa artista imitou este gato@1
-1400@essas ratazanas caçaram aquele cachorro@1
-1410@esse gato persegue qualquer ratazana@1
-1420@esse imposto incide sobre a renda@1
-1430@esses gatos perseguem quaisquer ratazanas@1
-1440@estas ratazanas caçaram aqueles cachorros@1
-1450@estes gatos mataram esta ratazana@1
-1460@estão chegando@1
-1470@eu aprovo concorrer@0
-1480@eu aprovo eu concorrer@0
-1490@eu aprovo que concorro@0
-1500@eu aprovo que tenhas concorrido@1
-1510@eu aprovo que tu tenhas concorrido@1
-1520@eu aprovo teres concorrido@1
-1530@eu aprovo tu teres concorrido@1
-1540@eu autorizei os alunos a escrever a carta@1
-1550@eu autorizei os alunos a escreverem a carta@1
-1560@eu autorizei os alunos a que escrevessem a carta@1
-1570@eu autorizei que os alunos escrevessem a carta@1
-1580@eu estou feliz@1
-1590@eu fui chegando@1
-1600@eu ia chegando@1
-1610@eu lamento ladrares@1
-1620@eu lamento tu ladrares@1
-1630@eu pedi com que ela entregasse a bola a o gato@0
-1640@eu pedi em que ela entregasse a bola a o gato@0
-1650@eu pedi para que ela entregasse a bola a o gato@1
-1660@eu pedi para que ela entregasse a bola para o gato@1
-1670@eu percebi que os gatos dormiam@1
-1680@eu percebi que os gatos dormissem@0
-1690@eu queixei-me@1
-1700@eu queixei@0
-1710@eu quero que os gatos dormem@0
-1720@eu quero que os gatos durmam@1
-1730@haviam chegado@1
-1740@lamento ladrares@1
-1750@muitos gatos caçaram três ratazanas@1
-1760@muitos gatos dormem@1
-1770@nenhum artista dormiu@1
-1780@nenhum gato conseguiu caçar uma ratazana@1
-1790@nenhuma artista dormiu@1
-1800@nenhumas artistas dormiram@1
-1810@nenhuns artistas dormiram@1
-1820@não chegou@1
-1830@não haviam chegado@1
-1840@não perseguimos o gato@1
-1850@não sei o que eles entregavam a o artista@1
-1860@não sei o que eles entregavam para o artista@1
-1870@nós estamos felizes@1
-1880@nós fomos chegando@1
-1890@nós vamos entregar o cachorro a o artista@1
-1900@nós vamos entregar o cachorro para o artista@1
-1910@o João insistiu em acabar o trabalho@1
-1920@o João insistiu em que os alunos acabassem o trabalho@1
-1930@o artista caminhou para a cidade@1
-1940@o artista contou a o estudante que o gato tinha matado uma ratazana@1
-1950@o artista contou para o estudante que o gato tinha matado uma ratazana@1
-1960@o artista detesta que eles atraíam o gato@1
-1970@o artista detesta que o cachorro atraía o gato@1
-1980@o artista detesta que tu atraías o gato@1
-1990@o artista dividiu a cena com a estudante@1
-2000@o artista doa uma bicicleta a o estudante@1
-2010@o artista doa uma bicicleta de o estudante@0
-2020@o artista doa uma bicicleta o estudante@0
-2030@o artista doa uma bicicleta para o estudante@1
-2040@o artista exigiu que o cachorro não perseguisse o gato@1
-2050@o artista ignora a quem o cachorro obedece@1
-2060@o artista ignora quais cachorros latem@1
-2070@o artista ignora quais gatos os cachorros querem perseguir@1
-2080@o artista ignora quem está perseguindo os gatos@1
-2090@o artista ignora quem tem perseguido os gatos@1
-2100@o artista ignora se os cachorros andam perseguindo os gatos@1
-2110@o artista ignora se os cachorros perseguem os gatos@1
-2120@o artista ignora se os cachorros querem perseguir os gatos@1
-2130@o artista ilhéu admira a artista ilhoa@1
-2140@o artista insistiu a perseguir o cachorro@0
-2150@o artista insistiu de perseguir o cachorro@0
-2160@o artista insistiu em persegue o cachorro@0
-2170@o artista insistiu em perseguir o cachorro@1
-2180@o artista insistiu que os artistas vendessem o cachorro@1
-2190@o artista nu é francês@1
-2200@o artista não sabe quem quer perseguir os gatos@1
-2210@o artista perguntou a o estudante quais cachorros perseguiram o gato@1
-2220@o artista perguntou a o estudante quais gatos o cachorro perseguiu@1
-2230@o artista perguntou a o estudante quais ratazanas o cachorro perseguiu@1
-2240@o artista perguntou a o estudante quais ratazanas os cachorros perseguiram@1
-2250@o artista perguntou a o estudante quais ratazanas perseguiram o gato@1
-2260@o artista perguntou a o estudante qual cachorro perseguiu o gato@1
-2270@o artista perguntou a o estudante qual ratazana o gato perseguiu@1
-2280@o artista perguntou a o estudante qual ratazana perseguiu o gato@1
-2290@o artista perguntou a o estudante que cachorro perseguiu o gato@1
-2300@o artista perguntou a o estudante que cachorros perseguiram o gato@1
-2310@o artista perguntou a o estudante que gato o cachorro perseguiu@1
-2320@o artista perguntou a o estudante que gatos o cachorro perseguiu@1
-2330@o artista perguntou a o estudante que gatos os cachorros perseguiram@1
-2340@o artista perguntou a o estudante que ratazana o cachorro perseguiu@1
-2350@o artista perguntou a o estudante que ratazanas o cachorro perseguiu@1
-2360@o artista perguntou a o estudante que ratazanas os cachorros perseguiram@1
-2370@o artista perguntou a o estudante que ratazanas perseguiram o gato@1
-2380@o artista perguntou a o estudante quem o cachorro perseguiu@1
-2390@o artista perguntou a o estudante quem perseguiu o gato@1
-2400@o artista perguntou a o estudante se o cachorro perseguiu o gato@1
-2410@o artista perguntou a quem o cachorro estava obedecendo@1
-2420@o artista perguntou o que cachorro perseguiu@1
-2430@o artista perguntou quais cachorros perseguiram o gato@1
-2440@o artista perguntou quais gatos o cachorro perseguiu@1
-2450@o artista perguntou quais ratazanas o cachorro perseguiu@1
-2460@o artista perguntou quais ratazanas os cachorros perseguiram@1
-2470@o artista perguntou quais ratazanas perseguiram o gato@1
-2480@o artista perguntou qual cachorro perseguiu o gato@1
-2490@o artista perguntou qual ratazana o gato perseguiu@1
-2500@o artista perguntou qual ratazana perseguiu o gato@1
-2510@o artista perguntou que cachorro perseguiu o gato@1
-2520@o artista perguntou que cachorros perseguiram o gato@1
-2530@o artista perguntou que gato o cachorro perseguiu@1
-2540@o artista perguntou que gatos o cachorro perseguiu@1
-2550@o artista perguntou que gatos os cachorros perseguiram@1
-2560@o artista perguntou que o cachorro perseguiu@1
-2570@o artista perguntou que ratazana o cachorro perseguiu@1
-2580@o artista perguntou que ratazanas o cachorro perseguiu@1
-2590@o artista perguntou que ratazanas os cachorros perseguiram@1
-2600@o artista perguntou que ratazanas perseguiram o gato@1
-2610@o artista perguntou quem estava obedecendo a quem@1
-2620@o artista perguntou quem o cachorro perseguiu@1
-2630@o artista perguntou quem perseguiu o gato@1
-2640@o artista perguntou-se o que o cachorro perseguiu@1
-2650@o artista perguntou-se que cachorro perseguiu o gato@1
-2660@o artista perguntou-se que o cachorro perseguiu@1
-2670@o artista queixou-se de o cachorro@1
-2680@o artista sabe quem está perseguindo os gatos@1
-2690@o artista sabe quem quer perseguir os gatos@1
-2700@o artista sorriu@1
-2710@o artista tirou a camisa para a revista@1
-2720@o artista vendeu o lagartão@1
-2730@o artista é feliz@1
-2740@o cachorrinho vai ladrar@1
-2750@o cachorro acredita que o gato lata@1
-2760@o cachorro acredita que o gato late@1
-2770@o cachorro admira o gato@1
-2780@o cachorro admirar o gato@0
-2790@o cachorro admitiu que o gato latisse@1
-2800@o cachorro adora tais gatos@1
-2810@o cachorro adora tal gato@1
-2820@o cachorro afirmou que o gato lata@0
-2830@o cachorro afirmou que o gato late@1
-2840@o cachorro amarelo ladrou@1
-2850@o cachorro anda desejando perseguir o gato@1
-2860@o cachorro anda perseguindo o gato@1
-2870@o cachorro começou a late@0
-2880@o cachorro começou a latir@1
-2890@o cachorro começou de late@0
-2900@o cachorro começou de latir@0
-2910@o cachorro começou que late@0
-2920@o cachorro consentiu que o gato latisse@1
-2930@o cachorro continua desejando perseguir o gato@1
-2940@o cachorro continua latindo@1
-2950@o cachorro continua querendo perseguir o gato@1
-2960@o cachorro declarou que o gato lata@0
-2970@o cachorro declarou que o gato late@1
-2980@o cachorro depende a o artista@0
-2990@o cachorro depende de o artista@1
-3000@o cachorro depende o artista@0
-3010@o cachorro desejou latir@1
-3020@o cachorro disse que o gato latisse@1
-3030@o cachorro está desejando perseguir o gato@1
-3040@o cachorro está indo dormir@1
-3050@o cachorro está indo parar de latir@1
-3060@o cachorro está latindo@1
-3070@o cachorro está parando de latir@1
-3080@o cachorro está perseguido o gato@0
-3090@o cachorro está perseguindo o gato@1
-3100@o cachorro está querendo perseguir o gato@1
-3110@o cachorro está triste@1
-3120@o cachorro está-se triste@0
-3130@o cachorro evitou que o gato perseguisse a ratazana@1
-3140@o cachorro exigiu que o gato latisse@1
-3150@o cachorro exigiu que o gato não latisse@1
-3160@o cachorro feliz ladrou@1
-3170@o cachorro gosta de o artista@1
-3180@o cachorro havia chegado@1
-3190@o cachorro impediu que o gato perseguisse a ratazana@1
-3200@o cachorro ladra@1
-3210@o cachorro ladrar@0
-3220@o cachorro ladraram@0
-3230@o cachorro ladrou-se@0
-3240@o cachorro ladrou@1
-3250@o cachorro lata@0
-3260@o cachorro late@1
-3270@o cachorro latiu@1
-3280@o cachorro não impediu que o gato perseguisse a ratazana@1
-3290@o cachorro obedece a o artista@1
-3300@o cachorro obedece de o artista@0
-3310@o cachorro obedece o artista@0
-3320@o cachorro ordenou que o gato latisse@1
-3330@o cachorro ousou desejar latir@1
-3340@o cachorro ousou latir@1
-3350@o cachorro parou a late@0
-3360@o cachorro parou a latir@0
-3370@o cachorro parou de late@0
-3380@o cachorro parou de latir@1
-3390@o cachorro parou que late@0
-3400@o cachorro perguntou se o gato lata@0
-3410@o cachorro perguntou se o gato late@1
-3420@o cachorro perguntou-se se o gato latiu@1
-3430@o cachorro permitiu que o gato latisse@1
-3440@o cachorro perseguiu o gato@1
-3450@o cachorro perseguiu quais gatos@1
-3460@o cachorro perseguiu qual gato@1
-3470@o cachorro perseguiu que gato@1
-3480@o cachorro perseguiu quem@1
-3490@o cachorro queixou-se@1
-3500@o cachorro quer que o gato lata@1
-3510@o cachorro quer que o gato late@0
-3520@o cachorro se perguntou se o gato latiu@1
-3530@o cachorro são felizes@0
-3540@o cachorro tem a obedecer a o artista@0
-3550@o cachorro tem de obedece a o artista@0
-3560@o cachorro tem de obedecer a o artista@1
-3570@o cachorro tem em obedecer a o artista@0
-3580@o cachorro tem estado perseguido o gato@0
-3590@o cachorro tem estado perseguindo o gato@1
-3600@o cachorro tem insistido em começar a latir@1
-3610@o cachorro tem latido@1
-3620@o cachorro tem perseguido o gato@1
-3630@o cachorro tem perseguindo o gato@0
-3640@o cachorro tem que obedece a o artista@0
-3650@o cachorro tem que obedecer a o artista@1
-3660@o cachorro tinha começado a latir@1
-3670@o cachorro tinha insistido em parar de latir@1
-3680@o cachorro tinha parado de latir@1
-3690@o cachorro triste ladrou@1
-3700@o cachorro vai começar a latir@1
-3710@o cachorro vai desejar perseguir o gato@1
-3720@o cachorro vai estar dormindo@1
-3730@o cachorro vai ladrar@1
-3740@o cachorro vai latir@1
-3750@o cachorro vai parar de latir@1
-3760@o cachorro vai querer começar a latir@1
-3770@o cachorro vai querer perseguir o gato@1
-3780@o cachorro vem desejando perseguir o gato@1
-3790@o cachorro vem perseguindo o gato@1
-3800@o cachorro vinha desejando perseguir o gato@1
-3810@o cachorro vinha perseguindo o gato@1
-3820@o cachorro vive desejando perseguir o gato@1
-3830@o cachorro vive perseguindo o gato@1
-3840@o cachorro é amarela@0
-3850@o cachorro é feliz@1
-3860@o cachorro é felizes@0
-3870@o cachorro é feroz@1
-3880@o cachorro é inteligente@1
-3890@o cachorro é-se triste@0
-3900@o cliente insistiu em que os artistas vendessem o cachorro@1
-3910@o diretor reduziu os professores para a metade@1
-3920@o estudante perguntou quem estava obedecendo a o artista@1
-3930@o gato adora tais ratazanas@1
-3940@o gato adora tal ratazana@1
-3950@o gato continua latindo@1
-3960@o gato deseja latir@1
-3970@o gato detesta latir@1
-3980@o gato detesta que o cachorro esteja latindo@1
-3990@o gato detesta que o cachorro está latindo@0
-4000@o gato detesta que o cachorro tem latido@0
-4010@o gato detesta que o cachorro tenha latido@1
-4020@o gato detesta que os cachorros estejam latindo@1
-4030@o gato detesta que os cachorros ladram@0
-4040@o gato detesta que os cachorros ladrem@1
-4050@o gato detesta que os cachorros latam@1
-4060@o gato detesta que os cachorros latem@0
-4070@o gato detesta que os cachorros tenham ladrado@1
-4080@o gato detesta que os cachorros tenham latido@1
-4090@o gato detestava que o cachorro estivesse latindo@1
-4100@o gato detestou que o cachorro latisse@1
-4110@o gato detestou que o cachorro tem latido@0
-4120@o gato detestou que o cachorro tenha latido@1
-4130@o gato detestou que o cachorro tivesse latido-se@0
-4140@o gato detestou que o cachorro tivesse latido@1
-4150@o gato detestou que o cachorro tivesse queixado-se@1
-4160@o gato detestou que o cachorro tivesse-se latido@0
-4170@o gato dorme@1
-4180@o gato está conseguindo dormir@1
-4190@o gato está feliz@1
-4200@o gato está precisando dormir@1
-4210@o gato está tentando dormir@1
-4220@o gato fez com que os cachorros ladrassem@1
-4230@o gato fez com que os cachorros latissem@1
-4240@o gato fez os cachorros ladra@0
-4250@o gato fez os cachorros ladram@0
-4260@o gato fez os cachorros ladrando@0
-4270@o gato fez os cachorros ladrar@1
-4280@o gato fez os cachorros ladrarem@1
-4290@o gato fez os cachorros late@0
-4300@o gato fez os cachorros latem@0
-4310@o gato fez os cachorros latindo@0
-4320@o gato fez os cachorros latir@1
-4330@o gato fez os cachorros latirem@1
-4340@o gato fez que os cachorros ladram@0
-4350@o gato fez que os cachorros ladrassem@1
-4360@o gato fez que os cachorros latem@0
-4370@o gato fez que os cachorros latissem@1
-4380@o gato imita aqueles cachorros@1
-4390@o gato lamenta o cachorro ladrar@1
-4400@o gato lamenta os cachorros ladrar@0
-4410@o gato lamenta os cachorros ladrarem@1
-4420@o gato lamenta os cachorros tenham ladrado@0
-4430@o gato lamenta os cachorros ter ladrado@0
-4440@o gato lamenta os cachorros terem ladrado@1
-4450@o gato lamenta os cachorros têm ladrado@0
-4460@o gato mandou os cachorros ladrar@1
-4470@o gato mandou os cachorros ladrarem@1
-4480@o gato mandou os cachorros latir@1
-4490@o gato mandou os cachorros latirem@1
-4500@o gato mandou que os cachorros ladram@0
-4510@o gato mandou que os cachorros ladrar@0
-4520@o gato mandou que os cachorros ladrassem@1
-4530@o gato mandou que os cachorros latem@0
-4540@o gato mandou que os cachorros latissem@1
-4550@o gato matou a ratazana@1
-4560@o gato matou as ratazanas@1
-4570@o gato não está conseguindo dormir@1
-4580@o gato não está precisando dormir@1
-4590@o gato não está tentando dormir@1
-4600@o gato não tem conseguido dormir@1
-4610@o gato não vai conseguir dormir@1
-4620@o gato não vai estar precisando dormir@1
-4630@o gato não vai tentar dormir@1
-4640@o gato obedeceu a o cachorro@1
-4650@o gato obedeceu o cachorro@0
-4660@o gato ousou latir@1
-4670@o gato ouviu os cachorros ladrar@1
-4680@o gato ouviu os cachorros ladrarem@1
-4690@o gato ouviu os cachorros latido@0
-4700@o gato ouviu os cachorros latindo@1
-4710@o gato ouviu os cachorros latir@1
-4720@o gato ouviu os cachorros latirem@1
-4730@o gato ouviu que os cachorros ladrassem@0
-4740@o gato ouviu que os cachorros ladravam@1
-4750@o gato ouviu que os cachorros latiam@1
-4760@o gato ouviu que os cachorros latissem@0
-4770@o gato parece latir@1
-4780@o gato percebeu que o cachorro dormia@1
-4790@o gato percebeu que o cachorro dormisse@0
-4800@o gato perguntou se o cachorro ladrado@0
-4810@o gato perguntou se o cachorro ladrar@0
-4820@o gato perguntou se o cachorro ladre@0
-4830@o gato perguntou se o cachorro ter ladrado@0
-4840@o gato perguntou se o cachorro tiver ladrado@0
-4850@o gato perguntou se os cachorros ladrando@0
-4860@o gato perguntou se os cachorros ladrarem@0
-4870@o gato perguntou se os cachorros terem ladrado@0
-4880@o gato perguntou se os cachorros tiverem ladrado@0
-4890@o gato perseguiu aquelas ratazanas@1
-4900@o gato pode latir@1
-4910@o gato prefere dormir@1
-4920@o gato quer o cachorro ladrado@0
-4930@o gato quer o cachorro ladrar@0
-4940@o gato quer o cachorro terem ladrado@0
-4950@o gato quer os cachorros ladrarem@0
-4960@o gato quer os cachorros ladrem@0
-4970@o gato quer os cachorros tenham ladrado@0
-4980@o gato quer os cachorros ter ladrado@0
-4990@o gato quer os cachorros terem ladrado@0
-5000@o gato quer que o cachorro ladrar@0
-5010@o gato quer que os cachorros ladrarem@0
-5020@o gato quer que os cachorros ladrem@1
-5030@o gato quer que os cachorros tenham ladrado@1
-5040@o gato quer que os cachorros terem ladrado@0
-5050@o gato quer que os cachorros têm ladrado@0
-5060@o gato queria que o cachorro dormia@0
-5070@o gato queria que o cachorro dormisse@1
-5080@o gato sabe quais cachorros latem@1
-5090@o gato sabe que os cachorros ladram@1
-5100@o gato sabe que os cachorros ladrem@0
-5110@o gato sabe que os cachorros latam@0
-5120@o gato sabe que os cachorros latem@1
-5130@o gato sabia que os cachorros ladrassem@0
-5140@o gato sabia que os cachorros ladravam@1
-5150@o gato sabia que os cachorros latiam@1
-5160@o gato sabia que os cachorros latissem@0
-5170@o gato tem conseguido dormir@1
-5180@o gato tem precisado dormir@1
-5190@o gato vai conseguir dormir@1
-5200@o gato vai estar precisando dormir@1
-5210@o gato vai tentar dormir@1
-5220@o gato é simples@1
-5230@o jogador falou uma bobagem sobre o time@1
-5240@o jogador integrou-se em as movimentações@1
-5250@o juiz converteu a prisão em multa@1
-5260@o lagartão admira o cachorro@1
-5270@o país abriu-se para o mundo@1
-5280@o país passou de euforia para depressão@1
-5290@o que o cachorro perseguiu@1
-5300@o regime caracterizava-se por a austeridade@1
-5310@o tabaco chegou@1
-5320@os artistas amarelas são felizes@0
-5330@os artistas amarelos são felizes@1
-5340@os artistas beirões admiram as artistas beiroas@1
-5350@os artistas ilhéus admiram as artistas ilhoas@1
-5360@os artistas ingleses admiram as artistas hebreias@1
-5370@os artistas ingleses admiram as artistas judias@1
-5380@os artistas insistiram em perseguirem o cachorro@0
-5390@os artistas perguntavam-se quem tencionava obedecendo a o estudante@0
-5400@os artistas perguntavam-se quem tencionava obedecer a o estudante@1
-5410@os artistas sorriram@1
-5420@os artistas são felizes@1
-5430@os artistas venderam o cachorro@1
-5440@os cachorrinhos amarelões são ferozes@1
-5450@os cachorrinhos amarelõezinhos são ferozes@1
-5460@os cachorrinhos vão ladrar@1
-5470@os cachorros admiraram o gato@1
-5480@os cachorros admirarem o gato@0
-5490@os cachorros amarelas ladraram@0
-5500@os cachorros amarelo ladraram@0
-5510@os cachorros amarelos ladraram@1
-5520@os cachorros disseram que o gato latisse@1
-5530@os cachorros estavam dizendo que o gato latisse@1
-5540@os cachorros estão chegando@1
-5550@os cachorros estão tristes@1
-5560@os cachorros felizes ladraram@1
-5570@os cachorros foram chegando@1
-5580@os cachorros haviam chegado@1
-5590@os cachorros iam chegando@1
-5600@os cachorros ladram@1
-5610@os cachorros ladraram@1
-5620@os cachorros ladrarem@0
-5630@os cachorros ladrou@0
-5640@os cachorros não haviam chegado@1
-5650@os cachorros não haviam tentado dormir@1
-5660@os cachorros são amarelos@1
-5670@os cachorros são feliz@0
-5680@os cachorros são felizes@1
-5690@os cachorros são tristes@1
-5700@os cachorros tinham dito que o gato latisse@1
-5710@os cachorros tristes ladraram@1
-5720@os cachorros vai ladrar@0
-5730@os cachorros vai ladrarem@0
-5740@os cachorros vão chegando@1
-5750@os cachorros vão ladrar@1
-5760@os cachorros vão ladrarem@0
-5770@os cachorros é feliz@0
-5780@os cachorros é felizes@0
-5790@os clientes poderão servir-se de o ravióli@1
-5800@os estudantes partiram para o sertão@1
-5810@os feliz cachorros ladraram@0
-5820@os felizes cachorros ladraram@1
-5830@os gatos dormem@1
-5840@os gatos mataram a ratazana@1
-5850@os gatos queixaram-se@1
-5860@os gatos são simples@1
-5870@os gatos é simples@0
-5880@os hospitais consumiam uma fortuna com internações@1
-5890@os lagartãos admiram o cachorro@0
-5900@os lagartões admiram o cachorro@1
-5910@outro gato perseguiu umas ratazanas@1
-5920@perguntei-me a quem o cachorro estava obedecendo@1
-5930@perguntei-me a quem o cachorro estava obedecido@0
-5940@perguntei-me de quem o cachorro estava obedecendo@0
-5950@perseguimos o gato@1
-5960@poucos gatos caçaram três ratazanas@1
-5970@poucos gatos dormem@1
-5980@quais cachorros ladraram@1
-5990@quais gatos o cachorro perseguiu@1
-6000@quais gatos perseguiram o cachorro@1
-6010@quais ratazanas o cachorro perseguiu@1
-6020@quais ratazanas perseguiram o cachorro@1
-6030@qual cachorro latiu@1
-6040@qual gato o cachorro perseguiu@1
-6050@qual gato perseguiu o cachorro@1
-6060@qual ratazana o cachorro perseguiu@1
-6070@qual ratazana perseguiu o cachorro@1
-6080@quanta ratazana a artista vendeu@1
-6090@quanta ratazana as artistas venderam@1
-6100@quanta ratazana dorme@1
-6110@quanta ratazana o gato caçou@1
-6120@quantas ratazanas a artista vendeu@1
-6130@quantas ratazanas as artistas venderam@1
-6140@quantas ratazanas caçaram o gato@1
-6150@quantas ratazanas dormem@1
-6160@quantas ratazanas o gato caçou@1
-6170@quanto gato a artista vendeu@1
-6180@quanto gato as artistas venderam@1
-6190@quanto tabaco a artista vendeu@1
-6200@quantos gatos a artista vendeu@1
-6210@quantos gatos a ratazana caçou@1
-6220@quantos gatos as artistas venderam@1
-6230@quantos gatos caçaram a ratazana@1
-6240@quantos gatos dormem@1
-6250@que cachorro latiu@1
-6260@que gato o cachorro perseguiu@1
-6270@que gato perseguiu o cachorro@1
-6280@que gatos o cachorro perseguiu@1
-6290@que gatos perseguiram o cachorro@1
-6300@que o cachorro perseguiu@1
-6310@que ratazana o cachorro perseguiu@1
-6320@que ratazana perseguiu o cachorro@1
-6330@que ratazanas o cachorro perseguiu@1
-6340@que ratazanas perseguiram o cachorro@1
-6350@quem está perseguindo os gatos@1
-6360@quem não quer perseguir os gatos@1
-6370@quem o cachorro perseguiu@1
-6380@quem quer perseguir os gatos@1
-6390@reparei em a bandeira@1
-6400@será que a estudante adora o cachorro@1
-6410@será que ela está pensando em mim@1
-6420@será que eles irão entregar o cachorro a o artista@1
-6430@será que eles irão entregar o cachorro para o artista@1
-6440@será que o cachorro latiu@1
-6450@será que o cliente adora o cachorro@1
-6460@tabaco chegou@1
-6470@tive de dividir os alunos em grupos@1
-6480@toda ratazana teme o gato@1
-6490@todas as ratazanas temem o gato@1
-6500@todas ratazanas temem o gato@1
-6510@todo gato teme o cachorro@1
-6520@todos gatos perseguiram algum cão@1
-6530@todos gatos perseguiram alguma ratazana@1
-6540@todos gatos perseguiram algumas ratazanas@1
-6550@todos gatos perseguiram alguns cães@1
-6560@todos gatos temem o cachorro@1
-6570@todos os gatos perseguiram algum cão@1
-6580@todos os gatos temem o cachorro@1
-6590@três ratazanas caçaram aquele cachorro@1
-6600@tu estás feliz@1
-6610@uma artista imitou aquele gato@1
-6620@vamos reduzir os professores para a metade@1
-6630@vós estais felizes@1
+10@A artista imita quaisquer gatos.@1
+20@A artista imita qualquer gato.@1
+30@A artista nua é francesa.@1
+40@A artista partiu para a briga.@1
+50@A artista planeja matar a ratazana.@1
+60@A artista prometeu a o estudante matar a ratazana.@1
+70@A artista prometeu matar a ratazana.@1
+80@A artista prometeu para o estudante matar a ratazana.@1
+90@A artista tenciona matar a ratazana.@1
+100@A artista tirou os óculos para o fotógrafo.@1
+110@A artista vendeu a ratazana.@1
+120@A artista vendeu muitos gatos.@1
+130@A artista vendeu o gato.@1
+140@A artista vendeu vários gatos.@1
+150@A artista é feliz.@1
+160@A empresa abriu-se para o mercado.@1
+170@A estudante convenceu o artista a impedir o estudante de matar a ratazana.@1
+180@A estudante convenceu o artista a matar a ratazana.@1
+190@A estudante disse a o artista a trazer uma bola.@0
+200@A estudante disse a o artista de trazer uma bola.@0
+210@A estudante disse a o artista para trazer uma bola.@1
+220@A estudante disse a o artista que trazer uma bola.@0
+230@A estudante disse a os artistas a trazerem uma bola.@0
+240@A estudante disse a os artistas de trazerem uma bola.@0
+250@A estudante disse a os artistas para trazer uma bola.@1
+260@A estudante disse a os artistas para trazerem uma bola.@1
+270@A estudante disse a os artistas que trazerem uma bola.@0
+280@A estudante disse para o artista para trazer uma bola.@1
+290@A estudante fez os cachorros persegue a ratazana.@0
+300@A estudante fez os cachorros perseguem a ratazana.@0
+310@A estudante fez os cachorros perseguindo a ratazana.@0
+320@A estudante fez os cachorros perseguir a ratazana.@1
+330@A estudante fez os cachorros perseguirem a ratazana.@1
+340@A estudante forçou o artista a matar a ratazana.@1
+350@A estudante impediu o artista de matar a ratazana.@1
+360@A estudante obrigou o artista a matar a ratazana.@1
+370@A estudante persuadiu o artista a matar a ratazana.@1
+380@A estudante proibiu o artista de matar a ratazana.@1
+390@A janela dava para o quintal.@1
+400@A lagartinha admira o cachorro.@1
+410@A lagartinha é feroz.@1
+420@A lagartinha é feroza.@0
+430@A lagartinha é inteligenta.@0
+440@A lagartinha é inteligente.@1
+450@A lagartinha é inteligentea.@0
+460@A lagartona admira o cachorro.@1
+470@A porta abriu-se.@1
+480@A porta abriu.@1
+490@A quem eles irão entregar o cachorro?@1
+500@A quem o cachorro obedece?@1
+510@A ratazana amarela ladrou.@1
+520@A ratazana feliz ladrou.@1
+530@A ratazana simples é feliz.@1
+540@A ratazana triste ladrou.@1
+550@A ratazana é amarela.@1
+560@A ratazana é amarelo.@0
+570@A ratazana é feliz.@1
+580@A ratazana é simples.@1
+590@Algum gato perseguiu a ratazana.@1
+600@Alguma ratazana perseguiu o gato.@1
+610@Alguns gatos perseguiram a ratazana.@1
+620@Ambas artistas dormem.@1
+630@Ambas as artistas dormem.@1
+640@Ambos gatos dormem.@1
+650@Ambos os gatos dormem.@1
+660@Anda perseguindo o gato.@1
+670@Andavam perseguindo o gato.@1
+680@Aquela artista imitou um gato.@1
+690@Aqueles impostos incidiam sobre o consumo.@1
+700@Artistas amarelas são felizes.@1
+710@Artistas amarelos são felizes.@1
+720@Artistas simples são amarelas.@1
+730@Artistas simples são amarelos.@1
+740@Artistas simples são felizes.@1
+750@As artistas amarelas são felizes.@1
+760@As artistas amarelos são felizes.@0
+770@As artistas tinham começado a detestar que os cachorros não obedecessem a os estudantes.@1
+780@As artistas tinham começando a detestar que os cachorros não obedecessem a os estudantes.@0
+790@As artistas venderam muitas ratazanas.@1
+800@As artistas venderam muitos gatos.@1
+810@As artistas venderam várias ratazanas.@1
+820@As artistas venderam vários gatos.@1
+830@As aulas combinam teoria com prática.@1
+840@As lagartinhas admiram o cachorro.@1
+850@As lagartinhas são ferozas.@0
+860@As lagartinhas são ferozeas.@0
+870@As lagartinhas são ferozes.@1
+880@As lagartinhas são inteligentes.@1
+890@As lagartonas admiram o cachorro.@1
+900@As ratazanas amarelas ladraram.@1
+910@As ratazanas felizes ladraram.@1
+920@As ratazanas são amarelas.@1
+930@As ratazanas são felizes.@1
+940@As ratazanas são simples.@1
+950@As ratazanas são tristes.@1
+960@As ratazanas tristes ladraram.@1
+970@Cada gato latiu.@1
+980@Cada ratazana teme algum gato.@1
+990@Certo gato dorme.@1
+1000@Certo gato matou duas ratazanas.@1
+1010@Certos gatos mataram certas ratazanas.@1
+1020@Chegamos.@1
+1030@Chegou o tabaco.@1
+1040@Chegou tabaco.@1
+1050@Chegou.@1
+1060@Cheguei.@1
+1070@Comentei os beijos com uma amiga.@1
+1080@De quem o cachorro gosta?@1
+1090@Depararam-se com uma estranha normalidade.@1
+1100@Duas ratazanas caçaram aquele cachorro.@1
+1110@Ela fez em que o gato dormisse.@0
+1120@Ela fez para que o gato dormisse.@0
+1130@Ela insistiu com que o gato dormisse.@0
+1140@Ela insistiu para que o gato dormisse.@1
+1150@Ela responde por o pagamento.@1
+1160@Ele caiu em o ostracismo.@1
+1170@Ele culpou o artista de homicídio.@1
+1180@Ele deixou os cachorros perseguir a ratazana.@1
+1190@Ele deixou os cachorros perseguirem a ratazana.@1
+1200@Ele deixou os cachorros sair.@1
+1210@Ele deixou os cachorros saírem.@1
+1220@Ele doou a bicicleta a o artista.@1
+1230@Ele doou a bicicleta para o artista.@1
+1240@Ele ficou de discutir a questão com a professora.@1
+1250@Ele lamenta ladrar.@1
+1260@Ele lamenta ladrarmos.@1
+1270@Ele lamenta nós ladrarmos.@1
+1280@Ele referia-se a um longo telefonema.@1
+1290@Ele trocaria a preocupação por a descontração.@1
+1300@Ele vai entregar a bola a o gato.@1
+1310@Ele vai entregar a bola para o gato.@1
+1320@Eles estão felizes.@1
+1330@Eles lamentam ladrar.@1
+1340@Eles não conseguiram acabar com a pobreza.@1
+1350@Eles queixaram-se.@1
+1360@Eles queixaram.@0
+1370@Eles querem revestir o piso com madeira.@1
+1380@Eles têm contribuído para que o artista não caia em o esquecimento.@1
+1390@Essa artista imitou este gato.@1
+1400@Essas ratazanas caçaram aquele cachorro.@1
+1410@Esse gato persegue qualquer ratazana.@1
+1420@Esse imposto incide sobre a renda.@1
+1430@Esses gatos perseguem quaisquer ratazanas.@1
+1440@Estas ratazanas caçaram aqueles cachorros.@1
+1450@Estes gatos mataram esta ratazana.@1
+1460@Estão chegando.@1
+1470@Eu aprovo concorrer.@0
+1480@Eu aprovo eu concorrer.@0
+1490@Eu aprovo que concorro.@0
+1500@Eu aprovo que tenhas concorrido.@1
+1510@Eu aprovo que tu tenhas concorrido.@1
+1520@Eu aprovo teres concorrido.@1
+1530@Eu aprovo tu teres concorrido.@1
+1540@Eu autorizei os alunos a escrever a carta.@1
+1550@Eu autorizei os alunos a escreverem a carta.@1
+1560@Eu autorizei os alunos a que escrevessem a carta.@1
+1570@Eu autorizei que os alunos escrevessem a carta.@1
+1580@Eu estou feliz.@1
+1590@Eu fui chegando.@1
+1600@Eu ia chegando.@1
+1610@Eu lamento ladrares.@1
+1620@Eu lamento tu ladrares.@1
+1630@Eu pedi com que ela entregasse a bola a o gato.@0
+1640@Eu pedi em que ela entregasse a bola a o gato.@0
+1650@Eu pedi para que ela entregasse a bola a o gato.@1
+1660@Eu pedi para que ela entregasse a bola para o gato.@1
+1670@Eu percebi que os gatos dormiam.@1
+1680@Eu percebi que os gatos dormissem.@0
+1690@Eu queixei-me.@1
+1700@Eu queixei.@0
+1710@Eu quero que os gatos dormem.@0
+1720@Eu quero que os gatos durmam.@1
+1730@Haviam chegado.@1
+1740@Lamento ladrares.@1
+1750@Muitos gatos caçaram três ratazanas.@1
+1760@Muitos gatos dormem.@1
+1770@Nenhum artista dormiu.@1
+1780@Nenhum gato conseguiu caçar uma ratazana.@1
+1790@Nenhuma artista dormiu.@1
+1800@Nenhumas artistas dormiram.@1
+1810@Nenhuns artistas dormiram.@1
+1820@Não chegou.@1
+1830@Não haviam chegado.@1
+1840@Não perseguimos o gato.@1
+1850@Não sei o que eles entregavam a o artista.@1
+1860@Não sei o que eles entregavam para o artista.@1
+1870@Nós estamos felizes.@1
+1880@Nós fomos chegando.@1
+1890@Nós vamos entregar o cachorro a o artista.@1
+1900@Nós vamos entregar o cachorro para o artista.@1
+1910@O João insistiu em acabar o trabalho.@1
+1920@O João insistiu em que os alunos acabassem o trabalho.@1
+1930@O artista caminhou para a cidade.@1
+1940@O artista contou a o estudante que o gato tinha matado uma ratazana.@1
+1950@O artista contou para o estudante que o gato tinha matado uma ratazana.@1
+1960@O artista detesta que eles atraíam o gato.@1
+1970@O artista detesta que o cachorro atraía o gato.@1
+1980@O artista detesta que tu atraías o gato.@1
+1990@O artista dividiu a cena com a estudante.@1
+2000@O artista doa uma bicicleta a o estudante.@1
+2010@O artista doa uma bicicleta de o estudante.@0
+2020@O artista doa uma bicicleta o estudante.@0
+2030@O artista doa uma bicicleta para o estudante.@1
+2040@O artista exigiu que o cachorro não perseguisse o gato.@1
+2050@O artista ignora a quem o cachorro obedece.@1
+2060@O artista ignora quais cachorros latem.@1
+2070@O artista ignora quais gatos os cachorros querem perseguir.@1
+2080@O artista ignora quem está perseguindo os gatos.@1
+2090@O artista ignora quem tem perseguido os gatos.@1
+2100@O artista ignora se os cachorros andam perseguindo os gatos.@1
+2110@O artista ignora se os cachorros perseguem os gatos.@1
+2120@O artista ignora se os cachorros querem perseguir os gatos.@1
+2130@O artista ilhéu admira a artista ilhoa.@1
+2140@O artista insistiu a perseguir o cachorro.@0
+2150@O artista insistiu de perseguir o cachorro.@0
+2160@O artista insistiu em persegue o cachorro.@0
+2170@O artista insistiu em perseguir o cachorro.@1
+2180@O artista insistiu que os artistas vendessem o cachorro.@1
+2190@O artista nu é francês.@1
+2200@O artista não sabe quem quer perseguir os gatos.@1
+2210@O artista perguntou a o estudante quais cachorros perseguiram o gato.@1
+2220@O artista perguntou a o estudante quais gatos o cachorro perseguiu.@1
+2230@O artista perguntou a o estudante quais ratazanas o cachorro perseguiu.@1
+2240@O artista perguntou a o estudante quais ratazanas os cachorros perseguiram.@1
+2250@O artista perguntou a o estudante quais ratazanas perseguiram o gato.@1
+2260@O artista perguntou a o estudante qual cachorro perseguiu o gato.@1
+2270@O artista perguntou a o estudante qual ratazana o gato perseguiu.@1
+2280@O artista perguntou a o estudante qual ratazana perseguiu o gato.@1
+2290@O artista perguntou a o estudante que cachorro perseguiu o gato.@1
+2300@O artista perguntou a o estudante que cachorros perseguiram o gato.@1
+2310@O artista perguntou a o estudante que gato o cachorro perseguiu.@1
+2320@O artista perguntou a o estudante que gatos o cachorro perseguiu.@1
+2330@O artista perguntou a o estudante que gatos os cachorros perseguiram.@1
+2340@O artista perguntou a o estudante que ratazana o cachorro perseguiu.@1
+2350@O artista perguntou a o estudante que ratazanas o cachorro perseguiu.@1
+2360@O artista perguntou a o estudante que ratazanas os cachorros perseguiram.@1
+2370@O artista perguntou a o estudante que ratazanas perseguiram o gato.@1
+2380@O artista perguntou a o estudante quem o cachorro perseguiu.@1
+2390@O artista perguntou a o estudante quem perseguiu o gato.@1
+2400@O artista perguntou a o estudante se o cachorro perseguiu o gato.@1
+2410@O artista perguntou a quem o cachorro estava obedecendo.@1
+2420@O artista perguntou o que cachorro perseguiu.@1
+2430@O artista perguntou quais cachorros perseguiram o gato.@1
+2440@O artista perguntou quais gatos o cachorro perseguiu.@1
+2450@O artista perguntou quais ratazanas o cachorro perseguiu.@1
+2460@O artista perguntou quais ratazanas os cachorros perseguiram.@1
+2470@O artista perguntou quais ratazanas perseguiram o gato.@1
+2480@O artista perguntou qual cachorro perseguiu o gato.@1
+2490@O artista perguntou qual ratazana o gato perseguiu.@1
+2500@O artista perguntou qual ratazana perseguiu o gato.@1
+2510@O artista perguntou que cachorro perseguiu o gato.@1
+2520@O artista perguntou que cachorros perseguiram o gato.@1
+2530@O artista perguntou que gato o cachorro perseguiu.@1
+2540@O artista perguntou que gatos o cachorro perseguiu.@1
+2550@O artista perguntou que gatos os cachorros perseguiram.@1
+2560@O artista perguntou que o cachorro perseguiu.@1
+2570@O artista perguntou que ratazana o cachorro perseguiu.@1
+2580@O artista perguntou que ratazanas o cachorro perseguiu.@1
+2590@O artista perguntou que ratazanas os cachorros perseguiram.@1
+2600@O artista perguntou que ratazanas perseguiram o gato.@1
+2610@O artista perguntou quem estava obedecendo a quem.@1
+2620@O artista perguntou quem o cachorro perseguiu.@1
+2630@O artista perguntou quem perseguiu o gato.@1
+2640@O artista perguntou-se o que o cachorro perseguiu.@1
+2650@O artista perguntou-se que cachorro perseguiu o gato.@1
+2660@O artista perguntou-se que o cachorro perseguiu.@1
+2670@O artista queixou-se de o cachorro.@1
+2680@O artista sabe quem está perseguindo os gatos.@1
+2690@O artista sabe quem quer perseguir os gatos.@1
+2700@O artista sorriu.@1
+2710@O artista tirou a camisa para a revista.@1
+2720@O artista vendeu o lagartão.@1
+2730@O artista é feliz.@1
+2740@O cachorrinho vai ladrar.@1
+2750@O cachorro acredita que o gato lata.@1
+2760@O cachorro acredita que o gato late.@1
+2770@O cachorro admira o gato.@1
+2780@O cachorro admirar o gato.@0
+2790@O cachorro admitiu que o gato latisse.@1
+2800@O cachorro adora tais gatos.@1
+2810@O cachorro adora tal gato.@1
+2820@O cachorro afirmou que o gato lata.@0
+2830@O cachorro afirmou que o gato late.@1
+2840@O cachorro amarelo ladrou.@1
+2850@O cachorro anda desejando perseguir o gato.@1
+2860@O cachorro anda perseguindo o gato.@1
+2870@O cachorro começou a late.@0
+2880@O cachorro começou a latir.@1
+2890@O cachorro começou de late.@0
+2900@O cachorro começou de latir.@0
+2910@O cachorro começou que late.@0
+2920@O cachorro consentiu que o gato latisse.@1
+2930@O cachorro continua desejando perseguir o gato.@1
+2940@O cachorro continua latindo.@1
+2950@O cachorro continua querendo perseguir o gato.@1
+2960@O cachorro declarou que o gato lata.@0
+2970@O cachorro declarou que o gato late.@1
+2980@O cachorro depende a o artista.@0
+2990@O cachorro depende de o artista.@1
+3000@O cachorro depende o artista.@0
+3010@O cachorro desejou latir.@1
+3020@O cachorro disse que o gato latisse.@1
+3030@O cachorro está desejando perseguir o gato.@1
+3040@O cachorro está indo dormir.@1
+3050@O cachorro está indo parar de latir.@1
+3060@O cachorro está latindo.@1
+3070@O cachorro está parando de latir.@1
+3080@O cachorro está perseguido o gato.@0
+3090@O cachorro está perseguindo o gato.@1
+3100@O cachorro está querendo perseguir o gato.@1
+3110@O cachorro está triste.@1
+3120@O cachorro está-se triste.@0
+3130@O cachorro evitou que o gato perseguisse a ratazana.@1
+3140@O cachorro exigiu que o gato latisse.@1
+3150@O cachorro exigiu que o gato não latisse.@1
+3160@O cachorro feliz ladrou.@1
+3170@O cachorro gosta de o artista.@1
+3180@O cachorro havia chegado.@1
+3190@O cachorro impediu que o gato perseguisse a ratazana.@1
+3200@O cachorro ladra.@1
+3210@O cachorro ladrar.@0
+3220@O cachorro ladraram.@0
+3230@O cachorro ladrou-se.@0
+3240@O cachorro ladrou.@1
+3250@O cachorro lata.@0
+3260@O cachorro late.@1
+3270@O cachorro latiu.@1
+3280@O cachorro não impediu que o gato perseguisse a ratazana.@1
+3290@O cachorro obedece a o artista.@1
+3300@O cachorro obedece de o artista.@0
+3310@O cachorro obedece o artista.@0
+3320@O cachorro ordenou que o gato latisse.@1
+3330@O cachorro ousou desejar latir.@1
+3340@O cachorro ousou latir.@1
+3350@O cachorro parou a late.@0
+3360@O cachorro parou a latir.@0
+3370@O cachorro parou de late.@0
+3380@O cachorro parou de latir.@1
+3390@O cachorro parou que late.@0
+3400@O cachorro perguntou se o gato lata.@0
+3410@O cachorro perguntou se o gato late.@1
+3420@O cachorro perguntou-se se o gato latiu.@1
+3430@O cachorro permitiu que o gato latisse.@1
+3440@O cachorro perseguiu o gato.@1
+3450@O cachorro perseguiu quais gatos.@1
+3460@O cachorro perseguiu qual gato.@1
+3470@O cachorro perseguiu que gato.@1
+3480@O cachorro perseguiu quem.@1
+3490@O cachorro queixou-se.@1
+3500@O cachorro quer que o gato lata.@1
+3510@O cachorro quer que o gato late.@0
+3520@O cachorro se perguntou se o gato latiu.@1
+3530@O cachorro são felizes.@0
+3540@O cachorro tem a obedecer a o artista.@0
+3550@O cachorro tem de obedece a o artista.@0
+3560@O cachorro tem de obedecer a o artista.@1
+3570@O cachorro tem em obedecer a o artista.@0
+3580@O cachorro tem estado perseguido o gato.@0
+3590@O cachorro tem estado perseguindo o gato.@1
+3600@O cachorro tem insistido em começar a latir.@1
+3610@O cachorro tem latido.@1
+3620@O cachorro tem perseguido o gato.@1
+3630@O cachorro tem perseguindo o gato.@0
+3640@O cachorro tem que obedece a o artista.@0
+3650@O cachorro tem que obedecer a o artista.@1
+3660@O cachorro tinha começado a latir.@1
+3670@O cachorro tinha insistido em parar de latir.@1
+3680@O cachorro tinha parado de latir.@1
+3690@O cachorro triste ladrou.@1
+3700@O cachorro vai começar a latir.@1
+3710@O cachorro vai desejar perseguir o gato.@1
+3720@O cachorro vai estar dormindo.@1
+3730@O cachorro vai ladrar.@1
+3740@O cachorro vai latir.@1
+3750@O cachorro vai parar de latir.@1
+3760@O cachorro vai querer começar a latir.@1
+3770@O cachorro vai querer perseguir o gato.@1
+3780@O cachorro vem desejando perseguir o gato.@1
+3790@O cachorro vem perseguindo o gato.@1
+3800@O cachorro vinha desejando perseguir o gato.@1
+3810@O cachorro vinha perseguindo o gato.@1
+3820@O cachorro vive desejando perseguir o gato.@1
+3830@O cachorro vive perseguindo o gato.@1
+3840@O cachorro é amarela.@0
+3850@O cachorro é feliz.@1
+3860@O cachorro é felizes.@0
+3870@O cachorro é feroz.@1
+3880@O cachorro é inteligente.@1
+3890@O cachorro é-se triste.@0
+3900@O cliente insistiu em que os artistas vendessem o cachorro.@1
+3910@O diretor reduziu os professores para a metade.@1
+3920@O estudante perguntou quem estava obedecendo a o artista.@1
+3930@O gato adora tais ratazanas.@1
+3940@O gato adora tal ratazana.@1
+3950@O gato continua latindo.@1
+3960@O gato deseja latir.@1
+3970@O gato detesta latir.@1
+3980@O gato detesta que o cachorro esteja latindo.@1
+3990@O gato detesta que o cachorro está latindo.@0
+4000@O gato detesta que o cachorro tem latido.@0
+4010@O gato detesta que o cachorro tenha latido.@1
+4020@O gato detesta que os cachorros estejam latindo.@1
+4030@O gato detesta que os cachorros ladram.@0
+4040@O gato detesta que os cachorros ladrem.@1
+4050@O gato detesta que os cachorros latam.@1
+4060@O gato detesta que os cachorros latem.@0
+4070@O gato detesta que os cachorros tenham ladrado.@1
+4080@O gato detesta que os cachorros tenham latido.@1
+4090@O gato detestava que o cachorro estivesse latindo.@1
+4100@O gato detestou que o cachorro latisse.@1
+4110@O gato detestou que o cachorro tem latido.@0
+4120@O gato detestou que o cachorro tenha latido.@1
+4130@O gato detestou que o cachorro tivesse latido-se.@0
+4140@O gato detestou que o cachorro tivesse latido.@1
+4150@O gato detestou que o cachorro tivesse queixado-se.@1
+4160@O gato detestou que o cachorro tivesse-se latido.@0
+4170@O gato dorme.@1
+4180@O gato está conseguindo dormir.@1
+4190@O gato está feliz.@1
+4200@O gato está precisando dormir.@1
+4210@O gato está tentando dormir.@1
+4220@O gato fez com que os cachorros ladrassem.@1
+4230@O gato fez com que os cachorros latissem.@1
+4240@O gato fez os cachorros ladra.@0
+4250@O gato fez os cachorros ladram.@0
+4260@O gato fez os cachorros ladrando.@0
+4270@O gato fez os cachorros ladrar.@1
+4280@O gato fez os cachorros ladrarem.@1
+4290@O gato fez os cachorros late.@0
+4300@O gato fez os cachorros latem.@0
+4310@O gato fez os cachorros latindo.@0
+4320@O gato fez os cachorros latir.@1
+4330@O gato fez os cachorros latirem.@1
+4340@O gato fez que os cachorros ladram.@0
+4350@O gato fez que os cachorros ladrassem.@1
+4360@O gato fez que os cachorros latem.@0
+4370@O gato fez que os cachorros latissem.@1
+4380@O gato imita aqueles cachorros.@1
+4390@O gato lamenta o cachorro ladrar.@1
+4400@O gato lamenta os cachorros ladrar.@0
+4410@O gato lamenta os cachorros ladrarem.@1
+4420@O gato lamenta os cachorros tenham ladrado.@0
+4430@O gato lamenta os cachorros ter ladrado.@0
+4440@O gato lamenta os cachorros terem ladrado.@1
+4450@O gato lamenta os cachorros têm ladrado.@0
+4460@O gato mandou os cachorros ladrar.@1
+4470@O gato mandou os cachorros ladrarem.@1
+4480@O gato mandou os cachorros latir.@1
+4490@O gato mandou os cachorros latirem.@1
+4500@O gato mandou que os cachorros ladram.@0
+4510@O gato mandou que os cachorros ladrar.@0
+4520@O gato mandou que os cachorros ladrassem.@1
+4530@O gato mandou que os cachorros latem.@0
+4540@O gato mandou que os cachorros latissem.@1
+4550@O gato matou a ratazana.@1
+4560@O gato matou as ratazanas.@1
+4570@O gato não está conseguindo dormir.@1
+4580@O gato não está precisando dormir.@1
+4590@O gato não está tentando dormir.@1
+4600@O gato não tem conseguido dormir.@1
+4610@O gato não vai conseguir dormir.@1
+4620@O gato não vai estar precisando dormir.@1
+4630@O gato não vai tentar dormir.@1
+4640@O gato obedeceu a o cachorro.@1
+4650@O gato obedeceu o cachorro.@0
+4660@O gato ousou latir.@1
+4670@O gato ouviu os cachorros ladrar.@1
+4680@O gato ouviu os cachorros ladrarem.@1
+4690@O gato ouviu os cachorros latido.@0
+4700@O gato ouviu os cachorros latindo.@1
+4710@O gato ouviu os cachorros latir.@1
+4720@O gato ouviu os cachorros latirem.@1
+4730@O gato ouviu que os cachorros ladrassem.@0
+4740@O gato ouviu que os cachorros ladravam.@1
+4750@O gato ouviu que os cachorros latiam.@1
+4760@O gato ouviu que os cachorros latissem.@0
+4770@O gato parece latir.@1
+4780@O gato percebeu que o cachorro dormia.@1
+4790@O gato percebeu que o cachorro dormisse.@0
+4800@O gato perguntou se o cachorro ladrado.@0
+4810@O gato perguntou se o cachorro ladrar.@0
+4820@O gato perguntou se o cachorro ladre.@0
+4830@O gato perguntou se o cachorro ter ladrado.@0
+4840@O gato perguntou se o cachorro tiver ladrado.@0
+4850@O gato perguntou se os cachorros ladrando.@0
+4860@O gato perguntou se os cachorros ladrarem.@0
+4870@O gato perguntou se os cachorros terem ladrado.@0
+4880@O gato perguntou se os cachorros tiverem ladrado.@0
+4890@O gato perseguiu aquelas ratazanas.@1
+4900@O gato pode latir.@1
+4910@O gato prefere dormir.@1
+4920@O gato quer o cachorro ladrado.@0
+4930@O gato quer o cachorro ladrar.@0
+4940@O gato quer o cachorro terem ladrado.@0
+4950@O gato quer os cachorros ladrarem.@0
+4960@O gato quer os cachorros ladrem.@0
+4970@O gato quer os cachorros tenham ladrado.@0
+4980@O gato quer os cachorros ter ladrado.@0
+4990@O gato quer os cachorros terem ladrado.@0
+5000@O gato quer que o cachorro ladrar.@0
+5010@O gato quer que os cachorros ladrarem.@0
+5020@O gato quer que os cachorros ladrem.@1
+5030@O gato quer que os cachorros tenham ladrado.@1
+5040@O gato quer que os cachorros terem ladrado.@0
+5050@O gato quer que os cachorros têm ladrado.@0
+5060@O gato queria que o cachorro dormia.@0
+5070@O gato queria que o cachorro dormisse.@1
+5080@O gato sabe quais cachorros latem.@1
+5090@O gato sabe que os cachorros ladram.@1
+5100@O gato sabe que os cachorros ladrem.@0
+5110@O gato sabe que os cachorros latam.@0
+5120@O gato sabe que os cachorros latem.@1
+5130@O gato sabia que os cachorros ladrassem.@0
+5140@O gato sabia que os cachorros ladravam.@1
+5150@O gato sabia que os cachorros latiam.@1
+5160@O gato sabia que os cachorros latissem.@0
+5170@O gato tem conseguido dormir.@1
+5180@O gato tem precisado dormir.@1
+5190@O gato vai conseguir dormir.@1
+5200@O gato vai estar precisando dormir.@1
+5210@O gato vai tentar dormir.@1
+5220@O gato é simples.@1
+5230@O jogador falou uma bobagem sobre o time.@1
+5240@O jogador integrou-se em as movimentações.@1
+5250@O juiz converteu a prisão em multa.@1
+5260@O lagartão admira o cachorro.@1
+5270@O país abriu-se para o mundo.@1
+5280@O país passou de euforia para depressão.@1
+5290@O que o cachorro perseguiu.@1
+5300@O regime caracterizava-se por a austeridade.@1
+5310@O tabaco chegou.@1
+5320@Os artistas amarelas são felizes.@0
+5330@Os artistas amarelos são felizes.@1
+5340@Os artistas beirões admiram as artistas beiroas.@1
+5350@Os artistas ilhéus admiram as artistas ilhoas.@1
+5360@Os artistas ingleses admiram as artistas hebreias.@1
+5370@Os artistas ingleses admiram as artistas judias.@1
+5380@Os artistas insistiram em perseguirem o cachorro.@0
+5390@Os artistas perguntavam-se quem tencionava obedecendo a o estudante.@0
+5400@Os artistas perguntavam-se quem tencionava obedecer a o estudante.@1
+5410@Os artistas sorriram.@1
+5420@Os artistas são felizes.@1
+5430@Os artistas venderam o cachorro.@1
+5440@Os cachorrinhos amarelões são ferozes.@1
+5450@Os cachorrinhos amarelõezinhos são ferozes.@1
+5460@Os cachorrinhos vão ladrar.@1
+5470@Os cachorros admiraram o gato.@1
+5480@Os cachorros admirarem o gato.@0
+5490@Os cachorros amarelas ladraram.@0
+5500@Os cachorros amarelo ladraram.@0
+5510@Os cachorros amarelos ladraram.@1
+5520@Os cachorros disseram que o gato latisse.@1
+5530@Os cachorros estavam dizendo que o gato latisse.@1
+5540@Os cachorros estão chegando.@1
+5550@Os cachorros estão tristes.@1
+5560@Os cachorros felizes ladraram.@1
+5570@Os cachorros foram chegando.@1
+5580@Os cachorros haviam chegado.@1
+5590@Os cachorros iam chegando.@1
+5600@Os cachorros ladram.@1
+5610@Os cachorros ladraram.@1
+5620@Os cachorros ladrarem.@0
+5630@Os cachorros ladrou.@0
+5640@Os cachorros não haviam chegado.@1
+5650@Os cachorros não haviam tentado dormir.@1
+5660@Os cachorros são amarelos.@1
+5670@Os cachorros são feliz.@0
+5680@Os cachorros são felizes.@1
+5690@Os cachorros são tristes.@1
+5700@Os cachorros tinham dito que o gato latisse.@1
+5710@Os cachorros tristes ladraram.@1
+5720@Os cachorros vai ladrar.@0
+5730@Os cachorros vai ladrarem.@0
+5740@Os cachorros vão chegando.@1
+5750@Os cachorros vão ladrar.@1
+5760@Os cachorros vão ladrarem.@0
+5770@Os cachorros é feliz.@0
+5780@Os cachorros é felizes.@0
+5790@Os clientes poderão servir-se de o ravióli.@1
+5800@Os estudantes partiram para o sertão.@1
+5810@Os feliz cachorros ladraram.@0
+5820@Os felizes cachorros ladraram.@1
+5830@Os gatos dormem.@1
+5840@Os gatos mataram a ratazana.@1
+5850@Os gatos queixaram-se.@1
+5860@Os gatos são simples.@1
+5870@Os gatos é simples.@0
+5880@Os hospitais consumiam uma fortuna com internações.@1
+5890@Os lagartãos admiram o cachorro.@0
+5900@Os lagartões admiram o cachorro.@1
+5910@Outro gato perseguiu umas ratazanas.@1
+5920@Perguntei-me a quem o cachorro estava obedecendo.@1
+5930@Perguntei-me a quem o cachorro estava obedecido.@0
+5940@Perguntei-me de quem o cachorro estava obedecendo.@0
+5950@Perseguimos o gato.@1
+5960@Poucos gatos caçaram três ratazanas.@1
+5970@Poucos gatos dormem.@1
+5980@Quais cachorros ladraram?@1
+5990@Quais gatos o cachorro perseguiu?@1
+6000@Quais gatos perseguiram o cachorro?@1
+6010@Quais ratazanas o cachorro perseguiu?@1
+6020@Quais ratazanas perseguiram o cachorro?@1
+6030@Qual cachorro latiu?@1
+6040@Qual gato o cachorro perseguiu?@1
+6050@Qual gato perseguiu o cachorro?@1
+6060@Qual ratazana o cachorro perseguiu?@1
+6070@Qual ratazana perseguiu o cachorro?@1
+6080@Quanta ratazana a artista vendeu?@1
+6090@Quanta ratazana as artistas venderam?@1
+6100@Quanta ratazana dorme?@1
+6110@Quanta ratazana o gato caçou?@1
+6120@Quantas ratazanas a artista vendeu?@1
+6130@Quantas ratazanas as artistas venderam?@1
+6140@Quantas ratazanas caçaram o gato?@1
+6150@Quantas ratazanas dormem?@1
+6160@Quantas ratazanas o gato caçou?@1
+6170@Quanto gato a artista vendeu?@1
+6180@Quanto gato as artistas venderam?@1
+6190@Quanto tabaco a artista vendeu?@1
+6200@Quantos gatos a artista vendeu?@1
+6210@Quantos gatos a ratazana caçou?@1
+6220@Quantos gatos as artistas venderam?@1
+6230@Quantos gatos caçaram a ratazana?@1
+6240@Quantos gatos dormem?@1
+6250@Que cachorro latiu?@1
+6260@Que gato o cachorro perseguiu?@1
+6270@Que gato perseguiu o cachorro?@1
+6280@Que gatos o cachorro perseguiu?@1
+6290@Que gatos perseguiram o cachorro?@1
+6300@Que o cachorro perseguiu?@1
+6310@Que ratazana o cachorro perseguiu?@1
+6320@Que ratazana perseguiu o cachorro?@1
+6330@Que ratazanas o cachorro perseguiu?@1
+6340@Que ratazanas perseguiram o cachorro?@1
+6350@Quem está perseguindo os gatos?@1
+6360@Quem não quer perseguir os gatos?@1
+6370@Quem o cachorro perseguiu?@1
+6380@Quem quer perseguir os gatos?@1
+6390@Reparei em a bandeira.@1
+6400@Será que a estudante adora o cachorro?@1
+6410@Será que ela está pensando em mim?@1
+6420@Será que eles irão entregar o cachorro a o artista?@1
+6430@Será que eles irão entregar o cachorro para o artista?@1
+6440@Será que o cachorro latiu?@1
+6450@Será que o cliente adora o cachorro?@1
+6460@Tabaco chegou.@1
+6470@Tive de dividir os alunos em grupos.@1
+6480@Toda ratazana teme o gato.@1
+6490@Todas as ratazanas temem o gato.@1
+6500@Todas ratazanas temem o gato.@1
+6510@Todo gato teme o cachorro.@1
+6520@Todos gatos perseguiram algum cão.@1
+6530@Todos gatos perseguiram alguma ratazana.@1
+6540@Todos gatos perseguiram algumas ratazanas.@1
+6550@Todos gatos perseguiram alguns cães.@1
+6560@Todos gatos temem o cachorro.@1
+6570@Todos os gatos perseguiram algum cão.@1
+6580@Todos os gatos temem o cachorro.@1
+6590@Três ratazanas caçaram aquele cachorro.@1
+6600@Tu estás feliz.@1
+6610@Uma artista imitou aquele gato.@1
+6620@Vamos reduzir os professores para a metade.@1
+6630@Vós estais felizes.@1
+6640@Este cachorro, todos gostam.@1

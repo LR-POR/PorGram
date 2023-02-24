@@ -97,3 +97,12 @@ translations are also licensed in EP. If you have suggestions about
 the translations, please contact @leoalenc or open an issue of this
 repository, the latter option being preferred.
  
+
+* A faixa malhada
+
+https://mundosherlock.wordpress.com/canon_e/arthur-conan-doyle-as-aventuras-de-sherlock-holmes-1892/a-faixa-malhada/
+
+pandoc -f html+smart -t plain -o sh-faixa.txt sh-faixa.html
+
+using emacs, paragraphs converted to `@`, then line breaks converted
+to space and finally the `@` to line breaks.
