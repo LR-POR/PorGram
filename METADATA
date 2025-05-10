@@ -20,8 +20,6 @@
 ## tsdb/gold 
 ## tsdb/skeletons
 
-
-
 ## Grammar maintainers and contributors
 
 MAINTAINER="Alexandre Rademaker"
@@ -36,8 +34,8 @@ SHORT_GRAMMAR_NAME="porgram"
 WEBSITE="https://github.com/LR-POR/PorGram"
 DEMO_WEBSITE=""
 DOCUMENTATION_URL=""
-ISSUE_TRACKER=""
-LICENSE=""
+ISSUE_TRACKER="https://github.com/LR-POR/PorGram/issues"
+LICENSE="MIT"
 
 ## You may optionally specify a release date for the grammar. If unspecified,
 ## the grammar catalogue script will attempt to extract a date from the
@@ -98,5 +96,4 @@ ISO_CODE=""
 
 LKB_SCRIPT_FILE=""
 CHEAP_GRM_FILE_NAME=""
-ACE_CONFIG_FILE="ace/config.tdl"
-
+ACE_CONFIG_FILE="ace/my-config.tdl"
