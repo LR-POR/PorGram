@@ -24,16 +24,16 @@
 
 ## Grammar maintainers and contributors
 
-MAINTAINER=""
-CONTRIBUTORS=""
+MAINTAINER="Alexandre Rademaker"
+CONTRIBUTORS="Leonel Figueiredo de Alencar, Alexandre Rademaker, Dan Flickinger"
 CONTACT_EMAIL=""
 
 ## Grammar name and web presence
 ## Note: if SHORT_GRAMMAR_NAME is not defined, the directory name is used.
 
-GRAMMAR_NAME=""
-SHORT_GRAMMAR_NAME=""
-WEBSITE=""
+GRAMMAR_NAME="PorGram"
+SHORT_GRAMMAR_NAME="porgram"
+WEBSITE="https://github.com/LR-POR/PorGram"
 DEMO_WEBSITE=""
 DOCUMENTATION_URL=""
 ISSUE_TRACKER=""
@@ -55,7 +55,7 @@ CITE=""
 ## If this is not provided, it is automatically extracted from the
 ## local version control info. You only need to modify this if the
 ## version control URL you use locally is not the one you want published
-VCS=""
+VCS="https://github.com/LR-POR/PorGram.git"
 
 ## Semi-colon separated list of required external resources 
 ## e.g.
@@ -98,3 +98,5 @@ ISO_CODE=""
 
 LKB_SCRIPT_FILE=""
 CHEAP_GRM_FILE_NAME=""
+ACE_CONFIG_FILE="ace/config.tdl"
+
